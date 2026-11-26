@@ -1,0 +1,17 @@
+{
+  "name": "ai-skills-index",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Personal AI Skills Library, Evaluation Knowledge Base, and Discovery Engine (SkillAtlas)",
+  "type": "module",
+  "scripts": {
+    "validate": "node scripts/validate-skills.mjs",
+    "build:index": "node scripts/build-index.mjs",
+    "dev": "npm run build:index && npm --prefix website run dev",
+    "build": "npm run validate && npm run build:index && npm --prefix website run build",
+    "preview": "npm --prefix website run preview"
+  },
+  "devDependencies": {
+    "gray-matter": "^4.0.3"
+  }
+}
