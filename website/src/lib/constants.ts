@@ -10,6 +10,7 @@ export const STATUS_META: Record<
     description: string;
     badgeClass: string;
     dotClass: string;
+    borderAccentClass: string;
   }
 > = {
   excellent: {
@@ -19,6 +20,7 @@ export const STATUS_META: Record<
     badgeClass:
       'bg-emerald-50 text-emerald-700 border-emerald-200 dark:bg-emerald-950/60 dark:text-emerald-300 dark:border-emerald-800/70',
     dotClass: 'bg-emerald-500',
+    borderAccentClass: 'border-l-emerald-500',
   },
   good: {
     label: 'Good',
@@ -27,6 +29,7 @@ export const STATUS_META: Record<
     badgeClass:
       'bg-teal-50 text-teal-700 border-teal-200 dark:bg-teal-950/60 dark:text-teal-300 dark:border-teal-800/70',
     dotClass: 'bg-teal-500',
+    borderAccentClass: 'border-l-teal-500',
   },
   promising: {
     label: 'Promising',
@@ -35,6 +38,7 @@ export const STATUS_META: Record<
     badgeClass:
       'bg-amber-50 text-amber-700 border-amber-200 dark:bg-amber-950/60 dark:text-amber-300 dark:border-amber-800/70',
     dotClass: 'bg-amber-500',
+    borderAccentClass: 'border-l-amber-500',
   },
   experimental: {
     label: 'Experimental',
@@ -43,6 +47,7 @@ export const STATUS_META: Record<
     badgeClass:
       'bg-sky-50 text-sky-700 border-sky-200 dark:bg-sky-950/60 dark:text-sky-300 dark:border-sky-800/70',
     dotClass: 'bg-sky-500',
+    borderAccentClass: 'border-l-sky-500',
   },
   neutral: {
     label: 'Neutral',
@@ -51,6 +56,7 @@ export const STATUS_META: Record<
     badgeClass:
       'bg-slate-100 text-slate-700 border-slate-200 dark:bg-slate-800/70 dark:text-slate-300 dark:border-slate-700',
     dotClass: 'bg-slate-400',
+    borderAccentClass: 'border-l-zinc-400',
   },
   'needs-review': {
     label: 'Needs Review',
@@ -59,6 +65,7 @@ export const STATUS_META: Record<
     badgeClass:
       'bg-orange-50 text-orange-700 border-orange-200 dark:bg-orange-950/60 dark:text-orange-300 dark:border-orange-800/70',
     dotClass: 'bg-orange-500',
+    borderAccentClass: 'border-l-orange-500',
   },
   bad: {
     label: 'Bad',
@@ -67,6 +74,7 @@ export const STATUS_META: Record<
     badgeClass:
       'bg-rose-50 text-rose-700 border-rose-200 dark:bg-rose-950/60 dark:text-rose-300 dark:border-rose-800/70',
     dotClass: 'bg-rose-500',
+    borderAccentClass: 'border-l-rose-500',
   },
   risky: {
     label: 'Risky',
@@ -75,6 +83,7 @@ export const STATUS_META: Record<
     badgeClass:
       'bg-red-100 text-red-800 border-red-300 dark:bg-red-950/80 dark:text-red-300 dark:border-red-800',
     dotClass: 'bg-red-600',
+    borderAccentClass: 'border-l-red-600',
   },
   archived: {
     label: 'Archived',
@@ -83,6 +92,7 @@ export const STATUS_META: Record<
     badgeClass:
       'bg-zinc-100 text-zinc-600 border-zinc-200 dark:bg-zinc-800/60 dark:text-zinc-400 dark:border-zinc-700',
     dotClass: 'bg-zinc-400',
+    borderAccentClass: 'border-l-zinc-500',
   },
 };
 

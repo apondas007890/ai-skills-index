@@ -16,6 +16,7 @@ import { REPO_GITHUB_URL, SECURITY_META } from '../lib/constants';
 import { StatusBadge } from '../components/StatusBadge';
 import { CategoryIcon } from '../components/CategoryIcon';
 import { SkillCard } from '../components/SkillCard';
+import { RichText } from '../components/RichText';
 
 export function SkillDetailPage() {
   const { skillId } = useParams<{ skillId: string }>();
@@ -98,8 +99,8 @@ export function SkillDetailPage() {
               </span>
             </div>
 
-            <p className="max-w-3xl text-base leading-relaxed text-slate-600 dark:text-slate-300">
-              {skill.description}
+            <p className="max-w-3xl text-base leading-relaxed text-zinc-600 dark:text-zinc-300">
+              <RichText text={skill.description} />
             </p>
           </div>
 
@@ -172,76 +173,80 @@ export function SkillDetailPage() {
       <div className="grid gap-6 lg:grid-cols-[1fr_320px]">
         <div className="space-y-5">
           <div className="rounded-2xl border border-slate-200 bg-white p-6 dark:border-slate-800 dark:bg-slate-900/70">
-            <h2 className="text-sm font-semibold uppercase tracking-wider text-slate-500 dark:text-slate-400">
+            <h2 className="text-sm font-semibold uppercase tracking-wider text-zinc-500 dark:text-zinc-400">
               What it does
             </h2>
-            <p className="mt-2 text-sm leading-relaxed text-slate-700 dark:text-slate-300">
-              {skill.what_it_does}
+            <p className="mt-2 text-sm leading-relaxed text-zinc-700 dark:text-zinc-300">
+              <RichText text={skill.what_it_does} />
             </p>
 
-            <h2 className="mt-6 text-sm font-semibold uppercase tracking-wider text-slate-500 dark:text-slate-400">
+            <h2 className="mt-6 text-sm font-semibold uppercase tracking-wider text-zinc-500 dark:text-zinc-400">
               Best for
             </h2>
-            <ul className="mt-2 list-disc space-y-1.5 pl-5 text-sm text-slate-700 dark:text-slate-300">
+            <ul className="mt-2 list-disc space-y-1.5 pl-5 text-sm text-zinc-700 dark:text-zinc-300">
               {skill.best_for.map((item) => (
-                <li key={item}>{item}</li>
+                <li key={item}>
+                  <RichText text={item} />
+                </li>
               ))}
             </ul>
 
-            <h2 className="mt-6 text-sm font-semibold uppercase tracking-wider text-slate-500 dark:text-slate-400">
+            <h2 className="mt-6 text-sm font-semibold uppercase tracking-wider text-zinc-500 dark:text-zinc-400">
               Evaluation Verdict
             </h2>
-            <p className="mt-2 rounded-xl border border-slate-200 bg-slate-50 p-3.5 text-sm font-medium text-slate-800 dark:border-slate-800 dark:bg-slate-950/60 dark:text-slate-200">
-              {skill.verdict}
+            <p className="mt-2 rounded-lg border border-teal-500/25 bg-teal-50/50 p-3.5 text-sm font-medium text-zinc-900 dark:border-teal-400/20 dark:bg-teal-950/20 dark:text-zinc-100">
+              <RichText text={skill.verdict} />
             </p>
           </div>
 
           <div className="grid gap-5 sm:grid-cols-2">
-            <div className="rounded-2xl border border-slate-200 bg-white p-5 dark:border-slate-800 dark:bg-slate-900/70">
-              <h2 className="text-sm font-semibold uppercase tracking-wider text-slate-500 dark:text-slate-400">
+            <div className="rounded-lg border border-zinc-200 bg-white p-5 dark:border-zinc-800 dark:bg-[#111114]">
+              <h2 className="text-sm font-semibold uppercase tracking-wider text-zinc-500 dark:text-zinc-400">
                 Limitations
               </h2>
               {skill.limitations.length > 0 ? (
-                <ul className="mt-2.5 list-disc space-y-1.5 pl-5 text-sm text-slate-600 dark:text-slate-400">
+                <ul className="mt-2.5 list-disc space-y-1.5 pl-5 text-sm text-zinc-600 dark:text-zinc-400">
                   {skill.limitations.map((lim) => (
-                    <li key={lim}>{lim}</li>
+                    <li key={lim}>
+                      <RichText text={lim} />
+                    </li>
                   ))}
                 </ul>
               ) : (
-                <p className="mt-2 text-sm text-slate-500">None recorded.</p>
+                <p className="mt-2 text-sm text-zinc-500">None recorded.</p>
               )}
             </div>
 
-            <div className="rounded-2xl border border-slate-200 bg-white p-5 dark:border-slate-800 dark:bg-slate-900/70">
-              <h2 className="flex items-center gap-1.5 text-sm font-semibold uppercase tracking-wider text-slate-500 dark:text-slate-400">
+            <div className="rounded-lg border border-zinc-200 bg-white p-5 dark:border-zinc-800 dark:bg-[#111114]">
+              <h2 className="flex items-center gap-1.5 text-sm font-semibold uppercase tracking-wider text-zinc-500 dark:text-zinc-400">
                 <AlertTriangle className="h-4 w-4 text-amber-500" />
                 Risk &amp; Security
               </h2>
-              <p className="mt-2.5 text-sm leading-relaxed text-slate-600 dark:text-slate-400">
-                {skill.risk || 'Review instructions before installing.'}
+              <p className="mt-2.5 text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">
+                <RichText text={skill.risk || 'Review instructions before installing.'} />
               </p>
             </div>
           </div>
 
           {(skill.installation || skill.notes) && (
-            <div className="rounded-2xl border border-slate-200 bg-white p-6 dark:border-slate-800 dark:bg-slate-900/70">
+            <div className="rounded-lg border border-zinc-200 bg-white p-6 dark:border-zinc-800 dark:bg-[#111114]">
               {skill.installation && (
                 <div>
-                  <h2 className="text-sm font-semibold uppercase tracking-wider text-slate-500 dark:text-slate-400">
+                  <h2 className="text-sm font-semibold uppercase tracking-wider text-zinc-500 dark:text-zinc-400">
                     Installation
                   </h2>
-                  <p className="mt-2 text-sm text-slate-700 dark:text-slate-300">
-                    {skill.installation}
+                  <p className="mt-2 text-sm text-zinc-700 dark:text-zinc-300">
+                    <RichText text={skill.installation} />
                   </p>
                 </div>
               )}
               {skill.notes && (
-                <div className={skill.installation ? 'mt-5 border-t border-slate-100 pt-5 dark:border-slate-800' : ''}>
-                  <h2 className="text-sm font-semibold uppercase tracking-wider text-slate-500 dark:text-slate-400">
+                <div className={skill.installation ? 'mt-5 border-t border-zinc-100 pt-5 dark:border-zinc-800' : ''}>
+                  <h2 className="text-sm font-semibold uppercase tracking-wider text-zinc-500 dark:text-zinc-400">
                     Personal Notes
                   </h2>
-                  <p className="mt-2 text-sm text-slate-700 dark:text-slate-300">
-                    {skill.notes}
+                  <p className="mt-2 text-sm text-zinc-700 dark:text-zinc-300">
+                    <RichText text={skill.notes} />
                   </p>
                 </div>
               )}
