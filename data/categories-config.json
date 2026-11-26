@@ -1,0 +1,79 @@
+[
+  {
+    "id": "coding",
+    "name": "Coding & Development",
+    "description": "Frontend, backend, refactoring, testing, debugging, code review, architecture, and developer productivity skills.",
+    "icon": "Code2",
+    "subcategories": ["Frontend", "Backend", "Full-stack", "React", "TypeScript", "Python", "Testing", "Debugging", "Code Review", "Refactoring", "Architecture", "Security"]
+  },
+  {
+    "id": "design",
+    "name": "UI/UX & Design",
+    "description": "UI design systems, anti-generic layout rules, accessibility, typography, animation, and landing page craft.",
+    "icon": "Palette",
+    "subcategories": ["UI Design", "UX", "Design Systems", "Accessibility", "Landing Pages", "Animation", "Anti-Generic UI"]
+  },
+  {
+    "id": "youtube",
+    "name": "YouTube & Content Creation",
+    "description": "Video scripts, storytelling, thumbnails, titles, channel research, SEO, Shorts, and content planning.",
+    "icon": "Youtube",
+    "subcategories": ["YouTube", "YouTube Shorts", "Video Scripts", "Thumbnails", "Titles", "SEO", "Channel Research", "Storytelling"]
+  },
+  {
+    "id": "agents",
+    "name": "AI & Agents",
+    "description": "Agent workflows, MCP servers, prompt engineering, multi-agent orchestration, tool calling, and RAG.",
+    "icon": "Bot",
+    "subcategories": ["AI Agents", "Claude Code", "Codex", "Cursor", "Gemini", "MCP", "Agent Workflows", "Prompt Engineering", "Multi-Agent"]
+  },
+  {
+    "id": "image-video",
+    "name": "Image & Video",
+    "description": "Image generation, image editing, video generation, video editing, 3D, and visual effects.",
+    "icon": "Film",
+    "subcategories": ["Image Generation", "Image Editing", "Video Generation", "Video Editing", "Animation", "3D", "VFX"]
+  },
+  {
+    "id": "audio-music",
+    "name": "Audio & Music",
+    "description": "Music generation, voice synthesis, speech-to-text, audio editing, and podcasting.",
+    "icon": "Music",
+    "subcategories": ["Music Generation", "Voice Generation", "Transcription", "Audio Editing", "Podcasting"]
+  },
+  {
+    "id": "research",
+    "name": "Research",
+    "description": "Deep research, web research, fact-checking, data analysis, summarization, and information gathering.",
+    "icon": "Search",
+    "subcategories": ["Deep Research", "Web Research", "Fact-Checking", "Data Analysis", "Summarization"]
+  },
+  {
+    "id": "automation",
+    "name": "Automation",
+    "description": "Browser automation, web scraping, workflow automation, integrations, and file management.",
+    "icon": "Workflow",
+    "subcategories": ["Browser Automation", "Web Scraping", "Workflow Automation", "Integrations", "File Management"]
+  },
+  {
+    "id": "business",
+    "name": "Business & Marketing",
+    "description": "SEO, marketing, copywriting, analytics, sales, customer support, and e-commerce.",
+    "icon": "TrendingUp",
+    "subcategories": ["SEO", "Marketing", "Copywriting", "Analytics", "Sales", "E-commerce"]
+  },
+  {
+    "id": "productivity",
+    "name": "Productivity",
+    "description": "Planning, writing, organization, personal assistants, and daily knowledge workflows.",
+    "icon": "CheckSquare",
+    "subcategories": ["Planning", "Writing", "Organization", "Personal Assistants", "Workflows"]
+  },
+  {
+    "id": "other",
+    "name": "Other",
+    "description": "Experimental, cross-domain, or miscellaneous skills that do not fit a single primary category.",
+    "icon": "Layers",
+    "subcategories": ["Experimental", "Miscellaneous"]
+  }
+]
