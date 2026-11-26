@@ -1,7 +1,7 @@
 ---
 id: ponytail
 name: Ponytail
-source: https://github.com/dietrichgebert/ponytail
+source: 'https://github.com/dietrichgebert/ponytail'
 author: dietrichgebert
 primary_category: coding
 categories:
@@ -24,15 +24,16 @@ compatible_agents:
 status: excellent
 quality: 9
 security: unverified
-added: 2026-11-27
-last_reviewed: 2026-11-27
+added: 2026-11-27T00:00:00.000Z
+last_reviewed: 2026-11-27T00:00:00.000Z
 source_type: github
-license: unknown
-install_command: ""
+license: MIT
+install_command: ''
 tested: false
 featured: true
+stars: 199333
+last_pushed: '2026-11-22'
 ---
-
 # Ponytail
 
 ## Description

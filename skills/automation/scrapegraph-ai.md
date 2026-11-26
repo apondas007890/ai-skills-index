@@ -1,7 +1,7 @@
 ---
 id: scrapegraph-ai
 name: ScrapeGraphAI
-source: https://github.com/scrapegraphai/scrapegraph-ai
+source: 'https://github.com/scrapegraphai/scrapegraph-ai'
 author: ScrapeGraphAI
 primary_category: automation
 categories:
@@ -21,15 +21,16 @@ compatible_agents:
 status: good
 quality: 8
 security: unverified
-added: 2026-11-27
-last_reviewed: 2026-11-27
+added: 2026-11-27T00:00:00.000Z
+last_reviewed: 2026-11-27T00:00:00.000Z
 source_type: github
 license: MIT
-install_command: "pip install scrapegraphai"
+install_command: pip install scrapegraphai
 tested: false
 featured: false
+stars: 32958
+last_pushed: '2026-10-06'
 ---
-
 # ScrapeGraphAI
 
 ## Description

@@ -29,6 +29,8 @@
     "last_reviewed": "2026-11-27",
     "source_type": "github",
     "license": "Apache-2.0",
+    "stars": 201014,
+    "last_pushed": "2026-11-16",
     "install_command": "",
     "tested": false,
     "featured": true,
@@ -49,10 +51,129 @@
     "installation": "Browse or clone `anthropics/skills` and copy desired `SKILL.md` folders into your agent's skills directory.",
     "notes": "Essential reference whenever authoring new skills for this library.",
     "related_skills": [
+      "nvidia-skills",
+      "awesome-agent-skills",
       "ponytail",
-      "superpowers",
-      "anti-slop-ui",
-      "scrapling"
+      "skill-spector"
+    ]
+  },
+  {
+    "id": "awesome-agent-skills",
+    "name": "VoltAgent Awesome Agent Skills",
+    "source": "https://github.com/VoltAgent/awesome-agent-skills",
+    "author": "VoltAgent",
+    "primary_category": "agents",
+    "categories": [
+      "agents",
+      "coding",
+      "research"
+    ],
+    "tags": [
+      "directory",
+      "skill-discovery",
+      "awesome-list",
+      "claude-code",
+      "codex",
+      "cursor"
+    ],
+    "compatible_agents": [
+      "claude-code",
+      "codex",
+      "cursor",
+      "gemini-cli"
+    ],
+    "status": "excellent",
+    "quality": 9,
+    "security": "unverified",
+    "added": "2026-11-27",
+    "last_reviewed": "2026-11-27",
+    "source_type": "github",
+    "license": "MIT",
+    "stars": 37572,
+    "last_pushed": "2026-11-15",
+    "install_command": "",
+    "tested": false,
+    "featured": true,
+    "file_path": "skills/agents/awesome-agent-skills.md",
+    "description": "A large, actively curated directory of 1,000+ open-source and official AI agent skills (`SKILL.md`) across coding, DevOps, research, and design workflows.",
+    "what_it_does": "Indexes community and vendor-maintained skills with direct links, categories, and compatibility notes for Claude Code, Codex, Cursor, and Gemini CLI.",
+    "best_for": [
+      "Discovering new candidate skills across specialized domains",
+      "Benchmarking how official teams structure `SKILL.md` repositories",
+      "Feeding new links into this library's `inbox/` evaluation pipeline"
+    ],
+    "verdict": "EXCELLENT — one of the best starting points on GitHub for discovering high-signal agent skills.",
+    "limitations": [
+      "Directory index only; individual linked skills still require independent security and quality inspection (e.g. with `NVIDIA/SkillSpector`)."
+    ],
+    "risk": "Review each linked third-party skill individually before installing.",
+    "installation": "Browse `VoltAgent/awesome-agent-skills` on GitHub and evaluate individual skills before installing.",
+    "notes": "Primary discovery source alongside `github.com/topics/agent-skills`.",
+    "related_skills": [
+      "nvidia-skills",
+      "anthropic-skills",
+      "scrapling",
+      "ponytail"
+    ]
+  },
+  {
+    "id": "nvidia-skills",
+    "name": "NVIDIA Official Agent Skills",
+    "source": "https://github.com/NVIDIA/skills",
+    "author": "NVIDIA",
+    "primary_category": "agents",
+    "categories": [
+      "agents",
+      "coding",
+      "research"
+    ],
+    "tags": [
+      "nvidia",
+      "cuda",
+      "robotics",
+      "rag",
+      "skill-md",
+      "enterprise"
+    ],
+    "compatible_agents": [
+      "claude-code",
+      "codex",
+      "cursor",
+      "kiro"
+    ],
+    "status": "good",
+    "quality": 8,
+    "security": "verified",
+    "added": "2026-11-27",
+    "last_reviewed": "2026-11-27",
+    "source_type": "github",
+    "license": "Apache-2.0",
+    "stars": 4167,
+    "last_pushed": "2026-11-26",
+    "install_command": "npx skills add nvidia/skills --skill nvidia-skill-finder --yes",
+    "tested": false,
+    "featured": false,
+    "file_path": "skills/agents/nvidia-skills.md",
+    "description": "NVIDIA's official portable `SKILL.md` catalog teaching AI coding agents how to work with `CUDA-X` libraries (`cuDF`, `cuOpt`), Isaac robotics, and `RAG` blueprints.",
+    "what_it_does": "Syncs daily from NVIDIA product teams and provides cryptographically signed skill cards (`skill.oms.sig`) installable individually via `npx skills add` or discovered via `nvidia-skill-finder`.",
+    "best_for": [
+      "Working with NVIDIA `CUDA-X`, `cuDF`, `cuOpt`, or Isaac simulation workflows",
+      "Learning enterprise-grade skill signing and provenance (`SkillEvaluator` / `SkillSpector`)",
+      "Discovering domain-specific GPU programming skills via `nvidia-skill-finder`"
+    ],
+    "verdict": "GOOD — high-trust, officially maintained skill catalog with strong provenance, though specialized for NVIDIA's GPU/robotics ecosystem.",
+    "limitations": [
+      "Most skills target NVIDIA hardware/software stacks (`CUDA`, `Isaac`, `cuOpt`).",
+      "Repository documentation reviewed; not personally executed."
+    ],
+    "risk": "Officially maintained by NVIDIA (`Apache-2.0`) with cryptographic signatures (`skill.oms.sig`).",
+    "installation": "`npx skills add nvidia/skills --skill nvidia-skill-finder --yes`",
+    "notes": "Pairs directly with `NVIDIA/SkillSpector` for security verification.",
+    "related_skills": [
+      "awesome-agent-skills",
+      "anthropic-skills",
+      "open-code-review",
+      "scrapegraph-ai"
     ]
   },
   {
@@ -85,6 +206,8 @@
     "last_reviewed": "2026-11-27",
     "source_type": "github",
     "license": "MIT",
+    "stars": 32958,
+    "last_pushed": "2026-10-06",
     "install_command": "pip install scrapegraphai",
     "tested": false,
     "featured": false,
@@ -107,8 +230,8 @@
     "related_skills": [
       "scrapling",
       "agent-reach",
-      "ponytail",
-      "superpowers"
+      "awesome-agent-skills",
+      "nvidia-skills"
     ]
   },
   {
@@ -142,6 +265,8 @@
     "last_reviewed": "2026-11-27",
     "source_type": "docs",
     "license": "BSD-3-Clause",
+    "stars": 105988,
+    "last_pushed": "Thu Nov 26",
     "install_command": "",
     "tested": false,
     "featured": true,
@@ -165,8 +290,123 @@
     "related_skills": [
       "scrapegraph-ai",
       "agent-reach",
+      "awesome-agent-skills",
+      "nvidia-skills"
+    ]
+  },
+  {
+    "id": "pm-skills",
+    "name": "PM Skills",
+    "source": "https://github.com/phuryn/pm-skills",
+    "author": "phuryn",
+    "primary_category": "business",
+    "categories": [
+      "business",
+      "productivity",
+      "agents"
+    ],
+    "tags": [
+      "product-management",
+      "strategy",
+      "discovery",
+      "launch",
+      "workflows"
+    ],
+    "compatible_agents": [
+      "claude-code",
+      "codex",
+      "cursor"
+    ],
+    "status": "good",
+    "quality": 8,
+    "security": "unverified",
+    "added": "2026-11-27",
+    "last_reviewed": "2026-11-27",
+    "source_type": "github",
+    "license": "MIT",
+    "stars": 28340,
+    "last_pushed": "2026-11-08",
+    "install_command": "",
+    "tested": false,
+    "featured": false,
+    "file_path": "skills/business/pm-skills.md",
+    "description": "A product management agent skills suite with 100+ commands and workflows covering product discovery, PRD writing, strategy, and launch planning.",
+    "what_it_does": "Provides structured `SKILL.md` templates and slash-command workflows for market research, feature scoping, prioritization, and go-to-market checklists.",
+    "best_for": [
+      "Drafting PRDs, product specs, and launch plans with AI agents",
+      "Structured product discovery and user-problem framing",
+      "Solo founders and PMs organizing repeatable planning workflows"
+    ],
+    "verdict": "GOOD — comprehensive, MIT-licensed product workflow library (`28k+` stars) filling the `business` and `productivity` gap nicely.",
+    "limitations": [
+      "Focused on product/business workflows rather than code implementation.",
+      "Repository summary reviewed; not personally executed."
+    ],
+    "risk": "MIT-licensed Markdown skills and workflows; low risk, review prompts before use.",
+    "installation": "See `phuryn/pm-skills` on GitHub for installation instructions.",
+    "notes": "Discovered via `github.com/topics/agent-skills`.",
+    "related_skills": [
+      "youtube-agent-skill",
+      "awesome-agent-skills",
+      "nvidia-skills",
+      "scrapegraph-ai"
+    ]
+  },
+  {
+    "id": "open-code-review",
+    "name": "Alibaba Open Code Review",
+    "source": "https://github.com/alibaba/open-code-review",
+    "author": "alibaba",
+    "primary_category": "coding",
+    "categories": [
+      "coding",
+      "agents"
+    ],
+    "tags": [
+      "code-review",
+      "security",
+      "static-analysis",
+      "pr-review",
+      "enterprise"
+    ],
+    "compatible_agents": [
+      "claude-code",
+      "codex",
+      "cursor"
+    ],
+    "status": "good",
+    "quality": 8,
+    "security": "unverified",
+    "added": "2026-11-27",
+    "last_reviewed": "2026-11-27",
+    "source_type": "github",
+    "license": "Apache-2.0",
+    "stars": 56630,
+    "last_pushed": "2026-11-26",
+    "install_command": "",
+    "tested": false,
+    "featured": false,
+    "file_path": "skills/coding/open-code-review.md",
+    "description": "An enterprise-grade hybrid code review system combining deterministic static pipelines with LLM agent skills for precise line-level PR feedback and security checks.",
+    "what_it_does": "Runs deterministic diff/AST checks alongside modular agent skills to catch bugs, style violations, and security issues directly on pull requests.",
+    "best_for": [
+      "Automated pull request review and security gating",
+      "Combining deterministic linters with LLM reasoning",
+      "Large team code-review workflows"
+    ],
+    "verdict": "GOOD — strong hybrid architecture (`56k+` stars, `Apache-2.0`, actively maintained) that avoids pure-LLM review noise.",
+    "limitations": [
+      "Heavier setup than lightweight prompt-only review skills like `ponytail`.",
+      "Repository summary reviewed; not personally deployed."
+    ],
+    "risk": "Apache-2.0 open-source project; review CI/CD webhook tokens and LLM provider configuration.",
+    "installation": "See `alibaba/open-code-review` on GitHub for CLI and CI setup.",
+    "notes": "Discovered via `github.com/topics/agent-skills`.",
+    "related_skills": [
       "ponytail",
-      "superpowers"
+      "skill-spector",
+      "superpowers",
+      "nvidia-skills"
     ]
   },
   {
@@ -201,7 +441,9 @@
     "added": "2026-11-27",
     "last_reviewed": "2026-11-27",
     "source_type": "github",
-    "license": "unknown",
+    "license": "MIT",
+    "stars": 199333,
+    "last_pushed": "2026-11-22",
     "install_command": "",
     "tested": false,
     "featured": true,
@@ -224,9 +466,68 @@
     "notes": "Core principle (\"lazy about the solution, never lazy about reading\") is directly applied in this repository's own scripts and UI architecture.",
     "related_skills": [
       "superpowers",
-      "anthropic-skills",
-      "scrapling",
-      "anti-slop-ui"
+      "open-code-review",
+      "skill-spector",
+      "awesome-agent-skills"
+    ]
+  },
+  {
+    "id": "skill-spector",
+    "name": "NVIDIA SkillSpector",
+    "source": "https://github.com/NVIDIA/SkillSpector",
+    "author": "NVIDIA",
+    "primary_category": "coding",
+    "categories": [
+      "coding",
+      "agents"
+    ],
+    "tags": [
+      "security-scanner",
+      "prompt-injection",
+      "yara",
+      "static-analysis",
+      "mcp-security",
+      "supply-chain"
+    ],
+    "compatible_agents": [
+      "claude-code",
+      "codex",
+      "cursor",
+      "gemini-cli"
+    ],
+    "status": "excellent",
+    "quality": 9,
+    "security": "verified",
+    "added": "2026-11-27",
+    "last_reviewed": "2026-11-27",
+    "source_type": "github",
+    "license": "Apache-2.0",
+    "stars": 27801,
+    "last_pushed": "2026-11-25",
+    "install_command": "",
+    "tested": false,
+    "featured": true,
+    "file_path": "skills/coding/skill-spector.md",
+    "description": "Open-source security scanner by NVIDIA that audits third-party AI agent skills, `SKILL.md` repos, and `MCP` servers for prompt injection, data exfiltration, and malicious code before installation.",
+    "what_it_does": "Combines fast static analysis (AST inspection, regex, `YARA` rules, taint tracking, and `OSV.dev` vulnerability checks) with an optional LLM semantic evaluation layer to catch hidden risks and reduce false positives.",
+    "best_for": [
+      "Auditing untrusted `SKILL.md` or `MCP` servers before adding them to your environment",
+      "Detecting prompt injection, hidden exfiltration, or dangerous `eval`/`exec` patterns",
+      "Integrating automated skill security gates via `skillspector-action` in GitHub Actions"
+    ],
+    "verdict": "EXCELLENT — essential security guardrail for anyone collecting and testing third-party AI skills.",
+    "limitations": [
+      "Optional LLM semantic layer requires configuring a model endpoint.",
+      "Public repository documentation reviewed; CLI not personally executed in this workspace."
+    ],
+    "risk": "Security auditing tool by NVIDIA (`Apache-2.0`); safe to inspect and run in CI/local environments.",
+    "installation": "See `NVIDIA/SkillSpector` on GitHub for CLI and `skillspector-action` setup instructions.",
+    "notes": "Great companion to this library's `security` audit workflow before marking any skill `verified`.",
+    "related_skills": [
+      "open-code-review",
+      "ponytail",
+      "superpowers",
+      "awesome-agent-skills"
     ]
   },
   {
@@ -260,6 +561,8 @@
     "last_reviewed": "2026-11-27",
     "source_type": "github",
     "license": "MIT",
+    "stars": 327436,
+    "last_pushed": "2026-11-26",
     "install_command": "",
     "tested": false,
     "featured": true,
@@ -281,9 +584,9 @@
     "notes": "Pair with `ponytail` to combine disciplined TDD/debugging workflows with minimal-code restraint.",
     "related_skills": [
       "ponytail",
-      "anthropic-skills",
-      "scrapling",
-      "scrapegraph-ai"
+      "skill-spector",
+      "open-code-review",
+      "awesome-agent-skills"
     ]
   },
   {
@@ -317,7 +620,9 @@
     "added": "2026-11-27",
     "last_reviewed": "2026-11-27",
     "source_type": "github",
-    "license": "unknown",
+    "license": "MIT",
+    "stars": 43,
+    "last_pushed": "2026-11-15",
     "install_command": "",
     "tested": false,
     "featured": true,
@@ -339,9 +644,476 @@
     "installation": "See the `Vanszs/AntiSlopUI` GitHub repository for skill installation and `references/` setup.",
     "notes": "Used as the primary design philosophy for SkillAtlas: restrained palette, crisp borders, information-dense cards, and zero generic marketing fluff.",
     "related_skills": [
+      "hallmark",
       "anthropic-skills",
-      "ponytail",
-      "superpowers"
+      "nvidia-skills",
+      "ponytail"
+    ]
+  },
+  {
+    "id": "hallmark",
+    "name": "Hallmark",
+    "source": "https://github.com/nutlope/hallmark",
+    "author": "nutlope",
+    "primary_category": "design",
+    "categories": [
+      "design",
+      "coding"
+    ],
+    "tags": [
+      "ui",
+      "ux",
+      "anti-slop",
+      "design-system",
+      "visual-linting",
+      "typography"
+    ],
+    "compatible_agents": [
+      "claude-code",
+      "codex",
+      "cursor",
+      "opencode"
+    ],
+    "status": "excellent",
+    "quality": 9,
+    "security": "unverified",
+    "added": "2026-11-27",
+    "last_reviewed": "2026-11-27",
+    "source_type": "github",
+    "license": "MIT",
+    "stars": 61617,
+    "last_pushed": "2026-11-11",
+    "install_command": "npx skills add nutlope/hallmark -g",
+    "tested": false,
+    "featured": true,
+    "file_path": "skills/design/hallmark.md",
+    "description": "A purpose-built UI/UX design skill by Nutlope that replaces generic AI \"template slop\" with curated visual themes, intentional typography, and automated browser linting (`sloplint`).",
+    "what_it_does": "Provides structured modes including `/hallmark redesign`, `/hallmark audit`, and `Study` alongside dozens of visual themes and Puppeteer-based multi-viewport checks to catch layout flaws and AI UI clichés.",
+    "best_for": [
+      "Redesigning existing web apps with cohesive typography and deliberate color systems",
+      "Running `/hallmark audit` to catch generic AI UI anti-patterns",
+      "Extracting design DNA from reference URLs or screenshots"
+    ],
+    "verdict": "EXCELLENT — pairs strong thematic design craft with automated browser-level visual linting (`sloplint`).",
+    "limitations": [
+      "Automated `sloplint` checks require a local Node/Puppeteer browser environment.",
+      "Public repository documentation reviewed; not personally executed via CLI."
+    ],
+    "risk": "MIT-licensed skill package; review skill prompts and scripts before running globally.",
+    "installation": "`npx skills add nutlope/hallmark -g`",
+    "notes": "Used alongside `AntiSlopUI` to guide SkillAtlas's visual redesign (editorial typography, crisp surfaces, and semantic highlighters).",
+    "related_skills": [
+      "anti-slop-ui",
+      "anthropic-skills",
+      "awesome-agent-skills",
+      "nvidia-skills"
+    ]
+  },
+  {
+    "id": "hyperframes",
+    "name": "HeyGen HyperFrames",
+    "source": "https://github.com/heygen-com/hyperframes",
+    "author": "heygen-com",
+    "primary_category": "image-video",
+    "categories": [
+      "image-video",
+      "youtube",
+      "coding"
+    ],
+    "tags": [
+      "video-editing",
+      "html-to-video",
+      "ffmpeg",
+      "programmatic-video",
+      "agent-skill"
+    ],
+    "compatible_agents": [
+      "claude-code",
+      "codex",
+      "cursor"
+    ],
+    "status": "excellent",
+    "quality": 9,
+    "security": "unverified",
+    "added": "2026-11-27",
+    "last_reviewed": "2026-11-27",
+    "source_type": "github",
+    "license": "Apache-2.0",
+    "stars": 90817,
+    "last_pushed": "2026-11-26",
+    "install_command": "npx skills add heygen-com/hyperframes",
+    "tested": false,
+    "featured": true,
+    "file_path": "skills/image-video/hyperframes.md",
+    "description": "HeyGen's open-source AI video editor for people and agents that turns HTML/code compositions into frame-accurate `MP4` videos using headless Chrome and `FFmpeg`.",
+    "what_it_does": "Lets coding agents write or edit declarative HTML/CSS/JS video scenes and render them deterministically frame-by-frame, with visual inspection in *HyperFrames Studio*.",
+    "best_for": [
+      "Programmatic YouTube explainers, product demos, and motion graphics",
+      "Frame-accurate AI video editing controlled by code rather than opaque video models",
+      "Integrating video rendering directly into Claude Code or Cursor workflows"
+    ],
+    "verdict": "EXCELLENT — deterministic HTML-to-MP4 rendering gives coding agents full frame-level control over video output.",
+    "limitations": [
+      "Requires headless Chrome and `FFmpeg` in the local rendering environment.",
+      "Public repository documentation reviewed; not personally rendered locally."
+    ],
+    "risk": "Apache-2.0 open-source project; inspect generated scripts and local `FFmpeg` / Chrome dependencies.",
+    "installation": "`npx skills add heygen-com/hyperframes`",
+    "notes": "Strong choice for code-driven YouTube and product demo video pipelines.",
+    "related_skills": [
+      "open-montage",
+      "hypit",
+      "pixelle-video",
+      "video-shotcraft"
+    ]
+  },
+  {
+    "id": "hypit",
+    "name": "Hypit",
+    "source": "https://github.com/hypit-ai/hypit",
+    "author": "hypit-ai",
+    "primary_category": "image-video",
+    "categories": [
+      "image-video",
+      "youtube",
+      "automation"
+    ],
+    "tags": [
+      "video-cloning",
+      "short-form-video",
+      "captions",
+      "b-roll",
+      "markup-language"
+    ],
+    "compatible_agents": [
+      "claude-code",
+      "codex",
+      "cursor"
+    ],
+    "status": "promising",
+    "quality": 7,
+    "security": "unverified",
+    "added": "2026-11-27",
+    "last_reviewed": "2026-11-27",
+    "source_type": "github",
+    "license": "unknown",
+    "stars": 31573,
+    "last_pushed": "2026-11-25",
+    "install_command": "",
+    "tested": false,
+    "featured": false,
+    "file_path": "skills/image-video/hypit.md",
+    "description": "An open-source agent framework and markup language for parsing reference videos into word-anchored workflows (`captions`, `B-roll`, `effects`) to clone or localize video formats.",
+    "what_it_does": "Converts a reference or viral video into structured word-anchored timeline markup rather than a flat script, letting AI agents swap voiceovers, faces, text, or assets cleanly.",
+    "best_for": [
+      "Cloning high-performing short-form or YouTube Shorts video structures",
+      "Creating localized or A/B-tested variations of existing videos",
+      "Word-anchored caption and B-roll timing workflows"
+    ],
+    "verdict": "PROMISING — clever word-anchored video markup approach for format cloning and variations; license and local setup need verification.",
+    "limitations": [
+      "License listed as non-standard/unknown (`NOASSERTION` on GitHub).",
+      "Repository summary reviewed; not personally tested on video files."
+    ],
+    "risk": "Review licensing terms and any media-processing binaries/API keys before production use.",
+    "installation": "See `hypit-ai/hypit` on GitHub for installation and agent skill setup.",
+    "notes": "Useful for YouTube Shorts / Reels format iteration when paired with `youtube-agent-skill`.",
+    "related_skills": [
+      "pixelle-video",
+      "hyperframes",
+      "open-montage",
+      "video-shotcraft"
+    ]
+  },
+  {
+    "id": "open-montage",
+    "name": "OpenMontage",
+    "source": "https://github.com/OpenMontageInc/OpenMontage",
+    "author": "OpenMontageInc",
+    "primary_category": "image-video",
+    "categories": [
+      "image-video",
+      "youtube",
+      "agents"
+    ],
+    "tags": [
+      "video-production",
+      "video-editing",
+      "scriptwriting",
+      "agentic-studio",
+      "pipelines"
+    ],
+    "compatible_agents": [
+      "claude-code",
+      "cursor",
+      "codex"
+    ],
+    "status": "good",
+    "quality": 8,
+    "security": "unverified",
+    "added": "2026-11-27",
+    "last_reviewed": "2026-11-27",
+    "source_type": "github",
+    "license": "AGPL-3.0",
+    "stars": 83637,
+    "last_pushed": "2026-11-16",
+    "install_command": "",
+    "tested": false,
+    "featured": true,
+    "file_path": "skills/image-video/open-montage.md",
+    "description": "An open-source agentic video production system featuring 100+ tools and hundreds of skill/knowledge files that turn coding assistants into an end-to-end video studio.",
+    "what_it_does": "Orchestrates multi-stage video pipelines—from scriptwriting and asset generation to editing and final synthesis—directly through natural language prompts in your IDE.",
+    "best_for": [
+      "End-to-end automated video creation inside Claude Code or Cursor",
+      "Multi-step YouTube and social video production pipelines",
+      "Exploring large-scale agent skill & tool orchestration patterns"
+    ],
+    "verdict": "GOOD — comprehensive agentic video production suite with strong community adoption, though `AGPL-3.0` licensing and multi-tool setup require attention.",
+    "limitations": [
+      "Large surface area (100+ tools) may require significant setup and external media model keys.",
+      "Licensed under `AGPL-3.0`; check compatibility for commercial SaaS use.",
+      "Documentation reviewed; not personally executed."
+    ],
+    "risk": "Review tool permissions and external API/model dependencies before running automated pipelines.",
+    "installation": "See `OpenMontageInc/OpenMontage` on GitHub for workspace setup instructions.",
+    "notes": "Compare with `hyperframes` (deterministic HTML) and `video-shotcraft` (Remotion) depending on your video style.",
+    "related_skills": [
+      "hyperframes",
+      "hypit",
+      "pixelle-video",
+      "toonflow-app"
+    ]
+  },
+  {
+    "id": "pixelle-video",
+    "name": "Pixelle-Video",
+    "source": "https://github.com/ATH-MaaS/Pixelle-Video",
+    "author": "ATH-MaaS",
+    "primary_category": "image-video",
+    "categories": [
+      "image-video",
+      "youtube",
+      "automation"
+    ],
+    "tags": [
+      "short-video",
+      "comfyui",
+      "faceless-content",
+      "narration",
+      "multi-llm"
+    ],
+    "compatible_agents": [
+      "claude-code",
+      "codex",
+      "cursor"
+    ],
+    "status": "good",
+    "quality": 8,
+    "security": "unverified",
+    "added": "2026-11-27",
+    "last_reviewed": "2026-11-27",
+    "source_type": "github",
+    "license": "Apache-2.0",
+    "stars": 30552,
+    "last_pushed": "2026-06-14",
+    "install_command": "",
+    "tested": false,
+    "featured": false,
+    "file_path": "skills/image-video/pixelle-video.md",
+    "description": "An automated AI short-video engine by `ATH-MaaS` that generates scripts, AI images, voice narration, and background music from a single text topic using `ComfyUI` and multiple LLMs.",
+    "what_it_does": "Connects LLMs (`GPT`, `Qwen`, `DeepSeek`, `Ollama`) with `ComfyUI` image pipelines and TTS/audio synthesis to produce vertical or horizontal short videos from topic prompts.",
+    "best_for": [
+      "Automated faceless YouTube Shorts, TikTok, or Reels generation",
+      "Local or hybrid `Ollama` + `ComfyUI` video workflows",
+      "Batch short-video prototyping from topic lists"
+    ],
+    "verdict": "GOOD — practical end-to-end short-video generator with `ComfyUI` integration and flexible LLM support.",
+    "limitations": [
+      "Requires `ComfyUI` and model weights/API keys for image, voice, and LLM steps.",
+      "Last pushed `2026-06-14`; check recent issue activity before adopting.",
+      "Not personally executed."
+    ],
+    "risk": "Apache-2.0 licensed; verify custom `ComfyUI` nodes and model downloads from trusted sources.",
+    "installation": "See `ATH-MaaS/Pixelle-Video` on GitHub for `ComfyUI` and Python setup.",
+    "notes": "Good fit for faceless content automation workflows.",
+    "related_skills": [
+      "hypit",
+      "hyperframes",
+      "open-montage",
+      "video-shotcraft"
+    ]
+  },
+  {
+    "id": "toonflow-app",
+    "name": "Toonflow App",
+    "source": "https://github.com/HBAI-Ltd/Toonflow-app",
+    "author": "HBAI-Ltd",
+    "primary_category": "image-video",
+    "categories": [
+      "image-video",
+      "agents"
+    ],
+    "tags": [
+      "storyboarding",
+      "animation",
+      "comic-video",
+      "canvas-workflow",
+      "local-deployment"
+    ],
+    "compatible_agents": [
+      "claude-code",
+      "codex",
+      "cursor"
+    ],
+    "status": "promising",
+    "quality": 7,
+    "security": "unverified",
+    "added": "2026-11-27",
+    "last_reviewed": "2026-11-27",
+    "source_type": "github",
+    "license": "MIT",
+    "stars": 22927,
+    "last_pushed": "2026-11-20",
+    "install_command": "",
+    "tested": false,
+    "featured": false,
+    "file_path": "skills/image-video/toonflow-app.md",
+    "description": "An open-source AI video creation platform for short dramas, comic videos (`manju`), and animated storytelling using an infinite canvas workspace and AI agents.",
+    "what_it_does": "Parses raw story text, manages character and scene consistency assets, generates outlines and storyboards, and orchestrates multi-provider AI image and video generation with local deployment support.",
+    "best_for": [
+      "Animated storytelling, comic-style videos, and short drama production",
+      "Consistent character and scene asset management across episodes",
+      "Teams wanting an infinite-canvas storyboard workflow"
+    ],
+    "verdict": "PROMISING — well-starred MIT-licensed visual storyboarding and animation platform; best suited for narrative/comic video rather than general coding workflows.",
+    "limitations": [
+      "Requires configuring external or local image/video generation providers.",
+      "Repository documentation reviewed; not personally deployed."
+    ],
+    "risk": "MIT-licensed open-source project; inspect provider API configurations before local deployment.",
+    "installation": "See `HBAI-Ltd/Toonflow-app` on GitHub for local deployment instructions.",
+    "notes": "Interesting reference for multi-agent storyboarding and character consistency.",
+    "related_skills": [
+      "open-montage",
+      "video-shotcraft",
+      "hyperframes",
+      "hypit"
+    ]
+  },
+  {
+    "id": "video-shotcraft",
+    "name": "Video Shotcraft",
+    "source": "https://github.com/Vincentwei1021/video-shotcraft",
+    "author": "Vincentwei1021",
+    "primary_category": "image-video",
+    "categories": [
+      "image-video",
+      "youtube",
+      "design"
+    ],
+    "tags": [
+      "remotion",
+      "promo-video",
+      "motion-graphics",
+      "storyboarding",
+      "shot-recipes"
+    ],
+    "compatible_agents": [
+      "claude-code",
+      "codex",
+      "cursor"
+    ],
+    "status": "good",
+    "quality": 8,
+    "security": "unverified",
+    "added": "2026-11-27",
+    "last_reviewed": "2026-11-27",
+    "source_type": "github",
+    "license": "Apache-2.0",
+    "stars": 22765,
+    "last_pushed": "2026-11-25",
+    "install_command": "",
+    "tested": false,
+    "featured": false,
+    "file_path": "skills/image-video/video-shotcraft.md",
+    "description": "An AI video skill for Claude Code and Codex that turns product pages or specs into editable, cinematic promotional videos built with `Remotion`.",
+    "what_it_does": "Ships 150+ reusable shot recipe cards, motion previews, beat synchronization, sound design hooks, and automated storyboarding to render crisp React/Remotion video frames without generative video artifacts.",
+    "best_for": [
+      "Product launch demos, SaaS promo videos, and UI showcase reels",
+      "Clean, editable `Remotion` motion graphics driven by coding agents",
+      "Beat-synced promotional edits with deterministic text rendering"
+    ],
+    "verdict": "GOOD — practical `Remotion`-based video skill with 150+ shot recipes and crisp typography/UI rendering.",
+    "limitations": [
+      "Focuses on code-driven `Remotion` compositions rather than photorealistic AI video.",
+      "Repository summary reviewed; not personally rendered locally."
+    ],
+    "risk": "Apache-2.0 licensed; inspect `Remotion` dependencies and media assets before building.",
+    "installation": "See `Vincentwei1021/video-shotcraft` on GitHub for skill and `Remotion` setup.",
+    "notes": "Complements `hyperframes` if you prefer React + `Remotion` over raw HTML/FFmpeg compositions.",
+    "related_skills": [
+      "hyperframes",
+      "hypit",
+      "open-montage",
+      "pixelle-video"
+    ]
+  },
+  {
+    "id": "spicy-api-skills",
+    "name": "Spicy API Skills",
+    "source": "https://mcpmarket.com/server/spicy-api-skills",
+    "author": "Wayfinity",
+    "primary_category": "other",
+    "categories": [
+      "other",
+      "image-video",
+      "agents"
+    ],
+    "tags": [
+      "mcp",
+      "nsfw",
+      "image-generation",
+      "image-to-video",
+      "paid-api"
+    ],
+    "compatible_agents": [
+      "claude-code",
+      "codex",
+      "cursor"
+    ],
+    "status": "neutral",
+    "quality": 5,
+    "security": "caution",
+    "added": "2026-11-27",
+    "last_reviewed": "2026-11-27",
+    "source_type": "directory",
+    "license": "MIT",
+    "stars": 5,
+    "last_pushed": "Thu Oct 08",
+    "install_command": "",
+    "tested": false,
+    "featured": false,
+    "file_path": "skills/other/spicy-api-skills.md",
+    "description": "An `MCP` server and agent skill wrapper for `SpicyAPI` enabling programmatic uncensored (18+) image generation, image-to-video conversion, and chat generation.",
+    "what_it_does": "Exposes `SpicyAPI` model listing, cost quoting, and generation endpoints to coding assistants via `MCP` tools and skill instructions (`Wayfinity/spicyapi-skills`).",
+    "best_for": [
+      "Developers explicitly building 18+ / adult-oriented `SpicyAPI` integrations",
+      "Inspecting pay-per-use `MCP` cost-quoting tool patterns"
+    ],
+    "verdict": "NEUTRAL — narrow, adult-only paid API wrapper with minimal community adoption (`5` stars on `Wayfinity/spicyapi-skills`); keep only if specifically targeting that API.",
+    "limitations": [
+      "Requires a paid `SpicyAPI` account/key (pay-per-use).",
+      "Niche 18+ scope; not relevant for general coding or content workflows.",
+      "Directory & GitHub summary reviewed; not personally executed."
+    ],
+    "risk": "Caution: third-party paid API integration handling API keys and adult content generation; verify endpoint trust and billing limits before use.",
+    "installation": "See `mcpmarket.com/server/spicy-api-skills` or `Wayfinity/spicyapi-skills` on GitHub.",
+    "notes": "Categorized under `other` as a niche third-party API skill.",
+    "related_skills": [
+      "scrapling",
+      "open-montage",
+      "toonflow-app",
+      "agent-reach"
     ]
   },
   {
@@ -374,7 +1146,9 @@
     "added": "2026-11-27",
     "last_reviewed": "2026-11-27",
     "source_type": "github",
-    "license": "unknown",
+    "license": "MIT",
+    "stars": 115047,
+    "last_pushed": "Tue Nov 24",
     "install_command": "npx skills add Panniantong/Agent-Reach@agent-reach",
     "tested": false,
     "featured": true,
@@ -397,9 +1171,67 @@
     "notes": "Ideal candidate for autonomous skill discovery workflows (\"find new skills for YouTube / Codex / UI\").",
     "related_skills": [
       "scrapling",
+      "scientific-agent-skills",
       "scrapegraph-ai",
-      "ponytail",
-      "superpowers"
+      "awesome-agent-skills"
+    ]
+  },
+  {
+    "id": "scientific-agent-skills",
+    "name": "Scientific Agent Skills",
+    "source": "https://github.com/K-Dense-AI/scientific-agent-skills",
+    "author": "K-Dense-AI",
+    "primary_category": "research",
+    "categories": [
+      "research",
+      "agents"
+    ],
+    "tags": [
+      "science",
+      "biology",
+      "chemistry",
+      "genomics",
+      "deep-research",
+      "data-analysis"
+    ],
+    "compatible_agents": [
+      "claude-code",
+      "codex",
+      "cursor"
+    ],
+    "status": "excellent",
+    "quality": 9,
+    "security": "unverified",
+    "added": "2026-11-27",
+    "last_reviewed": "2026-11-27",
+    "source_type": "github",
+    "license": "MIT",
+    "stars": 58579,
+    "last_pushed": "Mon Nov 23",
+    "install_command": "",
+    "tested": false,
+    "featured": true,
+    "file_path": "skills/research/scientific-agent-skills.md",
+    "description": "A validated library of ~180 scientific agent skills and 100+ database integrations covering biology, chemistry, genomics, medicine, and literature research.",
+    "what_it_does": "Equips coding and research agents with domain-accurate instructions, database query patterns, and analysis workflows for scientific computing and deep research.",
+    "best_for": [
+      "Bioinformatics, chemistry, genomics, and medical literature workflows",
+      "Structured scientific data analysis and hypothesis verification",
+      "High-rigor research skill architecture inspiration"
+    ],
+    "verdict": "EXCELLENT — massive, well-maintained scientific skill collection (`58k+` stars, MIT) demonstrating how deep domain skills should be structured.",
+    "limitations": [
+      "Specialized for scientific and biomedical domains; overkill for general web development.",
+      "Repository summary reviewed; not personally executed."
+    ],
+    "risk": "MIT-licensed; verify external scientific database endpoints and Python package dependencies before running.",
+    "installation": "See `K-Dense-AI/scientific-agent-skills` on GitHub for skill selection and installation.",
+    "notes": "Discovered via `github.com/topics/agent-skills`.",
+    "related_skills": [
+      "agent-reach",
+      "awesome-agent-skills",
+      "nvidia-skills",
+      "scrapegraph-ai"
     ]
   },
   {
@@ -432,7 +1264,9 @@
     "added": "2026-11-27",
     "last_reviewed": "2026-11-27",
     "source_type": "github",
-    "license": "unknown",
+    "license": "MIT",
+    "stars": 7625,
+    "last_pushed": "Wed Sep 16",
     "install_command": "",
     "tested": false,
     "featured": false,
@@ -453,10 +1287,10 @@
     "installation": "Inspect `Jakeschincariol/youtube-agent-skill` on GitHub and copy `skills/yt-script` or `skills/yt-package` into your agent skills folder.",
     "notes": "First dedicated YouTube skill in the library — test alongside a research skill for end-to-end video planning.",
     "related_skills": [
-      "scrapegraph-ai",
-      "scrapling",
-      "ponytail",
-      "superpowers"
+      "pm-skills",
+      "open-montage",
+      "awesome-agent-skills",
+      "nvidia-skills"
     ]
   }
 ]

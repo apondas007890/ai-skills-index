@@ -18,8 +18,8 @@
       "Architecture",
       "Security"
     ],
-    "count": 4,
-    "primary_count": 2
+    "count": 10,
+    "primary_count": 4
   },
   {
     "id": "design",
@@ -35,8 +35,8 @@
       "Animation",
       "Anti-Generic UI"
     ],
-    "count": 2,
-    "primary_count": 1
+    "count": 4,
+    "primary_count": 2
   },
   {
     "id": "youtube",
@@ -53,7 +53,7 @@
       "Channel Research",
       "Storytelling"
     ],
-    "count": 1,
+    "count": 6,
     "primary_count": 1
   },
   {
@@ -72,8 +72,8 @@
       "Prompt Engineering",
       "Multi-Agent"
     ],
-    "count": 7,
-    "primary_count": 1
+    "count": 16,
+    "primary_count": 3
   },
   {
     "id": "image-video",
@@ -89,8 +89,8 @@
       "3D",
       "VFX"
     ],
-    "count": 0,
-    "primary_count": 0
+    "count": 7,
+    "primary_count": 6
   },
   {
     "id": "audio-music",
@@ -119,8 +119,8 @@
       "Data Analysis",
       "Summarization"
     ],
-    "count": 3,
-    "primary_count": 1
+    "count": 6,
+    "primary_count": 2
   },
   {
     "id": "automation",
@@ -134,7 +134,7 @@
       "Integrations",
       "File Management"
     ],
-    "count": 3,
+    "count": 5,
     "primary_count": 2
   },
   {
@@ -150,8 +150,8 @@
       "Sales",
       "E-commerce"
     ],
-    "count": 1,
-    "primary_count": 0
+    "count": 2,
+    "primary_count": 1
   },
   {
     "id": "productivity",
@@ -165,7 +165,7 @@
       "Personal Assistants",
       "Workflows"
     ],
-    "count": 0,
+    "count": 1,
     "primary_count": 0
   },
   {
@@ -177,7 +177,7 @@
       "Experimental",
       "Miscellaneous"
     ],
-    "count": 0,
-    "primary_count": 0
+    "count": 1,
+    "primary_count": 1
   }
 ]

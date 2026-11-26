@@ -25,7 +25,9 @@ security: caution
 added: 2026-11-27
 last_reviewed: 2026-11-27
 source_type: github
-license: unknown
+license: MIT
+stars: 115047
+last_pushed: 2026-11-24
 install_command: "npx skills add Panniantong/Agent-Reach@agent-reach"
 tested: false
 featured: true

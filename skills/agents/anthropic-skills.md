@@ -1,7 +1,7 @@
 ---
 id: anthropic-skills
 name: Anthropic Official Skills
-source: https://github.com/anthropics/skills
+source: 'https://github.com/anthropics/skills'
 author: anthropics
 primary_category: agents
 categories:
@@ -21,15 +21,16 @@ compatible_agents:
 status: excellent
 quality: 9
 security: verified
-added: 2026-11-27
-last_reviewed: 2026-11-27
+added: 2026-11-27T00:00:00.000Z
+last_reviewed: 2026-11-27T00:00:00.000Z
 source_type: github
 license: Apache-2.0
-install_command: ""
+install_command: ''
 tested: false
 featured: true
+stars: 201014
+last_pushed: '2026-11-16'
 ---
-
 # Anthropic Official Skills
 
 ## Description
