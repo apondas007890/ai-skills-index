@@ -188,26 +188,67 @@ export function ExplorePage() {
         </div>
       </div>
 
-      {/* Compatible Agents */}
+      {/* Compatible Agents — colored pill toggles */}
       <div>
         <h3 className="mb-2.5 text-xs font-semibold uppercase tracking-wider text-slate-500 dark:text-slate-400">
           Compatible Agents
         </h3>
-        <div className="space-y-1.5">
-          {allAgents.map((agent) => (
-            <label
-              key={agent}
-              className="flex cursor-pointer items-center gap-2 rounded-lg px-2 py-1 text-sm text-slate-700 hover:bg-slate-100 dark:text-slate-300 dark:hover:bg-slate-800/70"
-            >
-              <input
-                type="checkbox"
-                checked={selectedAgents.includes(agent)}
-                onChange={() => toggleItem(selectedAgents, setSelectedAgents, agent)}
-                className="h-4 w-4 rounded border-slate-300 text-teal-600 focus:ring-teal-500"
-              />
-              <span className="font-mono text-xs">{agent}</span>
-            </label>
-          ))}
+        <div className="flex flex-wrap gap-1.5">
+          {allAgents.map((agent) => {
+            const active = selectedAgents.includes(agent);
+            const agentColors: Record<string, string> = {
+              'claude-code': active
+                ? 'border-orange-400 bg-orange-50 text-orange-700 dark:bg-orange-950/60 dark:text-orange-300 dark:border-orange-500'
+                : 'border-orange-200/70 text-orange-600 hover:bg-orange-50 dark:border-orange-900 dark:text-orange-400 dark:hover:bg-orange-950/40',
+              'cline': active
+                ? 'border-yellow-400 bg-yellow-50 text-yellow-700 dark:bg-yellow-950/60 dark:text-yellow-300 dark:border-yellow-500'
+                : 'border-yellow-200/70 text-yellow-600 hover:bg-yellow-50 dark:border-yellow-900 dark:text-yellow-400 dark:hover:bg-yellow-950/40',
+              'codex': active
+                ? 'border-green-400 bg-green-50 text-green-700 dark:bg-green-950/60 dark:text-green-300 dark:border-green-500'
+                : 'border-green-200/70 text-green-600 hover:bg-green-50 dark:border-green-900 dark:text-green-400 dark:hover:bg-green-950/40',
+              'cursor': active
+                ? 'border-purple-400 bg-purple-50 text-purple-700 dark:bg-purple-950/60 dark:text-purple-300 dark:border-purple-500'
+                : 'border-purple-200/70 text-purple-600 hover:bg-purple-50 dark:border-purple-900 dark:text-purple-400 dark:hover:bg-purple-950/40',
+              'gemini-cli': active
+                ? 'border-blue-400 bg-blue-50 text-blue-700 dark:bg-blue-950/60 dark:text-blue-300 dark:border-blue-500'
+                : 'border-blue-200/70 text-blue-600 hover:bg-blue-50 dark:border-blue-900 dark:text-blue-400 dark:hover:bg-blue-950/40',
+              'kiro': active
+                ? 'border-red-400 bg-red-50 text-red-700 dark:bg-red-950/60 dark:text-red-300 dark:border-red-500'
+                : 'border-red-200/70 text-red-600 hover:bg-red-50 dark:border-red-900 dark:text-red-400 dark:hover:bg-red-950/40',
+              'opencode': active
+                ? 'border-teal-400 bg-teal-50 text-teal-700 dark:bg-teal-950/60 dark:text-teal-300 dark:border-teal-500'
+                : 'border-teal-200/70 text-teal-600 hover:bg-teal-50 dark:border-teal-900 dark:text-teal-400 dark:hover:bg-teal-950/40',
+              'windsurf': active
+                ? 'border-cyan-400 bg-cyan-50 text-cyan-700 dark:bg-cyan-950/60 dark:text-cyan-300 dark:border-cyan-500'
+                : 'border-cyan-200/70 text-cyan-600 hover:bg-cyan-50 dark:border-cyan-900 dark:text-cyan-400 dark:hover:bg-cyan-950/40',
+            };
+            const colorClass = agentColors[agent] ??
+              (active
+                ? 'border-zinc-400 bg-zinc-100 text-zinc-800 dark:bg-zinc-800 dark:text-zinc-200'
+                : 'border-zinc-200 text-zinc-600 hover:bg-zinc-100 dark:border-zinc-700 dark:text-zinc-400');
+            const dotColors: Record<string, string> = {
+              'claude-code': 'bg-orange-400',
+              'cline': 'bg-yellow-400',
+              'codex': 'bg-green-400',
+              'cursor': 'bg-purple-400',
+              'gemini-cli': 'bg-blue-400',
+              'kiro': 'bg-red-400',
+              'opencode': 'bg-teal-400',
+              'windsurf': 'bg-cyan-400',
+            };
+            return (
+              <button
+                key={agent}
+                type="button"
+                onClick={() => toggleItem(selectedAgents, setSelectedAgents, agent)}
+                aria-pressed={active}
+                className={`inline-flex items-center gap-1.5 rounded-full border px-2.5 py-1 font-mono text-[11px] font-medium transition-all ${colorClass}`}
+              >
+                <span className={`h-1.5 w-1.5 flex-shrink-0 rounded-full ${dotColors[agent] ?? 'bg-zinc-400'}`} />
+                {agent}
+              </button>
+            );
+          })}
         </div>
       </div>
 
@@ -270,7 +311,7 @@ export function ExplorePage() {
       <div className="flex flex-col gap-4 border-b border-slate-200 pb-5 sm:flex-row sm:items-end sm:justify-between dark:border-slate-800">
         <div>
           <h1 className="text-2xl font-bold tracking-tight text-slate-900 dark:text-white">
-            Explore Skills
+            Browse Skills
           </h1>
           <p className="mt-1 text-sm text-slate-600 dark:text-slate-400">
             Showing <span className="font-mono font-semibold">{results.length}</span> of{' '}
