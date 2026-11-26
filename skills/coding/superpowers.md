@@ -1,7 +1,7 @@
 ---
 id: superpowers
 name: Superpowers
-source: https://github.com/obra/superpowers
+source: 'https://github.com/obra/superpowers'
 author: obra
 primary_category: coding
 categories:
@@ -22,15 +22,16 @@ compatible_agents:
 status: excellent
 quality: 9
 security: unverified
-added: 2026-11-27
-last_reviewed: 2026-11-27
+added: 2026-11-27T00:00:00.000Z
+last_reviewed: 2026-11-27T00:00:00.000Z
 source_type: github
 license: MIT
-install_command: ""
+install_command: ''
 tested: false
 featured: true
+stars: 327436
+last_pushed: '2026-11-26'
 ---
-
 # Superpowers
 
 ## Description

@@ -1,6 +1,38 @@
 [
   {
     "tag": "mcp",
+    "count": 3
+  },
+  {
+    "tag": "code-review",
+    "count": 2
+  },
+  {
+    "tag": "enterprise",
+    "count": 2
+  },
+  {
+    "tag": "skill-md",
+    "count": 2
+  },
+  {
+    "tag": "static-analysis",
+    "count": 2
+  },
+  {
+    "tag": "storyboarding",
+    "count": 2
+  },
+  {
+    "tag": "ui",
+    "count": 2
+  },
+  {
+    "tag": "ux",
+    "count": 2
+  },
+  {
+    "tag": "video-editing",
     "count": 2
   },
   {
@@ -20,6 +52,18 @@
     "count": 1
   },
   {
+    "tag": "agent-skill",
+    "count": 1
+  },
+  {
+    "tag": "agentic-studio",
+    "count": 1
+  },
+  {
+    "tag": "animation",
+    "count": 1
+  },
+  {
     "tag": "anti-bloat",
     "count": 1
   },
@@ -28,7 +72,39 @@
     "count": 1
   },
   {
+    "tag": "anti-slop",
+    "count": 1
+  },
+  {
+    "tag": "awesome-list",
+    "count": 1
+  },
+  {
+    "tag": "b-roll",
+    "count": 1
+  },
+  {
+    "tag": "biology",
+    "count": 1
+  },
+  {
     "tag": "brainstorming",
+    "count": 1
+  },
+  {
+    "tag": "canvas-workflow",
+    "count": 1
+  },
+  {
+    "tag": "captions",
+    "count": 1
+  },
+  {
+    "tag": "chemistry",
+    "count": 1
+  },
+  {
+    "tag": "claude-code",
     "count": 1
   },
   {
@@ -36,11 +112,31 @@
     "count": 1
   },
   {
-    "tag": "code-review",
+    "tag": "codex",
+    "count": 1
+  },
+  {
+    "tag": "comfyui",
+    "count": 1
+  },
+  {
+    "tag": "comic-video",
     "count": 1
   },
   {
     "tag": "content-creation",
+    "count": 1
+  },
+  {
+    "tag": "cuda",
+    "count": 1
+  },
+  {
+    "tag": "cursor",
+    "count": 1
+  },
+  {
+    "tag": "data-analysis",
     "count": 1
   },
   {
@@ -52,11 +148,35 @@
     "count": 1
   },
   {
+    "tag": "deep-research",
+    "count": 1
+  },
+  {
+    "tag": "design-system",
+    "count": 1
+  },
+  {
     "tag": "design-systems",
     "count": 1
   },
   {
+    "tag": "directory",
+    "count": 1
+  },
+  {
+    "tag": "discovery",
+    "count": 1
+  },
+  {
     "tag": "documentation-extraction",
+    "count": 1
+  },
+  {
+    "tag": "faceless-content",
+    "count": 1
+  },
+  {
+    "tag": "ffmpeg",
     "count": 1
   },
   {
@@ -65,6 +185,10 @@
   },
   {
     "tag": "frontend-design",
+    "count": 1
+  },
+  {
+    "tag": "genomics",
     "count": 1
   },
   {
@@ -80,7 +204,63 @@
     "count": 1
   },
   {
+    "tag": "html-to-video",
+    "count": 1
+  },
+  {
+    "tag": "image-generation",
+    "count": 1
+  },
+  {
+    "tag": "image-to-video",
+    "count": 1
+  },
+  {
+    "tag": "launch",
+    "count": 1
+  },
+  {
     "tag": "llm-pipelines",
+    "count": 1
+  },
+  {
+    "tag": "local-deployment",
+    "count": 1
+  },
+  {
+    "tag": "markup-language",
+    "count": 1
+  },
+  {
+    "tag": "mcp-security",
+    "count": 1
+  },
+  {
+    "tag": "motion-graphics",
+    "count": 1
+  },
+  {
+    "tag": "multi-llm",
+    "count": 1
+  },
+  {
+    "tag": "narration",
+    "count": 1
+  },
+  {
+    "tag": "nsfw",
+    "count": 1
+  },
+  {
+    "tag": "nvidia",
+    "count": 1
+  },
+  {
+    "tag": "paid-api",
+    "count": 1
+  },
+  {
+    "tag": "pipelines",
     "count": 1
   },
   {
@@ -88,7 +268,31 @@
     "count": 1
   },
   {
+    "tag": "pr-review",
+    "count": 1
+  },
+  {
+    "tag": "product-management",
+    "count": 1
+  },
+  {
+    "tag": "programmatic-video",
+    "count": 1
+  },
+  {
+    "tag": "promo-video",
+    "count": 1
+  },
+  {
+    "tag": "prompt-injection",
+    "count": 1
+  },
+  {
     "tag": "python",
+    "count": 1
+  },
+  {
+    "tag": "rag",
     "count": 1
   },
   {
@@ -100,7 +304,43 @@
     "count": 1
   },
   {
+    "tag": "remotion",
+    "count": 1
+  },
+  {
+    "tag": "robotics",
+    "count": 1
+  },
+  {
     "tag": "routing-rules",
+    "count": 1
+  },
+  {
+    "tag": "science",
+    "count": 1
+  },
+  {
+    "tag": "scriptwriting",
+    "count": 1
+  },
+  {
+    "tag": "security",
+    "count": 1
+  },
+  {
+    "tag": "security-scanner",
+    "count": 1
+  },
+  {
+    "tag": "short-form-video",
+    "count": 1
+  },
+  {
+    "tag": "short-video",
+    "count": 1
+  },
+  {
+    "tag": "shot-recipes",
     "count": 1
   },
   {
@@ -108,7 +348,7 @@
     "count": 1
   },
   {
-    "tag": "skill-md",
+    "tag": "skill-discovery",
     "count": 1
   },
   {
@@ -120,7 +360,15 @@
     "count": 1
   },
   {
+    "tag": "strategy",
+    "count": 1
+  },
+  {
     "tag": "structured-extraction",
+    "count": 1
+  },
+  {
+    "tag": "supply-chain",
     "count": 1
   },
   {
@@ -140,11 +388,15 @@
     "count": 1
   },
   {
-    "tag": "ui",
+    "tag": "typography",
     "count": 1
   },
   {
-    "tag": "ux",
+    "tag": "video-cloning",
+    "count": 1
+  },
+  {
+    "tag": "video-production",
     "count": 1
   },
   {
@@ -152,11 +404,23 @@
     "count": 1
   },
   {
+    "tag": "visual-linting",
+    "count": 1
+  },
+  {
     "tag": "web-research",
     "count": 1
   },
   {
+    "tag": "workflows",
+    "count": 1
+  },
+  {
     "tag": "yagni",
+    "count": 1
+  },
+  {
+    "tag": "yara",
     "count": 1
   },
   {

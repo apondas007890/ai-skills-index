@@ -1,10 +1,14 @@
 [
   {
     "source_type": "github",
-    "count": 7
+    "count": 20
   },
   {
     "source_type": "docs",
+    "count": 1
+  },
+  {
+    "source_type": "directory",
     "count": 1
   }
 ]

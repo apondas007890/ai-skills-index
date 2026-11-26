@@ -1,7 +1,7 @@
 ---
 id: anti-slop-ui
 name: AntiSlopUI
-source: https://github.com/Vanszs/AntiSlopUI
+source: 'https://github.com/Vanszs/AntiSlopUI'
 author: Vanszs
 primary_category: design
 categories:
@@ -23,15 +23,16 @@ compatible_agents:
 status: excellent
 quality: 9
 security: unverified
-added: 2026-11-27
-last_reviewed: 2026-11-27
+added: 2026-11-27T00:00:00.000Z
+last_reviewed: 2026-11-27T00:00:00.000Z
 source_type: github
-license: unknown
-install_command: ""
+license: MIT
+install_command: ''
 tested: false
 featured: true
+stars: 43
+last_pushed: '2026-11-15'
 ---
-
 # AntiSlopUI
 
 ## Description

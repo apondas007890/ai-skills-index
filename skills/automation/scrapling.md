@@ -26,6 +26,8 @@ added: 2026-11-27
 last_reviewed: 2026-11-27
 source_type: docs
 license: BSD-3-Clause
+stars: 105988
+last_pushed: 2026-11-26
 install_command: ""
 tested: false
 featured: true

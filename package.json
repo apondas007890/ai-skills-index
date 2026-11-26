@@ -7,6 +7,7 @@
   "scripts": {
     "validate": "node scripts/validate-skills.mjs",
     "build:index": "node scripts/build-index.mjs",
+    "sync:stars": "node scripts/sync-github-stats.mjs",
     "dev": "npm run build:index && npm --prefix website run dev",
     "build": "npm run validate && npm run build:index && npm --prefix website run build",
     "preview": "npm --prefix website run preview"

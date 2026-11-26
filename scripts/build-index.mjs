@@ -28,6 +28,8 @@ const baseSkills = parsedSkills.map(({ relPath, frontmatter: fm, sections }) => 
   last_reviewed: fm.last_reviewed,
   source_type: fm.source_type,
   license: fm.license || 'unknown',
+  stars: typeof fm.stars === 'number' ? fm.stars : null,
+  last_pushed: fm.last_pushed ? String(fm.last_pushed).slice(0, 10) : '',
   install_command: fm.install_command || '',
   tested: Boolean(fm.tested),
   featured: Boolean(fm.featured),

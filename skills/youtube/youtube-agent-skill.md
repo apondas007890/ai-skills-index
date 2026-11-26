@@ -25,7 +25,9 @@ security: unverified
 added: 2026-11-27
 last_reviewed: 2026-11-27
 source_type: github
-license: unknown
+license: MIT
+stars: 7625
+last_pushed: 2026-09-16
 install_command: ""
 tested: false
 featured: false
