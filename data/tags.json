@@ -1,0 +1,106 @@
+[
+  {
+    "tag": "mcp",
+    "count": 2
+  },
+  {
+    "tag": "web-scraping",
+    "count": 2
+  },
+  {
+    "tag": "accessibility",
+    "count": 1
+  },
+  {
+    "tag": "anti-bloat",
+    "count": 1
+  },
+  {
+    "tag": "anti-generic-ui",
+    "count": 1
+  },
+  {
+    "tag": "cli",
+    "count": 1
+  },
+  {
+    "tag": "code-review",
+    "count": 1
+  },
+  {
+    "tag": "data-collection",
+    "count": 1
+  },
+  {
+    "tag": "decision-ladder",
+    "count": 1
+  },
+  {
+    "tag": "design-systems",
+    "count": 1
+  },
+  {
+    "tag": "documentation-extraction",
+    "count": 1
+  },
+  {
+    "tag": "frontend",
+    "count": 1
+  },
+  {
+    "tag": "github-discovery",
+    "count": 1
+  },
+  {
+    "tag": "headless-browser",
+    "count": 1
+  },
+  {
+    "tag": "llm-pipelines",
+    "count": 1
+  },
+  {
+    "tag": "python",
+    "count": 1
+  },
+  {
+    "tag": "refactoring",
+    "count": 1
+  },
+  {
+    "tag": "social-search",
+    "count": 1
+  },
+  {
+    "tag": "stealth-http",
+    "count": 1
+  },
+  {
+    "tag": "structured-extraction",
+    "count": 1
+  },
+  {
+    "tag": "ui",
+    "count": 1
+  },
+  {
+    "tag": "ux",
+    "count": 1
+  },
+  {
+    "tag": "web-research",
+    "count": 1
+  },
+  {
+    "tag": "workflow",
+    "count": 1
+  },
+  {
+    "tag": "yagni",
+    "count": 1
+  },
+  {
+    "tag": "youtube-search",
+    "count": 1
+  }
+]
