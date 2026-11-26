@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - main
+  schedule:
+    - cron: '0 6 * * *'
   workflow_dispatch:
 
 permissions:
@@ -33,6 +35,11 @@ jobs:
 
       - name: Install website dependencies
         run: npm --prefix website install
+
+      - name: Sync live GitHub stars and repo activity
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: npm run sync:stars
 
       - name: Validate skills, security check, and build static site
         env:
