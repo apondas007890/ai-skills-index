@@ -8,7 +8,15 @@
     "count": 2
   },
   {
+    "tag": "workflow",
+    "count": 2
+  },
+  {
     "tag": "accessibility",
+    "count": 1
+  },
+  {
+    "tag": "agent-discipline",
     "count": 1
   },
   {
@@ -20,11 +28,19 @@
     "count": 1
   },
   {
+    "tag": "brainstorming",
+    "count": 1
+  },
+  {
     "tag": "cli",
     "count": 1
   },
   {
     "tag": "code-review",
+    "count": 1
+  },
+  {
+    "tag": "content-creation",
     "count": 1
   },
   {
@@ -48,6 +64,10 @@
     "count": 1
   },
   {
+    "tag": "frontend-design",
+    "count": 1
+  },
+  {
     "tag": "github-discovery",
     "count": 1
   },
@@ -56,7 +76,15 @@
     "count": 1
   },
   {
+    "tag": "hooks",
+    "count": 1
+  },
+  {
     "tag": "llm-pipelines",
+    "count": 1
+  },
+  {
+    "tag": "planning",
     "count": 1
   },
   {
@@ -65,6 +93,22 @@
   },
   {
     "tag": "refactoring",
+    "count": 1
+  },
+  {
+    "tag": "reference-architecture",
+    "count": 1
+  },
+  {
+    "tag": "routing-rules",
+    "count": 1
+  },
+  {
+    "tag": "skill-creator",
+    "count": 1
+  },
+  {
+    "tag": "skill-md",
     "count": 1
   },
   {
@@ -80,6 +124,22 @@
     "count": 1
   },
   {
+    "tag": "systematic-debugging",
+    "count": 1
+  },
+  {
+    "tag": "tdd",
+    "count": 1
+  },
+  {
+    "tag": "thumbnails",
+    "count": 1
+  },
+  {
+    "tag": "titles",
+    "count": 1
+  },
+  {
     "tag": "ui",
     "count": 1
   },
@@ -88,15 +148,19 @@
     "count": 1
   },
   {
+    "tag": "video-scripts",
+    "count": 1
+  },
+  {
     "tag": "web-research",
     "count": 1
   },
   {
-    "tag": "workflow",
+    "tag": "yagni",
     "count": 1
   },
   {
-    "tag": "yagni",
+    "tag": "youtube",
     "count": 1
   },
   {

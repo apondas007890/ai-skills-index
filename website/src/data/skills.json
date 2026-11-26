@@ -1,5 +1,61 @@
 [
   {
+    "id": "anthropic-skills",
+    "name": "Anthropic Official Skills",
+    "source": "https://github.com/anthropics/skills",
+    "author": "anthropics",
+    "primary_category": "agents",
+    "categories": [
+      "agents",
+      "coding",
+      "design"
+    ],
+    "tags": [
+      "skill-md",
+      "skill-creator",
+      "frontend-design",
+      "routing-rules",
+      "reference-architecture"
+    ],
+    "compatible_agents": [
+      "claude-code",
+      "codex",
+      "gemini-cli"
+    ],
+    "status": "excellent",
+    "quality": 9,
+    "security": "verified",
+    "added": "2026-11-27",
+    "last_reviewed": "2026-11-27",
+    "source_type": "github",
+    "license": "Apache-2.0",
+    "install_command": "",
+    "tested": false,
+    "featured": true,
+    "file_path": "skills/agents/anthropic-skills.md",
+    "description": "Official reference repository defining the open `SKILL.md` pattern, including `skill-creator`, `frontend-design`, and reusable templates for building and routing AI agent capabilities.",
+    "what_it_does": "Establishes the standard `SKILL.md` directory convention where frontmatter `description` acts as a routing trigger (\"Use when...\") and Markdown instructions guide agent execution.",
+    "best_for": [
+      "Learning the canonical `SKILL.md` structure and routing-rule best practices",
+      "Creating and iterating on custom agent skills via `skill-creator`",
+      "Bootstrapping new skills from `skills/template/SKILL.md`"
+    ],
+    "verdict": "EXCELLENT — the foundational reference architecture for modern `SKILL.md`-based agent ecosystems.",
+    "limitations": [
+      "Primarily serves as a reference collection and template kit rather than a domain-specific tool.",
+      "Documentation reviewed; not all example skills executed locally."
+    ],
+    "risk": "Maintained by Anthropic under an open-source license; still inspect individual community forks before trusting them.",
+    "installation": "Browse or clone `anthropics/skills` and copy desired `SKILL.md` folders into your agent's skills directory.",
+    "notes": "Essential reference whenever authoring new skills for this library.",
+    "related_skills": [
+      "ponytail",
+      "superpowers",
+      "anti-slop-ui",
+      "scrapling"
+    ]
+  },
+  {
     "id": "scrapegraph-ai",
     "name": "ScrapeGraphAI",
     "source": "https://github.com/scrapegraphai/scrapegraph-ai",
@@ -51,7 +107,8 @@
     "related_skills": [
       "scrapling",
       "agent-reach",
-      "ponytail"
+      "ponytail",
+      "superpowers"
     ]
   },
   {
@@ -108,7 +165,8 @@
     "related_skills": [
       "scrapegraph-ai",
       "agent-reach",
-      "ponytail"
+      "ponytail",
+      "superpowers"
     ]
   },
   {
@@ -165,10 +223,67 @@
     "installation": "See the original GitHub repository (`dietrichgebert/ponytail`) for `SKILL.md` / `AGENTS.md` placement instructions.",
     "notes": "Core principle (\"lazy about the solution, never lazy about reading\") is directly applied in this repository's own scripts and UI architecture.",
     "related_skills": [
+      "superpowers",
+      "anthropic-skills",
       "scrapling",
-      "anti-slop-ui",
-      "scrapegraph-ai",
-      "agent-reach"
+      "anti-slop-ui"
+    ]
+  },
+  {
+    "id": "superpowers",
+    "name": "Superpowers",
+    "source": "https://github.com/obra/superpowers",
+    "author": "obra",
+    "primary_category": "coding",
+    "categories": [
+      "coding",
+      "agents"
+    ],
+    "tags": [
+      "tdd",
+      "systematic-debugging",
+      "brainstorming",
+      "planning",
+      "workflow",
+      "agent-discipline"
+    ],
+    "compatible_agents": [
+      "claude-code",
+      "codex",
+      "cursor",
+      "gemini-cli"
+    ],
+    "status": "excellent",
+    "quality": 9,
+    "security": "unverified",
+    "added": "2026-11-27",
+    "last_reviewed": "2026-11-27",
+    "source_type": "github",
+    "license": "MIT",
+    "install_command": "",
+    "tested": false,
+    "featured": true,
+    "file_path": "skills/coding/superpowers.md",
+    "description": "An agentic software engineering framework that enforces `TDD`, `systematic-debugging`, `brainstorming`, and `writing-plans` through composable `SKILL.md` modules so coding agents work like disciplined engineers.",
+    "what_it_does": "Bootstraps agents with a `using-superpowers` routing discipline that requires checking and following structured `SKILL.md` workflows before writing code or answering implementation questions.",
+    "best_for": [
+      "Enforcing test-driven development and root-cause debugging",
+      "Breaking complex features into explicit `writing-plans` and `executing-plans` steps",
+      "Authoring new skills with `writing-skills` TDD checks"
+    ],
+    "verdict": "EXCELLENT — one of the most structured, battle-tested agent workflow skill suites for serious software engineering.",
+    "limitations": [
+      "Adds workflow overhead for trivial one-line edits unless scoped appropriately.",
+      "Public repository documentation reviewed; not personally executed as a standalone plugin."
+    ],
+    "risk": "Pure Markdown skill instructions and workflow rules; review bootstrap hooks before enabling globally.",
+    "installation": "See the `obra/superpowers` GitHub repository for plugin/skill installation instructions.",
+    "notes": "Pair with `ponytail` to combine disciplined TDD/debugging workflows with minimal-code restraint.",
+    "related_skills": [
+      "ponytail",
+      "anthropic-skills",
+      "scrapling",
+      "scrapegraph-ai"
     ]
   },
   {
@@ -224,7 +339,9 @@
     "installation": "See the `Vanszs/AntiSlopUI` GitHub repository for skill installation and `references/` setup.",
     "notes": "Used as the primary design philosophy for SkillAtlas: restrained palette, crisp borders, information-dense cards, and zero generic marketing fluff.",
     "related_skills": [
-      "ponytail"
+      "anthropic-skills",
+      "ponytail",
+      "superpowers"
     ]
   },
   {
@@ -281,7 +398,65 @@
     "related_skills": [
       "scrapling",
       "scrapegraph-ai",
-      "ponytail"
+      "ponytail",
+      "superpowers"
+    ]
+  },
+  {
+    "id": "youtube-agent-skill",
+    "name": "YouTube Agent Skill",
+    "source": "https://github.com/Jakeschincariol/youtube-agent-skill",
+    "author": "Jakeschincariol",
+    "primary_category": "youtube",
+    "categories": [
+      "youtube",
+      "agents",
+      "business"
+    ],
+    "tags": [
+      "youtube",
+      "thumbnails",
+      "titles",
+      "video-scripts",
+      "hooks",
+      "content-creation"
+    ],
+    "compatible_agents": [
+      "claude-code",
+      "codex",
+      "cursor"
+    ],
+    "status": "promising",
+    "quality": 7,
+    "security": "unverified",
+    "added": "2026-11-27",
+    "last_reviewed": "2026-11-27",
+    "source_type": "github",
+    "license": "unknown",
+    "install_command": "",
+    "tested": false,
+    "featured": false,
+    "file_path": "skills/youtube/youtube-agent-skill.md",
+    "description": "A collection of `SKILL.md` modules (`yt-script` and `yt-package`) built to assist YouTube workflows with hook formulas, `title/thumbnail` pairing lints, and structured video script generation.",
+    "what_it_does": "Guides AI agents through packaging a YouTube video (evaluating title and thumbnail alignment) and drafting retention-focused scripts with proven hook patterns.",
+    "best_for": [
+      "Structuring YouTube video hooks and retention scripts",
+      "Checking `title` and `thumbnail` concept alignment before filming",
+      "Building repeatable YouTube content pipelines with AI agents"
+    ],
+    "verdict": "PROMISING — focused, practical YouTube packaging and scripting skill; needs real-world testing on actual channel workflows to confirm output quality.",
+    "limitations": [
+      "Public repository summary reviewed; individual prompt templates not yet tested on a live video project.",
+      "License not verified in local inspection."
+    ],
+    "risk": "Instruction-based skill files; review `yt-script` and `yt-package` prompts before use.",
+    "installation": "Inspect `Jakeschincariol/youtube-agent-skill` on GitHub and copy `skills/yt-script` or `skills/yt-package` into your agent skills folder.",
+    "notes": "First dedicated YouTube skill in the library — test alongside a research skill for end-to-end video planning.",
+    "related_skills": [
+      "scrapegraph-ai",
+      "scrapling",
+      "ponytail",
+      "superpowers"
     ]
   }
 ]
