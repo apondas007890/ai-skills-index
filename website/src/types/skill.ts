@@ -36,6 +36,8 @@ export interface Skill {
   last_reviewed: string;
   source_type: SourceType;
   license: string;
+  stars: number | null;
+  last_pushed: string;
   install_command: string;
   tested: boolean;
   featured: boolean;
