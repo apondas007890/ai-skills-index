@@ -346,21 +346,21 @@ export function ExplorePage() {
         </div>
       </div>
 
-      <div className="grid gap-8 lg:grid-cols-[260px_1fr]">
+      <div className="grid min-w-0 gap-8 lg:grid-cols-[260px_1fr]">
         {/* Desktop Sidebar */}
-        <aside className="hidden lg:block">{FilterPanel}</aside>
+        <aside className="hidden min-w-0 lg:block">{FilterPanel}</aside>
 
         {/* Main Content */}
-        <div className="space-y-4">
+        <div className="min-w-0 space-y-4">
           <div className="relative">
-            <Search className="pointer-events-none absolute left-3.5 top-1/2 h-4 w-4 -translate-y-1/2 text-slate-400" />
+            <Search className="pointer-events-none absolute left-3.5 top-1/2 h-4 w-4 -translate-y-1/2 text-zinc-400" />
             <input
               type="search"
               value={query}
               onChange={(e) => setQuery(e.target.value)}
               placeholder="Filter by name, description, tag, keyword, or notes..."
               aria-label="Filter skills"
-              className="w-full rounded-xl border border-slate-200 bg-white py-2.5 pl-10 pr-4 text-sm text-slate-900 placeholder:text-slate-400 focus:border-teal-500 focus:outline-none focus:ring-2 focus:ring-teal-500/20 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-100"
+              className="w-full rounded-md border border-zinc-300 bg-white py-2.5 pl-10 pr-4 text-sm text-zinc-900 placeholder:text-zinc-400 focus:border-teal-600 focus:outline-none focus:ring-2 focus:ring-teal-500/20 dark:border-zinc-700 dark:bg-zinc-900 dark:text-zinc-100"
             />
           </div>
 
@@ -368,12 +368,17 @@ export function ExplorePage() {
             <div
               className={
                 view === 'grid'
-                  ? 'grid gap-4 sm:grid-cols-2 xl:grid-cols-3'
-                  : 'flex flex-col gap-3'
+                  ? 'grid min-w-0 gap-4 sm:grid-cols-2 xl:grid-cols-3'
+                  : 'flex min-w-0 flex-col gap-3'
               }
             >
               {results.map((skill) => (
-                <SkillCard key={skill.id} skill={skill} view={view} />
+                <SkillCard
+                  key={skill.id}
+                  skill={skill}
+                  view={view}
+                  highlightQuery={query}
+                />
               ))}
             </div>
           ) : (
