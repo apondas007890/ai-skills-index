@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { ArrowUpRight, GitBranch, Star, Zap } from 'lucide-react';
+import { ArrowUpRight, Star, Zap } from 'lucide-react';
 import type { Skill } from '../types/skill';
 import { STATUS_META } from '../lib/constants';
 import { getCategoryById } from '../lib/data';
@@ -28,54 +28,44 @@ export function SkillCard({
   if (view === 'list') {
     return (
       <article
-        className={`group min-w-0 flex flex-col gap-3 rounded-lg border border-zinc-200 border-l-4 ${statusMeta.borderAccentClass} bg-white p-4 transition-colors hover:border-teal-500/60 dark:border-zinc-800 dark:bg-[#111114] dark:hover:border-teal-400/50 sm:flex-row sm:items-center sm:justify-between`}
+        className={`group min-w-0 flex flex-col gap-3 rounded-2xl border border-slate-200/90 border-l-4 ${statusMeta.borderAccentClass} bg-white p-4 shadow-xs transition-all hover:border-teal-500/50 hover:shadow-md dark:border-slate-800 dark:bg-slate-900/75 dark:hover:border-teal-400/40 sm:flex-row sm:items-center sm:justify-between`}
       >
         <div className="min-w-0 flex-1 space-y-1.5">
           <div className="flex flex-wrap items-center gap-2">
             <Link
               to={`/skill/${skill.id}`}
-              className="font-display text-base font-semibold text-zinc-900 transition-colors group-hover:text-teal-600 dark:text-zinc-100 dark:group-hover:text-teal-400"
+              className="text-base font-bold text-slate-900 transition-colors group-hover:text-teal-600 dark:text-white dark:group-hover:text-teal-400"
             >
               <RichText text={skill.name} highlightQuery={highlightQuery} />
             </Link>
             <StatusBadge status={skill.status} size="xs" />
-            <span className="inline-flex items-center gap-1 rounded bg-zinc-100 px-1.5 py-0.5 font-mono text-xs font-medium text-zinc-700 dark:bg-zinc-800 dark:text-zinc-300">
-              <Star className="h-3 w-3 text-amber-500" />
+            {skill.stars !== null && (
+              <span
+                title={`${skill.stars.toLocaleString()} GitHub stars`}
+                className="inline-flex items-center gap-1 rounded-full border border-amber-500/25 bg-amber-500/10 px-2 py-0.5 font-mono text-[11px] font-semibold text-amber-700 dark:text-amber-300"
+              >
+                <Star className="h-3 w-3 fill-amber-500 text-amber-500" />
+                {formatStars(skill.stars)}
+              </span>
+            )}
+            <span className="rounded-md bg-slate-100 px-1.5 py-0.5 font-mono text-xs font-semibold text-slate-700 dark:bg-slate-800 dark:text-slate-300">
               {skill.quality}/10
             </span>
           </div>
-          <p className="text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">
+
+          <p className="text-sm leading-relaxed text-slate-600 dark:text-slate-300">
             <RichText text={skill.description} highlightQuery={highlightQuery} />
           </p>
+
           {skill.best_for.length > 0 && (
-            <p className="flex items-start gap-1.5 text-xs text-zinc-700 dark:text-zinc-300">
-              <Zap className="mt-0.5 h-3.5 w-3.5 shrink-0 text-amber-500" />
-              <span className="font-medium text-amber-700 dark:text-amber-300">Use for:</span>
+            <p className="flex items-start gap-1.5 text-xs text-slate-700 dark:text-slate-300">
+              <Zap className="mt-0.5 h-3.5 w-3.5 shrink-0 text-teal-500" />
+              <span className="font-semibold text-teal-700 dark:text-teal-300">Best for:</span>
               <span className="truncate">
                 <RichText text={skill.best_for[0]} highlightQuery={highlightQuery} />
               </span>
             </p>
           )}
-          <div className="flex flex-wrap items-center gap-2 pt-0.5 text-xs text-zinc-500 dark:text-zinc-400">
-            {primaryCat && (
-              <span className="inline-flex items-center gap-1 font-medium text-zinc-700 dark:text-zinc-300">
-                <CategoryIcon name={primaryCat.icon} className="h-3.5 w-3.5 text-teal-600 dark:text-teal-400" />
-                {primaryCat.name}
-              </span>
-            )}
-            <span aria-hidden="true">·</span>
-            <span className="font-mono">@{skill.author}</span>
-            <div className="flex flex-wrap gap-1">
-              {skill.tags.slice(0, 3).map((tag) => (
-                <span
-                  key={tag}
-                  className="rounded bg-zinc-100 px-1.5 py-0.5 font-mono text-[11px] text-zinc-600 dark:bg-zinc-800 dark:text-zinc-400"
-                >
-                  #<RichText text={tag} highlightQuery={highlightQuery} />
-                </span>
-              ))}
-            </div>
-          </div>
         </div>
 
         <div className="flex shrink-0 items-center gap-2 self-end sm:self-center">
@@ -83,14 +73,14 @@ export function SkillCard({
             href={skill.source}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-1 rounded-md border border-zinc-200 px-2.5 py-1.5 text-xs font-medium text-zinc-700 transition-colors hover:bg-zinc-100 dark:border-zinc-700 dark:text-zinc-300 dark:hover:bg-zinc-800"
+            className="inline-flex items-center gap-1 rounded-xl border border-slate-200 px-3 py-1.5 text-xs font-semibold text-slate-700 transition-colors hover:bg-slate-100 dark:border-slate-700 dark:text-slate-300 dark:hover:bg-slate-800"
           >
             Source
             <ArrowUpRight className="h-3.5 w-3.5" />
           </a>
           <Link
             to={`/skill/${skill.id}`}
-            className="inline-flex items-center rounded-md bg-zinc-900 px-3 py-1.5 text-xs font-semibold text-white transition-colors hover:bg-teal-600 dark:bg-zinc-100 dark:text-zinc-950 dark:hover:bg-teal-400"
+            className="inline-flex items-center rounded-xl bg-teal-600 px-3.5 py-1.5 text-xs font-semibold text-white transition-colors hover:bg-teal-700 dark:bg-teal-500 dark:text-slate-950 dark:hover:bg-teal-400"
           >
             Inspect
           </Link>
@@ -101,104 +91,112 @@ export function SkillCard({
 
   return (
     <article
-      className={`group min-w-0 flex h-full flex-col justify-between rounded-lg border border-zinc-200 border-l-4 ${statusMeta.borderAccentClass} bg-white p-4 transition-all hover:border-teal-500/60 dark:border-zinc-800 dark:bg-[#111114] dark:hover:border-teal-400/50`}
+      className={`group min-w-0 flex h-full flex-col justify-between rounded-2xl border border-slate-200/90 border-l-4 ${statusMeta.borderAccentClass} bg-white p-5 shadow-xs transition-all duration-200 hover:-translate-y-0.5 hover:border-teal-500/50 hover:shadow-lg hover:shadow-teal-500/5 dark:border-slate-800 dark:bg-slate-900/75 dark:hover:border-teal-400/40`}
     >
       <div className="min-w-0">
         <div className="flex items-start justify-between gap-2">
           <div className="min-w-0">
             <Link
               to={`/skill/${skill.id}`}
-              className="font-display block truncate text-base font-semibold tracking-tight text-zinc-900 transition-colors group-hover:text-teal-600 dark:text-zinc-100 dark:group-hover:text-teal-400"
+              className="block truncate text-base font-bold tracking-tight text-slate-900 transition-colors group-hover:text-teal-600 dark:text-white dark:group-hover:text-teal-400"
             >
               <RichText text={skill.name} highlightQuery={highlightQuery} />
             </Link>
-            <p className="mt-0.5 font-mono text-[11px] text-zinc-500 dark:text-zinc-400">
+            <p className="mt-0.5 font-mono text-[11px] text-slate-500 dark:text-slate-400">
               @{skill.author}
             </p>
           </div>
+
           <div className="flex shrink-0 items-center gap-1.5">
             {skill.stars !== null && (
               <span
                 title={`${skill.stars.toLocaleString()} GitHub stars`}
-                className="inline-flex items-center gap-1 rounded border border-zinc-200 bg-zinc-50 px-1.5 py-0.5 font-mono text-[11px] font-medium text-zinc-700 dark:border-zinc-700 dark:bg-zinc-800/90 dark:text-zinc-300"
+                className="inline-flex items-center gap-1 rounded-full border border-amber-500/25 bg-amber-500/10 px-2 py-0.5 font-mono text-[11px] font-semibold text-amber-700 dark:text-amber-300"
               >
-                <GitBranch className="h-3 w-3 text-teal-600 dark:text-teal-400" />
+                <Star className="h-3 w-3 fill-amber-500 text-amber-500" />
                 {formatStars(skill.stars)}
               </span>
             )}
             <span
               title="Evaluation quality score"
-              className="inline-flex items-center gap-1 rounded border border-zinc-200 bg-zinc-50 px-1.5 py-0.5 font-mono text-xs font-semibold text-zinc-800 dark:border-zinc-700 dark:bg-zinc-800/90 dark:text-zinc-200"
+              className="rounded-md border border-slate-200 bg-slate-50 px-1.5 py-0.5 font-mono text-xs font-bold text-slate-800 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-200"
             >
-              <Star className="h-3 w-3 text-amber-500" />
-              {skill.quality}
+              {skill.quality}/10
             </span>
           </div>
         </div>
 
-        <div className="mt-2.5 flex flex-wrap items-center gap-1.5">
+        <div className="mt-3 flex flex-wrap items-center gap-1.5">
           <StatusBadge status={skill.status} size="xs" />
           {primaryCat && (
             <Link
               to={`/category/${primaryCat.id}`}
-              className="inline-flex items-center gap-1 rounded border border-zinc-200 bg-zinc-50 px-2 py-0.5 text-[11px] font-medium text-zinc-700 transition-colors hover:border-teal-500/40 hover:text-teal-700 dark:border-zinc-700 dark:bg-zinc-800/80 dark:text-zinc-300 dark:hover:text-teal-300"
+              className="inline-flex items-center gap-1 rounded-full border border-slate-200 bg-slate-50 px-2.5 py-0.5 text-[11px] font-medium text-slate-700 transition-colors hover:border-teal-500/40 hover:text-teal-700 dark:border-slate-700 dark:bg-slate-800/80 dark:text-slate-300 dark:hover:text-teal-300"
             >
-              <CategoryIcon name={primaryCat.icon} className="h-3 w-3" />
+              <CategoryIcon name={primaryCat.icon} className="h-3 w-3 text-teal-600 dark:text-teal-400" />
               {primaryCat.name}
             </Link>
           )}
         </div>
 
-        <p className="mt-3 text-[13px] leading-relaxed text-zinc-700 dark:text-zinc-300">
+        <p className="mt-3 text-[13px] leading-relaxed text-slate-600 dark:text-slate-300">
           <RichText text={skill.description} highlightQuery={highlightQuery} />
         </p>
 
         {skill.best_for.length > 0 && (
-          <div className="mt-3 rounded-md border border-amber-500/20 bg-amber-50/70 px-2.5 py-1.5 text-xs dark:border-amber-400/15 dark:bg-amber-950/20">
-            <span className="font-semibold text-amber-800 dark:text-amber-300">
+          <div className="mt-3 rounded-xl border border-teal-500/20 bg-teal-500/5 px-3 py-2 text-xs dark:border-teal-400/15 dark:bg-teal-400/5">
+            <span className="font-semibold text-teal-700 dark:text-teal-300">
               Best for:{' '}
             </span>
-            <span className="text-zinc-700 dark:text-zinc-300">
+            <span className="text-slate-700 dark:text-slate-300">
               <RichText text={skill.best_for[0]} highlightQuery={highlightQuery} />
             </span>
           </div>
         )}
       </div>
 
-      <div className="mt-4 border-t border-zinc-100 pt-3 dark:border-zinc-800/80">
+      <div className="mt-4 border-t border-slate-100 pt-3 dark:border-slate-800/80">
         <div className="flex flex-wrap gap-1.5">
           {skill.tags.slice(0, 3).map((tag) => (
             <Link
               key={tag}
               to={`/explore?tag=${encodeURIComponent(tag)}`}
-              className="rounded bg-zinc-100 px-1.5 py-0.5 font-mono text-[11px] text-zinc-600 transition-colors hover:bg-teal-50 hover:text-teal-700 dark:bg-zinc-800 dark:text-zinc-400 dark:hover:bg-teal-950/60 dark:hover:text-teal-300"
+              className="rounded-md bg-slate-100 px-2 py-0.5 font-mono text-[11px] text-slate-600 transition-colors hover:bg-teal-500/10 hover:text-teal-700 dark:bg-slate-800 dark:text-slate-400 dark:hover:text-teal-300"
             >
               #<RichText text={tag} highlightQuery={highlightQuery} />
             </Link>
           ))}
           {skill.tags.length > 3 && (
-            <span className="px-1 py-0.5 font-mono text-[11px] text-zinc-400">
+            <span className="px-1 py-0.5 font-mono text-[11px] text-slate-400">
               +{skill.tags.length - 3}
             </span>
           )}
         </div>
 
-        <div className="mt-2.5 flex items-center justify-between text-xs text-zinc-500 dark:text-zinc-400">
-          <span className="truncate font-mono text-[11px]">
+        <div className="mt-3 flex items-center justify-between gap-2 text-xs">
+          <span className="truncate font-mono text-[11px] text-slate-500 dark:text-slate-400">
             {skill.compatible_agents.slice(0, 2).join(', ')}
             {skill.compatible_agents.length > 2
               ? ` +${skill.compatible_agents.length - 2}`
               : ''}
           </span>
-          <a
-            href={skill.source}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex shrink-0 items-center gap-1 font-medium text-teal-700 hover:underline dark:text-teal-400"
-          >
-            Source
-            <ArrowUpRight className="h-3 w-3" />
-          </a>
+          <div className="flex shrink-0 items-center gap-2">
+            <a
+              href={skill.source}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-0.5 font-medium text-slate-600 hover:text-teal-600 dark:text-slate-400 dark:hover:text-teal-400"
+            >
+              GitHub
+              <ArrowUpRight className="h-3 w-3" />
+            </a>
+            <Link
+              to={`/skill/${skill.id}`}
+              className="font-semibold text-teal-600 hover:underline dark:text-teal-400"
+            >
+              Details →
+            </Link>
+          </div>
         </div>
       </div>
     </article>
