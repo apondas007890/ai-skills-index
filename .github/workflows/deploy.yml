@@ -34,10 +34,10 @@ jobs:
       - name: Install website dependencies
         run: npm --prefix website install
 
-      - name: Validate skills and build static site
+      - name: Validate skills, security check, and build static site
         env:
           VITE_BASE_PATH: /${{ github.event.repository.name }}/
-        run: npm run build
+        run: npm run security && npm run build
 
       - name: Upload GitHub Pages artifact
         uses: actions/upload-pages-artifact@v3

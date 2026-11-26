@@ -7,11 +7,18 @@ This repository is a personal, curated AI Skills Library backed by human-readabl
 1. Copy `templates/skill-template.md` into `skills/<primary_category>/<skill-id>.md`.
 2. Fill in the YAML frontmatter and Markdown sections using factual, inspected evidence.
 3. Never claim a skill was personally tested unless you actually ran it (`tested: true`).
-4. Run validation and index generation:
+4. Run validation, security check, and index generation:
    ```bash
    npm run validate
+   npm run security
    npm run build:index
    ```
+
+## Pre-Install Security Policy
+
+- Always run `npm run security` after adding or updating npm packages.
+- Before executing third-party `SKILL.md` repositories or MCP servers locally, scan them with [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) or manually inspect their instructions, scripts, and network/file permissions.
+- Keep `tested: false` and `security: unverified` unless you have personally verified the skill.
 
 ## Valid Classifications (`status`)
 

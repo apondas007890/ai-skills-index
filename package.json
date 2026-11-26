@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "validate": "node scripts/validate-skills.mjs",
+    "security": "node scripts/security-check.mjs",
     "build:index": "node scripts/build-index.mjs",
     "sync:stars": "node scripts/sync-github-stats.mjs",
     "dev": "npm run build:index && npm --prefix website run dev",
