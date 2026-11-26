@@ -72,7 +72,7 @@ export function HomePage() {
   return (
     <div className="min-w-0 space-y-8">
       {/* Spotlight Command Header */}
-      <section className="rounded-2xl border border-slate-200/90 bg-white/90 p-5 shadow-sm backdrop-blur-sm sm:p-7 dark:border-slate-800 dark:bg-slate-900/70">
+      <section className="animate-fade-up rounded-2xl border border-slate-200/90 bg-white/90 p-5 shadow-sm backdrop-blur-sm sm:p-7 dark:border-slate-800 dark:bg-slate-900/70">
         <div className="flex flex-col gap-5 lg:flex-row lg:items-center lg:justify-between">
           <div className="max-w-2xl space-y-2">
             <div className="inline-flex items-center gap-1.5 rounded-full border border-teal-500/25 bg-teal-500/10 px-3 py-0.5 text-xs font-semibold text-teal-700 dark:text-teal-300">

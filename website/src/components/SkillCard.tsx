@@ -91,7 +91,7 @@ export function SkillCard({
 
   return (
     <article
-      className={`group min-w-0 flex h-full flex-col justify-between rounded-2xl border border-slate-200/90 border-l-4 ${statusMeta.borderAccentClass} bg-white p-5 shadow-xs transition-all duration-200 hover:-translate-y-0.5 hover:border-teal-500/50 hover:shadow-lg hover:shadow-teal-500/5 dark:border-slate-800 dark:bg-slate-900/75 dark:hover:border-teal-400/40`}
+      className={`animate-fade-up group min-w-0 flex h-full flex-col justify-between rounded-2xl border border-slate-200/90 border-l-4 ${statusMeta.borderAccentClass} bg-white p-5 shadow-xs transition-all duration-200 hover:-translate-y-1 hover:border-teal-500/50 hover:shadow-lg hover:shadow-teal-500/10 dark:border-slate-800 dark:bg-slate-900/75 dark:hover:border-teal-400/40`}
     >
       <div className="min-w-0">
         <div className="flex items-start justify-between gap-2">
