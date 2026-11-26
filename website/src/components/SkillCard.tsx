@@ -1,11 +1,17 @@
 import { Link } from 'react-router-dom';
-import { ArrowUpRight, Star, Zap } from 'lucide-react';
+import { ArrowUpRight, GitBranch, Star, Zap } from 'lucide-react';
 import type { Skill } from '../types/skill';
 import { STATUS_META } from '../lib/constants';
 import { getCategoryById } from '../lib/data';
 import { StatusBadge } from './StatusBadge';
 import { CategoryIcon } from './CategoryIcon';
 import { RichText } from './RichText';
+
+export function formatStars(stars: number | null): string {
+  if (stars === null || stars === undefined) return '';
+  if (stars >= 1000) return `${(stars / 1000).toFixed(stars >= 10000 ? 0 : 1)}k`;
+  return String(stars);
+}
 
 export function SkillCard({
   skill,
@@ -110,13 +116,24 @@ export function SkillCard({
               @{skill.author}
             </p>
           </div>
-          <span
-            title="Quality score"
-            className="inline-flex shrink-0 items-center gap-1 rounded border border-zinc-200 bg-zinc-50 px-1.5 py-0.5 font-mono text-xs font-semibold text-zinc-800 dark:border-zinc-700 dark:bg-zinc-800/90 dark:text-zinc-200"
-          >
-            <Star className="h-3 w-3 text-amber-500" />
-            {skill.quality}
-          </span>
+          <div className="flex shrink-0 items-center gap-1.5">
+            {skill.stars !== null && (
+              <span
+                title={`${skill.stars.toLocaleString()} GitHub stars`}
+                className="inline-flex items-center gap-1 rounded border border-zinc-200 bg-zinc-50 px-1.5 py-0.5 font-mono text-[11px] font-medium text-zinc-700 dark:border-zinc-700 dark:bg-zinc-800/90 dark:text-zinc-300"
+              >
+                <GitBranch className="h-3 w-3 text-teal-600 dark:text-teal-400" />
+                {formatStars(skill.stars)}
+              </span>
+            )}
+            <span
+              title="Evaluation quality score"
+              className="inline-flex items-center gap-1 rounded border border-zinc-200 bg-zinc-50 px-1.5 py-0.5 font-mono text-xs font-semibold text-zinc-800 dark:border-zinc-700 dark:bg-zinc-800/90 dark:text-zinc-200"
+            >
+              <Star className="h-3 w-3 text-amber-500" />
+              {skill.quality}
+            </span>
+          </div>
         </div>
 
         <div className="mt-2.5 flex flex-wrap items-center gap-1.5">

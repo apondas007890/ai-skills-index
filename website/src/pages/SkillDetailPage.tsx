@@ -267,6 +267,22 @@ export function SkillDetailPage() {
                   {skill.author}
                 </dd>
               </div>
+              {skill.stars !== null && (
+                <div className="flex items-center justify-between gap-2">
+                  <dt className="text-slate-500 dark:text-slate-400">GitHub Stars</dt>
+                  <dd className="font-mono font-semibold text-teal-700 dark:text-teal-400">
+                    ★ {skill.stars.toLocaleString()}
+                  </dd>
+                </div>
+              )}
+              {skill.last_pushed && (
+                <div className="flex items-center justify-between gap-2">
+                  <dt className="text-slate-500 dark:text-slate-400">Repo Activity</dt>
+                  <dd className="font-mono text-xs text-slate-800 dark:text-slate-200">
+                    {skill.last_pushed}
+                  </dd>
+                </div>
+              )}
               <div className="flex items-center justify-between gap-2">
                 <dt className="text-slate-500 dark:text-slate-400">Security</dt>
                 <dd>

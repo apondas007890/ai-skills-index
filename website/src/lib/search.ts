@@ -1,6 +1,12 @@
 import type { Skill, SkillStatus, SourceType } from '../types/skill';
 
-export type SortOption = 'quality' | 'added' | 'reviewed' | 'name' | 'relevance';
+export type SortOption =
+  | 'quality'
+  | 'stars'
+  | 'added'
+  | 'reviewed'
+  | 'name'
+  | 'relevance';
 
 export interface SearchFilters {
   query?: string;
@@ -155,7 +161,9 @@ export function filterAndSortSkills(
         if (b.skill.quality !== a.skill.quality) {
           return b.skill.quality - a.skill.quality;
         }
-        return b.skill.last_reviewed.localeCompare(a.skill.last_reviewed);
+        return (b.skill.stars ?? 0) - (a.skill.stars ?? 0);
+      case 'stars':
+        return (b.skill.stars ?? -1) - (a.skill.stars ?? -1);
       case 'added':
         return b.skill.added.localeCompare(a.skill.added);
       case 'reviewed':

@@ -300,6 +300,7 @@ export function ExplorePage() {
             className="rounded-lg border border-slate-200 bg-white px-3 py-2 text-xs font-medium text-slate-700 focus:border-teal-500 focus:outline-none dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200"
           >
             <option value="quality">Sort: Quality Score</option>
+            <option value="stars">Sort: GitHub Stars</option>
             <option value="relevance">Sort: Relevance</option>
             <option value="reviewed">Sort: Last Reviewed</option>
             <option value="added">Sort: Recently Added</option>
