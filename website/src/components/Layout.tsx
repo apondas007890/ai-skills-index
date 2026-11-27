@@ -157,7 +157,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
                   onChange={(e) => setQuickQuery(e.target.value)}
                   placeholder="Jump to skill, agent, or tag..."
                   aria-label="Quick search"
-                  className="w-full rounded-lg border border-zinc-200 bg-zinc-50 py-1.5 pl-9 pr-10 text-[13px] text-zinc-900 placeholder:text-zinc-400 focus:border-blue-600 focus:bg-white focus:outline-none dark:border-zinc-800 dark:bg-zinc-900 dark:text-zinc-100 dark:placeholder:text-zinc-500 dark:focus:border-blue-500"
+                  className="w-full rounded-lg border border-zinc-200 bg-zinc-50 py-1.5 pl-9 pr-10 text-[13px] text-zinc-900 placeholder:text-zinc-400 focus:border-blue-600 focus:bg-white focus:outline-none dark:border-zinc-800 dark:bg-zinc-900 dark:text-zinc-100 dark:placeholder:text-zinc-500 dark:focus:border-blue-500 dark:focus:bg-zinc-950"
                 />
                 <kbd className="pointer-events-none absolute right-2.5 top-1/2 -translate-y-1/2 rounded border border-zinc-200 bg-white px-1.5 py-0.5 font-mono text-[10px] text-zinc-400 dark:border-zinc-700 dark:bg-zinc-800">
                   /

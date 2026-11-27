@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Link, useParams } from 'react-router-dom';
+import { Link, useNavigate, useParams } from 'react-router-dom';
 import {
   AlertTriangle,
   ArrowLeft,
@@ -19,6 +19,7 @@ import { RichText } from '../components/RichText';
 
 export function SkillDetailPage() {
   const { skillId } = useParams<{ skillId: string }>();
+  const navigate = useNavigate();
   const skill = skillId ? getSkillById(skillId) : undefined;
   const [copiedKey, setCopiedKey] = useState<string | null>(null);
 
@@ -57,24 +58,35 @@ export function SkillDetailPage() {
 
   return (
     <div className="animate-fade-up space-y-8">
-      <nav className="flex flex-wrap items-center gap-2 text-xs text-zinc-500 dark:text-zinc-400">
-        <Link to="/" className="transition-colors hover:text-blue-600 dark:hover:text-blue-400">
-          Catalog
-        </Link>
-        <span>/</span>
-        {primaryCat && (
-          <>
-            <Link
-              to={`/category/${primaryCat.id}`}
-              className="transition-colors hover:text-blue-600 dark:hover:text-blue-400"
-            >
-              {primaryCat.name}
-            </Link>
-            <span>/</span>
-          </>
-        )}
-        <span className="font-medium text-zinc-900 dark:text-zinc-200">{skill.name}</span>
-      </nav>
+      <div className="flex flex-wrap items-center justify-between gap-2">
+        <nav className="flex flex-wrap items-center gap-2 text-xs text-zinc-500 dark:text-zinc-400">
+          <Link to="/" className="transition-colors hover:text-blue-600 dark:hover:text-blue-400">
+            Catalog
+          </Link>
+          <span>/</span>
+          {primaryCat && (
+            <>
+              <Link
+                to={`/category/${primaryCat.id}`}
+                className="transition-colors hover:text-blue-600 dark:hover:text-blue-400"
+              >
+                {primaryCat.name}
+              </Link>
+              <span>/</span>
+            </>
+          )}
+          <span className="font-medium text-zinc-900 dark:text-zinc-200">{skill.name}</span>
+        </nav>
+
+        <button
+          type="button"
+          onClick={() => navigate(-1)}
+          className="inline-flex items-center gap-1 rounded-lg border border-zinc-200 bg-white px-2.5 py-1 text-xs font-medium text-zinc-600 transition-colors hover:bg-zinc-100 dark:border-zinc-800 dark:bg-zinc-900 dark:text-zinc-300 dark:hover:bg-zinc-800"
+        >
+          <ArrowLeft className="h-3.5 w-3.5" />
+          Back
+        </button>
+      </div>
 
       <section className="surface-card rounded-2xl p-6 sm:p-7">
         <div className="flex flex-col gap-5 lg:flex-row lg:items-start lg:justify-between">

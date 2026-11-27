@@ -44,6 +44,7 @@ export function scoreSkillMatch(skill: Skill, rawQuery: string): number {
   const tokens = query.split(/\s+/).filter(Boolean);
   const name = skill.name.toLowerCase();
   const id = skill.id.toLowerCase();
+  const source = skill.source.toLowerCase();
   const author = skill.author.toLowerCase();
   const desc = skill.description.toLowerCase();
   const what = skill.what_it_does.toLowerCase();
@@ -62,6 +63,8 @@ export function scoreSkillMatch(skill: Skill, rawQuery: string): number {
     if (name === token || id === token) tokenScore += 60;
     else if (name.startsWith(token) || id.startsWith(token)) tokenScore += 40;
     else if (name.includes(token)) tokenScore += 28;
+
+    if (source.includes(token)) tokenScore += 35;
 
     if (skill.tags.some((t) => t.toLowerCase() === token)) tokenScore += 26;
     else if (tags.includes(token)) tokenScore += 16;

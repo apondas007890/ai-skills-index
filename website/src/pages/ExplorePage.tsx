@@ -64,23 +64,39 @@ export function ExplorePage() {
   const [sort, setSort] = useState<SortOption>(() => (searchParams.get('sort') as SortOption) || 'quality');
   const [view, setView] = useState<'grid' | 'list'>('grid');
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
-  const [visibleCount, setVisibleCount] = useState(36);
+  const [visibleCount, setVisibleCount] = useState(() => {
+    const n = Number(searchParams.get('n'));
+    return Number.isFinite(n) && n >= 36 ? n : 36;
+  });
 
+  // Persist current filters & loaded count into URL so Back navigation restores exact state
   useEffect(() => {
-    const urlQ = searchParams.get('q') || '';
-    const urlTag = searchParams.get('tag');
-    const urlStatus = searchParams.get('status');
-    const urlCat = searchParams.get('category');
-    const urlAgent = searchParams.get('agent');
-    const urlSort = searchParams.get('sort') as SortOption | null;
-    setQuery(urlQ);
-    if (urlTag) setSelectedTags(urlTag.split(',').filter(Boolean));
-    if (urlStatus) setSelectedStatuses(urlStatus.split(',').filter(Boolean) as SkillStatus[]);
-    if (urlCat) setSelectedCategories(urlCat.split(',').filter(Boolean));
-    if (urlAgent) setSelectedAgents(urlAgent.split(',').filter(Boolean));
-    if (urlSort) setSort(urlSort);
-    setVisibleCount(36);
-  }, [searchParams]);
+    const next = new URLSearchParams();
+    if (query.trim()) next.set('q', query.trim());
+    if (selectedCategories.length) next.set('category', selectedCategories.join(','));
+    if (selectedStatuses.length) next.set('status', selectedStatuses.join(','));
+    if (selectedAgents.length) next.set('agent', selectedAgents.join(','));
+    if (selectedTags.length) next.set('tag', selectedTags.join(','));
+    if (sort !== 'quality') next.set('sort', sort);
+    if (visibleCount > 36) next.set('n', String(visibleCount));
+    setSearchParams(next, { replace: true });
+  }, [query, selectedCategories, selectedStatuses, selectedAgents, selectedTags, sort, visibleCount, setSearchParams]);
+
+  // Save & restore scroll position when navigating to/from skill detail pages
+  useEffect(() => {
+    const savedY = sessionStorage.getItem('skillatlas-explore-scroll');
+    if (savedY) {
+      const y = Number(savedY);
+      if (Number.isFinite(y) && y > 0) {
+        requestAnimationFrame(() => window.scrollTo(0, y));
+      }
+    }
+    const onScroll = () => {
+      sessionStorage.setItem('skillatlas-explore-scroll', String(window.scrollY));
+    };
+    window.addEventListener('scroll', onScroll, { passive: true });
+    return () => window.removeEventListener('scroll', onScroll);
+  }, []);
 
   const results = useMemo(
     () =>
