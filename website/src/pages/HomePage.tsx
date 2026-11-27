@@ -25,6 +25,7 @@ export function HomePage() {
   const [activeTab, setActiveTab] = useState<ShelfTab>('all');
   const [quickCat, setQuickCat] = useState<string>('all');
   const [quickAgent, setQuickAgent] = useState<string>('all');
+  const [visibleCount, setVisibleCount] = useState(36);
   const navigate = useNavigate();
 
   const liveMatches = useMemo(() => {
@@ -283,11 +284,24 @@ export function HomePage() {
         </div>
 
         {shelfSkills.length > 0 ? (
-          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 stagger">
-            {shelfSkills.map((skill) => (
-              <SkillCard key={skill.id} skill={skill} />
-            ))}
-          </div>
+          <>
+            <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 stagger">
+              {shelfSkills.slice(0, visibleCount).map((skill) => (
+                <SkillCard key={skill.id} skill={skill} />
+              ))}
+            </div>
+            {shelfSkills.length > visibleCount && (
+              <div className="flex justify-center pt-4">
+                <button
+                  type="button"
+                  onClick={() => setVisibleCount((c) => c + 36)}
+                  className="glass rounded-2xl px-6 py-2.5 text-[13px] font-semibold text-white/80 transition-all hover:border-amber-500/40 hover:text-amber-400"
+                >
+                  Show more ({shelfSkills.length - visibleCount} remaining)
+                </button>
+              </div>
+            )}
+          </>
         ) : (
           <div className="glass rounded-3xl p-10 text-center">
             <p className="text-[14px] font-medium text-white/60">

@@ -38,6 +38,7 @@ export function ExplorePage() {
   const [sort, setSort]   = useState<SortOption>(() => (searchParams.get('sort') as SortOption) || 'quality');
   const [view, setView]   = useState<'grid' | 'list'>('grid');
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
+  const [visibleCount, setVisibleCount] = useState(36);
 
   useEffect(() => {
     const urlQ = searchParams.get('q') || '';
@@ -282,11 +283,24 @@ export function ExplorePage() {
           </div>
 
           {results.length > 0 ? (
-            <div className={view === 'grid' ? 'grid min-w-0 gap-4 sm:grid-cols-2 xl:grid-cols-3 stagger' : 'flex min-w-0 flex-col gap-3'}>
-              {results.map((skill) => (
-                <SkillCard key={skill.id} skill={skill} view={view} highlightQuery={query} />
-              ))}
-            </div>
+            <>
+              <div className={view === 'grid' ? 'grid min-w-0 gap-4 sm:grid-cols-2 xl:grid-cols-3 stagger' : 'flex min-w-0 flex-col gap-3'}>
+                {results.slice(0, visibleCount).map((skill) => (
+                  <SkillCard key={skill.id} skill={skill} view={view} highlightQuery={query} />
+                ))}
+              </div>
+              {results.length > visibleCount && (
+                <div className="flex justify-center pt-4">
+                  <button
+                    type="button"
+                    onClick={() => setVisibleCount((c) => c + 36)}
+                    className="glass rounded-2xl px-6 py-2.5 text-[13px] font-semibold text-white/80 transition-all hover:border-amber-500/40 hover:text-amber-400"
+                  >
+                    Show more ({results.length - visibleCount} remaining)
+                  </button>
+                </div>
+              )}
+            </>
           ) : (
             <div className="glass rounded-3xl p-10 text-center">
               <p className="text-[15px] font-semibold text-white/80">No matching skills found</p>
