@@ -16,6 +16,7 @@ tags:
 compatible_agents:
   - claude-code
   - gemini-cli
+  - roo-code
 status: good
 quality: 7
 security: unverified

@@ -49,6 +49,26 @@ const AGENT_ACCENT: Record<string, { active: string; idle: string; dot: string }
     idle: 'border-zinc-200 bg-white text-zinc-600 hover:border-cyan-300 hover:text-cyan-700 dark:border-zinc-800 dark:bg-zinc-900 dark:text-zinc-400 dark:hover:border-cyan-700 dark:hover:text-cyan-300',
     dot: 'bg-cyan-500',
   },
+  'github-copilot': {
+    active: 'border-sky-500 bg-sky-50 text-sky-700 dark:border-sky-500/70 dark:bg-sky-950/60 dark:text-sky-300',
+    idle: 'border-zinc-200 bg-white text-zinc-600 hover:border-sky-300 hover:text-sky-700 dark:border-zinc-800 dark:bg-zinc-900 dark:text-zinc-400 dark:hover:border-sky-700 dark:hover:text-sky-300',
+    dot: 'bg-sky-500',
+  },
+  antigravity: {
+    active: 'border-indigo-500 bg-indigo-50 text-indigo-700 dark:border-indigo-500/70 dark:bg-indigo-950/60 dark:text-indigo-300',
+    idle: 'border-zinc-200 bg-white text-zinc-600 hover:border-indigo-300 hover:text-indigo-700 dark:border-zinc-800 dark:bg-zinc-900 dark:text-zinc-400 dark:hover:border-indigo-700 dark:hover:text-indigo-300',
+    dot: 'bg-indigo-500',
+  },
+  'roo-code': {
+    active: 'border-fuchsia-500 bg-fuchsia-50 text-fuchsia-700 dark:border-fuchsia-500/70 dark:bg-fuchsia-950/60 dark:text-fuchsia-300',
+    idle: 'border-zinc-200 bg-white text-zinc-600 hover:border-fuchsia-300 hover:text-fuchsia-700 dark:border-zinc-800 dark:bg-zinc-900 dark:text-zinc-400 dark:hover:border-fuchsia-700 dark:hover:text-fuchsia-300',
+    dot: 'bg-fuchsia-500',
+  },
+  aider: {
+    active: 'border-lime-500 bg-lime-50 text-lime-700 dark:border-lime-500/70 dark:bg-lime-950/60 dark:text-lime-300',
+    idle: 'border-zinc-200 bg-white text-zinc-600 hover:border-lime-300 hover:text-lime-700 dark:border-zinc-800 dark:bg-zinc-900 dark:text-zinc-400 dark:hover:border-lime-700 dark:hover:text-lime-300',
+    dot: 'bg-lime-500',
+  },
 };
 
 export function HomePage() {
@@ -56,7 +76,7 @@ export function HomePage() {
   const [activeTab, setActiveTab] = useState<ShelfTab>('all');
   const [quickCat, setQuickCat] = useState<string>('all');
   const [quickAgent, setQuickAgent] = useState<string>('all');
-  const [visibleCount, setVisibleCount] = useState(36);
+  const [visibleCount, setVisibleCount] = useState(12);
   const navigate = useNavigate();
 
   const liveMatches = useMemo(() => {
@@ -359,14 +379,20 @@ export function HomePage() {
               ))}
             </div>
             {shelfSkills.length > visibleCount && (
-              <div className="flex justify-center pt-4">
+              <div className="flex flex-wrap items-center justify-center gap-3 pt-4">
                 <button
                   type="button"
-                  onClick={() => setVisibleCount((c) => c + 36)}
-                  className="surface-card rounded-xl px-6 py-2.5 text-[13px] font-semibold text-zinc-800 hover:border-blue-500 hover:text-blue-600 dark:text-zinc-200 dark:hover:text-blue-400"
+                  onClick={() => setVisibleCount((c) => c + 12)}
+                  className="surface-card rounded-xl px-5 py-2.5 text-[13px] font-semibold text-zinc-800 hover:border-blue-500 hover:text-blue-600 dark:text-zinc-200 dark:hover:text-blue-400"
                 >
-                  Show more ({(shelfSkills.length - visibleCount).toLocaleString()} remaining)
+                  Show 12 more ({(shelfSkills.length - visibleCount).toLocaleString()} remaining)
                 </button>
+                <Link
+                  to="/explore"
+                  className="inline-flex items-center gap-1.5 rounded-xl bg-zinc-900 px-5 py-2.5 text-[13px] font-semibold text-white transition-colors hover:bg-blue-600 dark:bg-zinc-100 dark:text-zinc-900 dark:hover:bg-blue-500 dark:hover:text-white"
+                >
+                  Browse all {skills.length.toLocaleString()} <ArrowRight className="h-3.5 w-3.5" />
+                </Link>
               </div>
             )}
           </>

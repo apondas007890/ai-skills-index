@@ -18,6 +18,7 @@ compatible_agents:
   - codex
   - cursor
   - gemini-cli
+  - roo-code
 status: promising
 quality: 6
 security: unverified

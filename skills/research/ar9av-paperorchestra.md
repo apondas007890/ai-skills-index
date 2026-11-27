@@ -17,6 +17,8 @@ compatible_agents:
   - claude-code
   - cursor
   - cline
+  - antigravity
+  - aider
 status: good
 quality: 7
 security: unverified

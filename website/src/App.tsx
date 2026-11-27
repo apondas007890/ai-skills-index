@@ -4,6 +4,7 @@ import { HomePage } from './pages/HomePage';
 import { ExplorePage } from './pages/ExplorePage';
 import { CategoryPage } from './pages/CategoryPage';
 import { SkillDetailPage } from './pages/SkillDetailPage';
+import { SubmitSkillPage } from './pages/SubmitSkillPage';
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/home" element={<HomePage />} />
           <Route path="/explore" element={<ExplorePage />} />
+          <Route path="/submit" element={<SubmitSkillPage />} />
           <Route path="/category/:categoryId" element={<CategoryPage />} />
           <Route path="/skill/:skillId" element={<SkillDetailPage />} />
           <Route path="*" element={<Navigate to="/" replace />} />

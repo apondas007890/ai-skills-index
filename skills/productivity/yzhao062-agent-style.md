@@ -17,6 +17,8 @@ compatible_agents:
   - claude-code
   - codex
   - cursor
+  - github-copilot
+  - aider
 status: good
 quality: 7
 security: unverified

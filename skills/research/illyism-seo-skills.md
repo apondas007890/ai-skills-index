@@ -17,6 +17,7 @@ compatible_agents:
   - claude-code
   - codex
   - cursor
+  - roo-code
 status: good
 quality: 8
 security: unverified

@@ -15,11 +15,72 @@
       "Debugging",
       "Code Review",
       "Refactoring",
-      "Architecture",
-      "Security"
+      "Architecture"
     ],
     "count": 371,
-    "primary_count": 363
+    "primary_count": 1
+  },
+  {
+    "id": "agents",
+    "name": "AI & Agents",
+    "description": "Agent frameworks, prompt engineering, multi-agent orchestration, memory, RAG, and skill directories.",
+    "icon": "Bot",
+    "subcategories": [
+      "AI Agents",
+      "Multi-Agent",
+      "Agent Workflows",
+      "Prompt Engineering",
+      "Memory & RAG",
+      "Skill Directories"
+    ],
+    "count": 1302,
+    "primary_count": 2
+  },
+  {
+    "id": "mcp",
+    "name": "MCP Servers & Tools",
+    "description": "Model Context Protocol (MCP) servers, tool bridges, API connectors, and agent toolkits.",
+    "icon": "Plug",
+    "subcategories": [
+      "MCP Servers",
+      "Tool Bridges",
+      "API Connectors",
+      "Database MCP",
+      "Browser MCP"
+    ],
+    "count": 718,
+    "primary_count": 718
+  },
+  {
+    "id": "security",
+    "name": "Security & Auditing",
+    "description": "Static analysis, vulnerability scanning, smart-contract auditing, skill vetting, and defensive security.",
+    "icon": "ShieldCheck",
+    "subcategories": [
+      "Skill Auditing",
+      "Vulnerability Scanning",
+      "AppSec",
+      "Smart Contract Audit",
+      "OSINT"
+    ],
+    "count": 11,
+    "primary_count": 11
+  },
+  {
+    "id": "devops",
+    "name": "DevOps & Cloud",
+    "description": "Kubernetes, Docker, Terraform, CI/CD, observability, cloud infrastructure, and deployment automation.",
+    "icon": "Server",
+    "subcategories": [
+      "Kubernetes",
+      "Docker",
+      "Terraform",
+      "CI/CD",
+      "Observability",
+      "Cloud"
+    ],
+    "count": 2,
+    "primary_count": 2
   },
   {
     "id": "design",
@@ -33,15 +94,61 @@
       "Accessibility",
       "Landing Pages",
       "Animation",
-      "Anti-Generic UI"
+      "Figma"
     ],
     "count": 143,
     "primary_count": 141
   },
   {
+    "id": "automation",
+    "name": "Automation & Scraping",
+    "description": "Browser automation, web scraping, crawling, workflow automation, and CLI/desktop integrations.",
+    "icon": "Workflow",
+    "subcategories": [
+      "Browser Automation",
+      "Web Scraping",
+      "Workflow Automation",
+      "Integrations",
+      "CLI"
+    ],
+    "count": 114,
+    "primary_count": 1
+  },
+  {
+    "id": "research",
+    "name": "Research & Science",
+    "description": "Deep research, academic papers, data analysis, benchmarks, bioinformatics, and knowledge synthesis.",
+    "icon": "Search",
+    "subcategories": [
+      "Deep Research",
+      "Academic",
+      "Data Analysis",
+      "Science",
+      "Fact-Checking"
+    ],
+    "count": 106,
+    "primary_count": 92
+  },
+  {
+    "id": "image-video",
+    "name": "Image & Video",
+    "description": "Image generation, video editing, Remotion motion graphics, 3D, storyboarding, and visual effects.",
+    "icon": "Film",
+    "subcategories": [
+      "Image Generation",
+      "Video Generation",
+      "Video Editing",
+      "Animation",
+      "3D",
+      "Remotion"
+    ],
+    "count": 191,
+    "primary_count": 190
+  },
+  {
     "id": "youtube",
-    "name": "YouTube & Content Creation",
-    "description": "Video scripts, storytelling, thumbnails, titles, channel research, SEO, Shorts, and content planning.",
+    "name": "YouTube & Content",
+    "description": "Video scripts, storytelling, thumbnails, titles, channel research, Shorts, and creator growth.",
     "icon": "Youtube",
     "subcategories": [
       "YouTube",
@@ -49,48 +156,10 @@
       "Video Scripts",
       "Thumbnails",
       "Titles",
-      "SEO",
-      "Channel Research",
       "Storytelling"
     ],
     "count": 18,
     "primary_count": 13
-  },
-  {
-    "id": "agents",
-    "name": "AI & Agents",
-    "description": "Agent workflows, MCP servers, prompt engineering, multi-agent orchestration, tool calling, and RAG.",
-    "icon": "Bot",
-    "subcategories": [
-      "AI Agents",
-      "Claude Code",
-      "Codex",
-      "Cursor",
-      "Gemini",
-      "MCP",
-      "Agent Workflows",
-      "Prompt Engineering",
-      "Multi-Agent"
-    ],
-    "count": 1302,
-    "primary_count": 254
-  },
-  {
-    "id": "image-video",
-    "name": "Image & Video",
-    "description": "Image generation, image editing, video generation, video editing, 3D, and visual effects.",
-    "icon": "Film",
-    "subcategories": [
-      "Image Generation",
-      "Image Editing",
-      "Video Generation",
-      "Video Editing",
-      "Animation",
-      "3D",
-      "VFX"
-    ],
-    "count": 191,
-    "primary_count": 190
   },
   {
     "id": "audio-music",
@@ -108,45 +177,15 @@
     "primary_count": 25
   },
   {
-    "id": "research",
-    "name": "Research",
-    "description": "Deep research, web research, fact-checking, data analysis, summarization, and information gathering.",
-    "icon": "Search",
-    "subcategories": [
-      "Deep Research",
-      "Web Research",
-      "Fact-Checking",
-      "Data Analysis",
-      "Summarization"
-    ],
-    "count": 106,
-    "primary_count": 101
-  },
-  {
-    "id": "automation",
-    "name": "Automation",
-    "description": "Browser automation, web scraping, workflow automation, integrations, and file management.",
-    "icon": "Workflow",
-    "subcategories": [
-      "Browser Automation",
-      "Web Scraping",
-      "Workflow Automation",
-      "Integrations",
-      "File Management"
-    ],
-    "count": 114,
-    "primary_count": 109
-  },
-  {
     "id": "business",
     "name": "Business & Marketing",
-    "description": "SEO, marketing, copywriting, analytics, sales, customer support, and e-commerce.",
+    "description": "SEO, AEO, marketing, copywriting, product management, finance, sales, and e-commerce.",
     "icon": "TrendingUp",
     "subcategories": [
       "SEO",
       "Marketing",
-      "Copywriting",
-      "Analytics",
+      "Product Management",
+      "Finance",
       "Sales",
       "E-commerce"
     ],
@@ -155,15 +194,15 @@
   },
   {
     "id": "productivity",
-    "name": "Productivity",
-    "description": "Planning, writing, organization, personal assistants, and daily knowledge workflows.",
+    "name": "Productivity & Docs",
+    "description": "Planning, technical writing, notes, resumes, personal assistants, and knowledge management.",
     "icon": "CheckSquare",
     "subcategories": [
       "Planning",
       "Writing",
       "Organization",
       "Personal Assistants",
-      "Workflows"
+      "Knowledge Base"
     ],
     "count": 86,
     "primary_count": 84

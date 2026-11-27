@@ -13,24 +13,32 @@ const STATUS_ORDER: SkillStatus[] = [
 
 const AGENT_DOT: Record<string, string> = {
   'claude-code': 'bg-orange-500',
-  cline: 'bg-amber-500',
+  'gemini-cli': 'bg-blue-500',
   codex: 'bg-emerald-500',
   cursor: 'bg-violet-500',
-  'gemini-cli': 'bg-blue-500',
-  kiro: 'bg-rose-500',
-  opencode: 'bg-teal-500',
+  'github-copilot': 'bg-sky-500',
   windsurf: 'bg-cyan-500',
+  cline: 'bg-amber-500',
+  opencode: 'bg-teal-500',
+  kiro: 'bg-rose-500',
+  antigravity: 'bg-indigo-500',
+  'roo-code': 'bg-fuchsia-500',
+  aider: 'bg-lime-500',
 };
 
 const AGENT_ACTIVE: Record<string, string> = {
   'claude-code': 'border-orange-500 bg-orange-50 text-orange-700 dark:border-orange-500/70 dark:bg-orange-950/60 dark:text-orange-300',
-  cline: 'border-amber-500 bg-amber-50 text-amber-700 dark:border-amber-500/70 dark:bg-amber-950/60 dark:text-amber-300',
+  'gemini-cli': 'border-blue-500 bg-blue-50 text-blue-700 dark:border-blue-500/70 dark:bg-blue-950/60 dark:text-blue-300',
   codex: 'border-emerald-500 bg-emerald-50 text-emerald-700 dark:border-emerald-500/70 dark:bg-emerald-950/60 dark:text-emerald-300',
   cursor: 'border-violet-500 bg-violet-50 text-violet-700 dark:border-violet-500/70 dark:bg-violet-950/60 dark:text-violet-300',
-  'gemini-cli': 'border-blue-500 bg-blue-50 text-blue-700 dark:border-blue-500/70 dark:bg-blue-950/60 dark:text-blue-300',
-  kiro: 'border-rose-500 bg-rose-50 text-rose-700 dark:border-rose-500/70 dark:bg-rose-950/60 dark:text-rose-300',
-  opencode: 'border-teal-500 bg-teal-50 text-teal-700 dark:border-teal-500/70 dark:bg-teal-950/60 dark:text-teal-300',
+  'github-copilot': 'border-sky-500 bg-sky-50 text-sky-700 dark:border-sky-500/70 dark:bg-sky-950/60 dark:text-sky-300',
   windsurf: 'border-cyan-500 bg-cyan-50 text-cyan-700 dark:border-cyan-500/70 dark:bg-cyan-950/60 dark:text-cyan-300',
+  cline: 'border-amber-500 bg-amber-50 text-amber-700 dark:border-amber-500/70 dark:bg-amber-950/60 dark:text-amber-300',
+  opencode: 'border-teal-500 bg-teal-50 text-teal-700 dark:border-teal-500/70 dark:bg-teal-950/60 dark:text-teal-300',
+  kiro: 'border-rose-500 bg-rose-50 text-rose-700 dark:border-rose-500/70 dark:bg-rose-950/60 dark:text-rose-300',
+  antigravity: 'border-indigo-500 bg-indigo-50 text-indigo-700 dark:border-indigo-500/70 dark:bg-indigo-950/60 dark:text-indigo-300',
+  'roo-code': 'border-fuchsia-500 bg-fuchsia-50 text-fuchsia-700 dark:border-fuchsia-500/70 dark:bg-fuchsia-950/60 dark:text-fuchsia-300',
+  aider: 'border-lime-500 bg-lime-50 text-lime-700 dark:border-lime-500/70 dark:bg-lime-950/60 dark:text-lime-300',
 };
 
 export function ExplorePage() {

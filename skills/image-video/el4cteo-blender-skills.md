@@ -18,6 +18,7 @@ compatible_agents:
   - codex
   - cursor
   - gemini-cli
+  - github-copilot
 status: good
 quality: 8
 security: unverified

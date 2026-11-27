@@ -15,6 +15,7 @@ tags:
 compatible_agents:
   - claude-code
   - cursor
+  - github-copilot
 status: good
 quality: 7
 security: unverified

@@ -18,6 +18,7 @@ compatible_agents:
   - codex
   - cursor
   - gemini-cli
+  - antigravity
 status: promising
 quality: 6
 security: unverified

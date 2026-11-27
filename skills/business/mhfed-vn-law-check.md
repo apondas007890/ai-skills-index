@@ -18,6 +18,7 @@ compatible_agents:
   - cursor
   - cline
   - windsurf
+  - github-copilot
 status: good
 quality: 7
 security: unverified

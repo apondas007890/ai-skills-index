@@ -21,6 +21,7 @@ compatible_agents:
   - cline
   - kiro
   - windsurf
+  - github-copilot
 status: good
 quality: 7
 security: unverified

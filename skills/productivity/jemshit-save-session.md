@@ -17,6 +17,7 @@ compatible_agents:
   - claude-code
   - codex
   - opencode
+  - antigravity
 status: good
 quality: 7
 security: unverified

@@ -19,6 +19,8 @@ compatible_agents:
   - cursor
   - gemini-cli
   - opencode
+  - github-copilot
+  - roo-code
 status: good
 quality: 7
 security: unverified

@@ -16,6 +16,7 @@ tags:
 compatible_agents:
   - claude-code
   - gemini-cli
+  - antigravity
 status: good
 quality: 7
 security: unverified

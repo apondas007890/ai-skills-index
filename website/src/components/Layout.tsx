@@ -1,10 +1,10 @@
 import { useEffect, useRef, useState } from 'react';
 import { Link, NavLink, useLocation, useNavigate } from 'react-router-dom';
-import { BookOpen, Compass, Github, Menu, Moon, Search, Sun, X } from 'lucide-react';
+import { BookOpen, Compass, Github, Menu, Moon, PlusCircle, Search, Sun, X } from 'lucide-react';
 import { REPO_GITHUB_URL } from '../lib/constants';
 import { skills } from '../lib/data';
 
-/** Crisp geometric architectural mark for SkillAtlas */
+/** Crisp geometric architectural mark for SkillAtlas (matches favicon 1:1) */
 function SkillAtlasLogo({ className = 'h-7 w-7' }: { className?: string }) {
   return (
     <svg
@@ -14,18 +14,18 @@ function SkillAtlasLogo({ className = 'h-7 w-7' }: { className?: string }) {
       className={className}
       aria-hidden="true"
     >
-      <rect width="32" height="32" rx="7" className="fill-zinc-900 dark:fill-zinc-100" />
+      <rect width="32" height="32" rx="7" fill="#2563EB" />
       <path
         d="M9.5 11.75L16 8L22.5 11.75V20.25L16 24L9.5 20.25V11.75Z"
-        strokeWidth="1.65"
-        className="stroke-white dark:stroke-zinc-900"
+        stroke="#FFFFFF"
+        strokeWidth="1.75"
       />
       <path
         d="M16 8V16M16 16L22.5 11.75M16 16L9.5 11.75M16 16V24"
-        stroke="#2563EB"
-        strokeWidth="1.65"
+        stroke="#93C5FD"
+        strokeWidth="1.5"
       />
-      <circle cx="16" cy="16" r="2.1" className="fill-white dark:fill-zinc-900" />
+      <circle cx="16" cy="16" r="2.1" fill="#FFFFFF" />
     </svg>
   );
 }
@@ -130,6 +130,19 @@ export function Layout({ children }: { children: React.ReactNode }) {
                   {skills.length}
                 </span>
               </NavLink>
+              <NavLink
+                to="/submit"
+                className={({ isActive }) =>
+                  `inline-flex items-center gap-1.5 rounded-lg px-3 py-1.5 text-[13px] font-medium transition-colors ${
+                    isActive
+                      ? 'bg-zinc-100 text-zinc-900 dark:bg-zinc-800 dark:text-zinc-100'
+                      : 'text-zinc-600 hover:bg-zinc-100 hover:text-zinc-900 dark:text-zinc-400 dark:hover:bg-zinc-800/60 dark:hover:text-zinc-100'
+                  }`
+                }
+              >
+                <PlusCircle className="h-3.5 w-3.5" />
+                Submit
+              </NavLink>
             </nav>
           </div>
 
@@ -217,6 +230,14 @@ export function Layout({ children }: { children: React.ReactNode }) {
               >
                 <Compass className="h-4 w-4" />
                 Browse All ({skills.length})
+              </Link>
+              <Link
+                to="/submit"
+                onClick={() => setMobileMenuOpen(false)}
+                className="flex items-center gap-2 rounded-lg px-3 py-2 text-[13px] font-medium text-zinc-700 hover:bg-zinc-100 dark:text-zinc-300 dark:hover:bg-zinc-800"
+              >
+                <PlusCircle className="h-4 w-4" />
+                Submit Skill
               </Link>
               <a
                 href={REPO_GITHUB_URL}

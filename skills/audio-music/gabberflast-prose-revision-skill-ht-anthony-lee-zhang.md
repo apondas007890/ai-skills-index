@@ -15,6 +15,7 @@ tags:
   - claude-ai
 compatible_agents:
   - claude-code
+  - roo-code
 status: promising
 quality: 6
 security: unverified

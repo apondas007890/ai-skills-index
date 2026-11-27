@@ -1,0 +1,66 @@
+---
+id: testdriverai-testdriverai
+name: Testdriverai
+source: 'https://github.com/testdriverai/testdriverai'
+author: testdriverai
+primary_category: mcp
+categories:
+  - automation
+  - agents
+  - mcp
+tags:
+  - agent
+  - agent-skills
+  - agentic-coding
+  - ai
+  - ai-agent
+compatible_agents:
+  - claude-code
+  - codex
+status: good
+quality: 7
+security: unverified
+added: '2026-11-27'
+last_reviewed: '2026-11-27'
+source_type: github
+license: Unknown
+stars: 342
+last_pushed: '2026-09-21'
+install_command: ''
+tested: false
+featured: false
+---
+# Testdriverai
+
+## Description
+
+Computer-Use SDK for E2E QA Testing
+
+## What it does
+
+Open-source repository (testdriverai/testdriverai) providing agent skills, workflows, or MCP capabilities verified via GitHub (342 stars).
+
+## Best for
+
+- Extending claude-code, codex with automation capabilities
+- Teams evaluating community-backed agent tooling
+
+## Verdict
+
+GOOD — verified active GitHub repository with 342 stars and Unknown licensing.
+
+## Limitations
+
+- Not yet personally tested end-to-end; automated metadata verification only.
+
+## Risk
+
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+
+## Installation
+
+See the upstream GitHub repository: https://github.com/testdriverai/testdriverai
+
+## Notes
+
+Imported and verified from batch GitHub discovery (2026-11-27).

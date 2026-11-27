@@ -6,13 +6,12 @@ import {
   ArrowUpRight,
   Check,
   Copy,
-  Edit3,
   Shield,
   Star,
   Terminal,
 } from 'lucide-react';
 import { getCategoryById, getSkillById, skills } from '../lib/data';
-import { REPO_GITHUB_URL, SECURITY_META } from '../lib/constants';
+import { SECURITY_META } from '../lib/constants';
 import { StatusBadge } from '../components/StatusBadge';
 import { CategoryIcon } from '../components/CategoryIcon';
 import { SkillCard, formatStars } from '../components/SkillCard';
@@ -140,16 +139,6 @@ export function SkillDetailPage() {
                 {copiedKey === 'install' ? 'Copied Command' : 'Copy Install'}
               </button>
             )}
-
-            <a
-              href={`${REPO_GITHUB_URL}/blob/main/${skill.file_path}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-1.5 rounded-lg border border-zinc-200 bg-white px-3 py-2 text-xs font-medium text-zinc-700 transition-colors hover:bg-zinc-100 dark:border-zinc-700 dark:bg-zinc-900 dark:text-zinc-200 dark:hover:bg-zinc-800"
-            >
-              <Edit3 className="h-3.5 w-3.5" />
-              Edit Entry
-            </a>
           </div>
         </div>
       </section>
