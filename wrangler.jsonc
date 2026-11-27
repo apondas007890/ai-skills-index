@@ -1,8 +1,10 @@
 {
   "name": "skillatlas",
+  "main": "worker.js",
   "compatibility_date": "2026-11-27",
   "assets": {
     "directory": "./website/dist",
+    "binding": "ASSETS",
     "not_found_handling": "single-page-application"
   }
 }

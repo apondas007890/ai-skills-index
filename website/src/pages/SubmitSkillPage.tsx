@@ -15,8 +15,12 @@ export function SubmitSkillPage() {
   const [name, setName] = useState('');
   const [description, setDescription] = useState('');
   const [verifying, setVerifying] = useState(false);
+  const [submitting, setSubmitting] = useState(false);
   const [verifyError, setVerifyError] = useState<string | null>(null);
   const [verifiedInfo, setVerifiedInfo] = useState<string | null>(null);
+  const [submitError, setSubmitError] = useState<string | null>(null);
+  const [submittedIssueUrl, setSubmittedIssueUrl] = useState<string | null>(null);
+  const [needsFallback, setNeedsFallback] = useState(false);
 
   const parseValidUrl = (raw: string): URL | null => {
     try {
@@ -120,6 +124,53 @@ export function SubmitSkillPage() {
 
   const githubIssueUrl = `${REPO_GITHUB_URL}/issues/new?title=${encodeURIComponent(issueTitle)}&body=${encodeURIComponent(issueBody)}`;
 
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!isFormValid || submitting) return;
+
+    setSubmitting(true);
+    setSubmitError(null);
+    setSubmittedIssueUrl(null);
+    setNeedsFallback(false);
+
+    try {
+      const res = await fetch('/api/submit', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          url: url.trim(),
+          name: name.trim(),
+          description: description.trim(),
+          verifiedInfo: verifiedInfo || '',
+        }),
+      });
+
+      const contentType = res.headers.get('content-type') || '';
+      if (!contentType.includes('application/json')) {
+        // Static host without Worker API (e.g. GitHub Pages)
+        setNeedsFallback(true);
+        return;
+      }
+
+      const data = await res.json();
+      if (res.ok && data.ok) {
+        setSubmittedIssueUrl(data.issueUrl || `${REPO_GITHUB_URL}/issues`);
+        setUrl('');
+        setName('');
+        setDescription('');
+        setVerifiedInfo(null);
+      } else if (data.fallback) {
+        setNeedsFallback(true);
+      } else {
+        setSubmitError(data.error || 'Submission failed. Please try again.');
+      }
+    } catch {
+      setNeedsFallback(true);
+    } finally {
+      setSubmitting(false);
+    }
+  };
+
   return (
     <div className="mx-auto max-w-2xl space-y-6 animate-fade-up">
       <div className="flex items-center gap-2 text-xs text-zinc-500 dark:text-zinc-400">
@@ -135,10 +186,27 @@ export function SubmitSkillPage() {
           Submit an AI Skill
         </h1>
         <p className="mt-1.5 text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">
-          Paste any skill URL (GitHub repo, docs, or web tool), name, and a short description. Submitting opens a pre-filled GitHub Issue on the repository for security review and indexing.
+          Paste any skill URL (GitHub repo, docs, or web tool), name, and a short description. Submissions are queued for security verification before appearing in the catalog.
         </p>
 
-        <div className="mt-6 space-y-5">
+        {submittedIssueUrl && (
+          <div className="mt-5 flex flex-wrap items-center justify-between gap-2 rounded-xl border border-emerald-200 bg-emerald-50 px-4 py-3 text-xs text-emerald-800 dark:border-emerald-800/60 dark:bg-emerald-950/40 dark:text-emerald-300">
+            <span className="inline-flex items-center gap-2 font-semibold">
+              <CheckCircle2 className="h-4 w-4 shrink-0" />
+              Submitted! Your skill is saved and queued for review.
+            </span>
+            <a
+              href={submittedIssueUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1 font-semibold underline"
+            >
+              View submission <ArrowUpRight className="h-3.5 w-3.5" />
+            </a>
+          </div>
+        )}
+
+        <form onSubmit={handleSubmit} className="mt-6 space-y-5">
           <div>
             <label
               htmlFor="skill-url"
@@ -223,18 +291,35 @@ export function SubmitSkillPage() {
             />
           </div>
 
+          {submitError && (
+            <p className="flex items-center gap-1.5 text-xs font-medium text-rose-600 dark:text-rose-400">
+              <AlertCircle className="h-3.5 w-3.5 shrink-0" />
+              {submitError}
+            </p>
+          )}
+
+          {needsFallback && (
+            <div className="surface-subtle flex flex-wrap items-center justify-between gap-3 rounded-xl px-4 py-3 text-xs text-zinc-700 dark:text-zinc-300">
+              <span>Direct API submission is not active on this host yet — submit via GitHub instead:</span>
+              <a
+                href={githubIssueUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1 font-semibold text-blue-600 hover:underline dark:text-blue-400"
+              >
+                Open GitHub submission <ArrowUpRight className="h-3.5 w-3.5" />
+              </a>
+            </div>
+          )}
+
           <div className="flex flex-wrap items-center gap-3 border-t border-zinc-200 pt-5 dark:border-zinc-800">
             <button
-              type="button"
-              onClick={() => {
-                if (!isFormValid) return;
-                window.open(githubIssueUrl, '_blank', 'noopener,noreferrer');
-              }}
-              disabled={!isFormValid}
+              type="submit"
+              disabled={!isFormValid || submitting}
               className="inline-flex items-center gap-1.5 rounded-xl bg-blue-600 px-5 py-2.5 text-xs font-semibold text-white transition-colors hover:bg-blue-700 disabled:cursor-not-allowed disabled:bg-zinc-200 disabled:text-zinc-500 dark:disabled:bg-zinc-800 dark:disabled:text-zinc-500"
             >
-              Submit Skill
-              <ArrowUpRight className="h-3.5 w-3.5" />
+              {submitting ? <Loader2 className="h-3.5 w-3.5 animate-spin" /> : null}
+              {submitting ? 'Submitting…' : 'Submit Skill'}
             </button>
 
             {!isFormValid && (
@@ -243,7 +328,7 @@ export function SubmitSkillPage() {
               </span>
             )}
           </div>
-        </div>
+        </form>
       </section>
     </div>
   );
