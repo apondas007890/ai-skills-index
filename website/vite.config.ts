@@ -4,5 +4,5 @@ import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: process.env.VITE_BASE_PATH || '/ai-skills-index/',
+  base: process.env.VITE_BASE_PATH || (process.env.GITHUB_ACTIONS ? '/ai-skills-index/' : '/'),
 });
