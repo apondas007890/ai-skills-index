@@ -197,7 +197,7 @@ export function SubmitSkillPage() {
           <div>
             <label
               htmlFor="skill-url"
-              className="block text-xs font-semibold uppercase tracking-wider text-zinc-600 dark:text-zinc-400"
+              className="block text-xs font-semibold text-zinc-700 dark:text-zinc-300"
             >
               Skill URL *
             </label>
@@ -248,9 +248,9 @@ export function SubmitSkillPage() {
           <div>
             <label
               htmlFor="skill-name"
-              className="block text-xs font-semibold uppercase tracking-wider text-zinc-600 dark:text-zinc-400"
+              className="block text-xs font-semibold text-zinc-700 dark:text-zinc-300"
             >
-              Skill Name *
+              Skill name *
             </label>
             <input
               id="skill-name"
@@ -266,9 +266,9 @@ export function SubmitSkillPage() {
           <div>
             <label
               htmlFor="skill-desc"
-              className="block text-xs font-semibold uppercase tracking-wider text-zinc-600 dark:text-zinc-400"
+              className="block text-xs font-semibold text-zinc-700 dark:text-zinc-300"
             >
-              Short Description (1–3 sentences) *
+              Short description (1–3 sentences) *
             </label>
             <textarea
               id="skill-desc"

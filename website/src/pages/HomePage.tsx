@@ -125,39 +125,39 @@ export function HomePage() {
   };
 
   return (
-    <div className="min-w-0 space-y-7">
-      {/* Editorial Header */}
-      <section className="surface-card animate-fade-up rounded-2xl p-6 sm:p-7">
-        <div className="flex flex-col gap-5 lg:flex-row lg:items-start lg:justify-between">
-          <div className="max-w-2xl space-y-2">
-            <h1 className="text-2xl font-bold tracking-tight text-zinc-900 sm:text-3xl dark:text-zinc-100">
+    <div className="min-w-0 space-y-6">
+      {/* Open Editorial Header — no nested stat cards inside a hero card */}
+      <section className="animate-fade-up border-b border-zinc-200 pb-6 dark:border-zinc-800">
+        <div className="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
+          <div className="max-w-2xl space-y-1.5">
+            <h1 className="min-w-0 break-words text-2xl font-bold tracking-tight text-zinc-900 sm:text-3xl dark:text-zinc-100">
               AI Skills Directory
             </h1>
             <p className="text-[14px] leading-relaxed text-zinc-600 dark:text-zinc-400">
-              Verified <code className="rounded border border-zinc-200 bg-zinc-100 px-1.5 py-0.5 font-mono text-xs text-zinc-800 dark:border-zinc-700 dark:bg-zinc-800 dark:text-zinc-200">SKILL.md</code> repositories, MCP servers, and coding agent workflows indexed by quality, star count, and tool compatibility.
+              Verified <code className="rounded border border-zinc-200 bg-zinc-100 px-1.5 py-0.5 font-mono text-xs text-zinc-800 dark:border-zinc-700 dark:bg-zinc-800 dark:text-zinc-200">SKILL.md</code> repositories, MCP servers, and coding workflows indexed by quality, star count, and tool compatibility.
             </p>
           </div>
 
-          <div className="grid grid-cols-3 gap-2.5 lg:min-w-[260px]">
-            <div className="surface-subtle rounded-xl px-3.5 py-2.5 text-center">
-              <div className="font-mono text-lg font-bold tabular-nums text-zinc-900 dark:text-zinc-100">
+          <dl className="flex flex-wrap items-center gap-6 text-sm">
+            <div>
+              <dt className="text-xs text-zinc-500 dark:text-zinc-400">Skills</dt>
+              <dd className="font-mono text-lg font-bold tabular-nums text-zinc-900 dark:text-zinc-100">
                 {stats.total.toLocaleString()}
-              </div>
-              <div className="text-[11px] text-zinc-500 dark:text-zinc-400">Total Skills</div>
+              </dd>
             </div>
-            <div className="surface-subtle rounded-xl px-3.5 py-2.5 text-center">
-              <div className="font-mono text-lg font-bold tabular-nums text-emerald-600 dark:text-emerald-400">
+            <div>
+              <dt className="text-xs text-zinc-500 dark:text-zinc-400">Good &amp; Best</dt>
+              <dd className="font-mono text-lg font-bold tabular-nums text-emerald-600 dark:text-emerald-400">
                 {(stats.excellentCount + stats.goodCount).toLocaleString()}
-              </div>
-              <div className="text-[11px] text-zinc-500 dark:text-zinc-400">Good &amp; Best</div>
+              </dd>
             </div>
-            <div className="surface-subtle rounded-xl px-3.5 py-2.5 text-center">
-              <div className="font-mono text-lg font-bold tabular-nums text-blue-600 dark:text-blue-400">
+            <div>
+              <dt className="text-xs text-zinc-500 dark:text-zinc-400">Categories</dt>
+              <dd className="font-mono text-lg font-bold tabular-nums text-blue-600 dark:text-blue-400">
                 {stats.activeCategories}
-              </div>
-              <div className="text-[11px] text-zinc-500 dark:text-zinc-400">Categories</div>
+              </dd>
             </div>
-          </div>
+          </dl>
         </div>
 
         {/* Primary Search Bar (single search bar on this page) */}
@@ -167,9 +167,9 @@ export function HomePage() {
             type="search"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder="Search skills by name, capability, tag, or AI tool (e.g. 'security', 'gemini-cli', 'mcp')..."
+            placeholder="Search skills by name, URL, capability, tag, or AI tool (e.g. 'security', 'gemini-cli', 'mcp')..."
             aria-label="Search SkillAtlas"
-            className="w-full rounded-xl border border-zinc-200 bg-zinc-50 py-3 pl-10 pr-24 text-[14px] text-zinc-900 placeholder:text-zinc-400 transition-colors focus:border-blue-600 focus:bg-white focus:outline-none focus:ring-2 focus:ring-blue-600/15 dark:border-zinc-700 dark:bg-zinc-900 dark:text-zinc-100 dark:placeholder:text-zinc-500 dark:focus:border-blue-500 dark:focus:bg-zinc-950"
+            className="w-full rounded-xl border border-zinc-200 bg-white py-3 pl-10 pr-24 text-[14px] text-zinc-900 placeholder:text-zinc-400 transition-colors focus:border-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-600/15 dark:border-zinc-800 dark:bg-zinc-900 dark:text-zinc-100 dark:placeholder:text-zinc-500 dark:focus:border-blue-500 dark:focus:bg-zinc-950"
           />
           <button
             type="submit"
@@ -181,15 +181,15 @@ export function HomePage() {
 
         {/* Quick Tag Pills */}
         {tags.length > 0 && !query.trim() && (
-          <div className="mt-3.5 flex flex-wrap items-center gap-1.5">
-            <span className="mr-1 font-mono text-[10px] font-semibold uppercase tracking-wider text-zinc-400 dark:text-zinc-500">
-              Popular:
+          <div className="mt-3 flex flex-wrap items-center gap-1.5">
+            <span className="mr-1 text-xs font-medium text-zinc-500 dark:text-zinc-400">
+              Popular tags:
             </span>
-            {tags.slice(0, 10).map((t) => (
+            {tags.slice(0, 8).map((t) => (
               <Link
                 key={t.tag}
                 to={`/explore?tag=${encodeURIComponent(t.tag)}`}
-                className="rounded-md border border-zinc-200 bg-zinc-50 px-2 py-0.5 font-mono text-[11px] text-zinc-600 transition-colors hover:border-zinc-300 hover:text-zinc-900 dark:border-zinc-800 dark:bg-zinc-900 dark:text-zinc-400 dark:hover:border-zinc-700 dark:hover:text-zinc-200"
+                className="rounded-md border border-zinc-200 bg-white px-2 py-0.5 font-mono text-[11px] text-zinc-600 transition-colors hover:border-zinc-300 hover:text-zinc-900 dark:border-zinc-800 dark:bg-zinc-900 dark:text-zinc-400 dark:hover:border-zinc-700 dark:hover:text-zinc-200"
               >
                 #{t.tag} <span className="opacity-60">({t.count})</span>
               </Link>
@@ -215,7 +215,7 @@ export function HomePage() {
               </Link>
             </div>
             {liveMatches.length > 0 ? (
-              <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+              <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
                 {liveMatches.slice(0, 6).map((skill) => (
                   <SkillCard key={skill.id} skill={skill} highlightQuery={query} />
                 ))}
@@ -233,7 +233,7 @@ export function HomePage() {
       <section className="space-y-3">
         <div className="flex flex-wrap items-center justify-between gap-2">
           <div className="flex flex-wrap items-center gap-1.5">
-            <span className="mr-1 inline-flex items-center gap-1 font-mono text-[11px] font-semibold uppercase tracking-wider text-zinc-500 dark:text-zinc-400">
+            <span className="mr-1 inline-flex items-center gap-1 text-xs font-medium text-zinc-500 dark:text-zinc-400">
               <Bot className="h-3.5 w-3.5" /> Agent:
             </span>
             <button

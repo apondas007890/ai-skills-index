@@ -87,7 +87,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
   };
 
   return (
-    <div className="relative flex min-h-dvh w-full max-w-full flex-col overflow-x-hidden">
+    <div className="relative flex min-h-dvh w-full max-w-full flex-col overflow-x-clip">
       <header className="sticky top-0 z-50 border-b border-zinc-200 bg-white/95 backdrop-blur-sm dark:border-zinc-800 dark:bg-[#0a0b0e]/95">
         <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-3 sm:px-6">
           <div className="flex items-center gap-6">

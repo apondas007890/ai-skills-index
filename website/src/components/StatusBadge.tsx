@@ -15,9 +15,8 @@ export function StatusBadge({
   return (
     <span
       title={meta.description}
-      className={`inline-flex items-center gap-1.5 rounded-full border font-medium ${sizeClass} ${meta.badgeClass}`}
+      className={`inline-flex items-center rounded-md border font-medium ${sizeClass} ${meta.badgeClass}`}
     >
-      <span className={`h-1.5 w-1.5 rounded-full ${meta.dotClass}`} />
       {meta.label}
     </span>
   );

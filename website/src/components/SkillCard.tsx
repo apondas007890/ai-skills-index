@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { ArrowUpRight, Star } from 'lucide-react';
+import { ArrowUpRight, ChevronRight, Star } from 'lucide-react';
 import type { Skill } from '../types/skill';
 import { STATUS_META } from '../lib/constants';
 import { getCategoryById } from '../lib/data';
@@ -12,21 +12,6 @@ export function formatStars(stars: number | null): string {
   if (stars >= 1000) return `${(stars / 1000).toFixed(stars >= 10000 ? 0 : 1)}k`;
   return String(stars);
 }
-
-const AGENT_COLORS: Record<string, string> = {
-  'claude-code': 'bg-orange-500',
-  'gemini-cli': 'bg-blue-500',
-  codex: 'bg-emerald-500',
-  cursor: 'bg-violet-500',
-  'github-copilot': 'bg-sky-500',
-  windsurf: 'bg-cyan-500',
-  cline: 'bg-amber-500',
-  opencode: 'bg-teal-500',
-  kiro: 'bg-rose-500',
-  antigravity: 'bg-indigo-500',
-  'roo-code': 'bg-fuchsia-500',
-  aider: 'bg-lime-500',
-};
 
 export function SkillCard({
   skill,
@@ -77,13 +62,15 @@ export function SkillCard({
             rel="noopener noreferrer"
             className="inline-flex items-center gap-1 rounded-lg border border-zinc-200 px-3 py-1.5 text-xs font-medium text-zinc-700 transition-colors hover:bg-zinc-100 dark:border-zinc-700 dark:text-zinc-300 dark:hover:bg-zinc-800"
           >
-            GitHub <ArrowUpRight className="h-3.5 w-3.5" />
+            GitHub
+            <ArrowUpRight className="h-3.5 w-3.5" />
           </a>
           <Link
             to={`/skill/${skill.id}`}
-            className="inline-flex items-center rounded-lg bg-zinc-900 px-3 py-1.5 text-xs font-semibold text-white transition-colors hover:bg-blue-600 dark:bg-zinc-100 dark:text-zinc-900 dark:hover:bg-blue-500 dark:hover:text-white"
+            className="inline-flex items-center gap-1 rounded-lg bg-zinc-900 px-3 py-1.5 text-xs font-semibold text-white transition-colors hover:bg-blue-600 dark:bg-zinc-100 dark:text-zinc-900 dark:hover:bg-blue-500 dark:hover:text-white"
           >
-            Details →
+            Details
+            <ChevronRight className="h-3.5 w-3.5" />
           </Link>
         </div>
       </article>
@@ -95,7 +82,6 @@ export function SkillCard({
       className={`animate-fade-up surface-card group min-w-0 flex h-full flex-col justify-between rounded-xl border-t-2 ${statusMeta.borderAccentClass} overflow-hidden`}
     >
       <div className="min-w-0 p-4">
-        {/* Top row: Title + GitHub link & stats */}
         <div className="flex items-start justify-between gap-2">
           <div className="min-w-0">
             <Link
@@ -133,12 +119,12 @@ export function SkillCard({
               aria-label={`Open ${skill.name} on GitHub`}
               className="inline-flex items-center gap-0.5 rounded-md border border-zinc-200 bg-zinc-50 px-1.5 py-0.5 text-[11px] font-medium text-zinc-600 transition-colors hover:border-blue-400 hover:text-blue-600 dark:border-zinc-700 dark:bg-zinc-800 dark:text-zinc-300 dark:hover:border-blue-500 dark:hover:text-blue-400"
             >
-              Git <ArrowUpRight className="h-3 w-3" />
+              Git
+              <ArrowUpRight className="h-3 w-3" />
             </a>
           </div>
         </div>
 
-        {/* Status + Category */}
         <div className="mt-2.5 flex flex-wrap items-center gap-1.5">
           <StatusBadge status={skill.status} size="xs" />
           {primaryCat && (
@@ -152,13 +138,11 @@ export function SkillCard({
           )}
         </div>
 
-        {/* Concise Description */}
         <p className="mt-2.5 line-clamp-3 text-[13px] leading-relaxed text-zinc-600 dark:text-zinc-400">
           <RichText text={skill.description} highlightQuery={highlightQuery} />
         </p>
       </div>
 
-      {/* Bottom Footer: Tags + Agents + Details */}
       <div className="border-t border-zinc-100 px-4 py-3 dark:border-zinc-800/80">
         <div className="flex flex-wrap gap-1.5">
           {skill.tags.slice(0, 3).map((tag) => (
@@ -167,7 +151,7 @@ export function SkillCard({
               to={`/explore?tag=${encodeURIComponent(tag)}`}
               className="rounded-md bg-zinc-100 px-1.5 py-0.5 font-mono text-[11px] text-zinc-600 transition-colors hover:bg-zinc-200 hover:text-zinc-900 dark:bg-zinc-800 dark:text-zinc-400 dark:hover:text-zinc-200"
             >
-              #<RichText text={tag} highlightQuery={highlightQuery} />
+              #{tag}
             </Link>
           ))}
           {skill.tags.length > 3 && (
@@ -178,26 +162,19 @@ export function SkillCard({
         </div>
 
         <div className="mt-2.5 flex items-center justify-between gap-2">
-          <div className="flex items-center gap-1.5">
-            {skill.compatible_agents.slice(0, 5).map((agent) => (
-              <span
-                key={agent}
-                title={agent}
-                className={`h-2 w-2 rounded-full ${AGENT_COLORS[agent] ?? 'bg-zinc-400'}`}
-              />
-            ))}
-            {skill.compatible_agents.length > 5 && (
-              <span className="font-mono text-[10px] text-zinc-400">
-                +{skill.compatible_agents.length - 5}
-              </span>
-            )}
-          </div>
+          <span className="truncate font-mono text-[11px] text-zinc-500 dark:text-zinc-400">
+            {skill.compatible_agents.slice(0, 2).join(', ')}
+            {skill.compatible_agents.length > 2
+              ? ` +${skill.compatible_agents.length - 2}`
+              : ''}
+          </span>
 
           <Link
             to={`/skill/${skill.id}`}
-            className="text-[12px] font-semibold text-blue-600 hover:underline dark:text-blue-400"
+            className="inline-flex items-center gap-0.5 text-[12px] font-semibold text-blue-600 hover:underline dark:text-blue-400"
           >
-            Details →
+            Details
+            <ChevronRight className="h-3.5 w-3.5" />
           </Link>
         </div>
       </div>

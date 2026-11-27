@@ -112,7 +112,7 @@ export function SkillDetailPage() {
             </p>
 
             <div className="flex flex-wrap items-center gap-1.5 pt-1">
-              <span className="mr-1 text-[11px] font-semibold uppercase tracking-wider text-zinc-400 dark:text-zinc-500">
+              <span className="mr-1 text-xs font-medium text-zinc-500 dark:text-zinc-400">
                 Works with:
               </span>
               {skill.compatible_agents.map((ag) => (
@@ -175,17 +175,17 @@ export function SkillDetailPage() {
       <div className="grid gap-6 lg:grid-cols-[1fr_320px]">
         <div className="space-y-5">
           <div className="surface-card rounded-2xl p-6">
-            <h2 className="text-[11px] font-semibold uppercase tracking-wider text-zinc-500 dark:text-zinc-400">
+            <h2 className="text-sm font-semibold text-zinc-900 dark:text-zinc-100">
               What it does
             </h2>
-            <p className="mt-2.5 text-sm leading-relaxed text-zinc-700 dark:text-zinc-300">
+            <p className="mt-2 text-sm leading-relaxed text-zinc-700 dark:text-zinc-300">
               <RichText text={skill.what_it_does} />
             </p>
 
-            <h2 className="mt-6 text-[11px] font-semibold uppercase tracking-wider text-zinc-500 dark:text-zinc-400">
+            <h2 className="mt-6 text-sm font-semibold text-zinc-900 dark:text-zinc-100">
               Best for
             </h2>
-            <ul className="mt-2.5 list-disc space-y-1.5 pl-5 text-sm text-zinc-700 dark:text-zinc-300">
+            <ul className="mt-2 list-disc space-y-1.5 pl-5 text-sm text-zinc-700 dark:text-zinc-300">
               {skill.best_for.map((item) => (
                 <li key={item}>
                   <RichText text={item} />
@@ -193,17 +193,17 @@ export function SkillDetailPage() {
               ))}
             </ul>
 
-            <h2 className="mt-6 text-[11px] font-semibold uppercase tracking-wider text-zinc-500 dark:text-zinc-400">
-              Evaluation Verdict
+            <h2 className="mt-6 text-sm font-semibold text-zinc-900 dark:text-zinc-100">
+              Evaluation verdict
             </h2>
-            <p className="surface-subtle mt-2.5 rounded-xl p-4 text-sm font-medium text-zinc-900 dark:text-zinc-100">
+            <p className="mt-2 border-l-2 border-blue-600 pl-4 text-sm font-medium text-zinc-900 dark:border-blue-500 dark:text-zinc-100">
               <RichText text={skill.verdict} />
             </p>
           </div>
 
           <div className="grid gap-5 sm:grid-cols-2">
             <div className="surface-card rounded-2xl p-5">
-              <h2 className="text-[11px] font-semibold uppercase tracking-wider text-zinc-500 dark:text-zinc-400">
+              <h2 className="text-sm font-semibold text-zinc-900 dark:text-zinc-100">
                 Limitations
               </h2>
               {skill.limitations.length > 0 ? (
@@ -220,9 +220,9 @@ export function SkillDetailPage() {
             </div>
 
             <div className="surface-card rounded-2xl p-5">
-              <h2 className="flex items-center gap-1.5 text-[11px] font-semibold uppercase tracking-wider text-zinc-500 dark:text-zinc-400">
+              <h2 className="flex items-center gap-1.5 text-sm font-semibold text-zinc-900 dark:text-zinc-100">
                 <AlertTriangle className="h-3.5 w-3.5 text-amber-500" />
-                Risk &amp; Security
+                Risk &amp; security
               </h2>
               <p className="mt-2.5 text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">
                 <RichText text={skill.risk || 'Review instructions before installing.'} />
@@ -234,20 +234,20 @@ export function SkillDetailPage() {
             <div className="surface-card rounded-2xl p-6">
               {skill.installation && (
                 <div>
-                  <h2 className="text-[11px] font-semibold uppercase tracking-wider text-zinc-500 dark:text-zinc-400">
+                  <h2 className="text-sm font-semibold text-zinc-900 dark:text-zinc-100">
                     Installation
                   </h2>
-                  <p className="mt-2.5 text-sm text-zinc-700 dark:text-zinc-300">
+                  <p className="mt-2 text-sm text-zinc-700 dark:text-zinc-300">
                     <RichText text={skill.installation} />
                   </p>
                 </div>
               )}
               {skill.notes && (
                 <div className={skill.installation ? 'mt-5 border-t border-zinc-200 pt-5 dark:border-zinc-800' : ''}>
-                  <h2 className="text-[11px] font-semibold uppercase tracking-wider text-zinc-500 dark:text-zinc-400">
-                    Personal Notes
+                  <h2 className="text-sm font-semibold text-zinc-900 dark:text-zinc-100">
+                    Personal notes
                   </h2>
-                  <p className="mt-2.5 text-sm text-zinc-700 dark:text-zinc-300">
+                  <p className="mt-2 text-sm text-zinc-700 dark:text-zinc-300">
                     <RichText text={skill.notes} />
                   </p>
                 </div>
@@ -258,7 +258,7 @@ export function SkillDetailPage() {
 
         <aside className="space-y-4">
           <div className="surface-card rounded-2xl p-5">
-            <h2 className="text-[11px] font-semibold uppercase tracking-wider text-zinc-500 dark:text-zinc-400">
+            <h2 className="text-xs font-semibold text-zinc-700 dark:text-zinc-300">
               Metadata
             </h2>
             <dl className="mt-4 space-y-3 text-sm">
@@ -314,7 +314,7 @@ export function SkillDetailPage() {
             </dl>
 
             <div className="mt-5 border-t border-zinc-200 pt-4 dark:border-zinc-800">
-              <h3 className="text-[11px] font-semibold uppercase tracking-wider text-zinc-500 dark:text-zinc-400">
+              <h3 className="text-xs font-semibold text-zinc-700 dark:text-zinc-300">
                 Categories
               </h3>
               <div className="mt-2 flex flex-wrap gap-1.5">
@@ -335,8 +335,8 @@ export function SkillDetailPage() {
             </div>
 
             <div className="mt-4 border-t border-zinc-200 pt-4 dark:border-zinc-800">
-              <h3 className="text-[11px] font-semibold uppercase tracking-wider text-zinc-500 dark:text-zinc-400">
-                Compatible Agents
+              <h3 className="text-xs font-semibold text-zinc-700 dark:text-zinc-300">
+                Compatible agents
               </h3>
               <div className="mt-2 flex flex-wrap gap-1.5">
                 {skill.compatible_agents.map((ag) => (
@@ -352,7 +352,7 @@ export function SkillDetailPage() {
             </div>
 
             <div className="mt-4 border-t border-zinc-200 pt-4 dark:border-zinc-800">
-              <h3 className="text-[11px] font-semibold uppercase tracking-wider text-zinc-500 dark:text-zinc-400">
+              <h3 className="text-xs font-semibold text-zinc-700 dark:text-zinc-300">
                 Tags
               </h3>
               <div className="mt-2 flex flex-wrap gap-1.5">

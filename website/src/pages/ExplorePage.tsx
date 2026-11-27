@@ -11,21 +11,6 @@ const STATUS_ORDER: SkillStatus[] = [
   'excellent', 'good', 'promising', 'experimental', 'neutral', 'needs-review', 'bad', 'risky', 'archived',
 ];
 
-const AGENT_DOT: Record<string, string> = {
-  'claude-code': 'bg-orange-500',
-  'gemini-cli': 'bg-blue-500',
-  codex: 'bg-emerald-500',
-  cursor: 'bg-violet-500',
-  'github-copilot': 'bg-sky-500',
-  windsurf: 'bg-cyan-500',
-  cline: 'bg-amber-500',
-  opencode: 'bg-teal-500',
-  kiro: 'bg-rose-500',
-  antigravity: 'bg-indigo-500',
-  'roo-code': 'bg-fuchsia-500',
-  aider: 'bg-lime-500',
-};
-
 const AGENT_ACTIVE: Record<string, string> = {
   'claude-code': 'border-orange-500 bg-orange-50 text-orange-700 dark:border-orange-500/70 dark:bg-orange-950/60 dark:text-orange-300',
   'gemini-cli': 'border-blue-500 bg-blue-50 text-blue-700 dark:border-blue-500/70 dark:bg-blue-950/60 dark:text-blue-300',
@@ -144,7 +129,7 @@ export function ExplorePage() {
   const FilterPanel = (
     <div className="space-y-6">
       <div>
-        <h3 className="mb-2.5 text-[11px] font-semibold uppercase tracking-wider text-zinc-500 dark:text-zinc-400">
+        <h3 className="mb-2 text-xs font-semibold text-zinc-700 dark:text-zinc-300">
           Categories
         </h3>
         <div className="space-y-1">
@@ -171,7 +156,7 @@ export function ExplorePage() {
       </div>
 
       <div>
-        <h3 className="mb-2.5 text-[11px] font-semibold uppercase tracking-wider text-zinc-500 dark:text-zinc-400">
+        <h3 className="mb-2 text-xs font-semibold text-zinc-700 dark:text-zinc-300">
           Quality
         </h3>
         <div className="space-y-1">
@@ -191,7 +176,6 @@ export function ExplorePage() {
                     onChange={() => toggleItem(selectedStatuses, setSelectedStatuses, status)}
                     className="h-3.5 w-3.5 rounded border-zinc-300 accent-blue-600 dark:border-zinc-700"
                   />
-                  <span className={`h-2 w-2 rounded-full ${meta.dotClass}`} />
                   <span>{meta.label}</span>
                 </span>
                 <span className="font-mono text-[11px] text-zinc-400">{count}</span>
@@ -202,8 +186,8 @@ export function ExplorePage() {
       </div>
 
       <div>
-        <h3 className="mb-2.5 text-[11px] font-semibold uppercase tracking-wider text-zinc-500 dark:text-zinc-400">
-          Compatible Agents
+        <h3 className="mb-2 text-xs font-semibold text-zinc-700 dark:text-zinc-300">
+          Compatible agents
         </h3>
         <div className="flex flex-wrap gap-1.5">
           {allAgents.map((agent) => {
@@ -217,11 +201,10 @@ export function ExplorePage() {
                 type="button"
                 onClick={() => toggleItem(selectedAgents, setSelectedAgents, agent)}
                 aria-pressed={active}
-                className={`inline-flex items-center gap-1.5 rounded-lg border px-2.5 py-1 font-mono text-[11px] font-medium transition-colors ${
+                className={`inline-flex items-center rounded-lg border px-2.5 py-1 font-mono text-[11px] font-medium transition-colors ${
                   active ? activeClass : idleClass
                 }`}
               >
-                <span className={`h-1.5 w-1.5 shrink-0 rounded-full ${AGENT_DOT[agent] ?? 'bg-zinc-400'}`} />
                 {agent}
               </button>
             );
@@ -230,8 +213,8 @@ export function ExplorePage() {
       </div>
 
       <div>
-        <h3 className="mb-2.5 text-[11px] font-semibold uppercase tracking-wider text-zinc-500 dark:text-zinc-400">
-          Source Type
+        <h3 className="mb-2 text-xs font-semibold text-zinc-700 dark:text-zinc-300">
+          Source type
         </h3>
         <div className="flex flex-wrap gap-1.5">
           {allSourceTypes.map((st) => {
@@ -255,7 +238,7 @@ export function ExplorePage() {
       </div>
 
       <div>
-        <h3 className="mb-2.5 text-[11px] font-semibold uppercase tracking-wider text-zinc-500 dark:text-zinc-400">
+        <h3 className="mb-2 text-xs font-semibold text-zinc-700 dark:text-zinc-300">
           Tags
         </h3>
         <div className="flex flex-wrap gap-1.5">
