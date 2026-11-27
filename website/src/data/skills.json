@@ -169,9 +169,9 @@
     "notes": "",
     "related_skills": [
       "aiscientists-dev-academic-humanizer",
-      "hqhq1025-ai-course-notes",
       "liguozheng-ac-lingbo-desk",
-      "llm-xiaoye-douyin-to-obsidian"
+      "llm-xiaoye-douyin-to-obsidian",
+      "off-grid-ai-ogam"
     ]
   },
   {
@@ -503,63 +503,6 @@
     ]
   },
   {
-    "id": "hqhq1025-ai-course-notes",
-    "name": "Ai Course Notes",
-    "source": "https://github.com/hqhq1025/ai-course-notes",
-    "author": "hqhq1025",
-    "primary_category": "audio-music",
-    "categories": [
-      "audio-music",
-      "agents"
-    ],
-    "tags": [
-      "agents",
-      "ai",
-      "berkeley",
-      "chinese",
-      "course-notes"
-    ],
-    "compatible_agents": [
-      "claude-code",
-      "codex",
-      "cursor",
-      "gemini-cli"
-    ],
-    "status": "good",
-    "quality": 7,
-    "security": "unverified",
-    "added": "2026-11-27",
-    "last_reviewed": "2026-11-27",
-    "source_type": "github",
-    "license": "Unknown",
-    "stars": 224,
-    "last_pushed": "2026-10-25",
-    "install_command": "",
-    "tested": false,
-    "featured": false,
-    "file_path": "skills/audio-music/hqhq1025-ai-course-notes.md",
-    "description": "398 份 AI/LLM 中文讲义，支持在线阅读、PDF 下载和 LaTeX 源码查看 | Stanford CS336/CS224R/CS25 · Berkeley LLM Agents · 南京大学生成式软件工程 · 月球大叔 · 硅谷101 · 十字路口 · Agent 工程实践",
-    "what_it_does": "Provides voice synthesis, transcription, audio editing, or music generation workflows. Focused on `agents`, `ai`, `berkeley`, `chinese` and designed to work with claude-code, codex, cursor, gemini-cli.",
-    "best_for": [
-      "**Primary goal:** 398 份 AI/LLM 中文讲义，支持在线阅读、PDF 下载和 LaTeX 源码查看 | Stanford CS336/CS224R/CS25 · Berkeley LLM Agents · 南京大学生成式软件工程 · 月球大叔 · 硅谷101 · 十字路口 · Agent 工程实践",
-      "**Works with:** claude-code, codex, cursor, gemini-cli",
-      "**Key topics:** agents, ai, berkeley, chinese, course-notes"
-    ],
-    "verdict": "GOOD — 224 GitHub stars (Unknown license). Review the repository README and `SKILL.md` before adding to your workspace.",
-    "limitations": [
-      "Automated index entry; verify exact install flags and required API keys in the upstream repository."
-    ],
-    "risk": "Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.",
-    "installation": "See the upstream repository for setup instructions: https://github.com/hqhq1025/ai-course-notes",
-    "notes": "",
-    "related_skills": [
-      "oxbshw-llm-agents-ecosystem-handbook",
-      "silverstein-minutes",
-      "agentscope-ai-agentscope",
-      "liguozheng-ac-lingbo-desk"
-    ]
-  },
-  {
     "id": "leonxlnx-earshot",
     "name": "Earshot",
     "source": "https://github.com/Leonxlnx/earshot",
@@ -665,9 +608,9 @@
     "notes": "",
     "related_skills": [
       "llm-xiaoye-douyin-to-obsidian",
-      "oxbshw-llm-agents-ecosystem-handbook",
       "sanjay3290-ai-skills",
-      "yunyoujun-valaxy"
+      "yunyoujun-valaxy",
+      "silverstein-minutes"
     ]
   },
   {
@@ -944,7 +887,7 @@
       "mutonby-agentring",
       "maxrave-dev-kotlin-footguns",
       "agentscope-ai-agentscope",
-      "hqhq1025-ai-course-notes"
+      "liguozheng-ac-lingbo-desk"
     ]
   },
   {
@@ -1058,63 +1001,6 @@
     ]
   },
   {
-    "id": "oxbshw-llm-agents-ecosystem-handbook",
-    "name": "LLM Agents Ecosystem Handbook",
-    "source": "https://github.com/oxbshw/LLM-Agents-Ecosystem-Handbook",
-    "author": "oxbshw",
-    "primary_category": "audio-music",
-    "categories": [
-      "audio-music",
-      "agents"
-    ],
-    "tags": [
-      "ai",
-      "ai-agent",
-      "ai-agents",
-      "fine-tuning",
-      "finetuning-llms"
-    ],
-    "compatible_agents": [
-      "claude-code",
-      "codex",
-      "cursor",
-      "gemini-cli"
-    ],
-    "status": "good",
-    "quality": 7,
-    "security": "unverified",
-    "added": "2026-11-27",
-    "last_reviewed": "2026-11-27",
-    "source_type": "github",
-    "license": "MIT",
-    "stars": 563,
-    "last_pushed": "2026-06-30",
-    "install_command": "",
-    "tested": false,
-    "featured": false,
-    "file_path": "skills/audio-music/oxbshw-llm-agents-ecosystem-handbook.md",
-    "description": "One-stop handbook for building, deploying, and understanding LLM agents with 60+ skeletons, tutorials, ecosystem guides, and evaluation tools.",
-    "what_it_does": "Provides voice synthesis, transcription, audio editing, or music generation workflows. Focused on `ai`, `ai-agent`, `ai-agents`, `fine-tuning` and designed to work with claude-code, codex, cursor, gemini-cli.",
-    "best_for": [
-      "**Primary goal:** One-stop handbook for building, deploying, and understanding LLM agents with 60+ skeletons, tutorials, ecosystem guides, and evaluation tools.",
-      "**Works with:** claude-code, codex, cursor, gemini-cli",
-      "**Key topics:** ai, ai-agent, ai-agents, fine-tuning, finetuning-llms"
-    ],
-    "verdict": "GOOD — 563 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.",
-    "limitations": [
-      "Automated index entry; verify exact install flags and required API keys in the upstream repository."
-    ],
-    "risk": "Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.",
-    "installation": "See the upstream repository for setup instructions: https://github.com/oxbshw/LLM-Agents-Ecosystem-Handbook",
-    "notes": "",
-    "related_skills": [
-      "hqhq1025-ai-course-notes",
-      "liguozheng-ac-lingbo-desk",
-      "sickn33-tidal-mcp",
-      "silverstein-minutes"
-    ]
-  },
-  {
     "id": "pattern-ai-labs-swaram",
     "name": "Swaram",
     "source": "https://github.com/pattern-ai-labs/swaram",
@@ -1165,9 +1051,9 @@
     "notes": "",
     "related_skills": [
       "agentscope-ai-agentscope",
-      "hqhq1025-ai-course-notes",
       "liguozheng-ac-lingbo-desk",
-      "llm-xiaoye-douyin-to-obsidian"
+      "llm-xiaoye-douyin-to-obsidian",
+      "off-grid-ai-ogam"
     ]
   },
   {
@@ -1333,8 +1219,8 @@
     "related_skills": [
       "agihunt-blurt",
       "smixs-agent-second-brain",
-      "oxbshw-llm-agents-ecosystem-handbook",
-      "silverstein-minutes"
+      "silverstein-minutes",
+      "owoevan-dev-music-skill"
     ]
   },
   {
@@ -1388,9 +1274,9 @@
     "notes": "",
     "related_skills": [
       "gabberflast-prose-revision-skill-ht-anthony-lee-zhang",
-      "hqhq1025-ai-course-notes",
       "liguozheng-ac-lingbo-desk",
-      "llm-xiaoye-douyin-to-obsidian"
+      "llm-xiaoye-douyin-to-obsidian",
+      "sanjay3290-ai-skills"
     ]
   },
   {
@@ -8548,60 +8434,6 @@
     ]
   },
   {
-    "id": "kewang0622-agent-zero-to-hero",
-    "name": "Agent Zero To Hero",
-    "source": "https://github.com/KeWang0622/agent-zero-to-hero",
-    "author": "KeWang0622",
-    "primary_category": "design",
-    "categories": [
-      "design",
-      "agents"
-    ],
-    "tags": [
-      "agent",
-      "claude-code",
-      "educational",
-      "from-scratch",
-      "llm"
-    ],
-    "compatible_agents": [
-      "claude-code"
-    ],
-    "status": "promising",
-    "quality": 6,
-    "security": "unverified",
-    "added": "2026-11-27",
-    "last_reviewed": "2026-11-27",
-    "source_type": "github",
-    "license": "MIT",
-    "stars": 55,
-    "last_pushed": "2026-10-27",
-    "install_command": "",
-    "tested": false,
-    "featured": false,
-    "file_path": "skills/design/kewang0622-agent-zero-to-hero.md",
-    "description": "Build an agent harness from scratch. 21 runnable Python lessons, 3 reliability design labs, 78 offline tests, no agent frameworks.",
-    "what_it_does": "Provides UI/UX design rules, component patterns, typography, accessibility, or visual polish. Focused on `agent`, `claude-code`, `educational`, `from-scratch` and designed to work with claude-code.",
-    "best_for": [
-      "**Primary goal:** Build an agent harness from scratch. 21 runnable Python lessons, 3 reliability design labs, 78 offline tests, no agent frameworks.",
-      "**Works with:** claude-code",
-      "**Key topics:** agent, claude-code, educational, from-scratch, llm"
-    ],
-    "verdict": "PROMISING — 55 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.",
-    "limitations": [
-      "Automated index entry; verify exact install flags and required API keys in the upstream repository."
-    ],
-    "risk": "Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.",
-    "installation": "See the upstream repository for setup instructions: https://github.com/KeWang0622/agent-zero-to-hero",
-    "notes": "",
-    "related_skills": [
-      "tencentcloudbase-cloudbase-agent-ui",
-      "zseven-w-openpencil",
-      "abdiraimov-otabek-dashboard-design-skill",
-      "adaptyvbio-protein-design-skills"
-    ]
-  },
-  {
     "id": "kociden-sakurai-skill",
     "name": "Sakurai Skill",
     "source": "https://github.com/kociden/sakurai-skill",
@@ -11698,10 +11530,10 @@
     "installation": "See the upstream repository for setup instructions: https://github.com/TencentCloudBase/cloudbase-agent-ui",
     "notes": "",
     "related_skills": [
-      "kewang0622-agent-zero-to-hero",
       "hazenix-interview-prep-skills",
       "referodesign-refero-skill",
-      "shy2593666979-agentchat"
+      "shy2593666979-agentchat",
+      "vixues-leagent"
     ]
   },
   {
@@ -25038,61 +24870,6 @@
     ]
   },
   {
-    "id": "ai-builder-club-agent-engineering-roadmap",
-    "name": "Agent Engineering Roadmap",
-    "source": "https://github.com/AI-Builder-Club/agent-engineering-roadmap",
-    "author": "AI-Builder-Club",
-    "primary_category": "mcp",
-    "categories": [
-      "coding",
-      "agents",
-      "mcp"
-    ],
-    "tags": [
-      "agent-engineering",
-      "agent-skills",
-      "ai-agents",
-      "ai-engineer-roadmap",
-      "claude-code"
-    ],
-    "compatible_agents": [
-      "claude-code"
-    ],
-    "status": "promising",
-    "quality": 6,
-    "security": "unverified",
-    "added": "2026-11-27",
-    "last_reviewed": "2026-11-27",
-    "source_type": "github",
-    "license": "Unknown",
-    "stars": 31,
-    "last_pushed": "2026-07-06",
-    "install_command": "",
-    "tested": false,
-    "featured": false,
-    "file_path": "skills/mcp/ai-builder-club-agent-engineering-roadmap.md",
-    "description": "The AI engineer roadmap for agent builders: a staged path with runnable labs to build a coding agent from scratch - by AI Builder Club",
-    "what_it_does": "Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agent-engineering`, `agent-skills`, `ai-agents`, `ai-engineer-roadmap` and designed to work with claude-code.",
-    "best_for": [
-      "**Primary goal:** The AI engineer roadmap for agent builders: a staged path with runnable labs to build a coding agent from scratch - by AI Builder Club",
-      "**Works with:** claude-code",
-      "**Key topics:** agent-engineering, agent-skills, ai-agents, ai-engineer-roadmap, claude-code"
-    ],
-    "verdict": "PROMISING — 31 GitHub stars (Unknown license). Review the repository README and `SKILL.md` before adding to your workspace.",
-    "limitations": [
-      "Automated index entry; verify exact install flags and required API keys in the upstream repository."
-    ],
-    "risk": "Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.",
-    "installation": "See the upstream repository for setup instructions: https://github.com/AI-Builder-Club/agent-engineering-roadmap",
-    "notes": "",
-    "related_skills": [
-      "aaravkashyap12-advise-project-approach",
-      "ai-builder-club-skills",
-      "aigorahub-elves",
-      "alchaincyf-nuwa-skill"
-    ]
-  },
-  {
     "id": "ai-builder-club-skills",
     "name": "Skills",
     "source": "https://github.com/AI-Builder-Club/skills",
@@ -26315,9 +26092,9 @@
     "notes": "",
     "related_skills": [
       "xiaomoboy-pi-bluebook",
-      "yanhua1010-dsh-harness-tutorial",
       "agentsope-skillalchemy",
-      "alephaitech-doubaoworkguide"
+      "alephaitech-doubaoworkguide",
+      "doccker-cc-use-exp"
     ]
   },
   {
@@ -31080,62 +30857,6 @@
     ]
   },
   {
-    "id": "codelytv-agentic-programming-course",
-    "name": "Agentic Programming Course",
-    "source": "https://github.com/CodelyTV/agentic_programming-course",
-    "author": "CodelyTV",
-    "primary_category": "mcp",
-    "categories": [
-      "coding",
-      "agents",
-      "mcp"
-    ],
-    "tags": [
-      "agentic-ai",
-      "claude-code",
-      "claude-code-skills",
-      "copilot",
-      "mcp"
-    ],
-    "compatible_agents": [
-      "claude-code",
-      "github-copilot"
-    ],
-    "status": "promising",
-    "quality": 6,
-    "security": "unverified",
-    "added": "2026-11-27",
-    "last_reviewed": "2026-11-27",
-    "source_type": "github",
-    "license": "MIT",
-    "stars": 42,
-    "last_pushed": "2026-04-21",
-    "install_command": "",
-    "tested": false,
-    "featured": false,
-    "file_path": "skills/mcp/codelytv-agentic-programming-course.md",
-    "description": "Agentic Programming with AI: Practical Fundamentals course examples",
-    "what_it_does": "Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agentic-ai`, `claude-code`, `claude-code-skills`, `copilot` and designed to work with claude-code, github-copilot.",
-    "best_for": [
-      "**Primary goal:** Agentic Programming with AI: Practical Fundamentals course examples",
-      "**Works with:** claude-code, github-copilot",
-      "**Key topics:** agentic-ai, claude-code, claude-code-skills, copilot, mcp"
-    ],
-    "verdict": "PROMISING — 42 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.",
-    "limitations": [
-      "Automated index entry; verify exact install flags and required API keys in the upstream repository."
-    ],
-    "risk": "Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.",
-    "installation": "See the upstream repository for setup instructions: https://github.com/CodelyTV/agentic_programming-course",
-    "notes": "",
-    "related_skills": [
-      "jmagly-kintsugi-usb",
-      "vikashloomba-copilot-mcp",
-      "agentic-awesome-skills",
-      "alchaincyf-nuwa-skill"
-    ]
-  },
-  {
     "id": "coldteadotai-abide",
     "name": "Abide",
     "source": "https://github.com/coldteadotai/abide",
@@ -32377,61 +32098,6 @@
     ]
   },
   {
-    "id": "daveebbelaar-pydantic-ai-tutorial",
-    "name": "Pydantic Ai Tutorial",
-    "source": "https://github.com/daveebbelaar/pydantic-ai-tutorial",
-    "author": "daveebbelaar",
-    "primary_category": "mcp",
-    "categories": [
-      "coding",
-      "mcp"
-    ],
-    "tags": [
-      "agents",
-      "ai",
-      "python"
-    ],
-    "compatible_agents": [
-      "claude-code",
-      "codex",
-      "cursor",
-      "gemini-cli"
-    ],
-    "status": "good",
-    "quality": 7,
-    "security": "unverified",
-    "added": "2026-11-27",
-    "last_reviewed": "2026-11-27",
-    "source_type": "github",
-    "license": "MIT",
-    "stars": 145,
-    "last_pushed": "2024-12-05",
-    "install_command": "",
-    "tested": false,
-    "featured": false,
-    "file_path": "skills/mcp/daveebbelaar-pydantic-ai-tutorial.md",
-    "description": "Learn how to build AI agents with PydanticAI",
-    "what_it_does": "Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agents`, `ai`, `python` and designed to work with claude-code, codex, cursor, gemini-cli.",
-    "best_for": [
-      "**Primary goal:** Learn how to build AI agents with PydanticAI",
-      "**Works with:** claude-code, codex, cursor, gemini-cli",
-      "**Key topics:** agents, ai, python"
-    ],
-    "verdict": "GOOD — 145 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.",
-    "limitations": [
-      "Automated index entry; verify exact install flags and required API keys in the upstream repository."
-    ],
-    "risk": "Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.",
-    "installation": "See the upstream repository for setup instructions: https://github.com/daveebbelaar/pydantic-ai-tutorial",
-    "notes": "",
-    "related_skills": [
-      "aiscientists-dev-worldseed",
-      "cisco-ai-defense-mcp-scanner",
-      "composiohq-composio",
-      "docker-docker-agent"
-    ]
-  },
-  {
     "id": "davila7-aixp",
     "name": "AIXP",
     "source": "https://github.com/davila7/AIXP",
@@ -33426,8 +33092,8 @@
     "related_skills": [
       "jdrhyne-agent-skills",
       "aaravkashyap12-advise-project-approach",
-      "ai-builder-club-agent-engineering-roadmap",
-      "ai-builder-club-skills"
+      "ai-builder-club-skills",
+      "aigorahub-elves"
     ]
   },
   {
@@ -33649,9 +33315,9 @@
     "notes": "",
     "related_skills": [
       "aaravkashyap12-advise-project-approach",
-      "ai-builder-club-agent-engineering-roadmap",
       "ai-builder-club-skills",
-      "aigorahub-elves"
+      "aigorahub-elves",
+      "alchaincyf-nuwa-skill"
     ]
   },
   {
@@ -34969,9 +34635,9 @@
     "notes": "",
     "related_skills": [
       "aaravkashyap12-advise-project-approach",
-      "ai-builder-club-agent-engineering-roadmap",
       "ai-builder-club-skills",
-      "aigorahub-elves"
+      "aigorahub-elves",
+      "alchaincyf-nuwa-skill"
     ]
   },
   {
@@ -38116,9 +37782,9 @@
     "notes": "",
     "related_skills": [
       "foryourhealth111-pixel-vibe-skills",
-      "marktechpost-ai-media-inc-ai-agents-projects-tutorials",
       "mattgierhart-prd-driven-context-engineering",
-      "nurettincoban-ai-prd-workflow"
+      "nurettincoban-ai-prd-workflow",
+      "testdriverai-testdriverai"
     ]
   },
   {
@@ -40883,7 +40549,7 @@
       "aiscientists-dev-worldseed",
       "cisco-ai-defense-mcp-scanner",
       "composiohq-composio",
-      "daveebbelaar-pydantic-ai-tutorial"
+      "docker-docker-agent"
     ]
   },
   {
@@ -42555,8 +42221,8 @@
     "related_skills": [
       "0xnyk-lacp",
       "aaravkashyap12-advise-project-approach",
-      "ai-builder-club-agent-engineering-roadmap",
-      "ai-builder-club-skills"
+      "ai-builder-club-skills",
+      "aigorahub-elves"
     ]
   },
   {
@@ -44142,63 +43808,6 @@
     ]
   },
   {
-    "id": "luochang212-dive-into-langgraph",
-    "name": "Dive Into Langgraph",
-    "source": "https://github.com/luochang212/dive-into-langgraph",
-    "author": "luochang212",
-    "primary_category": "mcp",
-    "categories": [
-      "agents",
-      "mcp"
-    ],
-    "tags": [
-      "agent",
-      "agent-skills",
-      "e-book",
-      "guide",
-      "handbook"
-    ],
-    "compatible_agents": [
-      "claude-code",
-      "codex",
-      "cursor",
-      "gemini-cli"
-    ],
-    "status": "good",
-    "quality": 7,
-    "security": "unverified",
-    "added": "2026-11-27",
-    "last_reviewed": "2026-11-27",
-    "source_type": "github",
-    "license": "Unknown",
-    "stars": 478,
-    "last_pushed": "2026-11-22",
-    "install_command": "",
-    "tested": false,
-    "featured": false,
-    "file_path": "skills/mcp/luochang212-dive-into-langgraph.md",
-    "description": "LangGraph 1.0 Tutorial",
-    "what_it_does": "Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agent`, `agent-skills`, `e-book`, `guide` and designed to work with claude-code, codex, cursor, gemini-cli.",
-    "best_for": [
-      "**Primary goal:** LangGraph 1.0 Tutorial",
-      "**Works with:** claude-code, codex, cursor, gemini-cli",
-      "**Key topics:** agent, agent-skills, e-book, guide, handbook"
-    ],
-    "verdict": "GOOD — 478 GitHub stars (Unknown license). Review the repository README and `SKILL.md` before adding to your workspace.",
-    "limitations": [
-      "Automated index entry; verify exact install flags and required API keys in the upstream repository."
-    ],
-    "risk": "Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.",
-    "installation": "See the upstream repository for setup instructions: https://github.com/luochang212/dive-into-langgraph",
-    "notes": "",
-    "related_skills": [
-      "agentworkforce-relay",
-      "alephaitech-doubaoworkguide",
-      "blackbelttechnology-pi-agent-dashboard",
-      "cisco-ai-defense-skill-scanner"
-    ]
-  },
-  {
     "id": "luochang212-skill-zoo",
     "name": "Skill Zoo",
     "source": "https://github.com/luochang212/skill-zoo",
@@ -44646,64 +44255,6 @@
       "pseudo-longinus-quant-buddy-skills",
       "tigerless-labs-autoharness",
       "ai45lab-agentdog"
-    ]
-  },
-  {
-    "id": "marktechpost-ai-media-inc-ai-agents-projects-tutorials",
-    "name": "AI Agents Projects Tutorials",
-    "source": "https://github.com/MARKTECHPOST-AI-MEDIA-INC/AI-Agents-Projects-Tutorials",
-    "author": "MARKTECHPOST-AI-MEDIA-INC",
-    "primary_category": "mcp",
-    "categories": [
-      "automation",
-      "agents",
-      "mcp"
-    ],
-    "tags": [
-      "agent-skills",
-      "agentic-ai",
-      "agentic-ai-development",
-      "agentic-coding",
-      "agentic-engineering"
-    ],
-    "compatible_agents": [
-      "claude-code",
-      "codex",
-      "cursor",
-      "gemini-cli"
-    ],
-    "status": "good",
-    "quality": 8,
-    "security": "unverified",
-    "added": "2026-11-27",
-    "last_reviewed": "2026-11-27",
-    "source_type": "github",
-    "license": "Unknown",
-    "stars": 2952,
-    "last_pushed": "2026-11-06",
-    "install_command": "",
-    "tested": false,
-    "featured": false,
-    "file_path": "skills/mcp/marktechpost-ai-media-inc-ai-agents-projects-tutorials.md",
-    "description": "Multi-agent systems, memory, planning, reasoning loops",
-    "what_it_does": "Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agent-skills`, `agentic-ai`, `agentic-ai-development`, `agentic-coding` and designed to work with claude-code, codex, cursor, gemini-cli.",
-    "best_for": [
-      "**Primary goal:** Multi-agent systems, memory, planning, reasoning loops",
-      "**Works with:** claude-code, codex, cursor, gemini-cli",
-      "**Key topics:** agent-skills, agentic-ai, agentic-ai-development, agentic-coding, agentic-engineering"
-    ],
-    "verdict": "GOOD — 2,952 GitHub stars (Unknown license). Review the repository README and `SKILL.md` before adding to your workspace.",
-    "limitations": [
-      "Automated index entry; verify exact install flags and required API keys in the upstream repository."
-    ],
-    "risk": "Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.",
-    "installation": "See the upstream repository for setup instructions: https://github.com/MARKTECHPOST-AI-MEDIA-INC/AI-Agents-Projects-Tutorials",
-    "notes": "",
-    "related_skills": [
-      "creminiai-skillpack",
-      "eclipse-theia-theia",
-      "jetbrains-thinkrail",
-      "kwalus-canopy"
     ]
   },
   {
@@ -46115,63 +45666,6 @@
       "jmagly-aiwg",
       "amplifthq-openmeld",
       "coco-research-coco"
-    ]
-  },
-  {
-    "id": "microsoft-ai-agents-for-beginners",
-    "name": "Ai Agents For Beginners",
-    "source": "https://github.com/microsoft/ai-agents-for-beginners",
-    "author": "microsoft",
-    "primary_category": "mcp",
-    "categories": [
-      "agents",
-      "mcp"
-    ],
-    "tags": [
-      "agentic-ai",
-      "agentic-framework",
-      "agentic-rag",
-      "ai-agents",
-      "ai-agents-framework"
-    ],
-    "compatible_agents": [
-      "claude-code",
-      "codex",
-      "cursor",
-      "gemini-cli"
-    ],
-    "status": "excellent",
-    "quality": 9,
-    "security": "unverified",
-    "added": "2026-11-27",
-    "last_reviewed": "2026-11-27",
-    "source_type": "github",
-    "license": "MIT",
-    "stars": 81048,
-    "last_pushed": "2026-11-17",
-    "install_command": "",
-    "tested": false,
-    "featured": true,
-    "file_path": "skills/mcp/microsoft-ai-agents-for-beginners.md",
-    "description": "18 Lessons to Get Started Building AI Agents",
-    "what_it_does": "Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agentic-ai`, `agentic-framework`, `agentic-rag`, `ai-agents` and designed to work with claude-code, codex, cursor, gemini-cli.",
-    "best_for": [
-      "**Primary goal:** 18 Lessons to Get Started Building AI Agents",
-      "**Works with:** claude-code, codex, cursor, gemini-cli",
-      "**Key topics:** agentic-ai, agentic-framework, agentic-rag, ai-agents, ai-agents-framework"
-    ],
-    "verdict": "EXCELLENT — 81,048 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.",
-    "limitations": [
-      "Automated index entry; verify exact install flags and required API keys in the upstream repository."
-    ],
-    "risk": "Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.",
-    "installation": "See the upstream repository for setup instructions: https://github.com/microsoft/ai-agents-for-beginners",
-    "notes": "",
-    "related_skills": [
-      "aiscientists-dev-worldseed",
-      "bagelhole-devops-security-agent-skills",
-      "baidu-netdisk-bdpan-storage",
-      "composiohq-composio"
     ]
   },
   {
@@ -48581,8 +48075,8 @@
     "related_skills": [
       "mattgierhart-prd-driven-context-engineering",
       "composiohq-awesome-claude-skills",
-      "marktechpost-ai-media-inc-ai-agents-projects-tutorials",
-      "mohitagw15856-pm-claude-skills"
+      "mohitagw15856-pm-claude-skills",
+      "tjboudreaux-cc-thinking-skills"
     ]
   },
   {
@@ -51498,7 +50992,7 @@
       "codelytv-agent-harness",
       "dagoste-squadra",
       "first-fluke-oh-my-agent",
-      "marktechpost-ai-media-inc-ai-agents-projects-tutorials"
+      "mvschwarz-openrig"
     ]
   },
   {
@@ -53069,9 +52563,9 @@
     "notes": "",
     "related_skills": [
       "aaravkashyap12-advise-project-approach",
-      "ai-builder-club-agent-engineering-roadmap",
       "ai-builder-club-skills",
-      "aigorahub-elves"
+      "aigorahub-elves",
+      "alchaincyf-nuwa-skill"
     ]
   },
   {
@@ -53416,63 +52910,6 @@
       "aannoo-hcom",
       "corespeed-io-zypher-agent",
       "ling-stack-org-ling-stack"
-    ]
-  },
-  {
-    "id": "sandbaseai-deepseek-harness-handbook",
-    "name": "Deepseek Harness Handbook",
-    "source": "https://github.com/sandbaseai/deepseek-harness-handbook",
-    "author": "sandbaseai",
-    "primary_category": "mcp",
-    "categories": [
-      "agents",
-      "mcp"
-    ],
-    "tags": [
-      "agent-runtime",
-      "agentic-ai",
-      "ai-agents",
-      "awesome-list",
-      "deepseek"
-    ],
-    "compatible_agents": [
-      "claude-code",
-      "codex",
-      "cursor",
-      "gemini-cli"
-    ],
-    "status": "good",
-    "quality": 7,
-    "security": "unverified",
-    "added": "2026-11-27",
-    "last_reviewed": "2026-11-27",
-    "source_type": "github",
-    "license": "Apache-2.0",
-    "stars": 247,
-    "last_pushed": "2026-08-31",
-    "install_command": "",
-    "tested": false,
-    "featured": false,
-    "file_path": "skills/mcp/sandbaseai-deepseek-harness-handbook.md",
-    "description": "Agent-first DeepSeek Harness handbook: 173 source-backed runtime, plugin, MCP, sandbox, evaluation, troubleshooting, multilingual, and 74-resource Awesome ecosystem guides.",
-    "what_it_does": "Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agent-runtime`, `agentic-ai`, `ai-agents`, `awesome-list` and designed to work with claude-code, codex, cursor, gemini-cli.",
-    "best_for": [
-      "**Primary goal:** Agent-first DeepSeek Harness handbook: 173 source-backed runtime, plugin, MCP, sandbox, evaluation, troubleshooting, multilingual, and 74-resource Awesome ecosystem guides.",
-      "**Works with:** claude-code, codex, cursor, gemini-cli",
-      "**Key topics:** agent-runtime, agentic-ai, ai-agents, awesome-list, deepseek"
-    ],
-    "verdict": "GOOD — 247 GitHub stars (Apache-2.0 license). Review the repository README and `SKILL.md` before adding to your workspace.",
-    "limitations": [
-      "Automated index entry; verify exact install flags and required API keys in the upstream repository."
-    ],
-    "risk": "Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.",
-    "installation": "See the upstream repository for setup instructions: https://github.com/sandbaseai/deepseek-harness-handbook",
-    "notes": "",
-    "related_skills": [
-      "reacher-z-awesome-cua",
-      "abdelstark-awesome-typesafe-jev",
-      "aiscientists-dev-worldseed",
-      "bagelhole-devops-security-agent-skills"
     ]
   },
   {
@@ -61886,63 +61323,6 @@
     ]
   },
   {
-    "id": "xmudeeplit-awesome-self-evolving-agents",
-    "name": "Awesome Self Evolving Agents",
-    "source": "https://github.com/XMUDeepLIT/Awesome-Self-Evolving-Agents",
-    "author": "XMUDeepLIT",
-    "primary_category": "mcp",
-    "categories": [
-      "agents",
-      "mcp"
-    ],
-    "tags": [
-      "agent",
-      "agent-skills",
-      "agent-survey",
-      "awsome-self-evolving-agents",
-      "self-evolution"
-    ],
-    "compatible_agents": [
-      "claude-code",
-      "codex",
-      "cursor",
-      "gemini-cli"
-    ],
-    "status": "good",
-    "quality": 7,
-    "security": "unverified",
-    "added": "2026-11-27",
-    "last_reviewed": "2026-11-27",
-    "source_type": "github",
-    "license": "Unknown",
-    "stars": 496,
-    "last_pushed": "2026-11-13",
-    "install_command": "",
-    "tested": false,
-    "featured": false,
-    "file_path": "skills/mcp/xmudeeplit-awesome-self-evolving-agents.md",
-    "description": "A Survey of Self-Evolving Agents | A curated list of resources (surveys, papers, benchmarks, and opensource projects) on Self-Evolving Agents.",
-    "what_it_does": "Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agent`, `agent-skills`, `agent-survey`, `awsome-self-evolving-agents` and designed to work with claude-code, codex, cursor, gemini-cli.",
-    "best_for": [
-      "**Primary goal:** A Survey of Self-Evolving Agents | A curated list of resources (surveys, papers, benchmarks, and opensource projects) on Self-Evolving Agents.",
-      "**Works with:** claude-code, codex, cursor, gemini-cli",
-      "**Key topics:** agent, agent-skills, agent-survey, awsome-self-evolving-agents, self-evolution"
-    ],
-    "verdict": "GOOD — 496 GitHub stars (Unknown license). Review the repository README and `SKILL.md` before adding to your workspace.",
-    "limitations": [
-      "Automated index entry; verify exact install flags and required API keys in the upstream repository."
-    ],
-    "risk": "Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.",
-    "installation": "See the upstream repository for setup instructions: https://github.com/XMUDeepLIT/Awesome-Self-Evolving-Agents",
-    "notes": "",
-    "related_skills": [
-      "agentworkforce-relay",
-      "blackbelttechnology-pi-agent-dashboard",
-      "cisco-ai-defense-skill-scanner",
-      "corespeed-io-zypher-agent"
-    ]
-  },
-  {
     "id": "xmudeeplit-memgraphrag",
     "name": "MemGraphRAG",
     "source": "https://github.com/XMUDeepLIT/MemGraphRAG",
@@ -62105,64 +61485,6 @@
       "agenmod-okr-skill",
       "agentsope-smartbuy-skill",
       "agentworkforce-trajectories"
-    ]
-  },
-  {
-    "id": "yanhua1010-dsh-harness-tutorial",
-    "name": "Dsh Harness Tutorial",
-    "source": "https://github.com/yanhua1010/dsh-harness-tutorial",
-    "author": "yanhua1010",
-    "primary_category": "mcp",
-    "categories": [
-      "coding",
-      "agents",
-      "mcp"
-    ],
-    "tags": [
-      "ai-agent",
-      "deepseek",
-      "dsh",
-      "tutorial",
-      "typescript"
-    ],
-    "compatible_agents": [
-      "claude-code",
-      "codex",
-      "cursor",
-      "gemini-cli"
-    ],
-    "status": "promising",
-    "quality": 6,
-    "security": "unverified",
-    "added": "2026-11-27",
-    "last_reviewed": "2026-11-27",
-    "source_type": "github",
-    "license": "MIT",
-    "stars": 93,
-    "last_pushed": "2026-08-13",
-    "install_command": "",
-    "tested": false,
-    "featured": false,
-    "file_path": "skills/mcp/yanhua1010-dsh-harness-tutorial.md",
-    "description": "DeepSeek Harness Agent 的原理与实现：从零到一实现一个 AI Agent —— 一切皆插件的中文教程（VitePress 站点 + 8 个 Demo + mini-harness 教学项目）",
-    "what_it_does": "Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `ai-agent`, `deepseek`, `dsh`, `tutorial` and designed to work with claude-code, codex, cursor, gemini-cli.",
-    "best_for": [
-      "**Primary goal:** DeepSeek Harness Agent 的原理与实现：从零到一实现一个 AI Agent —— 一切皆插件的中文教程（VitePress 站点 + 8 个 Demo + mini-harness 教学项目）",
-      "**Works with:** claude-code, codex, cursor, gemini-cli",
-      "**Key topics:** ai-agent, deepseek, dsh, tutorial, typescript"
-    ],
-    "verdict": "PROMISING — 93 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.",
-    "limitations": [
-      "Automated index entry; verify exact install flags and required API keys in the upstream repository."
-    ],
-    "risk": "Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.",
-    "installation": "See the upstream repository for setup instructions: https://github.com/yanhua1010/dsh-harness-tutorial",
-    "notes": "",
-    "related_skills": [
-      "amplifthq-oh-my-dsh",
-      "freestylefly-wechatbridge",
-      "index-login-mobilere-skill",
-      "laolaoshiren-claude-code-skills-zh"
     ]
   },
   {
@@ -63779,7 +63101,7 @@
       "fy-agent-fyagent",
       "cxuu-golang-skills",
       "telagod-code-abyss",
-      "kimyx0207-ai-coding-guide-zh"
+      "agentscope-ai-qwenpaw"
     ]
   },
   {
@@ -64890,10 +64212,10 @@
     "installation": "See the upstream repository for setup instructions: https://github.com/datopian/autoclaw.sh",
     "notes": "",
     "related_skills": [
-      "xianyu110-awesome-openclaw-tutorial",
       "advai-x-helix-work",
       "agent-ecosystem-afdocs",
-      "agentscope-ai-qwenpaw"
+      "agentscope-ai-qwenpaw",
+      "antonbabenko-deliberation"
     ]
   },
   {
@@ -65450,8 +64772,8 @@
     "related_skills": [
       "cxuu-golang-skills",
       "telagod-code-abyss",
-      "xianyu110-awesome-openclaw-tutorial",
-      "advai-x-helix-work"
+      "advai-x-helix-work",
+      "yoli-mi-good-learning"
     ]
   },
   {
@@ -65945,8 +65267,8 @@
     "related_skills": [
       "bam-bam-2-solo-skills",
       "cxuu-golang-skills",
-      "xianyu110-awesome-openclaw-tutorial",
-      "agentenatalie-get-job-skill"
+      "agentenatalie-get-job-skill",
+      "blader-humanizer"
     ]
   },
   {
@@ -66056,115 +65378,6 @@
       "advai-x-helix-work",
       "antonbabenko-deliberation",
       "blader-humanizer"
-    ]
-  },
-  {
-    "id": "kimyx0207-ai-coding-guide-zh",
-    "name": "AI Coding Guide Zh",
-    "source": "https://github.com/KimYx0207/AI-Coding-Guide-Zh",
-    "author": "KimYx0207",
-    "primary_category": "productivity",
-    "categories": [
-      "productivity",
-      "agents"
-    ],
-    "tags": [
-      "ai-agent",
-      "ai-assistant",
-      "ai-tutorial",
-      "anthropic",
-      "chinese"
-    ],
-    "compatible_agents": [
-      "claude-code",
-      "codex"
-    ],
-    "status": "good",
-    "quality": 8,
-    "security": "unverified",
-    "added": "2026-11-27",
-    "last_reviewed": "2026-11-27",
-    "source_type": "github",
-    "license": "MIT",
-    "stars": 6563,
-    "last_pushed": "2026-11-09",
-    "install_command": "",
-    "tested": false,
-    "featured": false,
-    "file_path": "skills/productivity/kimyx0207-ai-coding-guide-zh.md",
-    "description": "Claude Code + OpenClaw + Codex + WorkBuddy 中文教程 | 50篇完整教程 + 1张速查卡 | 80万+内容量 | 1500+实操示例 | AI Coding / Agent 四线学习路径（编程+助手+Agent+办公）",
-    "what_it_does": "Provides planning, writing, note-taking, or personal knowledge management workflows. Focused on `ai-agent`, `ai-assistant`, `ai-tutorial`, `anthropic` and designed to work with claude-code, codex.",
-    "best_for": [
-      "**Primary goal:** Claude Code + OpenClaw + Codex + WorkBuddy 中文教程 | 50篇完整教程 + 1张速查卡 | 80万+内容量 | 1500+实操示例 | AI Coding / Agent 四线学习路径（编程+助手+Agent+办公）",
-      "**Works with:** claude-code, codex",
-      "**Key topics:** ai-agent, ai-assistant, ai-tutorial, anthropic, chinese"
-    ],
-    "verdict": "GOOD — 6,563 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.",
-    "limitations": [
-      "Automated index entry; verify exact install flags and required API keys in the upstream repository."
-    ],
-    "risk": "Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.",
-    "installation": "See the upstream repository for setup instructions: https://github.com/KimYx0207/AI-Coding-Guide-Zh",
-    "notes": "",
-    "related_skills": [
-      "advai-x-helix-work",
-      "cxuu-golang-skills",
-      "fy-agent-fyagent",
-      "telagod-code-abyss"
-    ]
-  },
-  {
-    "id": "leter-claude-code-in-action",
-    "name": "Claude Code In Action",
-    "source": "https://github.com/leter/claude-code-in-action",
-    "author": "leter",
-    "primary_category": "productivity",
-    "categories": [
-      "productivity",
-      "agents"
-    ],
-    "tags": [
-      "ai-coding-assistant",
-      "chinese-localization",
-      "claude-code",
-      "course",
-      "hooks"
-    ],
-    "compatible_agents": [
-      "claude-code"
-    ],
-    "status": "promising",
-    "quality": 6,
-    "security": "unverified",
-    "added": "2026-11-27",
-    "last_reviewed": "2026-11-27",
-    "source_type": "github",
-    "license": "Unknown",
-    "stars": 9,
-    "last_pushed": "2026-06-04",
-    "install_command": "",
-    "tested": false,
-    "featured": false,
-    "file_path": "skills/productivity/leter-claude-code-in-action.md",
-    "description": "Claude Code in Action 官方课程中文版 / Chinese-localized Claude Code course",
-    "what_it_does": "Provides planning, writing, note-taking, or personal knowledge management workflows. Focused on `ai-coding-assistant`, `chinese-localization`, `claude-code`, `course` and designed to work with claude-code.",
-    "best_for": [
-      "**Primary goal:** Claude Code in Action 官方课程中文版 / Chinese-localized Claude Code course",
-      "**Works with:** claude-code",
-      "**Key topics:** ai-coding-assistant, chinese-localization, claude-code, course, hooks"
-    ],
-    "verdict": "PROMISING — 9 GitHub stars (Unknown license). Review the repository README and `SKILL.md` before adding to your workspace.",
-    "limitations": [
-      "Automated index entry; verify exact install flags and required API keys in the upstream repository."
-    ],
-    "risk": "Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.",
-    "installation": "See the upstream repository for setup instructions: https://github.com/leter/claude-code-in-action",
-    "notes": "",
-    "related_skills": [
-      "meet-miyani-compose-skill",
-      "23blocks-os-ai-maestro",
-      "ajnart-self-host",
-      "alexgaoth-awesome-reverse-engineered"
     ]
   },
   {
@@ -67612,8 +66825,8 @@
     "related_skills": [
       "fy-agent-fyagent",
       "cxuu-golang-skills",
-      "xianyu110-awesome-openclaw-tutorial",
-      "advai-x-helix-work"
+      "advai-x-helix-work",
+      "career-ops-hq-career-ops"
     ]
   },
   {
@@ -67892,61 +67105,6 @@
       "jemshit-save-session",
       "moizibnyousaf-ai-agent-skills",
       "twhsi-skills"
-    ]
-  },
-  {
-    "id": "xianyu110-awesome-openclaw-tutorial",
-    "name": "Awesome Openclaw Tutorial",
-    "source": "https://github.com/xianyu110/awesome-openclaw-tutorial",
-    "author": "xianyu110",
-    "primary_category": "productivity",
-    "categories": [
-      "productivity",
-      "agents"
-    ],
-    "tags": [
-      "agent-skills",
-      "ai-agent",
-      "ai-assistant",
-      "ai-tools",
-      "automation"
-    ],
-    "compatible_agents": [
-      "claude-code",
-      "codex"
-    ],
-    "status": "good",
-    "quality": 8,
-    "security": "unverified",
-    "added": "2026-11-27",
-    "last_reviewed": "2026-11-27",
-    "source_type": "github",
-    "license": "Unknown",
-    "stars": 4594,
-    "last_pushed": "2026-10-04",
-    "install_command": "",
-    "tested": false,
-    "featured": false,
-    "file_path": "skills/productivity/xianyu110-awesome-openclaw-tutorial.md",
-    "description": "OpenClaw 中文教程（4500+ Star · 已出版纸质书）：安装、配置、Skills、飞书接入与避坑｜作者的 GPT-6 / Codex / Claude Code 新项目见 README 顶部",
-    "what_it_does": "Provides planning, writing, note-taking, or personal knowledge management workflows. Focused on `agent-skills`, `ai-agent`, `ai-assistant`, `ai-tools` and designed to work with claude-code, codex.",
-    "best_for": [
-      "**Primary goal:** OpenClaw 中文教程（4500+ Star · 已出版纸质书）：安装、配置、Skills、飞书接入与避坑｜作者的 GPT-6 / Codex / Claude Code 新项目见 README 顶部",
-      "**Works with:** claude-code, codex",
-      "**Key topics:** agent-skills, ai-agent, ai-assistant, ai-tools, automation"
-    ],
-    "verdict": "GOOD — 4,594 GitHub stars (Unknown license). Review the repository README and `SKILL.md` before adding to your workspace.",
-    "limitations": [
-      "Automated index entry; verify exact install flags and required API keys in the upstream repository."
-    ],
-    "risk": "Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.",
-    "installation": "See the upstream repository for setup instructions: https://github.com/xianyu110/awesome-openclaw-tutorial",
-    "notes": "",
-    "related_skills": [
-      "cxuu-golang-skills",
-      "fy-agent-fyagent",
-      "telagod-code-abyss",
-      "bam-bam-2-solo-skills"
     ]
   },
   {
@@ -70077,62 +69235,6 @@
       "917dhj-deeppapernote",
       "agent-reach",
       "agentii-ai-agentii-investment-intelligence"
-    ]
-  },
-  {
-    "id": "gokayfem-awesome-vlm-architectures",
-    "name": "Awesome Vlm Architectures",
-    "source": "https://github.com/gokayfem/awesome-vlm-architectures",
-    "author": "gokayfem",
-    "primary_category": "research",
-    "categories": [
-      "research"
-    ],
-    "tags": [
-      "ai-agents",
-      "architecture-diagrams",
-      "arxiv",
-      "awesome",
-      "awesome-list"
-    ],
-    "compatible_agents": [
-      "claude-code",
-      "codex",
-      "cursor",
-      "gemini-cli"
-    ],
-    "status": "good",
-    "quality": 8,
-    "security": "unverified",
-    "added": "2026-11-27",
-    "last_reviewed": "2026-11-27",
-    "source_type": "github",
-    "license": "CC0-1.0",
-    "stars": 1368,
-    "last_pushed": "2026-10-27",
-    "install_command": "",
-    "tested": false,
-    "featured": false,
-    "file_path": "skills/research/gokayfem-awesome-vlm-architectures.md",
-    "description": "Curated visual catalog of 200+ vision-language model (VLM/MLLM) architectures: papers, diagrams, training recipes, datasets, and a release timeline for multimodal AI agents.",
-    "what_it_does": "Provides structured web research, academic/data analysis, or synthesis capabilities. Focused on `ai-agents`, `architecture-diagrams`, `arxiv`, `awesome` and designed to work with claude-code, codex, cursor, gemini-cli.",
-    "best_for": [
-      "**Primary goal:** Curated visual catalog of 200+ vision-language model (VLM/MLLM) architectures: papers, diagrams, training recipes, datasets, and a release timeline for multimodal AI agents.",
-      "**Works with:** claude-code, codex, cursor, gemini-cli",
-      "**Key topics:** ai-agents, architecture-diagrams, arxiv, awesome, awesome-list"
-    ],
-    "verdict": "GOOD — 1,368 GitHub stars (CC0-1.0 license). Review the repository README and `SKILL.md` before adding to your workspace.",
-    "limitations": [
-      "Automated index entry; verify exact install flags and required API keys in the upstream repository."
-    ],
-    "risk": "Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.",
-    "installation": "See the upstream repository for setup instructions: https://github.com/gokayfem/awesome-vlm-architectures",
-    "notes": "",
-    "related_skills": [
-      "0xnyk-awesome-hermes-agent",
-      "reacher-z-awesome-rea",
-      "zeropointrepo-awesome-hermes-skills",
-      "917dhj-deeppapernote"
     ]
   },
   {
@@ -73241,63 +72343,6 @@
     ]
   },
   {
-    "id": "zjunlp-llmagentpapers",
-    "name": "LLMAgentPapers",
-    "source": "https://github.com/zjunlp/LLMAgentPapers",
-    "author": "zjunlp",
-    "primary_category": "research",
-    "categories": [
-      "research",
-      "agents"
-    ],
-    "tags": [
-      "agent",
-      "agents",
-      "awsome-list",
-      "environment",
-      "in-context-learning"
-    ],
-    "compatible_agents": [
-      "claude-code",
-      "codex",
-      "cursor",
-      "gemini-cli"
-    ],
-    "status": "good",
-    "quality": 8,
-    "security": "unverified",
-    "added": "2026-11-27",
-    "last_reviewed": "2026-11-27",
-    "source_type": "github",
-    "license": "Unknown",
-    "stars": 3149,
-    "last_pushed": "2026-11-17",
-    "install_command": "",
-    "tested": false,
-    "featured": false,
-    "file_path": "skills/research/zjunlp-llmagentpapers.md",
-    "description": "Must-read Papers on LLM Agents.",
-    "what_it_does": "Provides structured web research, academic/data analysis, or synthesis capabilities. Focused on `agent`, `agents`, `awsome-list`, `environment` and designed to work with claude-code, codex, cursor, gemini-cli.",
-    "best_for": [
-      "**Primary goal:** Must-read Papers on LLM Agents.",
-      "**Works with:** claude-code, codex, cursor, gemini-cli",
-      "**Key topics:** agent, agents, awsome-list, environment, in-context-learning"
-    ],
-    "verdict": "GOOD — 3,149 GitHub stars (Unknown license). Review the repository README and `SKILL.md` before adding to your workspace.",
-    "limitations": [
-      "Automated index entry; verify exact install flags and required API keys in the upstream repository."
-    ],
-    "risk": "Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.",
-    "installation": "See the upstream repository for setup instructions: https://github.com/zjunlp/LLMAgentPapers",
-    "notes": "",
-    "related_skills": [
-      "kaelio-ktx",
-      "ai45lab-openart",
-      "ashutoshsinghpr7-wikiskill",
-      "dzhng-deep-research"
-    ]
-  },
-  {
     "id": "7waysecurity-ai-osint",
     "name": "Ai Osint",
     "source": "https://github.com/7WaySecurity/ai_osint",
@@ -74190,10 +73235,10 @@
     "installation": "See the upstream repository for setup instructions: https://github.com/joeseesun/qiaomu-opencli-skills",
     "notes": "",
     "related_skills": [
-      "udaysharmadev-ai-roadmap",
       "mvanhorn-last30days-skill",
       "vyralcontent-content-skills",
-      "zeropointrepo-youtube-skills"
+      "zeropointrepo-youtube-skills",
+      "mahanaicoach-google-maps-scraper-kit"
     ]
   },
   {
@@ -74418,59 +73463,6 @@
       "mahanaicoach-google-maps-scraper-kit",
       "social-media-skills-remotion-shorts-skill",
       "alirezarezvani-claude-code-skill-factory"
-    ]
-  },
-  {
-    "id": "udaysharmadev-ai-roadmap",
-    "name": "Ai Roadmap",
-    "source": "https://github.com/udaysharmadev/Ai-Roadmap",
-    "author": "udaysharmadev",
-    "primary_category": "youtube",
-    "categories": [
-      "youtube"
-    ],
-    "tags": [
-      "youtube",
-      "agent-skills"
-    ],
-    "compatible_agents": [
-      "claude-code",
-      "codex",
-      "cursor",
-      "gemini-cli"
-    ],
-    "status": "promising",
-    "quality": 6,
-    "security": "unverified",
-    "added": "2026-11-27",
-    "last_reviewed": "2026-11-27",
-    "source_type": "github",
-    "license": "MIT",
-    "stars": 82,
-    "last_pushed": "2026-09-11",
-    "install_command": "",
-    "tested": false,
-    "featured": false,
-    "file_path": "skills/youtube/udaysharmadev-ai-roadmap.md",
-    "description": "🚀 The Complete AI Roadmap (2026) | Free YouTube Courses, Machine Learning, Deep Learning, LLMs, GenAI, RAG, Agents, Projects, Deployment & Career Guide",
-    "what_it_does": "Provides creator workflows for scripting, hooks, thumbnails, titles, and channel growth. Focused on `youtube`, `agent-skills` and designed to work with claude-code, codex, cursor, gemini-cli.",
-    "best_for": [
-      "**Primary goal:** 🚀 The Complete AI Roadmap (2026) | Free YouTube Courses, Machine Learning, Deep Learning, LLMs, GenAI, RAG, Agents, Projects, Deployment & Career Guide",
-      "**Works with:** claude-code, codex, cursor, gemini-cli",
-      "**Key topics:** youtube, agent-skills"
-    ],
-    "verdict": "PROMISING — 82 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.",
-    "limitations": [
-      "Automated index entry; verify exact install flags and required API keys in the upstream repository."
-    ],
-    "risk": "Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.",
-    "installation": "See the upstream repository for setup instructions: https://github.com/udaysharmadev/Ai-Roadmap",
-    "notes": "",
-    "related_skills": [
-      "joeseesun-qiaomu-opencli-skills",
-      "mvanhorn-last30days-skill",
-      "vyralcontent-content-skills",
-      "zeropointrepo-youtube-skills"
     ]
   },
   {

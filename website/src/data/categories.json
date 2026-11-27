@@ -17,7 +17,7 @@
       "Refactoring",
       "Architecture"
     ],
-    "count": 371,
+    "count": 367,
     "primary_count": 1
   },
   {
@@ -33,7 +33,7 @@
       "Memory & RAG",
       "Skill Directories"
     ],
-    "count": 1302,
+    "count": 1287,
     "primary_count": 2
   },
   {
@@ -48,8 +48,8 @@
       "Database MCP",
       "Browser MCP"
     ],
-    "count": 718,
-    "primary_count": 718
+    "count": 709,
+    "primary_count": 709
   },
   {
     "id": "security",
@@ -96,8 +96,8 @@
       "Animation",
       "Figma"
     ],
-    "count": 143,
-    "primary_count": 141
+    "count": 142,
+    "primary_count": 140
   },
   {
     "id": "automation",
@@ -111,7 +111,7 @@
       "Integrations",
       "CLI"
     ],
-    "count": 114,
+    "count": 113,
     "primary_count": 1
   },
   {
@@ -126,8 +126,8 @@
       "Science",
       "Fact-Checking"
     ],
-    "count": 106,
-    "primary_count": 92
+    "count": 104,
+    "primary_count": 90
   },
   {
     "id": "image-video",
@@ -158,8 +158,8 @@
       "Titles",
       "Storytelling"
     ],
-    "count": 18,
-    "primary_count": 13
+    "count": 17,
+    "primary_count": 12
   },
   {
     "id": "audio-music",
@@ -173,8 +173,8 @@
       "Audio Editing",
       "Podcasting"
     ],
-    "count": 25,
-    "primary_count": 25
+    "count": 23,
+    "primary_count": 23
   },
   {
     "id": "business",
@@ -204,8 +204,8 @@
       "Personal Assistants",
       "Knowledge Base"
     ],
-    "count": 86,
-    "primary_count": 84
+    "count": 83,
+    "primary_count": 81
   },
   {
     "id": "other",
