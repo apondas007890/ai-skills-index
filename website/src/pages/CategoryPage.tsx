@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
-import { ArrowLeft, Search } from 'lucide-react';
+import { ArrowLeft, ChevronDown, Search } from 'lucide-react';
 import { getCategoryById, skills } from '../lib/data';
 import { filterAndSortSkills, type SortOption } from '../lib/search';
 import { CategoryIcon } from '../components/CategoryIcon';
@@ -92,18 +92,21 @@ export function CategoryPage() {
               className="w-full rounded-xl border border-zinc-200 bg-zinc-50 py-2.5 pl-10 pr-4 text-sm text-zinc-900 placeholder:text-zinc-400 focus:border-blue-600 focus:bg-white focus:outline-none dark:border-zinc-700 dark:bg-zinc-900 dark:text-zinc-100"
             />
           </div>
-          <select
-            value={sort}
-            onChange={(e) => setSort(e.target.value as SortOption)}
-            aria-label="Sort category skills"
-            className="rounded-xl border border-zinc-200 bg-white px-3.5 py-2 text-xs font-medium text-zinc-700 focus:border-blue-600 focus:outline-none dark:border-zinc-700 dark:bg-zinc-900 dark:text-zinc-200"
-          >
-            <option value="quality">Sort: Quality Score</option>
-            <option value="stars">Sort: GitHub Stars</option>
-            <option value="reviewed">Sort: Last Reviewed</option>
-            <option value="added">Sort: Recently Added</option>
-            <option value="name">Sort: Name</option>
-          </select>
+          <div className="relative">
+            <select
+              value={sort}
+              onChange={(e) => setSort(e.target.value as SortOption)}
+              aria-label="Sort category skills"
+              className="appearance-none rounded-xl border border-zinc-200 bg-white py-2.5 pl-3.5 pr-9 text-xs font-medium text-zinc-700 focus:border-blue-600 focus:outline-none dark:border-zinc-700 dark:bg-zinc-900 dark:text-zinc-200"
+            >
+              <option value="quality">Sort: Quality Score</option>
+              <option value="stars">Sort: GitHub Stars</option>
+              <option value="reviewed">Sort: Last Reviewed</option>
+              <option value="added">Sort: Recently Added</option>
+              <option value="name">Sort: Name</option>
+            </select>
+            <ChevronDown className="pointer-events-none absolute right-3 top-1/2 h-3.5 w-3.5 -translate-y-1/2 text-zinc-400" />
+          </div>
         </div>
       </section>
 

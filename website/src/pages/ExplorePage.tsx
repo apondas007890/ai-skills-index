@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
-import { LayoutGrid, List, RotateCcw, Search, SlidersHorizontal, X } from 'lucide-react';
+import { ChevronDown, LayoutGrid, List, RotateCcw, Search, SlidersHorizontal, X } from 'lucide-react';
 import { allAgents, allSourceTypes, categories, skills, tags } from '../lib/data';
 import { STATUS_META } from '../lib/constants';
 import { filterAndSortSkills, type SortOption } from '../lib/search';
@@ -293,19 +293,22 @@ export function ExplorePage() {
             )}
           </button>
 
-          <select
-            value={sort}
-            onChange={(e) => setSort(e.target.value as SortOption)}
-            aria-label="Sort skills"
-            className="rounded-lg border border-zinc-200 bg-white px-3 py-2 text-xs font-medium text-zinc-700 focus:border-blue-600 focus:outline-none dark:border-zinc-800 dark:bg-zinc-900 dark:text-zinc-200"
-          >
-            <option value="quality">Sort: Quality Score</option>
-            <option value="stars">Sort: GitHub Stars</option>
-            <option value="relevance">Sort: Relevance</option>
-            <option value="reviewed">Sort: Last Reviewed</option>
-            <option value="added">Sort: Recently Added</option>
-            <option value="name">Sort: Name A–Z</option>
-          </select>
+          <div className="relative">
+            <select
+              value={sort}
+              onChange={(e) => setSort(e.target.value as SortOption)}
+              aria-label="Sort skills"
+              className="appearance-none rounded-lg border border-zinc-200 bg-white py-2 pl-3 pr-8 text-xs font-medium text-zinc-700 focus:border-blue-600 focus:outline-none dark:border-zinc-800 dark:bg-zinc-900 dark:text-zinc-200"
+            >
+              <option value="quality">Sort: Quality Score</option>
+              <option value="stars">Sort: GitHub Stars</option>
+              <option value="relevance">Sort: Relevance</option>
+              <option value="reviewed">Sort: Last Reviewed</option>
+              <option value="added">Sort: Recently Added</option>
+              <option value="name">Sort: Name A–Z</option>
+            </select>
+            <ChevronDown className="pointer-events-none absolute right-2.5 top-1/2 h-3.5 w-3.5 -translate-y-1/2 text-zinc-400" />
+          </div>
 
           <div className="inline-flex rounded-lg border border-zinc-200 bg-white p-0.5 dark:border-zinc-800 dark:bg-zinc-900">
             <button

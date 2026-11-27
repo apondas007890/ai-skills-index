@@ -7,8 +7,11 @@ import { SkillDetailPage } from './pages/SkillDetailPage';
 import { SubmitSkillPage } from './pages/SubmitSkillPage';
 
 export default function App() {
+  const rawBase = import.meta.env.BASE_URL || '/';
+  const basename = rawBase.endsWith('/') && rawBase.length > 1 ? rawBase.slice(0, -1) : rawBase;
+
   return (
-    <BrowserRouter basename="/ai-skills-index">
+    <BrowserRouter basename={basename}>
       <Layout>
         <Routes>
           <Route path="/" element={<HomePage />} />
