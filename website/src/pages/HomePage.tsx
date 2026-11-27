@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { ArrowRight, Bot, Search, SlidersHorizontal, Sparkles, Star, TrendingUp } from 'lucide-react';
+import { ArrowRight, Bot, Search, SlidersHorizontal, Star, X } from 'lucide-react';
 import { allAgents, categories, skills, tags } from '../lib/data';
 import { filterAndSortSkills } from '../lib/search';
 import { CategoryIcon } from '../components/CategoryIcon';
@@ -8,16 +8,47 @@ import { SkillCard } from '../components/SkillCard';
 
 type ShelfTab = 'all' | 'excellent' | 'good' | 'promising' | 'stars';
 
-/** Agent accent colors for the filter row */
-const AGENT_ACCENT: Record<string, { active: string; idle: string }> = {
-  'claude-code': { active: 'border-orange-500/60 bg-orange-500/15 text-orange-400', idle: 'border-orange-500/20 text-orange-400/60 hover:border-orange-500/40 hover:text-orange-400' },
-  'cline':       { active: 'border-yellow-500/60 bg-yellow-500/15 text-yellow-400', idle: 'border-yellow-500/20 text-yellow-400/60 hover:border-yellow-500/40 hover:text-yellow-400' },
-  'codex':       { active: 'border-green-500/60 bg-green-500/15 text-green-400',    idle: 'border-green-500/20 text-green-400/60 hover:border-green-500/40 hover:text-green-400'   },
-  'cursor':      { active: 'border-purple-500/60 bg-purple-500/15 text-purple-400', idle: 'border-purple-500/20 text-purple-400/60 hover:border-purple-500/40 hover:text-purple-400' },
-  'gemini-cli':  { active: 'border-blue-500/60 bg-blue-500/15 text-blue-400',       idle: 'border-blue-500/20 text-blue-400/60 hover:border-blue-500/40 hover:text-blue-400'      },
-  'kiro':        { active: 'border-red-500/60 bg-red-500/15 text-red-400',           idle: 'border-red-500/20 text-red-400/60 hover:border-red-500/40 hover:text-red-400'          },
-  'opencode':    { active: 'border-teal-500/60 bg-teal-500/15 text-teal-400',        idle: 'border-teal-500/20 text-teal-400/60 hover:border-teal-500/40 hover:text-teal-400'     },
-  'windsurf':    { active: 'border-cyan-500/60 bg-cyan-500/15 text-cyan-400',        idle: 'border-cyan-500/20 text-cyan-400/60 hover:border-cyan-500/40 hover:text-cyan-400'     },
+const AGENT_ACCENT: Record<string, { active: string; idle: string; dot: string }> = {
+  'claude-code': {
+    active: 'border-orange-500 bg-orange-50 text-orange-700 dark:border-orange-500/70 dark:bg-orange-950/60 dark:text-orange-300',
+    idle: 'border-zinc-200 bg-white text-zinc-600 hover:border-orange-300 hover:text-orange-700 dark:border-zinc-800 dark:bg-zinc-900 dark:text-zinc-400 dark:hover:border-orange-700 dark:hover:text-orange-300',
+    dot: 'bg-orange-500',
+  },
+  cline: {
+    active: 'border-amber-500 bg-amber-50 text-amber-700 dark:border-amber-500/70 dark:bg-amber-950/60 dark:text-amber-300',
+    idle: 'border-zinc-200 bg-white text-zinc-600 hover:border-amber-300 hover:text-amber-700 dark:border-zinc-800 dark:bg-zinc-900 dark:text-zinc-400 dark:hover:border-amber-700 dark:hover:text-amber-300',
+    dot: 'bg-amber-500',
+  },
+  codex: {
+    active: 'border-emerald-500 bg-emerald-50 text-emerald-700 dark:border-emerald-500/70 dark:bg-emerald-950/60 dark:text-emerald-300',
+    idle: 'border-zinc-200 bg-white text-zinc-600 hover:border-emerald-300 hover:text-emerald-700 dark:border-zinc-800 dark:bg-zinc-900 dark:text-zinc-400 dark:hover:border-emerald-700 dark:hover:text-emerald-300',
+    dot: 'bg-emerald-500',
+  },
+  cursor: {
+    active: 'border-violet-500 bg-violet-50 text-violet-700 dark:border-violet-500/70 dark:bg-violet-950/60 dark:text-violet-300',
+    idle: 'border-zinc-200 bg-white text-zinc-600 hover:border-violet-300 hover:text-violet-700 dark:border-zinc-800 dark:bg-zinc-900 dark:text-zinc-400 dark:hover:border-violet-700 dark:hover:text-violet-300',
+    dot: 'bg-violet-500',
+  },
+  'gemini-cli': {
+    active: 'border-blue-500 bg-blue-50 text-blue-700 dark:border-blue-500/70 dark:bg-blue-950/60 dark:text-blue-300',
+    idle: 'border-zinc-200 bg-white text-zinc-600 hover:border-blue-300 hover:text-blue-700 dark:border-zinc-800 dark:bg-zinc-900 dark:text-zinc-400 dark:hover:border-blue-700 dark:hover:text-blue-300',
+    dot: 'bg-blue-500',
+  },
+  kiro: {
+    active: 'border-rose-500 bg-rose-50 text-rose-700 dark:border-rose-500/70 dark:bg-rose-950/60 dark:text-rose-300',
+    idle: 'border-zinc-200 bg-white text-zinc-600 hover:border-rose-300 hover:text-rose-700 dark:border-zinc-800 dark:bg-zinc-900 dark:text-zinc-400 dark:hover:border-rose-700 dark:hover:text-rose-300',
+    dot: 'bg-rose-500',
+  },
+  opencode: {
+    active: 'border-teal-500 bg-teal-50 text-teal-700 dark:border-teal-500/70 dark:bg-teal-950/60 dark:text-teal-300',
+    idle: 'border-zinc-200 bg-white text-zinc-600 hover:border-teal-300 hover:text-teal-700 dark:border-zinc-800 dark:bg-zinc-900 dark:text-zinc-400 dark:hover:border-teal-700 dark:hover:text-teal-300',
+    dot: 'bg-teal-500',
+  },
+  windsurf: {
+    active: 'border-cyan-500 bg-cyan-50 text-cyan-700 dark:border-cyan-500/70 dark:bg-cyan-950/60 dark:text-cyan-300',
+    idle: 'border-zinc-200 bg-white text-zinc-600 hover:border-cyan-300 hover:text-cyan-700 dark:border-zinc-800 dark:bg-zinc-900 dark:text-zinc-400 dark:hover:border-cyan-700 dark:hover:text-cyan-300',
+    dot: 'bg-cyan-500',
+  },
 };
 
 export function HomePage() {
@@ -35,22 +66,35 @@ export function HomePage() {
 
   const stats = useMemo(() => {
     const excellentCount = skills.filter((s) => s.status === 'excellent').length;
-    const goodCount      = skills.filter((s) => s.status === 'good').length;
-    const promisingCount = skills.filter((s) => s.status === 'promising' || s.status === 'experimental').length;
+    const goodCount = skills.filter((s) => s.status === 'good').length;
+    const promisingCount = skills.filter(
+      (s) => s.status === 'promising' || s.status === 'experimental'
+    ).length;
     const activeCategories = categories.filter((c) => c.count > 0).length;
-    return { total: skills.length, excellentCount, goodCount, promisingCount, activeCategories };
+    return {
+      total: skills.length,
+      excellentCount,
+      goodCount,
+      promisingCount,
+      activeCategories,
+    };
   }, []);
 
   const shelfSkills = useMemo(() => {
     let list = [...skills];
-    if (quickCat   !== 'all') list = list.filter((s) => s.categories.includes(quickCat));
+    if (quickCat !== 'all') list = list.filter((s) => s.categories.includes(quickCat));
     if (quickAgent !== 'all') list = list.filter((s) => s.compatible_agents.includes(quickAgent));
     switch (activeTab) {
-      case 'excellent': return list.filter((s) => s.status === 'excellent').sort((a, b) => b.quality - a.quality);
-      case 'good':      return list.filter((s) => s.status === 'good').sort((a, b) => b.quality - a.quality);
-      case 'promising': return list.filter((s) => s.status === 'promising' || s.status === 'experimental').sort((a, b) => b.quality - a.quality);
-      case 'stars':     return list.sort((a, b) => (b.stars ?? 0) - (a.stars ?? 0));
-      default:          return list.sort((a, b) => b.quality - a.quality || (b.stars ?? 0) - (a.stars ?? 0));
+      case 'excellent':
+        return list.filter((s) => s.status === 'excellent').sort((a, b) => b.quality - a.quality || (b.stars ?? 0) - (a.stars ?? 0));
+      case 'good':
+        return list.filter((s) => s.status === 'good').sort((a, b) => b.quality - a.quality || (b.stars ?? 0) - (a.stars ?? 0));
+      case 'promising':
+        return list.filter((s) => s.status === 'promising' || s.status === 'experimental').sort((a, b) => b.quality - a.quality || (b.stars ?? 0) - (a.stars ?? 0));
+      case 'stars':
+        return list.sort((a, b) => (b.stars ?? 0) - (a.stars ?? 0));
+      default:
+        return list.sort((a, b) => b.quality - a.quality || (b.stars ?? 0) - (a.stars ?? 0));
     }
   }, [activeTab, quickCat, quickAgent]);
 
@@ -61,93 +105,91 @@ export function HomePage() {
   };
 
   return (
-    <div className="min-w-0 space-y-8">
-
-      {/* ── Hero Section ── */}
-      <section className="animate-fade-up relative overflow-hidden rounded-3xl border border-white/[0.07] bg-gradient-to-br from-white/[0.04] via-white/[0.02] to-transparent p-6 shadow-2xl shadow-black/40 sm:p-8 backdrop-blur-xl">
-        {/* Ambient glow blobs */}
-        <div className="pointer-events-none absolute -top-20 -left-20 h-72 w-72 rounded-full bg-indigo-600/10 blur-3xl animate-pulse-glow" />
-        <div className="pointer-events-none absolute -bottom-10 -right-10 h-56 w-56 rounded-full bg-amber-500/8 blur-3xl animate-pulse-glow" style={{ animationDelay: '1.2s' }} />
-
-        <div className="relative flex flex-col gap-6 lg:flex-row lg:items-start lg:justify-between">
-          {/* Left copy */}
-          <div className="max-w-2xl space-y-3">
-            <div className="inline-flex items-center gap-1.5 rounded-full border border-amber-500/25 bg-amber-500/10 px-3 py-1 text-[11px] font-semibold uppercase tracking-widest text-amber-400">
-              <Sparkles className="h-3 w-3" />
-              AI Skills Discovery Engine
-            </div>
-            <h1 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
-              Personal AI{' '}
-              <span className="shimmer-text">Skills Library</span>
+    <div className="min-w-0 space-y-7">
+      {/* Editorial Header */}
+      <section className="surface-card animate-fade-up rounded-2xl p-6 sm:p-7">
+        <div className="flex flex-col gap-5 lg:flex-row lg:items-start lg:justify-between">
+          <div className="max-w-2xl space-y-2">
+            <h1 className="text-2xl font-bold tracking-tight text-zinc-900 sm:text-3xl dark:text-zinc-100">
+              AI Skills Directory
             </h1>
-            <p className="text-[14px] leading-relaxed text-white/50">
-              Curated <code className="rounded-md border border-white/10 bg-white/5 px-1.5 py-0.5 text-white/70">SKILL.md</code> modules, MCP servers, and coding tools — evaluated by quality, compatibility, and real-world usefulness.
+            <p className="text-[14px] leading-relaxed text-zinc-600 dark:text-zinc-400">
+              Verified <code className="rounded border border-zinc-200 bg-zinc-100 px-1.5 py-0.5 font-mono text-xs text-zinc-800 dark:border-zinc-700 dark:bg-zinc-800 dark:text-zinc-200">SKILL.md</code> repositories, MCP servers, and coding agent workflows indexed by quality, star count, and tool compatibility.
             </p>
           </div>
 
-          {/* Stats */}
-          <div className="grid grid-cols-3 gap-2.5 lg:min-w-[220px]">
-            {[
-              { value: stats.total, label: 'Total Skills', color: 'text-white' },
-              { value: stats.excellentCount + stats.goodCount, label: 'Good & Best', color: 'text-emerald-400' },
-              { value: stats.activeCategories, label: 'Categories', color: 'text-blue-400' },
-            ].map(({ value, label, color }) => (
-              <div key={label} className="rounded-2xl border border-white/[0.07] bg-white/[0.04] p-3 text-center backdrop-blur-sm">
-                <div className={`font-mono text-xl font-bold ${color}`}>{value}</div>
-                <div className="mt-0.5 text-[10px] text-white/35">{label}</div>
+          <div className="grid grid-cols-3 gap-2.5 lg:min-w-[260px]">
+            <div className="surface-subtle rounded-xl px-3.5 py-2.5 text-center">
+              <div className="font-mono text-lg font-bold tabular-nums text-zinc-900 dark:text-zinc-100">
+                {stats.total.toLocaleString()}
               </div>
-            ))}
+              <div className="text-[11px] text-zinc-500 dark:text-zinc-400">Total Skills</div>
+            </div>
+            <div className="surface-subtle rounded-xl px-3.5 py-2.5 text-center">
+              <div className="font-mono text-lg font-bold tabular-nums text-emerald-600 dark:text-emerald-400">
+                {(stats.excellentCount + stats.goodCount).toLocaleString()}
+              </div>
+              <div className="text-[11px] text-zinc-500 dark:text-zinc-400">Good &amp; Best</div>
+            </div>
+            <div className="surface-subtle rounded-xl px-3.5 py-2.5 text-center">
+              <div className="font-mono text-lg font-bold tabular-nums text-blue-600 dark:text-blue-400">
+                {stats.activeCategories}
+              </div>
+              <div className="text-[11px] text-zinc-500 dark:text-zinc-400">Categories</div>
+            </div>
           </div>
         </div>
 
-        {/* Search bar */}
-        <form onSubmit={handleSubmit} className="relative mt-6">
-          <Search className="pointer-events-none absolute left-4 top-1/2 h-4 w-4 -translate-y-1/2 text-white/30" />
+        {/* Primary Search Bar (single search bar on this page) */}
+        <form onSubmit={handleSubmit} className="relative mt-5">
+          <Search className="pointer-events-none absolute left-3.5 top-1/2 h-4 w-4 -translate-y-1/2 text-zinc-400" />
           <input
             type="search"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder="Search by name, capability, tag, or AI tool — e.g. 'security', 'gemini-cli', 'mcp'..."
+            placeholder="Search skills by name, capability, tag, or AI tool (e.g. 'security', 'gemini-cli', 'mcp')..."
             aria-label="Search SkillAtlas"
-            className="w-full rounded-2xl border border-white/[0.1] bg-white/[0.06] py-3.5 pl-11 pr-28 text-[14px] text-white/80 placeholder:text-white/25 backdrop-blur-sm transition-all duration-200 focus:border-amber-500/40 focus:bg-white/[0.09] focus:outline-none focus:ring-1 focus:ring-amber-500/20"
+            className="w-full rounded-xl border border-zinc-200 bg-zinc-50 py-3 pl-10 pr-24 text-[14px] text-zinc-900 placeholder:text-zinc-400 transition-colors focus:border-blue-600 focus:bg-white focus:outline-none focus:ring-2 focus:ring-blue-600/15 dark:border-zinc-700 dark:bg-zinc-900 dark:text-zinc-100 dark:placeholder:text-zinc-500 dark:focus:border-blue-500 dark:focus:bg-zinc-950"
           />
           <button
             type="submit"
-            className="absolute right-1.5 top-1/2 -translate-y-1/2 rounded-xl border border-amber-500/30 bg-amber-500/15 px-4 py-2 text-[13px] font-semibold text-amber-400 transition-all hover:bg-amber-500/25 hover:border-amber-500/50"
+            className="absolute right-1.5 top-1/2 -translate-y-1/2 rounded-lg bg-zinc-900 px-4 py-1.5 text-xs font-semibold text-white transition-colors hover:bg-blue-600 dark:bg-zinc-100 dark:text-zinc-900 dark:hover:bg-blue-500 dark:hover:text-white"
           >
             Search
           </button>
         </form>
 
-        {/* Quick tag pills */}
+        {/* Quick Tag Pills */}
         {tags.length > 0 && !query.trim() && (
-          <div className="mt-3 flex flex-wrap items-center gap-1.5">
-            <span className="font-mono text-[10px] uppercase tracking-widest text-white/25">Tags:</span>
+          <div className="mt-3.5 flex flex-wrap items-center gap-1.5">
+            <span className="mr-1 font-mono text-[10px] font-semibold uppercase tracking-wider text-zinc-400 dark:text-zinc-500">
+              Popular:
+            </span>
             {tags.slice(0, 10).map((t) => (
               <Link
                 key={t.tag}
                 to={`/explore?tag=${encodeURIComponent(t.tag)}`}
-                className="rounded-full border border-white/[0.07] bg-white/[0.04] px-2.5 py-0.5 font-mono text-[11px] text-white/35 transition-colors hover:border-white/15 hover:text-white/70"
+                className="rounded-md border border-zinc-200 bg-zinc-50 px-2 py-0.5 font-mono text-[11px] text-zinc-600 transition-colors hover:border-zinc-300 hover:text-zinc-900 dark:border-zinc-800 dark:bg-zinc-900 dark:text-zinc-400 dark:hover:border-zinc-700 dark:hover:text-zinc-200"
               >
-                #{t.tag} <span className="text-white/20">({t.count})</span>
+                #{t.tag} <span className="opacity-60">({t.count})</span>
               </Link>
             ))}
           </div>
         )}
 
-        {/* Live search preview */}
+        {/* Live Search Preview */}
         {query.trim() && (
-          <div className="mt-4 animate-scale-in rounded-2xl border border-amber-500/15 bg-amber-500/[0.05] p-4">
-            <div className="mb-3 flex flex-wrap items-center justify-between gap-2 text-[12px]">
-              <span className="text-white/60">
-                Found <span className="font-mono font-bold text-white">{liveMatches.length}</span> match(es) for{' '}
-                <span className="rounded-full border border-amber-500/30 bg-amber-500/10 px-2 py-0.5 font-mono text-amber-400">
+          <div className="surface-subtle mt-4 rounded-xl p-4">
+            <div className="mb-3 flex flex-wrap items-center justify-between gap-2 text-xs">
+              <span className="text-zinc-600 dark:text-zinc-300">
+                Found <span className="font-mono font-bold text-zinc-900 dark:text-white">{liveMatches.length}</span> match(es) for{' '}
+                <span className="rounded bg-amber-200/70 px-1.5 py-0.5 font-mono font-semibold text-zinc-900 dark:bg-amber-500/20 dark:text-amber-200">
                   {query}
                 </span>
               </span>
               <Link
                 to={`/explore?q=${encodeURIComponent(query.trim())}`}
-                className="inline-flex items-center gap-1 font-semibold text-amber-400 hover:text-amber-300"
+                className="inline-flex items-center gap-1 font-semibold text-blue-600 hover:underline dark:text-blue-400"
               >
                 Open in Browse <ArrowRight className="h-3.5 w-3.5" />
               </Link>
@@ -159,7 +201,7 @@ export function HomePage() {
                 ))}
               </div>
             ) : (
-              <p className="py-4 text-center text-[13px] text-white/40">
+              <p className="py-4 text-center text-[13px] text-zinc-500 dark:text-zinc-400">
                 No skills matched "{query}". Try a different keyword.
               </p>
             )}
@@ -167,36 +209,47 @@ export function HomePage() {
         )}
       </section>
 
-      {/* ── Filter Row ── */}
+      {/* AI Tool & Category Filters */}
       <section className="space-y-3">
-        {/* AI Tool pills */}
         <div className="flex flex-wrap items-center justify-between gap-2">
           <div className="flex flex-wrap items-center gap-1.5">
-            <span className="inline-flex items-center gap-1 font-mono text-[10px] font-semibold uppercase tracking-widest text-white/30">
-              <Bot className="h-3 w-3" /> Agent:
+            <span className="mr-1 inline-flex items-center gap-1 font-mono text-[11px] font-semibold uppercase tracking-wider text-zinc-500 dark:text-zinc-400">
+              <Bot className="h-3.5 w-3.5" /> Agent:
             </span>
             <button
               type="button"
-              onClick={() => setQuickAgent('all')}
-              className={`rounded-full border px-3 py-1 font-mono text-[11px] font-semibold transition-all ${
+              onClick={() => {
+                setQuickAgent('all');
+                setVisibleCount(36);
+              }}
+              className={`rounded-lg border px-2.5 py-1 font-mono text-[11px] font-semibold transition-colors ${
                 quickAgent === 'all'
-                  ? 'border-white/30 bg-white/15 text-white shadow-sm'
-                  : 'border-white/[0.1] text-white/40 hover:border-white/20 hover:text-white/70'
+                  ? 'border-zinc-900 bg-zinc-900 text-white dark:border-zinc-100 dark:bg-zinc-100 dark:text-zinc-900'
+                  : 'border-zinc-200 bg-white text-zinc-600 hover:bg-zinc-100 dark:border-zinc-800 dark:bg-zinc-900 dark:text-zinc-400 dark:hover:bg-zinc-800'
               }`}
             >
               All Tools
             </button>
             {allAgents.map((agent) => {
-              const accent = AGENT_ACCENT[agent] ?? { active: 'border-white/30 bg-white/10 text-white', idle: 'border-white/10 text-white/40 hover:text-white/70' };
+              const accent = AGENT_ACCENT[agent] ?? {
+                active: 'border-blue-600 bg-blue-50 text-blue-700',
+                idle: 'border-zinc-200 bg-white text-zinc-600',
+                dot: 'bg-zinc-400',
+              };
+              const isSelected = quickAgent === agent;
               return (
                 <button
                   key={agent}
                   type="button"
-                  onClick={() => setQuickAgent(agent === quickAgent ? 'all' : agent)}
-                  className={`rounded-full border px-3 py-1 font-mono text-[11px] font-medium transition-all ${
-                    quickAgent === agent ? accent.active : accent.idle
+                  onClick={() => {
+                    setQuickAgent(isSelected ? 'all' : agent);
+                    setVisibleCount(36);
+                  }}
+                  className={`inline-flex items-center gap-1.5 rounded-lg border px-2.5 py-1 font-mono text-[11px] font-medium transition-colors ${
+                    isSelected ? accent.active : accent.idle
                   }`}
                 >
+                  <span className={`h-1.5 w-1.5 rounded-full ${accent.dot}`} />
                   {agent}
                 </button>
               );
@@ -205,7 +258,7 @@ export function HomePage() {
 
           <Link
             to="/explore"
-            className="inline-flex items-center gap-1 text-[12px] font-semibold text-white/40 hover:text-white/80 transition-colors"
+            className="inline-flex items-center gap-1 text-xs font-semibold text-blue-600 hover:underline dark:text-blue-400"
           >
             <SlidersHorizontal className="h-3.5 w-3.5" /> All filters
           </Link>
@@ -215,59 +268,70 @@ export function HomePage() {
         <div className="flex flex-wrap gap-1.5">
           <button
             type="button"
-            onClick={() => setQuickCat('all')}
-            className={`inline-flex items-center gap-1.5 rounded-xl border px-3 py-1.5 text-[12px] font-semibold transition-all ${
+            onClick={() => {
+              setQuickCat('all');
+              setVisibleCount(36);
+            }}
+            className={`inline-flex items-center gap-1.5 rounded-lg border px-3 py-1.5 text-xs font-semibold transition-colors ${
               quickCat === 'all'
-                ? 'border-white/25 bg-white/12 text-white shadow'
-                : 'border-white/[0.08] text-white/40 hover:border-white/16 hover:text-white/70'
+                ? 'border-zinc-900 bg-zinc-900 text-white dark:border-zinc-100 dark:bg-zinc-100 dark:text-zinc-900'
+                : 'border-zinc-200 bg-white text-zinc-700 hover:bg-zinc-100 dark:border-zinc-800 dark:bg-zinc-900 dark:text-zinc-300 dark:hover:bg-zinc-800'
             }`}
           >
             All Categories ({skills.length})
           </button>
-          {categories.filter((c) => c.count > 0).map((cat) => (
-            <button
-              key={cat.id}
-              type="button"
-              onClick={() => setQuickCat(cat.id === quickCat ? 'all' : cat.id)}
-              className={`inline-flex items-center gap-1.5 rounded-xl border px-3 py-1.5 text-[12px] font-semibold transition-all ${
-                quickCat === cat.id
-                  ? 'border-white/25 bg-white/12 text-white shadow'
-                  : 'border-white/[0.08] text-white/40 hover:border-white/16 hover:text-white/70'
-              }`}
-            >
-              <CategoryIcon name={cat.icon} className="h-3.5 w-3.5 opacity-70" />
-              {cat.name}
-              <span className="font-mono opacity-50">{cat.count}</span>
-            </button>
-          ))}
+          {categories
+            .filter((c) => c.count > 0)
+            .map((cat) => (
+              <button
+                key={cat.id}
+                type="button"
+                onClick={() => {
+                  setQuickCat(cat.id === quickCat ? 'all' : cat.id);
+                  setVisibleCount(36);
+                }}
+                className={`inline-flex items-center gap-1.5 rounded-lg border px-3 py-1.5 text-xs font-semibold transition-colors ${
+                  quickCat === cat.id
+                    ? 'border-zinc-900 bg-zinc-900 text-white dark:border-zinc-100 dark:bg-zinc-100 dark:text-zinc-900'
+                    : 'border-zinc-200 bg-white text-zinc-700 hover:bg-zinc-100 dark:border-zinc-800 dark:bg-zinc-900 dark:text-zinc-300 dark:hover:bg-zinc-800'
+                }`}
+              >
+                <CategoryIcon name={cat.icon} className="h-3.5 w-3.5 opacity-80" />
+                {cat.name}
+                <span className="font-mono opacity-60">{cat.count}</span>
+              </button>
+            ))}
         </div>
       </section>
 
-      {/* ── Skill Grid ── */}
+      {/* Skill Grid */}
       <section className="space-y-4">
-        {/* Tab bar */}
-        <div className="flex flex-col gap-3 border-b border-white/[0.06] pb-3 sm:flex-row sm:items-center sm:justify-between">
+        <div className="flex flex-col gap-3 border-b border-zinc-200 pb-3 sm:flex-row sm:items-center sm:justify-between dark:border-zinc-800">
           <div className="flex flex-wrap items-center gap-1.5">
             {(
               [
-                { id: 'all',       label: `All (${shelfSkills.length})`,         icon: null },
-                { id: 'excellent', label: `Excellent (${stats.excellentCount})`,  icon: <Sparkles className="h-3.5 w-3.5" /> },
-                { id: 'good',      label: `Good (${stats.goodCount})`,            icon: null },
-                { id: 'promising', label: `Promising (${stats.promisingCount})`,  icon: null },
-                { id: 'stars',     label: 'Most Starred',                          icon: <Star className="h-3.5 w-3.5" /> },
+                { id: 'all', label: `All (${shelfSkills.length})`, icon: null },
+                { id: 'excellent', label: `Excellent (${stats.excellentCount})`, icon: null },
+                { id: 'good', label: `Good (${stats.goodCount})`, icon: null },
+                { id: 'promising', label: `Promising (${stats.promisingCount})`, icon: null },
+                { id: 'stars', label: 'Most Starred', icon: <Star className="h-3.5 w-3.5 text-amber-500" /> },
               ] as { id: ShelfTab; label: string; icon: React.ReactNode }[]
             ).map((tab) => (
               <button
                 key={tab.id}
                 type="button"
-                onClick={() => setActiveTab(tab.id)}
-                className={`inline-flex items-center gap-1.5 rounded-xl px-3 py-1.5 text-[12px] font-semibold transition-all ${
+                onClick={() => {
+                  setActiveTab(tab.id);
+                  setVisibleCount(36);
+                }}
+                className={`inline-flex items-center gap-1.5 rounded-lg px-3 py-1.5 text-xs font-semibold transition-colors ${
                   activeTab === tab.id
-                    ? 'bg-white/12 text-white border border-white/20 shadow-sm'
-                    : 'text-white/40 hover:bg-white/[0.05] hover:text-white/70'
+                    ? 'bg-zinc-900 text-white dark:bg-zinc-100 dark:text-zinc-900'
+                    : 'bg-zinc-100 text-zinc-600 hover:bg-zinc-200 dark:bg-zinc-900 dark:text-zinc-400 dark:hover:bg-zinc-800'
                 }`}
               >
-                {tab.icon}{tab.label}
+                {tab.icon}
+                {tab.label}
               </button>
             ))}
           </div>
@@ -275,17 +339,21 @@ export function HomePage() {
           {(quickCat !== 'all' || quickAgent !== 'all') && (
             <button
               type="button"
-              onClick={() => { setQuickCat('all'); setQuickAgent('all'); }}
-              className="inline-flex items-center gap-1 text-[12px] font-semibold text-amber-400/70 hover:text-amber-400 transition-colors"
+              onClick={() => {
+                setQuickCat('all');
+                setQuickAgent('all');
+                setVisibleCount(36);
+              }}
+              className="inline-flex items-center gap-1 text-xs font-semibold text-blue-600 hover:underline dark:text-blue-400"
             >
-              <TrendingUp className="h-3.5 w-3.5" /> Reset filters
+              <X className="h-3.5 w-3.5" /> Reset quick filters
             </button>
           )}
         </div>
 
         {shelfSkills.length > 0 ? (
           <>
-            <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 stagger">
+            <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
               {shelfSkills.slice(0, visibleCount).map((skill) => (
                 <SkillCard key={skill.id} skill={skill} />
               ))}
@@ -295,22 +363,26 @@ export function HomePage() {
                 <button
                   type="button"
                   onClick={() => setVisibleCount((c) => c + 36)}
-                  className="glass rounded-2xl px-6 py-2.5 text-[13px] font-semibold text-white/80 transition-all hover:border-amber-500/40 hover:text-amber-400"
+                  className="surface-card rounded-xl px-6 py-2.5 text-[13px] font-semibold text-zinc-800 hover:border-blue-500 hover:text-blue-600 dark:text-zinc-200 dark:hover:text-blue-400"
                 >
-                  Show more ({shelfSkills.length - visibleCount} remaining)
+                  Show more ({(shelfSkills.length - visibleCount).toLocaleString()} remaining)
                 </button>
               </div>
             )}
           </>
         ) : (
-          <div className="glass rounded-3xl p-10 text-center">
-            <p className="text-[14px] font-medium text-white/60">
+          <div className="surface-card rounded-2xl p-10 text-center">
+            <p className="text-sm font-medium text-zinc-600 dark:text-zinc-400">
               No skills match this combination.
             </p>
             <button
               type="button"
-              onClick={() => { setQuickCat('all'); setQuickAgent('all'); setActiveTab('all'); }}
-              className="mt-3 rounded-xl border border-amber-500/30 bg-amber-500/10 px-4 py-2 text-[12px] font-semibold text-amber-400 hover:bg-amber-500/20 transition-all"
+              onClick={() => {
+                setQuickCat('all');
+                setQuickAgent('all');
+                setActiveTab('all');
+              }}
+              className="mt-3 rounded-lg bg-zinc-900 px-4 py-2 text-xs font-semibold text-white dark:bg-zinc-100 dark:text-zinc-900"
             >
               Show all skills
             </button>

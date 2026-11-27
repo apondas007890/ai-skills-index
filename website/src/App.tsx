@@ -11,6 +11,7 @@ export default function App() {
       <Layout>
         <Routes>
           <Route path="/" element={<HomePage />} />
+          <Route path="/home" element={<HomePage />} />
           <Route path="/explore" element={<ExplorePage />} />
           <Route path="/category/:categoryId" element={<CategoryPage />} />
           <Route path="/skill/:skillId" element={<SkillDetailPage />} />

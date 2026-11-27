@@ -31,11 +31,11 @@ export function SkillDetailPage() {
 
   if (!skill) {
     return (
-      <div className="glass rounded-3xl p-10 text-center">
-        <h1 className="text-xl font-bold text-white">Skill not found</h1>
+      <div className="surface-card rounded-2xl p-10 text-center">
+        <h1 className="text-xl font-bold text-zinc-900 dark:text-zinc-100">Skill not found</h1>
         <Link
           to="/explore"
-          className="mt-4 inline-flex items-center gap-1.5 text-sm font-medium text-amber-400 hover:text-amber-300"
+          className="mt-4 inline-flex items-center gap-1.5 text-sm font-medium text-blue-600 hover:underline dark:text-blue-400"
         >
           <ArrowLeft className="h-4 w-4" /> Back to Browse
         </Link>
@@ -57,10 +57,9 @@ export function SkillDetailPage() {
           .slice(0, 3);
 
   return (
-    <div className="space-y-8 animate-fade-up">
-      {/* Breadcrumb */}
-      <nav className="flex flex-wrap items-center gap-2 text-xs text-white/40">
-        <Link to="/" className="hover:text-amber-400 transition-colors">
+    <div className="animate-fade-up space-y-8">
+      <nav className="flex flex-wrap items-center gap-2 text-xs text-zinc-500 dark:text-zinc-400">
+        <Link to="/" className="transition-colors hover:text-blue-600 dark:hover:text-blue-400">
           Catalog
         </Link>
         <span>/</span>
@@ -68,37 +67,36 @@ export function SkillDetailPage() {
           <>
             <Link
               to={`/category/${primaryCat.id}`}
-              className="hover:text-amber-400 transition-colors"
+              className="transition-colors hover:text-blue-600 dark:hover:text-blue-400"
             >
               {primaryCat.name}
             </Link>
             <span>/</span>
           </>
         )}
-        <span className="font-medium text-white/80">{skill.name}</span>
+        <span className="font-medium text-zinc-900 dark:text-zinc-200">{skill.name}</span>
       </nav>
 
-      {/* Header & Actions */}
-      <section className="glass-strong rounded-3xl p-6 sm:p-8">
+      <section className="surface-card rounded-2xl p-6 sm:p-7">
         <div className="flex flex-col gap-5 lg:flex-row lg:items-start lg:justify-between">
           <div className="space-y-3">
             <div className="flex flex-wrap items-center gap-2.5">
-              <h1 className="text-2xl font-bold tracking-tight text-white sm:text-3xl">
+              <h1 className="text-2xl font-bold tracking-tight text-zinc-900 sm:text-3xl dark:text-zinc-100">
                 {skill.name}
               </h1>
               <StatusBadge status={skill.status} />
               {skill.stars !== null && (
-                <span className="inline-flex items-center gap-1 rounded-full border border-amber-500/25 bg-amber-500/10 px-2.5 py-0.5 font-mono text-xs font-semibold text-amber-400">
-                  <Star className="h-3.5 w-3.5" />
+                <span className="inline-flex items-center gap-1 rounded-full border border-zinc-200 bg-zinc-50 px-2.5 py-0.5 font-mono text-xs font-semibold tabular-nums text-zinc-700 dark:border-zinc-700 dark:bg-zinc-800 dark:text-zinc-200">
+                  <Star className="h-3.5 w-3.5 text-amber-500" />
                   {formatStars(skill.stars)}
                 </span>
               )}
-              <span className="inline-flex items-center gap-1 rounded-full border border-white/[0.1] bg-white/[0.06] px-2.5 py-0.5 font-mono text-xs font-semibold text-white/80">
+              <span className="inline-flex items-center rounded-full border border-zinc-200 bg-zinc-50 px-2.5 py-0.5 font-mono text-xs font-semibold tabular-nums text-zinc-800 dark:border-zinc-700 dark:bg-zinc-800 dark:text-zinc-200">
                 {skill.quality}/10
               </span>
             </div>
 
-            <p className="max-w-3xl text-[15px] leading-relaxed text-white/60">
+            <p className="max-w-3xl text-[15px] leading-relaxed text-zinc-600 dark:text-zinc-300">
               <RichText text={skill.description} />
             </p>
           </div>
@@ -108,7 +106,7 @@ export function SkillDetailPage() {
               href={skill.source}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-1.5 rounded-xl border border-amber-500/40 bg-amber-500/15 px-3.5 py-2 text-xs font-semibold text-amber-400 transition-all hover:bg-amber-500/25"
+              className="inline-flex items-center gap-1.5 rounded-lg bg-zinc-900 px-3.5 py-2 text-xs font-semibold text-white transition-colors hover:bg-blue-600 dark:bg-zinc-100 dark:text-zinc-900 dark:hover:bg-blue-500 dark:hover:text-white"
             >
               Open Source
               <ArrowUpRight className="h-3.5 w-3.5" />
@@ -117,18 +115,18 @@ export function SkillDetailPage() {
             <button
               type="button"
               onClick={() => copyText('link', window.location.href)}
-              className="inline-flex items-center gap-1.5 rounded-xl border border-white/[0.1] bg-white/[0.05] px-3 py-2 text-xs font-medium text-white/70 transition-colors hover:border-white/20 hover:text-white"
+              className="inline-flex items-center gap-1.5 rounded-lg border border-zinc-200 bg-white px-3 py-2 text-xs font-medium text-zinc-700 transition-colors hover:bg-zinc-100 dark:border-zinc-700 dark:bg-zinc-900 dark:text-zinc-200 dark:hover:bg-zinc-800"
             >
-              {copiedKey === 'link' ? <Check className="h-3.5 w-3.5 text-emerald-400" /> : <Copy className="h-3.5 w-3.5" />}
+              {copiedKey === 'link' ? <Check className="h-3.5 w-3.5 text-emerald-500" /> : <Copy className="h-3.5 w-3.5" />}
               {copiedKey === 'link' ? 'Copied Link' : 'Copy Link'}
             </button>
 
             <button
               type="button"
               onClick={() => copyText('name', skill.name)}
-              className="inline-flex items-center gap-1.5 rounded-xl border border-white/[0.1] bg-white/[0.05] px-3 py-2 text-xs font-medium text-white/70 transition-colors hover:border-white/20 hover:text-white"
+              className="inline-flex items-center gap-1.5 rounded-lg border border-zinc-200 bg-white px-3 py-2 text-xs font-medium text-zinc-700 transition-colors hover:bg-zinc-100 dark:border-zinc-700 dark:bg-zinc-900 dark:text-zinc-200 dark:hover:bg-zinc-800"
             >
-              {copiedKey === 'name' ? <Check className="h-3.5 w-3.5 text-emerald-400" /> : <Copy className="h-3.5 w-3.5" />}
+              {copiedKey === 'name' ? <Check className="h-3.5 w-3.5 text-emerald-500" /> : <Copy className="h-3.5 w-3.5" />}
               {copiedKey === 'name' ? 'Copied Name' : 'Copy Name'}
             </button>
 
@@ -136,9 +134,9 @@ export function SkillDetailPage() {
               <button
                 type="button"
                 onClick={() => copyText('install', skill.install_command)}
-                className="inline-flex items-center gap-1.5 rounded-xl border border-white/[0.1] bg-white/[0.05] px-3 py-2 font-mono text-xs font-medium text-white/70 transition-colors hover:border-white/20 hover:text-white"
+                className="inline-flex items-center gap-1.5 rounded-lg border border-zinc-200 bg-white px-3 py-2 font-mono text-xs font-medium text-zinc-700 transition-colors hover:bg-zinc-100 dark:border-zinc-700 dark:bg-zinc-900 dark:text-zinc-200 dark:hover:bg-zinc-800"
               >
-                {copiedKey === 'install' ? <Check className="h-3.5 w-3.5 text-emerald-400" /> : <Terminal className="h-3.5 w-3.5" />}
+                {copiedKey === 'install' ? <Check className="h-3.5 w-3.5 text-emerald-500" /> : <Terminal className="h-3.5 w-3.5" />}
                 {copiedKey === 'install' ? 'Copied Command' : 'Copy Install'}
               </button>
             )}
@@ -147,7 +145,7 @@ export function SkillDetailPage() {
               href={`${REPO_GITHUB_URL}/blob/main/${skill.file_path}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-1.5 rounded-xl border border-white/[0.1] bg-white/[0.05] px-3 py-2 text-xs font-medium text-white/70 transition-colors hover:border-white/20 hover:text-white"
+              className="inline-flex items-center gap-1.5 rounded-lg border border-zinc-200 bg-white px-3 py-2 text-xs font-medium text-zinc-700 transition-colors hover:bg-zinc-100 dark:border-zinc-700 dark:bg-zinc-900 dark:text-zinc-200 dark:hover:bg-zinc-800"
             >
               <Edit3 className="h-3.5 w-3.5" />
               Edit Entry
@@ -156,21 +154,20 @@ export function SkillDetailPage() {
         </div>
       </section>
 
-      {/* Main Content + Metadata Sidebar */}
       <div className="grid gap-6 lg:grid-cols-[1fr_320px]">
         <div className="space-y-5">
-          <div className="glass rounded-3xl p-6">
-            <h2 className="text-[11px] font-semibold uppercase tracking-widest text-white/35">
+          <div className="surface-card rounded-2xl p-6">
+            <h2 className="text-[11px] font-semibold uppercase tracking-wider text-zinc-500 dark:text-zinc-400">
               What it does
             </h2>
-            <p className="mt-2.5 text-sm leading-relaxed text-white/70">
+            <p className="mt-2.5 text-sm leading-relaxed text-zinc-700 dark:text-zinc-300">
               <RichText text={skill.what_it_does} />
             </p>
 
-            <h2 className="mt-6 text-[11px] font-semibold uppercase tracking-widest text-white/35">
+            <h2 className="mt-6 text-[11px] font-semibold uppercase tracking-wider text-zinc-500 dark:text-zinc-400">
               Best for
             </h2>
-            <ul className="mt-2.5 list-disc space-y-1.5 pl-5 text-sm text-white/70">
+            <ul className="mt-2.5 list-disc space-y-1.5 pl-5 text-sm text-zinc-700 dark:text-zinc-300">
               {skill.best_for.map((item) => (
                 <li key={item}>
                   <RichText text={item} />
@@ -178,21 +175,21 @@ export function SkillDetailPage() {
               ))}
             </ul>
 
-            <h2 className="mt-6 text-[11px] font-semibold uppercase tracking-widest text-white/35">
+            <h2 className="mt-6 text-[11px] font-semibold uppercase tracking-wider text-zinc-500 dark:text-zinc-400">
               Evaluation Verdict
             </h2>
-            <p className="mt-2.5 rounded-2xl border border-amber-500/20 bg-amber-500/[0.07] p-4 text-sm font-medium text-white/90">
+            <p className="surface-subtle mt-2.5 rounded-xl p-4 text-sm font-medium text-zinc-900 dark:text-zinc-100">
               <RichText text={skill.verdict} />
             </p>
           </div>
 
           <div className="grid gap-5 sm:grid-cols-2">
-            <div className="glass rounded-3xl p-5">
-              <h2 className="text-[11px] font-semibold uppercase tracking-widest text-white/35">
+            <div className="surface-card rounded-2xl p-5">
+              <h2 className="text-[11px] font-semibold uppercase tracking-wider text-zinc-500 dark:text-zinc-400">
                 Limitations
               </h2>
               {skill.limitations.length > 0 ? (
-                <ul className="mt-2.5 list-disc space-y-1.5 pl-5 text-sm text-white/55">
+                <ul className="mt-2.5 list-disc space-y-1.5 pl-5 text-sm text-zinc-600 dark:text-zinc-400">
                   {skill.limitations.map((lim) => (
                     <li key={lim}>
                       <RichText text={lim} />
@@ -200,39 +197,39 @@ export function SkillDetailPage() {
                   ))}
                 </ul>
               ) : (
-                <p className="mt-2.5 text-sm text-white/35">None recorded.</p>
+                <p className="mt-2.5 text-sm text-zinc-500">None recorded.</p>
               )}
             </div>
 
-            <div className="glass rounded-3xl p-5">
-              <h2 className="flex items-center gap-1.5 text-[11px] font-semibold uppercase tracking-widest text-white/35">
-                <AlertTriangle className="h-3.5 w-3.5 text-amber-400" />
+            <div className="surface-card rounded-2xl p-5">
+              <h2 className="flex items-center gap-1.5 text-[11px] font-semibold uppercase tracking-wider text-zinc-500 dark:text-zinc-400">
+                <AlertTriangle className="h-3.5 w-3.5 text-amber-500" />
                 Risk &amp; Security
               </h2>
-              <p className="mt-2.5 text-sm leading-relaxed text-white/55">
+              <p className="mt-2.5 text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">
                 <RichText text={skill.risk || 'Review instructions before installing.'} />
               </p>
             </div>
           </div>
 
           {(skill.installation || skill.notes) && (
-            <div className="glass rounded-3xl p-6">
+            <div className="surface-card rounded-2xl p-6">
               {skill.installation && (
                 <div>
-                  <h2 className="text-[11px] font-semibold uppercase tracking-widest text-white/35">
+                  <h2 className="text-[11px] font-semibold uppercase tracking-wider text-zinc-500 dark:text-zinc-400">
                     Installation
                   </h2>
-                  <p className="mt-2.5 text-sm text-white/70">
+                  <p className="mt-2.5 text-sm text-zinc-700 dark:text-zinc-300">
                     <RichText text={skill.installation} />
                   </p>
                 </div>
               )}
               {skill.notes && (
-                <div className={skill.installation ? 'mt-5 border-t border-white/[0.06] pt-5' : ''}>
-                  <h2 className="text-[11px] font-semibold uppercase tracking-widest text-white/35">
+                <div className={skill.installation ? 'mt-5 border-t border-zinc-200 pt-5 dark:border-zinc-800' : ''}>
+                  <h2 className="text-[11px] font-semibold uppercase tracking-wider text-zinc-500 dark:text-zinc-400">
                     Personal Notes
                   </h2>
-                  <p className="mt-2.5 text-sm text-white/70">
+                  <p className="mt-2.5 text-sm text-zinc-700 dark:text-zinc-300">
                     <RichText text={skill.notes} />
                   </p>
                 </div>
@@ -241,33 +238,32 @@ export function SkillDetailPage() {
           )}
         </div>
 
-        {/* Metadata Sidebar */}
         <aside className="space-y-4">
-          <div className="glass rounded-3xl p-5">
-            <h2 className="text-[10px] font-semibold uppercase tracking-widest text-white/30">
+          <div className="surface-card rounded-2xl p-5">
+            <h2 className="text-[11px] font-semibold uppercase tracking-wider text-zinc-500 dark:text-zinc-400">
               Metadata
             </h2>
             <dl className="mt-4 space-y-3 text-sm">
               <div className="flex items-center justify-between gap-2">
-                <dt className="text-white/40">Author</dt>
-                <dd className="font-mono font-medium text-white/85">{skill.author}</dd>
+                <dt className="text-zinc-500 dark:text-zinc-400">Author</dt>
+                <dd className="font-mono font-medium text-zinc-900 dark:text-zinc-100">{skill.author}</dd>
               </div>
               {skill.stars !== null && (
                 <div className="flex items-center justify-between gap-2">
-                  <dt className="text-white/40">GitHub Stars</dt>
-                  <dd className="font-mono font-semibold text-amber-400">
+                  <dt className="text-zinc-500 dark:text-zinc-400">GitHub Stars</dt>
+                  <dd className="font-mono font-semibold tabular-nums text-amber-600 dark:text-amber-400">
                     ★ {skill.stars.toLocaleString()}
                   </dd>
                 </div>
               )}
               {skill.last_pushed && (
                 <div className="flex items-center justify-between gap-2">
-                  <dt className="text-white/40">Repo Activity</dt>
-                  <dd className="font-mono text-xs text-white/75">{skill.last_pushed}</dd>
+                  <dt className="text-zinc-500 dark:text-zinc-400">Repo Activity</dt>
+                  <dd className="font-mono text-xs text-zinc-800 dark:text-zinc-200">{skill.last_pushed}</dd>
                 </div>
               )}
               <div className="flex items-center justify-between gap-2">
-                <dt className="text-white/40">Security</dt>
+                <dt className="text-zinc-500 dark:text-zinc-400">Security</dt>
                 <dd>
                   <span className={`inline-flex items-center gap-1 rounded-full border px-2 py-0.5 text-xs font-medium ${securityMeta.badgeClass}`}>
                     <Shield className="h-3 w-3" />
@@ -276,31 +272,31 @@ export function SkillDetailPage() {
                 </dd>
               </div>
               <div className="flex items-center justify-between gap-2">
-                <dt className="text-white/40">Tested</dt>
-                <dd className="font-mono text-xs text-white/75">
+                <dt className="text-zinc-500 dark:text-zinc-400">Tested</dt>
+                <dd className="font-mono text-xs text-zinc-800 dark:text-zinc-200">
                   {skill.tested ? 'Yes (Verified)' : 'Not personally tested'}
                 </dd>
               </div>
               <div className="flex items-center justify-between gap-2">
-                <dt className="text-white/40">License</dt>
-                <dd className="font-mono text-xs text-white/75">{skill.license}</dd>
+                <dt className="text-zinc-500 dark:text-zinc-400">License</dt>
+                <dd className="font-mono text-xs text-zinc-800 dark:text-zinc-200">{skill.license}</dd>
               </div>
               <div className="flex items-center justify-between gap-2">
-                <dt className="text-white/40">Source Type</dt>
-                <dd className="font-mono text-xs text-white/75">{skill.source_type}</dd>
+                <dt className="text-zinc-500 dark:text-zinc-400">Source Type</dt>
+                <dd className="font-mono text-xs text-zinc-800 dark:text-zinc-200">{skill.source_type}</dd>
               </div>
               <div className="flex items-center justify-between gap-2">
-                <dt className="text-white/40">Added</dt>
-                <dd className="font-mono text-xs text-white/75">{skill.added}</dd>
+                <dt className="text-zinc-500 dark:text-zinc-400">Added</dt>
+                <dd className="font-mono text-xs text-zinc-800 dark:text-zinc-200">{skill.added}</dd>
               </div>
               <div className="flex items-center justify-between gap-2">
-                <dt className="text-white/40">Last Reviewed</dt>
-                <dd className="font-mono text-xs text-white/75">{skill.last_reviewed}</dd>
+                <dt className="text-zinc-500 dark:text-zinc-400">Last Reviewed</dt>
+                <dd className="font-mono text-xs text-zinc-800 dark:text-zinc-200">{skill.last_reviewed}</dd>
               </div>
             </dl>
 
-            <div className="mt-5 border-t border-white/[0.06] pt-4">
-              <h3 className="text-[10px] font-semibold uppercase tracking-widest text-white/30">
+            <div className="mt-5 border-t border-zinc-200 pt-4 dark:border-zinc-800">
+              <h3 className="text-[11px] font-semibold uppercase tracking-wider text-zinc-500 dark:text-zinc-400">
                 Categories
               </h3>
               <div className="mt-2 flex flex-wrap gap-1.5">
@@ -310,7 +306,7 @@ export function SkillDetailPage() {
                     <Link
                       key={catId}
                       to={`/category/${catId}`}
-                      className="inline-flex items-center gap-1 rounded-full border border-white/[0.08] bg-white/[0.04] px-2.5 py-1 text-xs font-medium text-white/70 hover:border-amber-500/40 hover:text-amber-400 transition-colors"
+                      className="inline-flex items-center gap-1 rounded-md border border-zinc-200 bg-zinc-50 px-2.5 py-1 text-xs font-medium text-zinc-700 transition-colors hover:border-blue-400 hover:text-blue-600 dark:border-zinc-700 dark:bg-zinc-800 dark:text-zinc-300"
                     >
                       {cat && <CategoryIcon name={cat.icon} className="h-3 w-3" />}
                       {cat ? cat.name : catId}
@@ -320,8 +316,8 @@ export function SkillDetailPage() {
               </div>
             </div>
 
-            <div className="mt-4 border-t border-white/[0.06] pt-4">
-              <h3 className="text-[10px] font-semibold uppercase tracking-widest text-white/30">
+            <div className="mt-4 border-t border-zinc-200 pt-4 dark:border-zinc-800">
+              <h3 className="text-[11px] font-semibold uppercase tracking-wider text-zinc-500 dark:text-zinc-400">
                 Compatible Agents
               </h3>
               <div className="mt-2 flex flex-wrap gap-1.5">
@@ -329,7 +325,7 @@ export function SkillDetailPage() {
                   <Link
                     key={ag}
                     to={`/explore?agent=${encodeURIComponent(ag)}`}
-                    className="rounded-full border border-white/[0.08] bg-white/[0.04] px-2.5 py-0.5 font-mono text-xs text-white/60 hover:border-amber-500/40 hover:text-amber-400 transition-colors"
+                    className="rounded-md border border-zinc-200 bg-zinc-50 px-2 py-0.5 font-mono text-xs text-zinc-700 transition-colors hover:border-blue-400 hover:text-blue-600 dark:border-zinc-700 dark:bg-zinc-800 dark:text-zinc-300"
                   >
                     {ag}
                   </Link>
@@ -337,8 +333,8 @@ export function SkillDetailPage() {
               </div>
             </div>
 
-            <div className="mt-4 border-t border-white/[0.06] pt-4">
-              <h3 className="text-[10px] font-semibold uppercase tracking-widest text-white/30">
+            <div className="mt-4 border-t border-zinc-200 pt-4 dark:border-zinc-800">
+              <h3 className="text-[11px] font-semibold uppercase tracking-wider text-zinc-500 dark:text-zinc-400">
                 Tags
               </h3>
               <div className="mt-2 flex flex-wrap gap-1.5">
@@ -346,7 +342,7 @@ export function SkillDetailPage() {
                   <Link
                     key={tag}
                     to={`/explore?tag=${encodeURIComponent(tag)}`}
-                    className="rounded-full bg-white/[0.04] px-2.5 py-0.5 font-mono text-xs text-white/45 hover:bg-white/[0.08] hover:text-white/80 transition-colors"
+                    className="rounded-md bg-zinc-100 px-2 py-0.5 font-mono text-xs text-zinc-600 transition-colors hover:bg-zinc-200 hover:text-zinc-900 dark:bg-zinc-800 dark:text-zinc-400 dark:hover:text-zinc-200"
                   >
                     #{tag}
                   </Link>
@@ -357,11 +353,10 @@ export function SkillDetailPage() {
         </aside>
       </div>
 
-      {/* Related Skills */}
       {fallbackRelated.length > 0 && (
         <section className="space-y-4">
-          <h2 className="text-lg font-semibold text-white">Related Skills</h2>
-          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 stagger">
+          <h2 className="text-lg font-semibold text-zinc-900 dark:text-zinc-100">Related Skills</h2>
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {fallbackRelated.map((rel) => (
               <SkillCard key={rel.id} skill={rel} />
             ))}

@@ -54,7 +54,7 @@ export function RichText({
           return (
             <code
               key={`c-${idx}`}
-              className="mx-0.5 rounded-md border border-amber-500/25 bg-amber-500/10 px-1.5 py-0.5 font-mono text-[0.85em] font-medium text-amber-300"
+              className="mx-0.5 rounded border border-zinc-200 bg-zinc-100 px-1.5 py-0.5 font-mono text-[0.85em] font-medium text-zinc-800 dark:border-zinc-700 dark:bg-zinc-800 dark:text-zinc-200"
             >
               {highlightMatches(inner, `c-${idx}`)}
             </code>
