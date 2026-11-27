@@ -67,6 +67,15 @@ export function ExplorePage() {
     setSearchParams(next, { replace: true });
   }, [query, selectedCategories, selectedStatuses, selectedAgents, selectedTags, sort, visibleCount, setSearchParams]);
 
+  useEffect(() => {
+    if (!mobileFiltersOpen) return;
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') setMobileFiltersOpen(false);
+    };
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  }, [mobileFiltersOpen]);
+
   // Save & restore scroll position when navigating to/from skill detail pages
   useEffect(() => {
     const savedY = sessionStorage.getItem('skillatlas-explore-scroll');
@@ -271,7 +280,7 @@ export function ExplorePage() {
           <h1 className="text-2xl font-bold tracking-tight text-zinc-900 dark:text-zinc-100">
             Browse Skills
           </h1>
-          <p className="mt-1 text-[13px] text-zinc-500 dark:text-zinc-400">
+          <p aria-live="polite" className="mt-1 text-[13px] text-zinc-500 dark:text-zinc-400">
             Showing <span className="font-mono font-semibold text-zinc-900 dark:text-zinc-100">{results.length.toLocaleString()}</span> of{' '}
             <span className="font-mono">{skills.length.toLocaleString()}</span> curated skills
           </p>
@@ -361,11 +370,60 @@ export function ExplorePage() {
                 setQuery(e.target.value);
                 setVisibleCount(36);
               }}
-              placeholder="Filter by name, description, tag, or keyword..."
+              placeholder="Filter by name, URL, description, tag, or keyword..."
               aria-label="Filter skills"
               className="w-full rounded-xl border border-zinc-200 bg-white py-2.5 pl-10 pr-4 text-[13px] text-zinc-900 placeholder:text-zinc-400 focus:border-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-600/15 dark:border-zinc-800 dark:bg-zinc-900 dark:text-zinc-100 dark:placeholder:text-zinc-500"
             />
           </div>
+
+          {activeFilterCount > 0 && (
+            <div className="flex flex-wrap items-center gap-1.5">
+              {selectedCategories.map((catId) => (
+                <button
+                  key={`chip-cat-${catId}`}
+                  type="button"
+                  onClick={() => toggleItem(selectedCategories, setSelectedCategories, catId)}
+                  className="inline-flex items-center gap-1 rounded-md border border-blue-200 bg-blue-50 px-2 py-0.5 text-xs font-medium text-blue-700 hover:bg-blue-100 dark:border-blue-800 dark:bg-blue-950/60 dark:text-blue-300"
+                >
+                  {categories.find((c) => c.id === catId)?.name || catId}
+                  <X className="h-3 w-3" />
+                </button>
+              ))}
+              {selectedStatuses.map((st) => (
+                <button
+                  key={`chip-st-${st}`}
+                  type="button"
+                  onClick={() => toggleItem(selectedStatuses, setSelectedStatuses, st)}
+                  className="inline-flex items-center gap-1 rounded-md border border-emerald-200 bg-emerald-50 px-2 py-0.5 text-xs font-medium text-emerald-700 hover:bg-emerald-100 dark:border-emerald-800 dark:bg-emerald-950/60 dark:text-emerald-300"
+                >
+                  {STATUS_META[st]?.label || st}
+                  <X className="h-3 w-3" />
+                </button>
+              ))}
+              {selectedAgents.map((ag) => (
+                <button
+                  key={`chip-ag-${ag}`}
+                  type="button"
+                  onClick={() => toggleItem(selectedAgents, setSelectedAgents, ag)}
+                  className="inline-flex items-center gap-1 rounded-md border border-zinc-200 bg-zinc-100 px-2 py-0.5 font-mono text-xs text-zinc-700 hover:bg-zinc-200 dark:border-zinc-700 dark:bg-zinc-800 dark:text-zinc-300"
+                >
+                  {ag}
+                  <X className="h-3 w-3" />
+                </button>
+              ))}
+              {selectedTags.map((tg) => (
+                <button
+                  key={`chip-tg-${tg}`}
+                  type="button"
+                  onClick={() => toggleItem(selectedTags, setSelectedTags, tg)}
+                  className="inline-flex items-center gap-1 rounded-md border border-zinc-200 bg-zinc-100 px-2 py-0.5 font-mono text-xs text-zinc-700 hover:bg-zinc-200 dark:border-zinc-700 dark:bg-zinc-800 dark:text-zinc-300"
+                >
+                  #{tg}
+                  <X className="h-3 w-3" />
+                </button>
+              ))}
+            </div>
+          )}
 
           {results.length > 0 ? (
             <>
