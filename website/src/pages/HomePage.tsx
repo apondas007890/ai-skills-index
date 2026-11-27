@@ -3,6 +3,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { ArrowRight, Bot, Search, SlidersHorizontal, Star, X } from 'lucide-react';
 import { allAgents, categories, skills, tags } from '../lib/data';
 import { filterAndSortSkills } from '../lib/search';
+import { usePageSeo } from '../lib/seo';
 import { CategoryIcon } from '../components/CategoryIcon';
 import { SkillCard } from '../components/SkillCard';
 
@@ -78,6 +79,20 @@ export function HomePage() {
   const [quickAgent, setQuickAgent] = useState<string>('all');
   const [visibleCount, setVisibleCount] = useState(12);
   const navigate = useNavigate();
+
+  usePageSeo({
+    title: 'SkillAtlas — Curated AI Skills Index',
+    description: `Browse ${skills.length.toLocaleString()} curated AI agent skills across ${categories.length} categories for ${allAgents.length} coding agents including claude-code, gemini-cli, codex, and cursor.`,
+    path: '/',
+    jsonLd: {
+      '@context': 'https://schema.org',
+      '@type': 'CollectionPage',
+      name: 'SkillAtlas — Curated AI Skills Index',
+      url: 'https://skillatlas.apondas007890.workers.dev/',
+      description: `Curated directory of ${skills.length} AI agent skills, SKILL.md modules, and MCP servers.`,
+      numberOfItems: skills.length,
+    },
+  });
 
   const liveMatches = useMemo(() => {
     if (!query.trim()) return [];

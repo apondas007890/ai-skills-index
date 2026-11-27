@@ -12,6 +12,7 @@ import {
 } from 'lucide-react';
 import { getCategoryById, getSkillById, skills } from '../lib/data';
 import { SECURITY_META } from '../lib/constants';
+import { usePageSeo } from '../lib/seo';
 import { StatusBadge } from '../components/StatusBadge';
 import { CategoryIcon } from '../components/CategoryIcon';
 import { SkillCard, formatStars } from '../components/SkillCard';
@@ -22,6 +23,31 @@ export function SkillDetailPage() {
   const navigate = useNavigate();
   const skill = skillId ? getSkillById(skillId) : undefined;
   const [copiedKey, setCopiedKey] = useState<string | null>(null);
+
+  usePageSeo({
+    title: skill ? `${skill.name} — AI Agent Skill` : 'Skill Not Found',
+    description: skill
+      ? `${skill.description} Quality ${skill.quality}/10, ${skill.security} security, compatible with ${skill.compatible_agents.slice(0, 4).join(', ')}.`
+      : 'The requested AI skill was not found on SkillAtlas.',
+    path: skill ? `/skill/${skill.id}` : '/explore',
+    noindex: !skill,
+    jsonLd: skill
+      ? {
+          '@context': 'https://schema.org',
+          '@type': 'SoftwareSourceCode',
+          name: skill.name,
+          description: skill.description,
+          url: `https://skillatlas.apondas007890.workers.dev/skill/${skill.id}`,
+          codeRepository: skill.source,
+          author: {
+            '@type': 'Person',
+            name: skill.author,
+          },
+          ...(skill.license && skill.license !== 'unknown' ? { license: skill.license } : {}),
+          keywords: skill.tags.join(', '),
+        }
+      : undefined,
+  });
 
   const copyText = (key: string, value: string) => {
     navigator.clipboard.writeText(value);

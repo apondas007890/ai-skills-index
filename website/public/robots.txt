@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://skillatlas.apondas007890.workers.dev/sitemap.xml

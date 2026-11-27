@@ -9,6 +9,7 @@ import {
 } from 'lucide-react';
 import { skills } from '../lib/data';
 import { REPO_GITHUB_URL } from '../lib/constants';
+import { usePageSeo } from '../lib/seo';
 
 export function SubmitSkillPage() {
   const [url, setUrl] = useState('');
@@ -21,6 +22,13 @@ export function SubmitSkillPage() {
   const [submitError, setSubmitError] = useState<string | null>(null);
   const [submittedIssueUrl, setSubmittedIssueUrl] = useState<string | null>(null);
   const [needsFallback, setNeedsFallback] = useState(false);
+
+  usePageSeo({
+    title: 'Submit an AI Skill',
+    description:
+      'Submit a GitHub repository, SKILL.md module, or MCP server for automated security review and indexing on SkillAtlas.',
+    path: '/submit',
+  });
 
   const parseValidUrl = (raw: string): URL | null => {
     try {

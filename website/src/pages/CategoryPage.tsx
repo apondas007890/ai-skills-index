@@ -3,6 +3,7 @@ import { Link, useParams } from 'react-router-dom';
 import { ArrowLeft, ChevronDown, Search } from 'lucide-react';
 import { getCategoryById, skills } from '../lib/data';
 import { filterAndSortSkills, type SortOption } from '../lib/search';
+import { usePageSeo } from '../lib/seo';
 import { CategoryIcon } from '../components/CategoryIcon';
 import { SkillCard } from '../components/SkillCard';
 
@@ -21,6 +22,25 @@ export function CategoryPage() {
       sort,
     });
   }, [category, query, sort]);
+
+  usePageSeo({
+    title: category ? `${category.name} AI Skills` : 'Category Not Found',
+    description: category
+      ? `${category.description} Explore ${matchingSkills.length} curated ${category.name} skills on SkillAtlas.`
+      : 'The requested skill category was not found on SkillAtlas.',
+    path: category ? `/category/${category.id}` : '/explore',
+    noindex: !category,
+    jsonLd: category
+      ? {
+          '@context': 'https://schema.org',
+          '@type': 'CollectionPage',
+          name: `${category.name} — SkillAtlas`,
+          description: category.description,
+          url: `https://skillatlas.apondas007890.workers.dev/category/${category.id}`,
+          numberOfItems: matchingSkills.length,
+        }
+      : undefined,
+  });
 
   if (!category) {
     return (

@@ -4,6 +4,7 @@ import { ChevronDown, LayoutGrid, List, RotateCcw, Search, SlidersHorizontal, X 
 import { allAgents, allSourceTypes, categories, skills, tags } from '../lib/data';
 import { SECURITY_META, STATUS_META } from '../lib/constants';
 import { filterAndSortSkills, type SortOption } from '../lib/search';
+import { usePageSeo } from '../lib/seo';
 import type { SecurityLevel, SkillStatus, SourceType } from '../types/skill';
 import { SkillCard } from '../components/SkillCard';
 
@@ -56,6 +57,20 @@ export function ExplorePage() {
   const [visibleCount, setVisibleCount] = useState(() => {
     const n = Number(searchParams.get('n'));
     return Number.isFinite(n) && n >= 36 ? n : 36;
+  });
+
+  usePageSeo({
+    title: query.trim() ? `Search: ${query.trim()} — Browse AI Skills` : 'Browse AI Skills',
+    description: `Search and filter ${skills.length.toLocaleString()} curated AI agent skills by category, compatible agent, security rating, and quality score.`,
+    path: '/explore',
+    noindex: Boolean(
+      query.trim() ||
+        selectedCategories.length ||
+        selectedStatuses.length ||
+        selectedSecurity.length ||
+        selectedAgents.length ||
+        selectedTags.length
+    ),
   });
 
   // Persist current filters & loaded count into URL so Back navigation restores exact state

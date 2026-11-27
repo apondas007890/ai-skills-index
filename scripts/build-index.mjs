@@ -115,4 +115,65 @@ function writeJsonOutputs(targetDir) {
 writeJsonOutputs(DATA_DIR);
 writeJsonOutputs(WEBSITE_DATA_DIR);
 
-console.log(`Built index for ${skillsWithRelations.length} skill(s), ${tagsIndex.length} tag(s), and ${categoriesIndex.length} categories.`);
+const SITE_ORIGIN = 'https://skillatlas.apondas007890.workers.dev';
+const WEBSITE_PUBLIC_DIR = path.resolve(WEBSITE_DATA_DIR, '..', '..', 'public');
+fs.mkdirSync(WEBSITE_PUBLIC_DIR, { recursive: true });
+
+function escapeXml(str) {
+  return String(str)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&apos;');
+}
+
+const sitemapEntries = [
+  { loc: `${SITE_ORIGIN}/`, changefreq: 'daily', priority: '1.0' },
+  { loc: `${SITE_ORIGIN}/explore`, changefreq: 'daily', priority: '0.9' },
+  { loc: `${SITE_ORIGIN}/submit`, changefreq: 'monthly', priority: '0.5' },
+  ...categoriesIndex.map((cat) => ({
+    loc: `${SITE_ORIGIN}/category/${encodeURIComponent(cat.id)}`,
+    changefreq: 'weekly',
+    priority: '0.8',
+  })),
+  ...skillsWithRelations.map((skill) => ({
+    loc: `${SITE_ORIGIN}/skill/${encodeURIComponent(skill.id)}`,
+    lastmod: skill.last_reviewed || skill.added || undefined,
+    changefreq: 'weekly',
+    priority: '0.7',
+  })),
+];
+
+const sitemapXml = [
+  '<?xml version="1.0" encoding="UTF-8"?>',
+  '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
+  ...sitemapEntries.map((entry) => {
+    const lines = [
+      '  <url>',
+      `    <loc>${escapeXml(entry.loc)}</loc>`,
+      entry.lastmod ? `    <lastmod>${escapeXml(entry.lastmod)}</lastmod>` : null,
+      `    <changefreq>${entry.changefreq}</changefreq>`,
+      `    <priority>${entry.priority}</priority>`,
+      '  </url>',
+    ].filter(Boolean);
+    return lines.join('\n');
+  }),
+  '</urlset>',
+  '',
+].join('\n');
+
+const robotsTxt = [
+  'User-agent: *',
+  'Allow: /',
+  '',
+  `Sitemap: ${SITE_ORIGIN}/sitemap.xml`,
+  '',
+].join('\n');
+
+fs.writeFileSync(path.join(WEBSITE_PUBLIC_DIR, 'sitemap.xml'), sitemapXml);
+fs.writeFileSync(path.join(WEBSITE_PUBLIC_DIR, 'robots.txt'), robotsTxt);
+
+console.log(
+  `Built index for ${skillsWithRelations.length} skill(s), ${tagsIndex.length} tag(s), ${categoriesIndex.length} categories, and ${sitemapEntries.length} sitemap URLs.`
+);
