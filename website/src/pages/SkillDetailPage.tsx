@@ -374,7 +374,7 @@ export function SkillDetailPage() {
                   <Link
                     key={tag}
                     to={`/explore?tag=${encodeURIComponent(tag)}`}
-                    className="rounded-md bg-zinc-100 px-2 py-0.5 font-mono text-xs text-zinc-600 transition-colors hover:bg-zinc-200 hover:text-zinc-900 dark:bg-zinc-800 dark:text-zinc-400 dark:hover:text-zinc-200"
+                    className="rounded-md bg-zinc-100 px-2 py-0.5 font-mono text-xs text-zinc-600 transition-colors hover:bg-zinc-200 hover:text-zinc-900 dark:bg-zinc-800 dark:text-zinc-400 dark:hover:bg-zinc-700 dark:hover:text-zinc-100"
                   >
                     #{tag}
                   </Link>

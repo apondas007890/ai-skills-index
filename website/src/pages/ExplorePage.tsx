@@ -440,7 +440,7 @@ export function ExplorePage() {
                   key={`chip-ag-${ag}`}
                   type="button"
                   onClick={() => toggleItem(selectedAgents, setSelectedAgents, ag)}
-                  className="inline-flex items-center gap-1 rounded-md border border-zinc-200 bg-zinc-100 px-2 py-0.5 font-mono text-xs text-zinc-700 hover:bg-zinc-200 dark:border-zinc-700 dark:bg-zinc-800 dark:text-zinc-300"
+                  className="inline-flex items-center gap-1 rounded-md border border-zinc-200 bg-zinc-100 px-2 py-0.5 font-mono text-xs text-zinc-700 hover:bg-zinc-200 dark:border-zinc-700 dark:bg-zinc-800 dark:text-zinc-300 dark:hover:bg-zinc-700"
                 >
                   {ag}
                   <X className="h-3 w-3" />
@@ -451,7 +451,7 @@ export function ExplorePage() {
                   key={`chip-tg-${tg}`}
                   type="button"
                   onClick={() => toggleItem(selectedTags, setSelectedTags, tg)}
-                  className="inline-flex items-center gap-1 rounded-md border border-zinc-200 bg-zinc-100 px-2 py-0.5 font-mono text-xs text-zinc-700 hover:bg-zinc-200 dark:border-zinc-700 dark:bg-zinc-800 dark:text-zinc-300"
+                  className="inline-flex items-center gap-1 rounded-md border border-zinc-200 bg-zinc-100 px-2 py-0.5 font-mono text-xs text-zinc-700 hover:bg-zinc-200 dark:border-zinc-700 dark:bg-zinc-800 dark:text-zinc-300 dark:hover:bg-zinc-700"
                 >
                   #{tg}
                   <X className="h-3 w-3" />
