@@ -162,16 +162,23 @@ export function SkillCard({
         </div>
 
         <div className="mt-2.5 flex items-center justify-between gap-2">
-          <span className="truncate font-mono text-[11px] text-zinc-500 dark:text-zinc-400">
-            {skill.compatible_agents.slice(0, 2).join(', ')}
-            {skill.compatible_agents.length > 2
-              ? ` +${skill.compatible_agents.length - 2}`
-              : ''}
-          </span>
+          <div className="flex min-w-0 items-center gap-2">
+            <span className="truncate font-mono text-[11px] text-zinc-500 dark:text-zinc-400">
+              {skill.compatible_agents.slice(0, 2).join(', ')}
+              {skill.compatible_agents.length > 2
+                ? ` +${skill.compatible_agents.length - 2}`
+                : ''}
+            </span>
+            {skill.license && skill.license !== 'Unknown' && (
+              <span className="shrink-0 rounded bg-zinc-100 px-1.5 py-0.5 font-mono text-[10px] text-zinc-500 dark:bg-zinc-800 dark:text-zinc-400">
+                {skill.license}
+              </span>
+            )}
+          </div>
 
           <Link
             to={`/skill/${skill.id}`}
-            className="inline-flex items-center gap-0.5 text-[12px] font-semibold text-blue-600 hover:underline dark:text-blue-400"
+            className="inline-flex shrink-0 items-center gap-0.5 text-[12px] font-semibold text-blue-600 hover:underline dark:text-blue-400"
           >
             Details
             <ChevronRight className="h-3.5 w-3.5" />

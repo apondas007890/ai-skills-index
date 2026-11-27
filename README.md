@@ -2,11 +2,11 @@
 
 # SkillAtlas
 
-**Curated discovery engine and evaluation index for 1,337+ AI agent skills (`SKILL.md`), MCP servers, and coding workflows.**
+**Curated discovery engine and evaluation index for 1,094+ AI agent skills (`SKILL.md` modules, workflows, and skill collections) — skills only, no courses or unrelated tools.**
 
 [![Live on Cloudflare Workers](https://img.shields.io/badge/Live-Cloudflare%20Workers-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)](https://skillatlas.apondas007890.workers.dev/)
 [![Live on GitHub Pages](https://img.shields.io/badge/Live-GitHub%20Pages-222222?style=for-the-badge&logo=github&logoColor=white)](https://apondas007890.github.io/ai-skills-index/)
-[![Indexed Skills](https://img.shields.io/badge/Skills-1%2C337%2B%20Verified-2563EB?style=for-the-badge)](https://skillatlas.apondas007890.workers.dev/explore)
+[![Indexed Skills](https://img.shields.io/badge/Skills-1%2C094%2B%20Verified-2563EB?style=for-the-badge)](https://skillatlas.apondas007890.workers.dev/explore)
 [![License: MIT](https://img.shields.io/badge/License-MIT-10B981?style=for-the-badge)](LICENSE)
 
 [**Open Catalog**](https://skillatlas.apondas007890.workers.dev/) · [**Browse & Filter**](https://skillatlas.apondas007890.workers.dev/explore) · [**Submit a Skill**](https://skillatlas.apondas007890.workers.dev/submit) · [**GitHub Mirror**](https://apondas007890.github.io/ai-skills-index/)
@@ -19,7 +19,7 @@
 
 Finding reliable AI agent skills across GitHub bookmarks, `SKILL.md` repos, and MCP directories wastes time — and installing unvetted skills blindly is a security risk.
 
-**SkillAtlas** brings **1,337+ verified repositories** into one fast, searchable static catalog:
+**SkillAtlas** brings **1,094+ verified AI agent skill repositories** into one fast, searchable static catalog:
 - **Verified against GitHub:** Non-archived, non-forked repositories with live star counts, SPDX licenses, and recent activity dates.
 - **Evaluated for selection:** Every skill includes a quality score (`1–10`), status (`Excellent`, `Good`, `Promising`, `Needs Review`, `Risky`), compatible AI tools, and plain-English capabilities so you can pick the right skill in seconds.
 - **Zero database, zero backend:** Every entry lives as a Markdown file in [`skills/`](skills/), compiled to static JSON and deployed automatically to **Cloudflare Workers** and **GitHub Pages**.

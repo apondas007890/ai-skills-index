@@ -290,9 +290,9 @@ export function SkillDetailPage() {
                 </dd>
               </div>
               <div className="flex items-center justify-between gap-2">
-                <dt className="text-zinc-500 dark:text-zinc-400">Tested</dt>
+                <dt className="text-zinc-500 dark:text-zinc-400">Testing</dt>
                 <dd className="font-mono text-xs text-zinc-800 dark:text-zinc-200">
-                  {skill.tested ? 'Yes (Verified)' : 'Not personally tested'}
+                  {skill.tested ? 'Hands-on verified' : 'Metadata & docs only'}
                 </dd>
               </div>
               <div className="flex items-center justify-between gap-2">
