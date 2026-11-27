@@ -1,8 +1,10 @@
 # SkillAtlas — Personal AI Skills Index
 
-A personal, Git-backed knowledge base and static discovery website for collecting, evaluating, categorizing, and searching AI agent skills (`SKILL.md` modules, MCP servers, and workflow tools).
+**Live Website:** [https://apondas007890.github.io/ai-skills-index/](https://apondas007890.github.io/ai-skills-index/)
 
-No external database. No backend server. Every skill is stored as a human-readable Markdown file under `skills/`, validated by automated scripts, indexed into static JSON, and published to GitHub Pages.
+A personal, Git-backed knowledge base and static discovery website for collecting, evaluating, categorizing, and searching AI agent skills (`SKILL.md` modules, MCP servers, and workflow tools) across `claude-code`, `gemini-cli`, `codex`, `cursor`, `cline`, `kiro`, `opencode`, and `windsurf`.
+
+No external database. No backend server. Every skill is stored as a human-readable Markdown file under `skills/`, validated by automated scripts, enriched with live GitHub star counts, indexed into static JSON, and published to GitHub Pages.
 
 ## What This Solves
 

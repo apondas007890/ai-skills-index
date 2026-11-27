@@ -15,7 +15,7 @@ import { getCategoryById, getSkillById, skills } from '../lib/data';
 import { REPO_GITHUB_URL, SECURITY_META } from '../lib/constants';
 import { StatusBadge } from '../components/StatusBadge';
 import { CategoryIcon } from '../components/CategoryIcon';
-import { SkillCard } from '../components/SkillCard';
+import { SkillCard, formatStars } from '../components/SkillCard';
 import { RichText } from '../components/RichText';
 
 export function SkillDetailPage() {
@@ -31,15 +31,13 @@ export function SkillDetailPage() {
 
   if (!skill) {
     return (
-      <div className="rounded-2xl border border-slate-200 bg-white p-10 text-center dark:border-slate-800 dark:bg-slate-900">
-        <h1 className="text-xl font-bold text-slate-900 dark:text-white">
-          Skill not found
-        </h1>
+      <div className="glass rounded-3xl p-10 text-center">
+        <h1 className="text-xl font-bold text-white">Skill not found</h1>
         <Link
           to="/explore"
-          className="mt-4 inline-flex items-center gap-1.5 text-sm font-medium text-teal-600 hover:underline dark:text-teal-400"
+          className="mt-4 inline-flex items-center gap-1.5 text-sm font-medium text-amber-400 hover:text-amber-300"
         >
-          <ArrowLeft className="h-4 w-4" /> Back to Explore
+          <ArrowLeft className="h-4 w-4" /> Back to Browse
         </Link>
       </div>
     );
@@ -55,51 +53,52 @@ export function SkillDetailPage() {
     related.length > 0
       ? related
       : skills
-          .filter(
-            (s) => s.id !== skill.id && s.primary_category === skill.primary_category
-          )
+          .filter((s) => s.id !== skill.id && s.primary_category === skill.primary_category)
           .slice(0, 3);
 
   return (
-    <div className="space-y-8">
+    <div className="space-y-8 animate-fade-up">
       {/* Breadcrumb */}
-      <nav className="flex flex-wrap items-center gap-2 text-xs text-slate-500 dark:text-slate-400">
-        <Link to="/" className="hover:text-teal-600 dark:hover:text-teal-400">
-          Library
+      <nav className="flex flex-wrap items-center gap-2 text-xs text-white/40">
+        <Link to="/" className="hover:text-amber-400 transition-colors">
+          Catalog
         </Link>
         <span>/</span>
         {primaryCat && (
           <>
             <Link
               to={`/category/${primaryCat.id}`}
-              className="hover:text-teal-600 dark:hover:text-teal-400"
+              className="hover:text-amber-400 transition-colors"
             >
               {primaryCat.name}
             </Link>
             <span>/</span>
           </>
         )}
-        <span className="font-medium text-slate-900 dark:text-slate-200">
-          {skill.name}
-        </span>
+        <span className="font-medium text-white/80">{skill.name}</span>
       </nav>
 
       {/* Header & Actions */}
-      <section className="rounded-2xl border border-slate-200 bg-white p-6 dark:border-slate-800 dark:bg-slate-900/70">
+      <section className="glass-strong rounded-3xl p-6 sm:p-8">
         <div className="flex flex-col gap-5 lg:flex-row lg:items-start lg:justify-between">
           <div className="space-y-3">
             <div className="flex flex-wrap items-center gap-2.5">
-              <h1 className="text-2xl font-bold tracking-tight text-slate-900 sm:text-3xl dark:text-white">
+              <h1 className="text-2xl font-bold tracking-tight text-white sm:text-3xl">
                 {skill.name}
               </h1>
               <StatusBadge status={skill.status} />
-              <span className="inline-flex items-center gap-1 rounded-full border border-slate-200 bg-slate-50 px-2.5 py-0.5 font-mono text-xs font-semibold text-slate-700 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-200">
-                <Star className="h-3.5 w-3.5 text-amber-500" />
+              {skill.stars !== null && (
+                <span className="inline-flex items-center gap-1 rounded-full border border-amber-500/25 bg-amber-500/10 px-2.5 py-0.5 font-mono text-xs font-semibold text-amber-400">
+                  <Star className="h-3.5 w-3.5" />
+                  {formatStars(skill.stars)}
+                </span>
+              )}
+              <span className="inline-flex items-center gap-1 rounded-full border border-white/[0.1] bg-white/[0.06] px-2.5 py-0.5 font-mono text-xs font-semibold text-white/80">
                 {skill.quality}/10
               </span>
             </div>
 
-            <p className="max-w-3xl text-base leading-relaxed text-zinc-600 dark:text-zinc-300">
+            <p className="max-w-3xl text-[15px] leading-relaxed text-white/60">
               <RichText text={skill.description} />
             </p>
           </div>
@@ -109,7 +108,7 @@ export function SkillDetailPage() {
               href={skill.source}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-1.5 rounded-lg bg-teal-600 px-3.5 py-2 text-xs font-semibold text-white transition-colors hover:bg-teal-700 dark:bg-teal-500 dark:text-slate-950 dark:hover:bg-teal-400"
+              className="inline-flex items-center gap-1.5 rounded-xl border border-amber-500/40 bg-amber-500/15 px-3.5 py-2 text-xs font-semibold text-amber-400 transition-all hover:bg-amber-500/25"
             >
               Open Source
               <ArrowUpRight className="h-3.5 w-3.5" />
@@ -118,26 +117,18 @@ export function SkillDetailPage() {
             <button
               type="button"
               onClick={() => copyText('link', window.location.href)}
-              className="inline-flex items-center gap-1.5 rounded-lg border border-slate-200 bg-white px-3 py-2 text-xs font-medium text-slate-700 hover:bg-slate-100 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200 dark:hover:bg-slate-800"
+              className="inline-flex items-center gap-1.5 rounded-xl border border-white/[0.1] bg-white/[0.05] px-3 py-2 text-xs font-medium text-white/70 transition-colors hover:border-white/20 hover:text-white"
             >
-              {copiedKey === 'link' ? (
-                <Check className="h-3.5 w-3.5 text-emerald-500" />
-              ) : (
-                <Copy className="h-3.5 w-3.5" />
-              )}
+              {copiedKey === 'link' ? <Check className="h-3.5 w-3.5 text-emerald-400" /> : <Copy className="h-3.5 w-3.5" />}
               {copiedKey === 'link' ? 'Copied Link' : 'Copy Link'}
             </button>
 
             <button
               type="button"
               onClick={() => copyText('name', skill.name)}
-              className="inline-flex items-center gap-1.5 rounded-lg border border-slate-200 bg-white px-3 py-2 text-xs font-medium text-slate-700 hover:bg-slate-100 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200 dark:hover:bg-slate-800"
+              className="inline-flex items-center gap-1.5 rounded-xl border border-white/[0.1] bg-white/[0.05] px-3 py-2 text-xs font-medium text-white/70 transition-colors hover:border-white/20 hover:text-white"
             >
-              {copiedKey === 'name' ? (
-                <Check className="h-3.5 w-3.5 text-emerald-500" />
-              ) : (
-                <Copy className="h-3.5 w-3.5" />
-              )}
+              {copiedKey === 'name' ? <Check className="h-3.5 w-3.5 text-emerald-400" /> : <Copy className="h-3.5 w-3.5" />}
               {copiedKey === 'name' ? 'Copied Name' : 'Copy Name'}
             </button>
 
@@ -145,13 +136,9 @@ export function SkillDetailPage() {
               <button
                 type="button"
                 onClick={() => copyText('install', skill.install_command)}
-                className="inline-flex items-center gap-1.5 rounded-lg border border-slate-200 bg-white px-3 py-2 font-mono text-xs font-medium text-slate-700 hover:bg-slate-100 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200 dark:hover:bg-slate-800"
+                className="inline-flex items-center gap-1.5 rounded-xl border border-white/[0.1] bg-white/[0.05] px-3 py-2 font-mono text-xs font-medium text-white/70 transition-colors hover:border-white/20 hover:text-white"
               >
-                {copiedKey === 'install' ? (
-                  <Check className="h-3.5 w-3.5 text-emerald-500" />
-                ) : (
-                  <Terminal className="h-3.5 w-3.5" />
-                )}
+                {copiedKey === 'install' ? <Check className="h-3.5 w-3.5 text-emerald-400" /> : <Terminal className="h-3.5 w-3.5" />}
                 {copiedKey === 'install' ? 'Copied Command' : 'Copy Install'}
               </button>
             )}
@@ -160,7 +147,7 @@ export function SkillDetailPage() {
               href={`${REPO_GITHUB_URL}/blob/main/${skill.file_path}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-1.5 rounded-lg border border-slate-200 bg-white px-3 py-2 text-xs font-medium text-slate-700 hover:bg-slate-100 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200 dark:hover:bg-slate-800"
+              className="inline-flex items-center gap-1.5 rounded-xl border border-white/[0.1] bg-white/[0.05] px-3 py-2 text-xs font-medium text-white/70 transition-colors hover:border-white/20 hover:text-white"
             >
               <Edit3 className="h-3.5 w-3.5" />
               Edit Entry
@@ -172,18 +159,18 @@ export function SkillDetailPage() {
       {/* Main Content + Metadata Sidebar */}
       <div className="grid gap-6 lg:grid-cols-[1fr_320px]">
         <div className="space-y-5">
-          <div className="rounded-2xl border border-slate-200 bg-white p-6 dark:border-slate-800 dark:bg-slate-900/70">
-            <h2 className="text-sm font-semibold uppercase tracking-wider text-zinc-500 dark:text-zinc-400">
+          <div className="glass rounded-3xl p-6">
+            <h2 className="text-[11px] font-semibold uppercase tracking-widest text-white/35">
               What it does
             </h2>
-            <p className="mt-2 text-sm leading-relaxed text-zinc-700 dark:text-zinc-300">
+            <p className="mt-2.5 text-sm leading-relaxed text-white/70">
               <RichText text={skill.what_it_does} />
             </p>
 
-            <h2 className="mt-6 text-sm font-semibold uppercase tracking-wider text-zinc-500 dark:text-zinc-400">
+            <h2 className="mt-6 text-[11px] font-semibold uppercase tracking-widest text-white/35">
               Best for
             </h2>
-            <ul className="mt-2 list-disc space-y-1.5 pl-5 text-sm text-zinc-700 dark:text-zinc-300">
+            <ul className="mt-2.5 list-disc space-y-1.5 pl-5 text-sm text-white/70">
               {skill.best_for.map((item) => (
                 <li key={item}>
                   <RichText text={item} />
@@ -191,21 +178,21 @@ export function SkillDetailPage() {
               ))}
             </ul>
 
-            <h2 className="mt-6 text-sm font-semibold uppercase tracking-wider text-zinc-500 dark:text-zinc-400">
+            <h2 className="mt-6 text-[11px] font-semibold uppercase tracking-widest text-white/35">
               Evaluation Verdict
             </h2>
-            <p className="mt-2 rounded-lg border border-teal-500/25 bg-teal-50/50 p-3.5 text-sm font-medium text-zinc-900 dark:border-teal-400/20 dark:bg-teal-950/20 dark:text-zinc-100">
+            <p className="mt-2.5 rounded-2xl border border-amber-500/20 bg-amber-500/[0.07] p-4 text-sm font-medium text-white/90">
               <RichText text={skill.verdict} />
             </p>
           </div>
 
           <div className="grid gap-5 sm:grid-cols-2">
-            <div className="rounded-lg border border-zinc-200 bg-white p-5 dark:border-zinc-800 dark:bg-[#111114]">
-              <h2 className="text-sm font-semibold uppercase tracking-wider text-zinc-500 dark:text-zinc-400">
+            <div className="glass rounded-3xl p-5">
+              <h2 className="text-[11px] font-semibold uppercase tracking-widest text-white/35">
                 Limitations
               </h2>
               {skill.limitations.length > 0 ? (
-                <ul className="mt-2.5 list-disc space-y-1.5 pl-5 text-sm text-zinc-600 dark:text-zinc-400">
+                <ul className="mt-2.5 list-disc space-y-1.5 pl-5 text-sm text-white/55">
                   {skill.limitations.map((lim) => (
                     <li key={lim}>
                       <RichText text={lim} />
@@ -213,39 +200,39 @@ export function SkillDetailPage() {
                   ))}
                 </ul>
               ) : (
-                <p className="mt-2 text-sm text-zinc-500">None recorded.</p>
+                <p className="mt-2.5 text-sm text-white/35">None recorded.</p>
               )}
             </div>
 
-            <div className="rounded-lg border border-zinc-200 bg-white p-5 dark:border-zinc-800 dark:bg-[#111114]">
-              <h2 className="flex items-center gap-1.5 text-sm font-semibold uppercase tracking-wider text-zinc-500 dark:text-zinc-400">
-                <AlertTriangle className="h-4 w-4 text-amber-500" />
+            <div className="glass rounded-3xl p-5">
+              <h2 className="flex items-center gap-1.5 text-[11px] font-semibold uppercase tracking-widest text-white/35">
+                <AlertTriangle className="h-3.5 w-3.5 text-amber-400" />
                 Risk &amp; Security
               </h2>
-              <p className="mt-2.5 text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">
+              <p className="mt-2.5 text-sm leading-relaxed text-white/55">
                 <RichText text={skill.risk || 'Review instructions before installing.'} />
               </p>
             </div>
           </div>
 
           {(skill.installation || skill.notes) && (
-            <div className="rounded-lg border border-zinc-200 bg-white p-6 dark:border-zinc-800 dark:bg-[#111114]">
+            <div className="glass rounded-3xl p-6">
               {skill.installation && (
                 <div>
-                  <h2 className="text-sm font-semibold uppercase tracking-wider text-zinc-500 dark:text-zinc-400">
+                  <h2 className="text-[11px] font-semibold uppercase tracking-widest text-white/35">
                     Installation
                   </h2>
-                  <p className="mt-2 text-sm text-zinc-700 dark:text-zinc-300">
+                  <p className="mt-2.5 text-sm text-white/70">
                     <RichText text={skill.installation} />
                   </p>
                 </div>
               )}
               {skill.notes && (
-                <div className={skill.installation ? 'mt-5 border-t border-zinc-100 pt-5 dark:border-zinc-800' : ''}>
-                  <h2 className="text-sm font-semibold uppercase tracking-wider text-zinc-500 dark:text-zinc-400">
+                <div className={skill.installation ? 'mt-5 border-t border-white/[0.06] pt-5' : ''}>
+                  <h2 className="text-[11px] font-semibold uppercase tracking-widest text-white/35">
                     Personal Notes
                   </h2>
-                  <p className="mt-2 text-sm text-zinc-700 dark:text-zinc-300">
+                  <p className="mt-2.5 text-sm text-white/70">
                     <RichText text={skill.notes} />
                   </p>
                 </div>
@@ -256,78 +243,64 @@ export function SkillDetailPage() {
 
         {/* Metadata Sidebar */}
         <aside className="space-y-4">
-          <div className="rounded-2xl border border-slate-200 bg-white p-5 dark:border-slate-800 dark:bg-slate-900/70">
-            <h2 className="text-xs font-semibold uppercase tracking-wider text-slate-500 dark:text-slate-400">
+          <div className="glass rounded-3xl p-5">
+            <h2 className="text-[10px] font-semibold uppercase tracking-widest text-white/30">
               Metadata
             </h2>
             <dl className="mt-4 space-y-3 text-sm">
               <div className="flex items-center justify-between gap-2">
-                <dt className="text-slate-500 dark:text-slate-400">Author</dt>
-                <dd className="font-mono font-medium text-slate-900 dark:text-slate-100">
-                  {skill.author}
-                </dd>
+                <dt className="text-white/40">Author</dt>
+                <dd className="font-mono font-medium text-white/85">{skill.author}</dd>
               </div>
               {skill.stars !== null && (
                 <div className="flex items-center justify-between gap-2">
-                  <dt className="text-slate-500 dark:text-slate-400">GitHub Stars</dt>
-                  <dd className="font-mono font-semibold text-teal-700 dark:text-teal-400">
+                  <dt className="text-white/40">GitHub Stars</dt>
+                  <dd className="font-mono font-semibold text-amber-400">
                     ★ {skill.stars.toLocaleString()}
                   </dd>
                 </div>
               )}
               {skill.last_pushed && (
                 <div className="flex items-center justify-between gap-2">
-                  <dt className="text-slate-500 dark:text-slate-400">Repo Activity</dt>
-                  <dd className="font-mono text-xs text-slate-800 dark:text-slate-200">
-                    {skill.last_pushed}
-                  </dd>
+                  <dt className="text-white/40">Repo Activity</dt>
+                  <dd className="font-mono text-xs text-white/75">{skill.last_pushed}</dd>
                 </div>
               )}
               <div className="flex items-center justify-between gap-2">
-                <dt className="text-slate-500 dark:text-slate-400">Security</dt>
+                <dt className="text-white/40">Security</dt>
                 <dd>
-                  <span
-                    className={`inline-flex items-center gap-1 rounded-full border px-2 py-0.5 text-xs font-medium ${securityMeta.badgeClass}`}
-                  >
+                  <span className={`inline-flex items-center gap-1 rounded-full border px-2 py-0.5 text-xs font-medium ${securityMeta.badgeClass}`}>
                     <Shield className="h-3 w-3" />
                     {securityMeta.label}
                   </span>
                 </dd>
               </div>
               <div className="flex items-center justify-between gap-2">
-                <dt className="text-slate-500 dark:text-slate-400">Tested</dt>
-                <dd className="font-mono text-xs text-slate-800 dark:text-slate-200">
+                <dt className="text-white/40">Tested</dt>
+                <dd className="font-mono text-xs text-white/75">
                   {skill.tested ? 'Yes (Verified)' : 'Not personally tested'}
                 </dd>
               </div>
               <div className="flex items-center justify-between gap-2">
-                <dt className="text-slate-500 dark:text-slate-400">License</dt>
-                <dd className="font-mono text-xs text-slate-800 dark:text-slate-200">
-                  {skill.license}
-                </dd>
+                <dt className="text-white/40">License</dt>
+                <dd className="font-mono text-xs text-white/75">{skill.license}</dd>
               </div>
               <div className="flex items-center justify-between gap-2">
-                <dt className="text-slate-500 dark:text-slate-400">Source Type</dt>
-                <dd className="font-mono text-xs text-slate-800 dark:text-slate-200">
-                  {skill.source_type}
-                </dd>
+                <dt className="text-white/40">Source Type</dt>
+                <dd className="font-mono text-xs text-white/75">{skill.source_type}</dd>
               </div>
               <div className="flex items-center justify-between gap-2">
-                <dt className="text-slate-500 dark:text-slate-400">Added</dt>
-                <dd className="font-mono text-xs text-slate-800 dark:text-slate-200">
-                  {skill.added}
-                </dd>
+                <dt className="text-white/40">Added</dt>
+                <dd className="font-mono text-xs text-white/75">{skill.added}</dd>
               </div>
               <div className="flex items-center justify-between gap-2">
-                <dt className="text-slate-500 dark:text-slate-400">Last Reviewed</dt>
-                <dd className="font-mono text-xs text-slate-800 dark:text-slate-200">
-                  {skill.last_reviewed}
-                </dd>
+                <dt className="text-white/40">Last Reviewed</dt>
+                <dd className="font-mono text-xs text-white/75">{skill.last_reviewed}</dd>
               </div>
             </dl>
 
-            <div className="mt-5 border-t border-slate-100 pt-4 dark:border-slate-800">
-              <h3 className="text-xs font-semibold uppercase tracking-wider text-slate-500 dark:text-slate-400">
+            <div className="mt-5 border-t border-white/[0.06] pt-4">
+              <h3 className="text-[10px] font-semibold uppercase tracking-widest text-white/30">
                 Categories
               </h3>
               <div className="mt-2 flex flex-wrap gap-1.5">
@@ -337,7 +310,7 @@ export function SkillDetailPage() {
                     <Link
                       key={catId}
                       to={`/category/${catId}`}
-                      className="inline-flex items-center gap-1 rounded-md border border-slate-200 bg-slate-50 px-2 py-1 text-xs font-medium text-slate-700 hover:border-teal-500/40 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-300"
+                      className="inline-flex items-center gap-1 rounded-full border border-white/[0.08] bg-white/[0.04] px-2.5 py-1 text-xs font-medium text-white/70 hover:border-amber-500/40 hover:text-amber-400 transition-colors"
                     >
                       {cat && <CategoryIcon name={cat.icon} className="h-3 w-3" />}
                       {cat ? cat.name : catId}
@@ -347,8 +320,8 @@ export function SkillDetailPage() {
               </div>
             </div>
 
-            <div className="mt-4 border-t border-slate-100 pt-4 dark:border-slate-800">
-              <h3 className="text-xs font-semibold uppercase tracking-wider text-slate-500 dark:text-slate-400">
+            <div className="mt-4 border-t border-white/[0.06] pt-4">
+              <h3 className="text-[10px] font-semibold uppercase tracking-widest text-white/30">
                 Compatible Agents
               </h3>
               <div className="mt-2 flex flex-wrap gap-1.5">
@@ -356,7 +329,7 @@ export function SkillDetailPage() {
                   <Link
                     key={ag}
                     to={`/explore?agent=${encodeURIComponent(ag)}`}
-                    className="rounded bg-slate-100 px-2 py-0.5 font-mono text-xs text-slate-700 hover:bg-teal-50 hover:text-teal-700 dark:bg-slate-800 dark:text-slate-300"
+                    className="rounded-full border border-white/[0.08] bg-white/[0.04] px-2.5 py-0.5 font-mono text-xs text-white/60 hover:border-amber-500/40 hover:text-amber-400 transition-colors"
                   >
                     {ag}
                   </Link>
@@ -364,8 +337,8 @@ export function SkillDetailPage() {
               </div>
             </div>
 
-            <div className="mt-4 border-t border-slate-100 pt-4 dark:border-slate-800">
-              <h3 className="text-xs font-semibold uppercase tracking-wider text-slate-500 dark:text-slate-400">
+            <div className="mt-4 border-t border-white/[0.06] pt-4">
+              <h3 className="text-[10px] font-semibold uppercase tracking-widest text-white/30">
                 Tags
               </h3>
               <div className="mt-2 flex flex-wrap gap-1.5">
@@ -373,7 +346,7 @@ export function SkillDetailPage() {
                   <Link
                     key={tag}
                     to={`/explore?tag=${encodeURIComponent(tag)}`}
-                    className="rounded bg-slate-100 px-2 py-0.5 font-mono text-xs text-slate-600 hover:bg-teal-50 hover:text-teal-700 dark:bg-slate-800 dark:text-slate-400"
+                    className="rounded-full bg-white/[0.04] px-2.5 py-0.5 font-mono text-xs text-white/45 hover:bg-white/[0.08] hover:text-white/80 transition-colors"
                   >
                     #{tag}
                   </Link>
@@ -387,10 +360,8 @@ export function SkillDetailPage() {
       {/* Related Skills */}
       {fallbackRelated.length > 0 && (
         <section className="space-y-4">
-          <h2 className="text-lg font-semibold text-slate-900 dark:text-white">
-            Related Skills
-          </h2>
-          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          <h2 className="text-lg font-semibold text-white">Related Skills</h2>
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 stagger">
             {fallbackRelated.map((rel) => (
               <SkillCard key={rel.id} skill={rel} />
             ))}

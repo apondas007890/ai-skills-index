@@ -1,5 +1,63 @@
 [
   {
+    "id": "agentic-awesome-skills",
+    "name": "Agentic Awesome Skills (AAS)",
+    "source": "https://github.com/sickn33/agentic-awesome-skills",
+    "author": "sickn33",
+    "primary_category": "agents",
+    "categories": [
+      "agents",
+      "coding",
+      "automation"
+    ],
+    "tags": [
+      "skill-discovery",
+      "mcp",
+      "cli",
+      "claude-code",
+      "gemini-cli",
+      "awesome-list"
+    ],
+    "compatible_agents": [
+      "claude-code",
+      "codex",
+      "cursor",
+      "gemini-cli"
+    ],
+    "status": "excellent",
+    "quality": 9,
+    "security": "unverified",
+    "added": "2026-11-27",
+    "last_reviewed": "2026-11-27",
+    "source_type": "github",
+    "license": "MIT",
+    "stars": 50394,
+    "last_pushed": "Thu Nov 26",
+    "install_command": "",
+    "tested": false,
+    "featured": true,
+    "file_path": "skills/agents/agentic-awesome-skills.md",
+    "description": "A massive catalog of 3,000+ reusable AI agent skills paired with AAS Core for local catalog discovery, agent-owned selection, and plan previews across Claude Code, Codex, Cursor, and Gemini CLI.",
+    "what_it_does": "Packages thousands of `SKILL.md` playbooks alongside a CLI, MCP server, and plugin layer so agents can search, preview, and load capabilities on demand.",
+    "best_for": [
+      "Finding ready-to-use `SKILL.md` playbooks across niche engineering and workflow domains",
+      "Running local skill catalog discovery with plan previews before execution"
+    ],
+    "verdict": "EXCELLENT — one of the largest and most actively maintained skill catalogs on GitHub (50k+ stars, MIT license).",
+    "limitations": [
+      "Because it aggregates 3,000+ community playbooks, individual skills vary in depth and should be inspected before running."
+    ],
+    "risk": "Inspect individual skills and any bundled scripts with `NVIDIA/SkillSpector` before enabling them in production workspaces.",
+    "installation": "See the GitHub repository (`sickn33/agentic-awesome-skills`) for CLI, MCP, and plugin setup instructions.",
+    "notes": "Great upstream source for discovering specialized skills to evaluate in SkillAtlas.",
+    "related_skills": [
+      "awesome-agent-skills",
+      "agent-reach",
+      "anthropic-skills",
+      "nvidia-skills"
+    ]
+  },
+  {
     "id": "anthropic-skills",
     "name": "Anthropic Official Skills",
     "source": "https://github.com/anthropics/skills",
@@ -52,9 +110,9 @@
     "notes": "Essential reference whenever authoring new skills for this library.",
     "related_skills": [
       "nvidia-skills",
+      "agentic-awesome-skills",
       "awesome-agent-skills",
-      "ponytail",
-      "skill-spector"
+      "wshobson-agents"
     ]
   },
   {
@@ -110,10 +168,10 @@
     "installation": "Browse `VoltAgent/awesome-agent-skills` on GitHub and evaluate individual skills before installing.",
     "notes": "Primary discovery source alongside `github.com/topics/agent-skills`.",
     "related_skills": [
+      "agentic-awesome-skills",
       "nvidia-skills",
       "anthropic-skills",
-      "scrapling",
-      "ponytail"
+      "scrapling"
     ]
   },
   {
@@ -172,8 +230,8 @@
     "related_skills": [
       "awesome-agent-skills",
       "anthropic-skills",
-      "open-code-review",
-      "scrapegraph-ai"
+      "agentic-awesome-skills",
+      "alirezarezvani-claude-skills"
     ]
   },
   {
@@ -230,8 +288,8 @@
     "related_skills": [
       "scrapling",
       "agent-reach",
-      "awesome-agent-skills",
-      "nvidia-skills"
+      "agentic-awesome-skills",
+      "awesome-agent-skills"
     ]
   },
   {
@@ -290,8 +348,66 @@
     "related_skills": [
       "scrapegraph-ai",
       "agent-reach",
+      "agentic-awesome-skills",
+      "awesome-agent-skills"
+    ]
+  },
+  {
+    "id": "alirezarezvani-claude-skills",
+    "name": "Claude Skills Collection (410+)",
+    "source": "https://github.com/alirezarezvani/claude-skills",
+    "author": "alirezarezvani",
+    "primary_category": "business",
+    "categories": [
+      "business",
+      "productivity",
+      "coding",
+      "research"
+    ],
+    "tags": [
+      "product",
+      "marketing",
+      "finance",
+      "engineering",
+      "skill-md"
+    ],
+    "compatible_agents": [
+      "claude-code",
+      "codex",
+      "cursor",
+      "gemini-cli"
+    ],
+    "status": "good",
+    "quality": 8,
+    "security": "unverified",
+    "added": "2026-11-27",
+    "last_reviewed": "2026-11-27",
+    "source_type": "github",
+    "license": "MIT",
+    "stars": 30543,
+    "last_pushed": "Thu Nov 26",
+    "install_command": "",
+    "tested": false,
+    "featured": false,
+    "file_path": "skills/business/alirezarezvani-claude-skills.md",
+    "description": "Over 410 specialized agent skills, 120+ agents, and custom commands spanning engineering, marketing, product management, compliance, finance, research, and daily productivity.",
+    "what_it_does": "Organizes domain-specific skills with customizable references and helper scripts for Claude Code, Codex, Gemini CLI, Cursor, and 8+ other coding agents.",
+    "best_for": [
+      "Non-coding business, product, marketing, compliance, and finance workflows inside AI coding agents",
+      "Teams looking for customizable reference templates alongside `SKILL.md` prompts"
+    ],
+    "verdict": "GOOD — massive breadth across business, product, and engineering domains with active maintenance (30k+ stars, MIT).",
+    "limitations": [
+      "Large catalog size means quality and depth vary across individual domain folders; review before adopting."
+    ],
+    "risk": "Inspect any bundled scripts and reference prompts before running in regulated or production environments.",
+    "installation": "Clone or copy individual skill folders from `alirezarezvani/claude-skills` into your agent's skills directory.",
+    "notes": "Fills a strong gap in Business, Finance, Compliance, and Productivity categories.",
+    "related_skills": [
+      "pm-skills",
+      "nvidia-skills",
       "awesome-agent-skills",
-      "nvidia-skills"
+      "anthropic-skills"
     ]
   },
   {
@@ -346,10 +462,10 @@
     "installation": "See `phuryn/pm-skills` on GitHub for installation instructions.",
     "notes": "Discovered via `github.com/topics/agent-skills`.",
     "related_skills": [
+      "alirezarezvani-claude-skills",
       "youtube-agent-skill",
-      "awesome-agent-skills",
-      "nvidia-skills",
-      "scrapegraph-ai"
+      "agentic-awesome-skills",
+      "awesome-agent-skills"
     ]
   },
   {
@@ -406,7 +522,7 @@
       "ponytail",
       "skill-spector",
       "superpowers",
-      "nvidia-skills"
+      "wshobson-agents"
     ]
   },
   {
@@ -468,7 +584,7 @@
       "superpowers",
       "open-code-review",
       "skill-spector",
-      "awesome-agent-skills"
+      "wshobson-agents"
     ]
   },
   {
@@ -527,7 +643,7 @@
       "open-code-review",
       "ponytail",
       "superpowers",
-      "awesome-agent-skills"
+      "wshobson-agents"
     ]
   },
   {
@@ -586,7 +702,64 @@
       "ponytail",
       "skill-spector",
       "open-code-review",
-      "awesome-agent-skills"
+      "wshobson-agents"
+    ]
+  },
+  {
+    "id": "wshobson-agents",
+    "name": "wshobson Agents & Skills",
+    "source": "https://github.com/wshobson/agents",
+    "author": "wshobson",
+    "primary_category": "coding",
+    "categories": [
+      "coding",
+      "agents",
+      "automation"
+    ],
+    "tags": [
+      "multi-agent",
+      "kubernetes",
+      "gitops",
+      "evals",
+      "skill-md"
+    ],
+    "compatible_agents": [
+      "claude-code",
+      "codex",
+      "cursor",
+      "opencode"
+    ],
+    "status": "excellent",
+    "quality": 9,
+    "security": "unverified",
+    "added": "2026-11-27",
+    "last_reviewed": "2026-11-27",
+    "source_type": "github",
+    "license": "MIT",
+    "stars": 42929,
+    "last_pushed": "Tue Nov 24",
+    "install_command": "",
+    "tested": false,
+    "featured": true,
+    "file_path": "skills/coding/wshobson-agents.md",
+    "description": "A cross-tool collection of plugins, agents, skills, and commands authored once in Markdown and adapted to Claude Code, Codex CLI, Cursor, OpenCode, and GitHub Copilot with validation and evals.",
+    "what_it_does": "Provides structured, generator-adapted agent skills covering Kubernetes operations, LLM architecture, GitOps, and software engineering workflows with built-in validation.",
+    "best_for": [
+      "Teams running multiple AI coding agents who want one Markdown source of truth",
+      "Infrastructure, Kubernetes, GitOps, and production LLM engineering workflows"
+    ],
+    "verdict": "EXCELLENT — well-engineered cross-agent skill architecture backed by validation and evals (42k+ stars, MIT).",
+    "limitations": [
+      "Broad plugin collection; pick only the specific plugins relevant to your stack to avoid context bloat."
+    ],
+    "risk": "Review generated commands and plugin permissions before enabling in sensitive repositories.",
+    "installation": "See `wshobson/agents` on GitHub for per-tool generator and plugin installation instructions.",
+    "notes": "Strong reference for cross-agent Markdown skill authoring and automated validation.",
+    "related_skills": [
+      "open-code-review",
+      "ponytail",
+      "skill-spector",
+      "superpowers"
     ]
   },
   {
@@ -705,8 +878,8 @@
     "related_skills": [
       "anti-slop-ui",
       "anthropic-skills",
-      "awesome-agent-skills",
-      "nvidia-skills"
+      "wshobson-agents",
+      "agentic-awesome-skills"
     ]
   },
   {
@@ -1110,10 +1283,10 @@
     "installation": "See `mcpmarket.com/server/spicy-api-skills` or `Wayfinity/spicyapi-skills` on GitHub.",
     "notes": "Categorized under `other` as a niche third-party API skill.",
     "related_skills": [
+      "agentic-awesome-skills",
       "scrapling",
       "open-montage",
-      "toonflow-app",
-      "agent-reach"
+      "toonflow-app"
     ]
   },
   {
@@ -1170,10 +1343,10 @@
     "installation": "`npx skills add Panniantong/Agent-Reach@agent-reach` (verify source repository before running).",
     "notes": "Ideal candidate for autonomous skill discovery workflows (\"find new skills for YouTube / Codex / UI\").",
     "related_skills": [
+      "agentic-awesome-skills",
       "scrapling",
       "scientific-agent-skills",
-      "scrapegraph-ai",
-      "awesome-agent-skills"
+      "scrapegraph-ai"
     ]
   },
   {
@@ -1289,8 +1462,8 @@
     "related_skills": [
       "pm-skills",
       "open-montage",
-      "awesome-agent-skills",
-      "nvidia-skills"
+      "agentic-awesome-skills",
+      "awesome-agent-skills"
     ]
   }
 ]

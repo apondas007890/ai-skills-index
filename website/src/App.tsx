@@ -1,4 +1,4 @@
-import { HashRouter, Navigate, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 import { Layout } from './components/Layout';
 import { HomePage } from './pages/HomePage';
 import { ExplorePage } from './pages/ExplorePage';
@@ -7,7 +7,7 @@ import { SkillDetailPage } from './pages/SkillDetailPage';
 
 export default function App() {
   return (
-    <HashRouter>
+    <BrowserRouter basename="/ai-skills-index">
       <Layout>
         <Routes>
           <Route path="/" element={<HomePage />} />
@@ -17,6 +17,6 @@ export default function App() {
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </Layout>
-    </HashRouter>
+    </BrowserRouter>
   );
 }

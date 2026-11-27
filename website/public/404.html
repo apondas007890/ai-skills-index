@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>SkillAtlas</title>
+    <script>
+      // GitHub Pages SPA 404 redirect trick
+      var base = '/ai-skills-index';
+      var path = location.pathname.replace(base, '') || '/';
+      sessionStorage.setItem('spa-redirect', base + path + location.search + location.hash);
+      location.replace(base + '/');
+    </script>
+  </head>
+  <body></body>
+</html>

@@ -1,7 +1,23 @@
 [
   {
     "tag": "mcp",
-    "count": 3
+    "count": 4
+  },
+  {
+    "tag": "skill-md",
+    "count": 4
+  },
+  {
+    "tag": "awesome-list",
+    "count": 2
+  },
+  {
+    "tag": "claude-code",
+    "count": 2
+  },
+  {
+    "tag": "cli",
+    "count": 2
   },
   {
     "tag": "code-review",
@@ -12,7 +28,7 @@
     "count": 2
   },
   {
-    "tag": "skill-md",
+    "tag": "skill-discovery",
     "count": 2
   },
   {
@@ -76,10 +92,6 @@
     "count": 1
   },
   {
-    "tag": "awesome-list",
-    "count": 1
-  },
-  {
     "tag": "b-roll",
     "count": 1
   },
@@ -101,14 +113,6 @@
   },
   {
     "tag": "chemistry",
-    "count": 1
-  },
-  {
-    "tag": "claude-code",
-    "count": 1
-  },
-  {
-    "tag": "cli",
     "count": 1
   },
   {
@@ -172,11 +176,23 @@
     "count": 1
   },
   {
+    "tag": "engineering",
+    "count": 1
+  },
+  {
+    "tag": "evals",
+    "count": 1
+  },
+  {
     "tag": "faceless-content",
     "count": 1
   },
   {
     "tag": "ffmpeg",
+    "count": 1
+  },
+  {
+    "tag": "finance",
     "count": 1
   },
   {
@@ -188,11 +204,19 @@
     "count": 1
   },
   {
+    "tag": "gemini-cli",
+    "count": 1
+  },
+  {
     "tag": "genomics",
     "count": 1
   },
   {
     "tag": "github-discovery",
+    "count": 1
+  },
+  {
+    "tag": "gitops",
     "count": 1
   },
   {
@@ -216,6 +240,10 @@
     "count": 1
   },
   {
+    "tag": "kubernetes",
+    "count": 1
+  },
+  {
     "tag": "launch",
     "count": 1
   },
@@ -228,6 +256,10 @@
     "count": 1
   },
   {
+    "tag": "marketing",
+    "count": 1
+  },
+  {
     "tag": "markup-language",
     "count": 1
   },
@@ -237,6 +269,10 @@
   },
   {
     "tag": "motion-graphics",
+    "count": 1
+  },
+  {
+    "tag": "multi-agent",
     "count": 1
   },
   {
@@ -269,6 +305,10 @@
   },
   {
     "tag": "pr-review",
+    "count": 1
+  },
+  {
+    "tag": "product",
     "count": 1
   },
   {
@@ -345,10 +385,6 @@
   },
   {
     "tag": "skill-creator",
-    "count": 1
-  },
-  {
-    "tag": "skill-discovery",
     "count": 1
   },
   {
