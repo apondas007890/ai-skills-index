@@ -3,7 +3,8 @@ import React from 'react';
 /**
  * Renders prose with:
  * 1. Styled inline `code` badges (removing raw literal backticks).
- * 2. Highlighted search query tokens (<mark>) for instant visual scanning.
+ * 2. Bold **text** spans rendered as <strong> (removing raw literal asterisks).
+ * 3. Highlighted search query tokens (<mark>) for instant visual scanning.
  */
 export function RichText({
   text,
@@ -43,6 +44,25 @@ export function RichText({
     });
   };
 
+  const renderBoldAndText = (segment: string, keyPrefix: string): React.ReactNode => {
+    const boldParts = segment.split(/(\*\*[^*]+\*\*)/g);
+    return boldParts.map((bp, bIdx) => {
+      if (bp.startsWith('**') && bp.endsWith('**') && bp.length > 4) {
+        const inner = bp.slice(2, -2);
+        return (
+          <strong key={`${keyPrefix}-b-${bIdx}`} className="font-semibold text-zinc-900 dark:text-zinc-100">
+            {highlightMatches(inner, `${keyPrefix}-b-${bIdx}`)}
+          </strong>
+        );
+      }
+      return (
+        <React.Fragment key={`${keyPrefix}-r-${bIdx}`}>
+          {highlightMatches(bp, `${keyPrefix}-r-${bIdx}`)}
+        </React.Fragment>
+      );
+    });
+  };
+
   // Split by inline `code` spans first
   const codeParts = text.split(/(`[^`]+`)/g);
 
@@ -62,7 +82,7 @@ export function RichText({
         }
         return (
           <React.Fragment key={`p-${idx}`}>
-            {highlightMatches(part, `p-${idx}`)}
+            {renderBoldAndText(part, `p-${idx}`)}
           </React.Fragment>
         );
       })}

@@ -237,9 +237,10 @@ export function SkillDetailPage() {
             </div>
           </div>
 
-          {(skill.installation || skill.notes) && (
+          {(skill.notes ||
+            (skill.installation && !skill.installation.startsWith('See the upstream repository'))) && (
             <div className="surface-card rounded-2xl p-6">
-              {skill.installation && (
+              {skill.installation && !skill.installation.startsWith('See the upstream repository') && (
                 <div>
                   <h2 className="text-sm font-semibold text-zinc-900 dark:text-zinc-100">
                     Installation
@@ -250,7 +251,13 @@ export function SkillDetailPage() {
                 </div>
               )}
               {skill.notes && (
-                <div className={skill.installation ? 'mt-5 border-t border-zinc-200 pt-5 dark:border-zinc-800' : ''}>
+                <div
+                  className={
+                    skill.installation && !skill.installation.startsWith('See the upstream repository')
+                      ? 'mt-5 border-t border-zinc-200 pt-5 dark:border-zinc-800'
+                      : ''
+                  }
+                >
                   <h2 className="text-sm font-semibold text-zinc-900 dark:text-zinc-100">
                     Personal notes
                   </h2>

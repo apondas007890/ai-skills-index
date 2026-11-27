@@ -12,6 +12,7 @@ export interface SearchFilters {
   query?: string;
   categories?: string[];
   statuses?: SkillStatus[];
+  securityLevels?: string[];
   agents?: string[];
   tags?: string[];
   sourceTypes?: SourceType[];
@@ -137,6 +138,7 @@ export function filterAndSortSkills(
     query = '',
     categories = [],
     statuses = [],
+    securityLevels = [],
     agents = [],
     tags = [],
     sourceTypes = [],
@@ -155,6 +157,10 @@ export function filterAndSortSkills(
       }
 
       if (statuses.length > 0 && !statuses.includes(skill.status)) {
+        return null;
+      }
+
+      if (securityLevels.length > 0 && !securityLevels.includes(skill.security)) {
         return null;
       }
 

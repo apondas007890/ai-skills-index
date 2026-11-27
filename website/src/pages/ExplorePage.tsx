@@ -2,9 +2,9 @@ import { useEffect, useMemo, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { ChevronDown, LayoutGrid, List, RotateCcw, Search, SlidersHorizontal, X } from 'lucide-react';
 import { allAgents, allSourceTypes, categories, skills, tags } from '../lib/data';
-import { STATUS_META } from '../lib/constants';
+import { SECURITY_META, STATUS_META } from '../lib/constants';
 import { filterAndSortSkills, type SortOption } from '../lib/search';
-import type { SkillStatus, SourceType } from '../types/skill';
+import type { SecurityLevel, SkillStatus, SourceType } from '../types/skill';
 import { SkillCard } from '../components/SkillCard';
 
 const STATUS_ORDER: SkillStatus[] = [
@@ -37,6 +37,10 @@ export function ExplorePage() {
     const s = searchParams.get('status');
     return s ? (s.split(',').filter(Boolean) as SkillStatus[]) : [];
   });
+  const [selectedSecurity, setSelectedSecurity] = useState<SecurityLevel[]>(() => {
+    const sec = searchParams.get('security');
+    return sec ? (sec.split(',').filter(Boolean) as SecurityLevel[]) : [];
+  });
   const [selectedAgents, setSelectedAgents] = useState<string[]>(() => {
     const a = searchParams.get('agent');
     return a ? a.split(',').filter(Boolean) : [];
@@ -60,12 +64,13 @@ export function ExplorePage() {
     if (query.trim()) next.set('q', query.trim());
     if (selectedCategories.length) next.set('category', selectedCategories.join(','));
     if (selectedStatuses.length) next.set('status', selectedStatuses.join(','));
+    if (selectedSecurity.length) next.set('security', selectedSecurity.join(','));
     if (selectedAgents.length) next.set('agent', selectedAgents.join(','));
     if (selectedTags.length) next.set('tag', selectedTags.join(','));
     if (sort !== 'quality') next.set('sort', sort);
     if (visibleCount > 36) next.set('n', String(visibleCount));
     setSearchParams(next, { replace: true });
-  }, [query, selectedCategories, selectedStatuses, selectedAgents, selectedTags, sort, visibleCount, setSearchParams]);
+  }, [query, selectedCategories, selectedStatuses, selectedSecurity, selectedAgents, selectedTags, sort, visibleCount, setSearchParams]);
 
   useEffect(() => {
     if (!mobileFiltersOpen) return;
@@ -98,17 +103,19 @@ export function ExplorePage() {
         query,
         categories: selectedCategories,
         statuses: selectedStatuses,
+        securityLevels: selectedSecurity,
         agents: selectedAgents,
         tags: selectedTags,
         sourceTypes: selectedSources,
         sort: query.trim() && sort === 'quality' ? 'relevance' : sort,
       }),
-    [query, selectedCategories, selectedStatuses, selectedAgents, selectedTags, selectedSources, sort]
+    [query, selectedCategories, selectedStatuses, selectedSecurity, selectedAgents, selectedTags, selectedSources, sort]
   );
 
   const activeFilterCount =
     selectedCategories.length +
     selectedStatuses.length +
+    selectedSecurity.length +
     selectedAgents.length +
     selectedTags.length +
     selectedSources.length +
@@ -118,6 +125,7 @@ export function ExplorePage() {
     setQuery('');
     setSelectedCategories([]);
     setSelectedStatuses([]);
+    setSelectedSecurity([]);
     setSelectedAgents([]);
     setSelectedTags([]);
     setSelectedSources([]);
@@ -189,6 +197,33 @@ export function ExplorePage() {
                 </span>
                 <span className="font-mono text-[11px] text-zinc-400">{count}</span>
               </label>
+            );
+          })}
+        </div>
+      </div>
+
+      <div>
+        <h3 className="mb-2 text-xs font-semibold text-zinc-700 dark:text-zinc-300">
+          Security review
+        </h3>
+        <div className="flex flex-wrap gap-1.5">
+          {(['verified', 'unverified', 'caution', 'risky'] as SecurityLevel[]).map((sec) => {
+            const active = selectedSecurity.includes(sec);
+            const meta = SECURITY_META[sec];
+            return (
+              <button
+                key={sec}
+                type="button"
+                onClick={() => toggleItem(selectedSecurity, setSelectedSecurity, sec)}
+                aria-pressed={active}
+                className={`rounded-lg border px-2.5 py-1 text-[11px] font-medium transition-colors ${
+                  active
+                    ? 'border-blue-600 bg-blue-50 text-blue-700 dark:border-blue-500 dark:bg-blue-950/60 dark:text-blue-300'
+                    : 'border-zinc-200 bg-white text-zinc-600 hover:bg-zinc-100 dark:border-zinc-800 dark:bg-zinc-900 dark:text-zinc-400 dark:hover:bg-zinc-800'
+                }`}
+              >
+                {meta.label}
+              </button>
             );
           })}
         </div>
