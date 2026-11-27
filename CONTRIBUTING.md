@@ -1,47 +1,62 @@
-# Contributing & Maintenance Guide
+# Contributing to SkillAtlas
 
-This repository is a personal, curated AI Skills Library backed by human-readable Markdown files and a static React catalog (**SkillAtlas**).
+Thank you for helping keep **SkillAtlas** accurate, safe, and genuinely useful for choosing AI agent skills.
 
-## Adding a Skill
+## Quickest Way to Contribute (No Setup Required)
 
-1. Copy `templates/skill-template.md` into `skills/<primary_category>/<skill-id>.md`.
-2. Fill in the YAML frontmatter and Markdown sections using factual, inspected evidence.
-3. Never claim a skill was personally tested unless you actually ran it (`tested: true`).
-4. Run validation, security check, and index generation:
+1. Open the live [**Submit Skill**](https://skillatlas.apondas007890.workers.dev/submit) page.
+2. Paste the repository or tool URL, click **Verify URL**, enter a name and a clear 1–3 sentence description of what it does and when to use it.
+3. Click **Submit Skill** to open a pre-filled GitHub Issue.
+
+---
+
+## Adding a Skill via Pull Request
+
+1. Copy [`templates/skill-template.md`](templates/skill-template.md) to `skills/<primary_category>/<skill-id>.md`.
+2. Fill in the YAML frontmatter and Markdown sections using factual, inspected evidence (never invent metrics or claim `tested: true` unless you personally ran it).
+3. Run the validation, security, and build checks before opening a PR:
    ```bash
    npm run validate
    npm run security
-   npm run build:index
+   npm run build
    ```
 
-## Pre-Install Security Policy
+---
 
-- Always run `npm run security` after adding or updating npm packages.
-- Before executing third-party `SKILL.md` repositories or MCP servers locally, scan them with [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) or manually inspect their instructions, scripts, and network/file permissions.
-- Keep `tested: false` and `security: unverified` unless you have personally verified the skill.
+## Security & Quality Rules
 
-## Valid Classifications (`status`)
+- **Verify before indexing:** Confirm the repository exists, is not archived, and has a valid `http://` or `https://` source URL.
+- **Audit third-party skills:** Before marking a skill `security: verified`, inspect its `SKILL.md`, scripts, and permissions using [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) or a manual review. Default new entries to `security: unverified`.
+- **Dependency hygiene:** Always run `npm run security` (`npm audit --audit-level=moderate`) after adding or updating any package.
 
-- `excellent` — Exceptionally useful, high-quality, well-designed, prioritize
-- `good` — Useful, practical, reliable, worth keeping
-- `promising` — Interesting potential, not yet sufficiently tested or mature
-- `experimental` — Unusual, innovative, early-stage, good for experimentation
-- `neutral` — Usefulness depends heavily on the specific use case
-- `needs-review` — Insufficient evidence, incomplete docs, or questionable claims
-- `bad` — Low quality, broken, redundant, or misleading
-- `risky` — Security concerns, suspicious instructions, or dangerous permissions
-- `archived` — Outdated, abandoned, or retained for historical reference
+---
 
-## Valid Primary Categories
+## Schema Reference
 
-`coding`, `design`, `youtube`, `agents`, `image-video`, `audio-music`, `research`, `automation`, `business`, `productivity`, `other`
+### Valid Primary Categories (14)
+
+`coding` · `agents` · `mcp` · `security` · `devops` · `design` · `automation` · `research` · `image-video` · `youtube` · `audio-music` · `business` · `productivity` · `other`
+
+### Valid Agents (`compatible_agents`)
+
+`claude-code` · `gemini-cli` · `codex` · `cursor` · `github-copilot` · `windsurf` · `cline` · `opencode` · `kiro` · `antigravity` · `roo-code` · `aider`
+
+### Classifications (`status`)
+
+| Status | Meaning |
+| --- | --- |
+| `excellent` | Exceptionally useful, well-documented, high-signal |
+| `good` | Practical, reliable, worth keeping |
+| `promising` | Interesting potential, still maturing |
+| `experimental` | Early-stage or experimental |
+| `neutral` | Situational usefulness |
+| `needs-review` | Insufficient evidence or unclear documentation |
+| `bad` | Low-quality, broken, or redundant |
+| `risky` | Security concerns or dangerous permissions |
+| `archived` | Outdated or unmaintained |
+
+---
 
 ## Commit Convention
 
-Use conventional commits grouped by feature:
-
-- `feat: ...`
-- `fix: ...`
-- `docs: ...`
-- `chore: ...`
-- `refactor: ...`
+Use conventional commits: `feat: ...`, `fix: ...`, `docs: ...`, `chore: ...`, `refactor: ...`.

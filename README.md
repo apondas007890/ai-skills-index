@@ -1,61 +1,88 @@
-# SkillAtlas — Curated AI Skills Index
+<div align="center">
 
-**Browse Live:** [**apondas007890.github.io/ai-skills-index**](https://apondas007890.github.io/ai-skills-index/)
+# SkillAtlas
 
-SkillAtlas is an open, Git-backed directory and evaluation index for **1,337+ verified AI agent skills** (`SKILL.md` modules, MCP servers, security tools, and coding workflows) across **14 categories** and **12 AI coding agents**.
+**Curated discovery engine and evaluation index for 1,337+ AI agent skills (`SKILL.md`), MCP servers, and coding workflows.**
+
+[![Live on Cloudflare Workers](https://img.shields.io/badge/Live-Cloudflare%20Workers-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)](https://skillatlas.apondas007890.workers.dev/)
+[![Live on GitHub Pages](https://img.shields.io/badge/Live-GitHub%20Pages-222222?style=for-the-badge&logo=github&logoColor=white)](https://apondas007890.github.io/ai-skills-index/)
+[![Indexed Skills](https://img.shields.io/badge/Skills-1%2C337%2B%20Verified-2563EB?style=for-the-badge)](https://skillatlas.apondas007890.workers.dev/explore)
+[![License: MIT](https://img.shields.io/badge/License-MIT-10B981?style=for-the-badge)](LICENSE)
+
+[**Open Catalog**](https://skillatlas.apondas007890.workers.dev/) · [**Browse & Filter**](https://skillatlas.apondas007890.workers.dev/explore) · [**Submit a Skill**](https://skillatlas.apondas007890.workers.dev/submit) · [**GitHub Mirror**](https://apondas007890.github.io/ai-skills-index/)
+
+</div>
 
 ---
 
-## Why SkillAtlas?
+## What is SkillAtlas?
 
-- **Verified Repositories Only:** Every entry is checked against GitHub for existence, non-archived status, license, live star counts, and recent activity.
-- **Evaluated & Categorized:** Skills are scored (`1–10`), classified (`Excellent`, `Good`, `Promising`, `Needs Review`, `Risky`), and organized into 14 focused categories.
-- **Multi-Agent Compatibility:** Filter instantly across `claude-code`, `gemini-cli`, `codex`, `cursor`, `github-copilot`, `windsurf`, `cline`, `opencode`, `kiro`, `antigravity`, `roo-code`, and `aider`.
-- **Zero-Database Static Architecture:** Everything lives as human-readable Markdown in `skills/`, indexed to static JSON and published automatically to GitHub Pages.
+Finding reliable AI agent skills across GitHub bookmarks, `SKILL.md` repos, and MCP directories wastes time — and installing unvetted skills blindly is a security risk.
+
+**SkillAtlas** brings **1,337+ verified repositories** into one fast, searchable static catalog:
+- **Verified against GitHub:** Non-archived, non-forked repositories with live star counts, SPDX licenses, and recent activity dates.
+- **Evaluated for selection:** Every skill includes a quality score (`1–10`), status (`Excellent`, `Good`, `Promising`, `Needs Review`, `Risky`), compatible AI tools, and plain-English capabilities so you can pick the right skill in seconds.
+- **Zero database, zero backend:** Every entry lives as a Markdown file in [`skills/`](skills/), compiled to static JSON and deployed automatically to **Cloudflare Workers** and **GitHub Pages**.
+
+---
+
+## Live Deployments
+
+| Host | URL | Best For |
+| --- | --- | --- |
+| **Cloudflare Workers** | [**skillatlas.apondas007890.workers.dev**](https://skillatlas.apondas007890.workers.dev/) | Clean root URLs, edge caching, SPA routing |
+| **GitHub Pages** | [**apondas007890.github.io/ai-skills-index**](https://apondas007890.github.io/ai-skills-index/) | Open-source mirror with daily automated star sync |
+
+---
+
+## Supported AI Coding Agents (12)
+
+Filter skills by tool compatibility across:
+`claude-code` · `gemini-cli` · `codex` · `cursor` · `github-copilot` · `windsurf` · `cline` · `opencode` · `kiro` · `antigravity` · `roo-code` · `aider`
 
 ---
 
 ## Categories (14)
 
-| Category | Focus |
+| Category | What You'll Find |
 | --- | --- |
-| **Coding & Development** | Frontend, backend, TDD, debugging, code review, architecture |
-| **AI & Agents** | Agent frameworks, multi-agent orchestration, RAG, skill directories |
-| **MCP Servers & Tools** | Model Context Protocol servers, API bridges, database/browser connectors |
-| **Security & Auditing** | Skill vetting, static analysis, smart-contract & AppSec auditing |
+| **Coding & Development** | Engineering workflows, TDD, debugging, code review, refactoring, architecture |
+| **AI & Agents** | Multi-agent orchestration, prompt engineering, memory, RAG, skill directories |
+| **MCP Servers & Tools** | Model Context Protocol servers, API bridges, database & browser connectors |
+| **Security & Auditing** | Skill vetting, static analysis, AppSec, smart-contract auditing, OSINT |
 | **DevOps & Cloud** | Kubernetes, Docker, Terraform, CI/CD, observability |
-| **UI/UX & Design** | Design systems, accessibility, Figma, anti-generic UI rules |
+| **UI/UX & Design** | Design systems, anti-slop rules, accessibility, Figma, typography |
 | **Automation & Scraping** | Browser automation, web scraping, crawling, workflow engines |
 | **Research & Science** | Deep research, academic papers, data analysis, benchmarks |
 | **Image & Video** | Video editing, Remotion motion graphics, image generation, 3D |
-| **YouTube & Content** | Video scripts, thumbnails, titles, Shorts, channel growth |
+| **YouTube & Content** | Video scripts, hooks, thumbnails, titles, Shorts, channel growth |
 | **Audio & Music** | Voice synthesis, transcription, audio editing, podcasting |
 | **Business & Marketing** | SEO, AEO, product management, finance, sales |
-| **Productivity & Docs** | Planning, writing, resumes, personal knowledge workflows |
+| **Productivity & Docs** | Planning, technical writing, notes, resumes, knowledge bases |
 | **Other** | Cross-domain or experimental utilities |
 
 ---
 
 ## Submit a Skill
 
-Want to add a skill to the index?
+Have a useful `SKILL.md` repo, MCP server, or AI tool URL?
 
-1. Open the [**Submit Skill**](https://apondas007890.github.io/ai-skills-index/submit) page on the website.
-2. Paste a GitHub repository URL (`https://github.com/owner/repo`) and click **Verify URL** — the form checks GitHub live for stars, license, and status.
-3. Choose a category, compatible agents, and a short 1–3 sentence description, then click **Submit via GitHub Issue**.
+1. Visit the [**Submit Skill**](https://skillatlas.apondas007890.workers.dev/submit) page.
+2. Paste any valid URL (GitHub repos are verified live for stars, license, and status), enter a name and short description.
+3. Click **Submit Skill** to save a local draft and open a pre-filled GitHub Issue for security review and indexing.
 
 ---
 
-## Security & Quality Policy
+## Security & Verification
 
-- **Pre-Index Inspection:** Every skill and dependency is screened with `scripts/security-check.mjs` and `npm audit --audit-level=moderate`.
-- **Third-Party Skill Caution:** Before running external `SKILL.md` scripts or MCP servers in production, inspect them with [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) or review their permissions manually.
-- **Automated Daily Sync:** [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml) syncs live GitHub star counts and repository activity daily at 06:00 UTC and redeploys on every push to `main`.
+- **Automated Screening:** Every push runs [`scripts/security-check.mjs`](scripts/security-check.mjs) across all skill files plus `npm audit --audit-level=moderate`.
+- **Pre-Install Caution:** Before running third-party `SKILL.md` scripts or MCP servers locally, inspect them with [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) or audit their permissions manually.
+- **Daily Star Sync:** [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml) refreshes GitHub star counts and repo activity daily at 06:00 UTC.
 
 ---
 
 <details>
-<summary>Maintainer CLI Reference (for repository contributors)</summary>
+<summary>Maintainer CLI Reference</summary>
 
 ```bash
 npm install && npm --prefix website install
@@ -69,4 +96,4 @@ npm run build         # Validate, build JSON index, and compile website
 
 ## License
 
-[MIT](LICENSE)
+[MIT](LICENSE) — see [CONTRIBUTING.md](CONTRIBUTING.md) to add or evaluate skills.
