@@ -39,29 +39,26 @@ featured: false
 
 ## What it does
 
-Open-source repository (ystemsrx/sql-to-ER) providing agent skills, workflows, or MCP capabilities verified via GitHub (196 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agent`, `agent-skills`, `agentic-ai`, `ai-agent` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with agents capabilities
-- Teams evaluating community-backed agent tooling
+- **Primary goal:** 【在线免费使用】 简单快速将SQL或DBML转换为美观的ER图（支持 Agent Skill）/ The best SQL to ER Diagram converter (Support Agent Skill).
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** agent, agent-skills, agentic-ai, ai-agent, database
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 196 stars and AGPL-3.0 licensing.
+GOOD — 196 GitHub stars (AGPL-3.0 license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/ystemsrx/sql-to-ER
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/ystemsrx/sql-to-ER

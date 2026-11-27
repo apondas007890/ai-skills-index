@@ -38,29 +38,26 @@ AIPex: AI browser automation assistant, no migration and privacy first. Alternat
 
 ## What it does
 
-Open-source repository (AIPexStudio/AIPex) providing agent skills, workflows, or MCP capabilities verified via GitHub (1,285 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `accessbility-testing`, `agent-browser`, `agent-skills`, `browser-automation` and designed to work with claude-code, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, gemini-cli with automation capabilities
-- Teams evaluating community-backed accessbility-testing tooling
+- **Primary goal:** AIPex: AI browser automation assistant, no migration and privacy first. Alternative to Manus Browser Operator、 Claude Chrome and Agent Browser
+- **Works with:** claude-code, gemini-cli
+- **Key topics:** accessbility-testing, agent-browser, agent-skills, browser-automation, browser-use
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 1,285 stars and MIT licensing.
+GOOD — 1,285 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/AIPexStudio/AIPex
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/AIPexStudio/AIPex

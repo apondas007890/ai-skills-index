@@ -36,29 +36,26 @@ A curated list of AI tools, agent skills, libraries, and resources for economics
 
 ## What it does
 
-Open-source repository (hanlulong/awesome-ai-for-economists) providing agent skills, workflows, or MCP capabilities verified via GitHub (728 stars).
+Provides structured web research, academic/data analysis, or synthesis capabilities. Focused on `agent-skills`, `ai`, `artificial-intelligence`, `awesome` and designed to work with claude-code.
 
 ## Best for
 
-- Extending claude-code with research capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** A curated list of AI tools, agent skills, libraries, and resources for economics research, teaching, and policy analysis. Maintained by the OpenEcon team.
+- **Works with:** claude-code
+- **Key topics:** agent-skills, ai, artificial-intelligence, awesome, awesome-list
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 728 stars and CC0-1.0 licensing.
+GOOD — 728 GitHub stars (CC0-1.0 license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/hanlulong/awesome-ai-for-economists
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/hanlulong/awesome-ai-for-economists

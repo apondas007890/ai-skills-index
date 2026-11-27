@@ -40,29 +40,26 @@ Koog is a JVM (Java and Kotlin) framework for building predictable, fault-tolera
 
 ## What it does
 
-Open-source repository (JetBrains/koog) providing agent skills, workflows, or MCP capabilities verified via GitHub (4,675 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agentframework`, `agentic-ai`, `agents`, `ai` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with automation capabilities
-- Teams evaluating community-backed agentframework tooling
+- **Primary goal:** Koog is a JVM (Java and Kotlin) framework for building predictable, fault-tolerant and enterprise-ready AI agents across all platforms – from backend services to Android and iOS, JVM, and even in-browser environments. Koog is based on our AI products expertise and provides proven solutions for complex LLM and AI problems
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** agentframework, agentic-ai, agents, ai, ai-agents-framework
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 4,675 stars and Apache-2.0 licensing.
+GOOD — 4,675 GitHub stars (Apache-2.0 license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/JetBrains/koog
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/JetBrains/koog

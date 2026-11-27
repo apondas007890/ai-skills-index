@@ -38,29 +38,26 @@ featured: false
 
 ## What it does
 
-Open-source repository (feichanggege/ecommerce-visual-copywriting-skill) providing agent skills, workflows, or MCP capabilities verified via GitHub (1,495 stars).
+Provides programmatic video editing, motion graphics, storyboarding, or visual media generation. Focused on `agent-skills`, `ai-image-generation-api`, `amazon`, `copywriting` and designed to work with claude-code, codex, cursor.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with image-video capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** 电商视觉文案设计SOP Skill - 让电商设计小白也能一键做出5年资深设计经验的商品图片.兼容 Claude / Codex / Cursor / Workbuddy 等 SKILL.md Agent. AI-powered e-commerce visual strategy skill for main images, PDP/A+, copywriting, localization, evidence-aware compliance and image prompts.
+- **Works with:** claude-code, codex, cursor
+- **Key topics:** agent-skills, ai-image-generation-api, amazon, copywriting, ecommerce
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 1,495 stars and MIT licensing.
+GOOD — 1,495 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/feichanggege/ecommerce-visual-copywriting-skill
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/feichanggege/ecommerce-visual-copywriting-skill

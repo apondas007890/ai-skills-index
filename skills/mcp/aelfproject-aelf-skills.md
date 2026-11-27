@@ -40,29 +40,26 @@ Unified aelf skills hub for discovery, routing, bootstrap, and health checks acr
 
 ## What it does
 
-Open-source repository (AElfProject/aelf-skills) providing agent skills, workflows, or MCP capabilities verified via GitHub (182 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `aelf`, `aelf-skills`, `agent-skills`, `blockchain` and designed to work with claude-code, codex, cursor, opencode.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with coding capabilities
-- Teams evaluating community-backed aelf tooling
+- **Primary goal:** Unified aelf skills hub for discovery, routing, bootstrap, and health checks across OpenClaw, Codex, Cursor, and Claude Code.
+- **Works with:** claude-code, codex, cursor, opencode
+- **Key topics:** aelf, aelf-skills, agent-skills, blockchain, claude-code-skill
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 182 stars and Unknown licensing.
+GOOD — 182 GitHub stars (Unknown license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/AElfProject/aelf-skills
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/AElfProject/aelf-skills

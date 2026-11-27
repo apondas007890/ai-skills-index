@@ -39,29 +39,26 @@ featured: false
 
 ## What it does
 
-Open-source repository (kingcharleslzy-ai/DSH-Spicy) providing agent skills, workflows, or MCP capabilities verified via GitHub (624 stars).
+Provides programmatic video editing, motion graphics, storyboarding, or visual media generation. Focused on `agent-skills`, `ai-agent-tools`, `apple-silicon`, `comfyui` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with image-video capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** 完美适配 Purge 的 NSFW content creation 插件。在 DeepSeek Harness 中用自托管模型创作成人向图像、有声视频与多镜头短片，支持参考图编辑、LoRA 风格控制和 Agent 分镜剪辑。
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** agent-skills, ai-agent-tools, apple-silicon, comfyui, controlnet
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 624 stars and Apache-2.0 licensing.
+GOOD — 624 GitHub stars (Apache-2.0 license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/kingcharleslzy-ai/DSH-Spicy
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/kingcharleslzy-ai/DSH-Spicy

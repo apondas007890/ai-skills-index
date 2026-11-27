@@ -35,29 +35,26 @@ A Claude Desktop extension (.mcpb) that delivers the claude-scientific-skills co
 
 ## What it does
 
-Open-source repository (silverstein/claude-scientific-skills-desktop) providing agent skills, workflows, or MCP capabilities verified via GitHub (23 stars).
+Provides structured web research, academic/data analysis, or synthesis capabilities. Focused on `claude`, `mcp`, `mcpb`, `science-research` and designed to work with claude-code.
 
 ## Best for
 
-- Extending claude-code with research capabilities
-- Teams evaluating community-backed claude tooling
+- **Primary goal:** A Claude Desktop extension (.mcpb) that delivers the claude-scientific-skills corpus via a tiny librarian tool surface. Built as a self-contained Bun binary (no Node/Python required for users). Offline fat bundle by default; optional thin/auto-update mode.
+- **Works with:** claude-code
+- **Key topics:** claude, mcp, mcpb, science-research
 
 ## Verdict
 
-PROMISING — verified active GitHub repository with 23 stars and MIT licensing.
+PROMISING — 23 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/silverstein/claude-scientific-skills-desktop
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/silverstein/claude-scientific-skills-desktop

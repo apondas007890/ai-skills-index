@@ -36,29 +36,26 @@ featured: false
 
 ## What it does
 
-Open-source repository (heshengtao/super-agent-party) providing agent skills, workflows, or MCP capabilities verified via GitHub (2,846 stars).
+Provides planning, writing, note-taking, or personal knowledge management workflows. Focused on `agent-skills`, `ai-companion`, `ai-vtuber`, `claude-code` and designed to work with claude-code.
 
 ## Best for
 
-- Extending claude-code with productivity capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** ⭐ All-in-one AI companion! Super Agent Party = Self hosted neuro sama + openclaw! ⭐ 全能AI伴侣！超级智能体派对 = 自托管neuro sama + openclaw!
+- **Works with:** claude-code
+- **Key topics:** agent-skills, ai-companion, ai-vtuber, claude-code, comfyui
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 2,846 stars and AGPL-3.0 licensing.
+GOOD — 2,846 GitHub stars (AGPL-3.0 license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/heshengtao/super-agent-party
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/heshengtao/super-agent-party

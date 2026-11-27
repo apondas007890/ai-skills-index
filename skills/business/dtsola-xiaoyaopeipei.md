@@ -39,29 +39,26 @@ featured: false
 
 ## What it does
 
-Open-source repository (dtsola/xiaoyaopeipei) providing agent skills, workflows, or MCP capabilities verified via GitHub (13 stars).
+Provides SEO, marketing, product management, analytics, or business workflow templates. Focused on `agent`, `ai-assistant`, `chatbot`, `conversational-ai` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with business capabilities
-- Teams evaluating community-backed agent tooling
+- **Primary goal:** 小遥配配，AI 对话式电脑导购，帮你 24 小时接单。Xiaoyaopeipei, AI-Powered PC Shopping Assistant. Taking Orders 24/7 for You.
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** agent, ai-assistant, chatbot, conversational-ai, pc-builder
 
 ## Verdict
 
-PROMISING — verified active GitHub repository with 13 stars and MIT licensing.
+PROMISING — 13 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/dtsola/xiaoyaopeipei
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/dtsola/xiaoyaopeipei

@@ -37,29 +37,26 @@ An Automated AI Agent Tool for Plotting Your Data in Any Paper's Figure Style.
 
 ## What it does
 
-Open-source repository (VILA-Lab/FigMirror) providing agent skills, workflows, or MCP capabilities verified via GitHub (573 stars).
+Provides structured web research, academic/data analysis, or synthesis capabilities. Focused on `agent`, `agent-skills`, `claude-code`, `codex` and designed to work with claude-code, codex.
 
 ## Best for
 
-- Extending claude-code, codex with research capabilities
-- Teams evaluating community-backed agent tooling
+- **Primary goal:** An Automated AI Agent Tool for Plotting Your Data in Any Paper's Figure Style.
+- **Works with:** claude-code, codex
+- **Key topics:** agent, agent-skills, claude-code, codex, data-visualization
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 573 stars and Unknown licensing.
+GOOD — 573 GitHub stars (Unknown license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/VILA-Lab/FigMirror
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/VILA-Lab/FigMirror

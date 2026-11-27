@@ -35,29 +35,26 @@ featured: false
 
 ## What it does
 
-Open-source repository (ayi-ai/ayi-nonviolent-communication) providing agent skills, workflows, or MCP capabilities verified via GitHub (197 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `coding`, `agent-skills` and designed to work with claude-code, cursor.
 
 ## Best for
 
-- Extending claude-code, cursor with coding capabilities
-- Teams evaluating community-backed coding tooling
+- **Primary goal:** 马歇尔·卢森堡《非暴力沟通》(NVC) 的可执行 AI Skill：把任何一句话翻译成 观察-感受-需要-请求。Cursor / Claude Code 可直接安装。
+- **Works with:** claude-code, cursor
+- **Key topics:** coding, agent-skills
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 197 stars and MIT licensing.
+GOOD — 197 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/ayi-ai/ayi-nonviolent-communication
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/ayi-ai/ayi-nonviolent-communication

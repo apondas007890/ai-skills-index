@@ -39,29 +39,26 @@ The open-source AI research workbench for scientific research and agent workflow
 
 ## What it does
 
-Open-source repository (aipoch/open-science) providing agent skills, workflows, or MCP capabilities verified via GitHub (5,581 stars).
+Provides structured web research, academic/data analysis, or synthesis capabilities. Focused on `agent-skills`, `ai-agent`, `ai-for-science`, `ai-research` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with research capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** The open-source AI research workbench for scientific research and agent workflows. Local-first, model-agnostic desktop app with extensible skills, MCP tools and connectors, Python/R execution and traceable artifacts for reproducible research on macOS, Windows and Linux.
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** agent-skills, ai-agent, ai-for-science, ai-research, ai-research-workbench
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 5,581 stars and Apache-2.0 licensing.
+GOOD — 5,581 GitHub stars (Apache-2.0 license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/aipoch/open-science
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/aipoch/open-science

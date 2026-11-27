@@ -41,29 +41,26 @@ Agent Skills de conformidade LGPD (Lei 13.709/2018), resoluções ANPD e ECA Dig
 
 ## What it does
 
-Open-source repository (goul4rt/lgpd-skills) providing agent skills, workflows, or MCP capabilities verified via GitHub (312 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agent-skill`, `agent-skills`, `anpd`, `brasil` and designed to work with claude-code, codex, cursor, gemini-cli, opencode.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with coding capabilities
-- Teams evaluating community-backed agent-skill tooling
+- **Primary goal:** Agent Skills de conformidade LGPD (Lei 13.709/2018), resoluções ANPD e ECA Digital (Lei 15.211/2025) — instaláveis em Claude Code, Codex, Gemini CLI, Cursor e OpenCode. 1 maestro (lgpd-audit) + 18 sub-skills.
+- **Works with:** claude-code, codex, cursor, gemini-cli, opencode
+- **Key topics:** agent-skill, agent-skills, anpd, brasil, claude-code
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 312 stars and MIT licensing.
+GOOD — 312 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/goul4rt/lgpd-skills
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/goul4rt/lgpd-skills

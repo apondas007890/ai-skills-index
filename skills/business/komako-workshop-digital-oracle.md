@@ -38,29 +38,26 @@ AI agent skill that answers macro questions — housing, gold, BTC, geopolitics 
 
 ## What it does
 
-Open-source repository (komako-workshop/digital-oracle) providing agent skills, workflows, or MCP capabilities verified via GitHub (917 stars).
+Provides SEO, marketing, product management, analytics, or business workflow templates. Focused on `agent-skills`, `ai-agent`, `claude-code`, `codex` and designed to work with claude-code, codex, cursor.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with business capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** AI agent skill that answers macro questions — housing, gold, BTC, geopolitics — with probability estimates mined from 13 financial data sources (Polymarket, Kalshi, CFTC, SEC & more). For Claude Code / Cursor / Codex / OpenClaw. | 让 AI Agent 从金融数据中挖掘宏观趋势的数字先知
+- **Works with:** claude-code, codex, cursor
+- **Key topics:** agent-skills, ai-agent, claude-code, codex, cursor
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 917 stars and MIT licensing.
+GOOD — 917 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/komako-workshop/digital-oracle
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/komako-workshop/digital-oracle

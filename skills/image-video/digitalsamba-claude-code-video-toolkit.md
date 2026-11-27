@@ -36,29 +36,26 @@ Make videos with Claude Code: script, AI voiceover, music, video clips and rende
 
 ## What it does
 
-Open-source repository (digitalsamba/claude-code-video-toolkit) providing agent skills, workflows, or MCP capabilities verified via GitHub (2,792 stars).
+Provides programmatic video editing, motion graphics, storyboarding, or visual media generation. Focused on `agent-skills`, `ai-video`, `ai-video-generator`, `blender` and designed to work with claude-code.
 
 ## Best for
 
-- Extending claude-code with image-video capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** Make videos with Claude Code: script, AI voiceover, music, video clips and render, on open-source models that cost cents
+- **Works with:** claude-code
+- **Key topics:** agent-skills, ai-video, ai-video-generator, blender, claude
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 2,792 stars and MIT licensing.
+GOOD — 2,792 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/digitalsamba/claude-code-video-toolkit
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/digitalsamba/claude-code-video-toolkit

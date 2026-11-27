@@ -41,29 +41,26 @@ Your agent invents things because it has no memory, and can't touch your databas
 
 ## What it does
 
-Open-source repository (ericrisco/rsc-harness) providing agent skills, workflows, or MCP capabilities verified via GitHub (673 stars).
+Provides planning, writing, note-taking, or personal knowledge management workflows. Focused on `agent-skills`, `agentic-ai`, `ai-agents`, `ai-coding` and designed to work with claude-code, codex, cursor, gemini-cli, cline, windsurf.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with productivity capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** Your agent invents things because it has no memory, and can't touch your database because it has no arms. rsc is the meta-harness that gives it both, plus the trade to know the job and the reflexes to not break your repo. For Claude Code, Codex and 15 more.
+- **Works with:** claude-code, codex, cursor, gemini-cli, cline, windsurf
+- **Key topics:** agent-skills, agentic-ai, ai-agents, ai-coding, claude-code
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 673 stars and MIT licensing.
+GOOD — 673 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/ericrisco/rsc-harness
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/ericrisco/rsc-harness

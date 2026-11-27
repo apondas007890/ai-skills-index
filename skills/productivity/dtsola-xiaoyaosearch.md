@@ -39,29 +39,26 @@ featured: false
 
 ## What it does
 
-Open-source repository (dtsola/xiaoyaosearch) providing agent skills, workflows, or MCP capabilities verified via GitHub (1,022 stars).
+Provides planning, writing, note-taking, or personal knowledge management workflows. Focused on `agent-skills`, `ai-search`, `document-search`, `file-search` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with productivity capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** 小遥搜索，听懂你的话、看懂你的图，用AI找到本地任何文件。让搜索像聊天一样简单。XiaoyaoSearch: Understands your words, reads your images, finds any local file with AI. Making search as easy as chatting.
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** agent-skills, ai-search, document-search, file-search, local-search
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 1,022 stars and Unknown licensing.
+GOOD — 1,022 GitHub stars (Unknown license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/dtsola/xiaoyaosearch
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/dtsola/xiaoyaosearch

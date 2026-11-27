@@ -38,29 +38,26 @@ AI应用开发 模拟面试SKILL，支持多身份多风格 | Simulate AI/Agent 
 
 ## What it does
 
-Open-source repository (Hazenix/ai-dev-interview-simulator) providing agent skills, workflows, or MCP capabilities verified via GitHub (26 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agent`, `ai`, `ai-agent-dev`, `interview-practice` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with agents capabilities
-- Teams evaluating community-backed agent tooling
+- **Primary goal:** AI应用开发 模拟面试SKILL，支持多身份多风格 | Simulate AI/Agent dev interviews with AI, supporting multiple personas and six interviewer styles
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** agent, ai, ai-agent-dev, interview-practice
 
 ## Verdict
 
-PROMISING — verified active GitHub repository with 26 stars and MIT licensing.
+PROMISING — 26 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/Hazenix/ai-dev-interview-simulator
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/Hazenix/ai-dev-interview-simulator

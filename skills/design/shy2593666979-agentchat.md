@@ -39,29 +39,26 @@ AgentChat 是一个基于 LLM 的智能体交流平台，内置默认 Agent 并�
 
 ## What it does
 
-Open-source repository (Shy2593666979/AgentChat) providing agent skills, workflows, or MCP capabilities verified via GitHub (939 stars).
+Provides UI/UX design rules, component patterns, typography, accessibility, or visual polish. Focused on `ag-ui`, `agent`, `agent-memory`, `agent-skills` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with design capabilities
-- Teams evaluating community-backed ag-ui tooling
+- **Primary goal:** AgentChat 是一个基于 LLM 的智能体交流平台，内置默认 Agent 并支持用户自定义 Agent。通过多轮对话和任务协作，Agent 可以理解并协助完成复杂任务。项目集成 LangChain、Function Call、MCP 协议、RAG、Memory、HITL、Skill、Milvus 和 ElasticSearch 等技术，实现高效的知识检索与工具调用，使用 FastAPI 构建高性能后端服务。
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** ag-ui, agent, agent-memory, agent-skills, harness-engineering
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 939 stars and MIT licensing.
+GOOD — 939 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/Shy2593666979/AgentChat
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/Shy2593666979/AgentChat

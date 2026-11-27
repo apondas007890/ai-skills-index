@@ -37,29 +37,26 @@ Self-hosted memory server for AI agents. Your brain is a git repo, served over M
 
 ## What it does
 
-Open-source repository (hassancs91/brainoutside) providing agent skills, workflows, or MCP capabilities verified via GitHub (80 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `ai-agents`, `claude`, `django`, `mcp` and designed to work with claude-code.
 
 ## Best for
 
-- Extending claude-code with coding capabilities
-- Teams evaluating community-backed ai-agents tooling
+- **Primary goal:** Self-hosted memory server for AI agents. Your brain is a git repo, served over MCP and REST.
+- **Works with:** claude-code
+- **Key topics:** ai-agents, claude, django, mcp, mcp-server
 
 ## Verdict
 
-PROMISING — verified active GitHub repository with 80 stars and MIT licensing.
+PROMISING — 80 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/hassancs91/brainoutside
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/hassancs91/brainoutside

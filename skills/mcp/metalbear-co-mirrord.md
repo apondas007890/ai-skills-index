@@ -37,29 +37,26 @@ Run any process, on your machine or in an AI agent's environment, as if it were 
 
 ## What it does
 
-Open-source repository (metalbear-co/mirrord) providing agent skills, workflows, or MCP capabilities verified via GitHub (5,432 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agent-skills`, `ai-agents`, `ai-coding`, `api` and designed to work with claude-code.
 
 ## Best for
 
-- Extending claude-code with coding capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** Run any process, on your machine or in an AI agent's environment, as if it were a pod in your Kubernetes cluster: real env vars, DNS, network, traffic.
+- **Works with:** claude-code
+- **Key topics:** agent-skills, ai-agents, ai-coding, api, backend
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 5,432 stars and MIT licensing.
+GOOD — 5,432 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/metalbear-co/mirrord
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/metalbear-co/mirrord

@@ -37,29 +37,26 @@ featured: false
 
 ## What it does
 
-Open-source repository (kimlawtech/korean-certified-mail) providing agent skills, workflows, or MCP capabilities verified via GitHub (10 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `certified-mail`, `claude-code`, `claude-skill`, `docx` and designed to work with claude-code.
 
 ## Best for
 
-- Extending claude-code with coding capabilities
-- Teams evaluating community-backed certified-mail tooling
+- **Primary goal:** 한국 내용증명 자동 작성 Claude Code 스킬 — 14개 유형 지원, 법원 제출 기준 DOCX 출력, 법령 환각 방지, MCP 개인정보 보호
+- **Works with:** claude-code
+- **Key topics:** certified-mail, claude-code, claude-skill, docx, korean-law
 
 ## Verdict
 
-PROMISING — verified active GitHub repository with 10 stars and Apache-2.0 licensing.
+PROMISING — 10 GitHub stars (Apache-2.0 license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/kimlawtech/korean-certified-mail
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/kimlawtech/korean-certified-mail

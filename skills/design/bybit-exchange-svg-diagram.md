@@ -38,29 +38,26 @@ Agent skill that draws architecture, flowchart, sequence, data-flow and lifecycl
 
 ## What it does
 
-Open-source repository (bybit-exchange/svg-diagram) providing agent skills, workflows, or MCP capabilities verified via GitHub (682 stars).
+Provides UI/UX design rules, component patterns, typography, accessibility, or visual polish. Focused on `agent-skills`, `architecture-diagram`, `cjk`, `claude-code` and designed to work with claude-code, codex, opencode.
 
 ## Best for
 
-- Extending claude-code, codex, opencode with design capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** Agent skill that draws architecture, flowchart, sequence, data-flow and lifecycle diagrams as hand-placed SVG, to one linted house style.
+- **Works with:** claude-code, codex, opencode
+- **Key topics:** agent-skills, architecture-diagram, cjk, claude-code, claude-skill
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 682 stars and MIT licensing.
+GOOD — 682 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/bybit-exchange/svg-diagram
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/bybit-exchange/svg-diagram

@@ -36,29 +36,26 @@ featured: false
 
 ## What it does
 
-Open-source repository (chengyi-ai/native-subtitle-quote-image) providing agent skills, workflows, or MCP capabilities verified via GitHub (3,008 stars).
+Provides programmatic video editing, motion graphics, storyboarding, or visual media generation. Focused on `agent-skills`, `codex`, `social-media`, `subtitles` and designed to work with codex.
 
 ## Best for
 
-- Extending codex with image-video capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** 保留视频内嵌字幕，精确取帧并生成 3:4 社交长图的 Agent Skill
+- **Works with:** codex
+- **Key topics:** agent-skills, codex, social-media, subtitles, video-processing
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 3,008 stars and MIT licensing.
+GOOD — 3,008 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/chengyi-ai/native-subtitle-quote-image
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/chengyi-ai/native-subtitle-quote-image

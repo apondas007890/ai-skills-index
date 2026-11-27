@@ -35,29 +35,26 @@ featured: false
 
 ## What it does
 
-Open-source repository (udaysharmadev/Ai-Roadmap) providing agent skills, workflows, or MCP capabilities verified via GitHub (82 stars).
+Provides creator workflows for scripting, hooks, thumbnails, titles, and channel growth. Focused on `youtube`, `agent-skills` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with youtube capabilities
-- Teams evaluating community-backed youtube tooling
+- **Primary goal:** 🚀 The Complete AI Roadmap (2026) | Free YouTube Courses, Machine Learning, Deep Learning, LLMs, GenAI, RAG, Agents, Projects, Deployment & Career Guide
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** youtube, agent-skills
 
 ## Verdict
 
-PROMISING — verified active GitHub repository with 82 stars and MIT licensing.
+PROMISING — 82 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/udaysharmadev/Ai-Roadmap
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/udaysharmadev/Ai-Roadmap

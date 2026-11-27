@@ -37,29 +37,26 @@ The terminal that outlives its window. Shells survive quitting the app, agents c
 
 ## What it does
 
-Open-source repository (l0ng-ai/tty7) providing agent skills, workflows, or MCP capabilities verified via GitHub (1,535 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `ai-agents`, `alacritty`, `claude-code`, `coding-agent` and designed to work with claude-code.
 
 ## Best for
 
-- Extending claude-code with coding capabilities
-- Teams evaluating community-backed ai-agents tooling
+- **Primary goal:** The terminal that outlives its window. Shells survive quitting the app, agents can drive other agents, and remote machines work the same way. Pure Rust, GPU-rendered.
+- **Works with:** claude-code
+- **Key topics:** ai-agents, alacritty, claude-code, coding-agent, cross-platform
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 1,535 stars and Apache-2.0 licensing.
+GOOD — 1,535 GitHub stars (Apache-2.0 license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/l0ng-ai/tty7
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/l0ng-ai/tty7

@@ -36,29 +36,26 @@ Topic → 4K narrated video for coding agents. v5.3.0: local TTS (edge free + az
 
 ## What it does
 
-Open-source repository (Agents365-ai/video-podcast-maker) providing agent skills, workflows, or MCP capabilities verified via GitHub (1,733 stars).
+Provides programmatic video editing, motion graphics, storyboarding, or visual media generation. Focused on `agent-skill`, `ai-video`, `bilibili`, `claude-code` and designed to work with claude-code.
 
 ## Best for
 
-- Extending claude-code with image-video capabilities
-- Teams evaluating community-backed agent-skill tooling
+- **Primary goal:** Topic → 4K narrated video for coding agents. v5.3.0: local TTS (edge free + azure, no external engine), manifest-based Asset Engine, Remotion composition, cost-gated AI generation, Bilibili/YouTube/Xiaohongshu/Douyin/WeChat Channels
+- **Works with:** claude-code
+- **Key topics:** agent-skill, ai-video, bilibili, claude-code, idea-to-video
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 1,733 stars and MIT licensing.
+GOOD — 1,733 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/Agents365-ai/video-podcast-maker
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/Agents365-ai/video-podcast-maker

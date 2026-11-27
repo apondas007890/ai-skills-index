@@ -38,29 +38,26 @@ Agent skills for Claude Code and Codex that review, change and create reusable T
 
 ## What it does
 
-Open-source repository (modulestf/modulestf) providing agent skills, workflows, or MCP capabilities verified via GitHub (383 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agent-skills`, `ai-agents`, `aws`, `claude-code` and designed to work with claude-code, codex.
 
 ## Best for
 
-- Extending claude-code, codex with coding capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** Agent skills for Claude Code and Codex that review, change and create reusable Terraform modules by the rules of terraform-aws-modules.
+- **Works with:** claude-code, codex
+- **Key topics:** agent-skills, ai-agents, aws, claude-code, claude-skills
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 383 stars and Apache-2.0 licensing.
+GOOD — 383 GitHub stars (Apache-2.0 license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/modulestf/modulestf
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/modulestf/modulestf

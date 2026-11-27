@@ -36,29 +36,26 @@ Claude-first paid-media operations skill for Claude Code across 12 ad platforms 
 
 ## What it does
 
-Open-source repository (AgriciDaniel/claude-ads) providing agent skills, workflows, or MCP capabilities verified via GitHub (11,370 stars).
+Provides programmatic video editing, motion graphics, storyboarding, or visual media generation. Focused on `agent-skills`, `ai`, `ai-marketing`, `claude-code` and designed to work with claude-code.
 
 ## Best for
 
-- Extending claude-code with image-video capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** Claude-first paid-media operations skill for Claude Code across 12 ad platforms (Google, Meta, YouTube, LinkedIn, TikTok, Microsoft, Apple, Amazon, Reddit, Pinterest, Snapchat, X): source-grounded audits, deterministic findings and evidence coverage, versioned JSON reports, and capability-gated account changes.
+- **Works with:** claude-code
+- **Key topics:** agent-skills, ai, ai-marketing, claude-code, claude-code-skill
 
 ## Verdict
 
-EXCELLENT — verified active GitHub repository with 11,370 stars and MIT licensing.
+EXCELLENT — 11,370 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/AgriciDaniel/claude-ads
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/AgriciDaniel/claude-ads

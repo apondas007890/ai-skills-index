@@ -36,29 +36,26 @@ Curated skills, profiles, and config templates that supercharge Codex CLI — mu
 
 ## What it does
 
-Open-source repository (feiskyer/codex-settings) providing agent skills, workflows, or MCP capabilities verified via GitHub (245 stars).
+Provides programmatic video editing, motion graphics, storyboarding, or visual media generation. Focused on `agent-skills`, `agentic-ai`, `agents`, `ai` and designed to work with codex.
 
 ## Best for
 
-- Extending codex with image-video capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** Curated skills, profiles, and config templates that supercharge Codex CLI — multi-model, deep research, image gen & browser automation.
+- **Works with:** codex
+- **Key topics:** agent-skills, agentic-ai, agents, ai, ai-coding
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 245 stars and MIT licensing.
+GOOD — 245 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/feiskyer/codex-settings
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/feiskyer/codex-settings

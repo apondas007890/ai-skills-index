@@ -39,29 +39,26 @@ muse.ai (Muse AI) skills and runtime snapshot: 68 skills, workflow guides, conne
 
 ## What it does
 
-Open-source repository (win4r/MuseAI-Skills) providing agent skills, workflows, or MCP capabilities verified via GitHub (706 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agent-skills`, `meta`, `muse`, `skills` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with automation capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** muse.ai (Muse AI) skills and runtime snapshot: 68 skills, workflow guides, connector manifests. muse.ai 技能与运行环境文件；非官方存档 / Unofficial archive.
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** agent-skills, meta, muse, skills
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 706 stars and Unknown licensing.
+GOOD — 706 GitHub stars (Unknown license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/win4r/MuseAI-Skills
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/win4r/MuseAI-Skills

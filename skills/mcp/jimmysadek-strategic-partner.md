@@ -37,29 +37,26 @@ Every other tool executes. This one decides what to execute. Chief of Staff skil
 
 ## What it does
 
-Open-source repository (JimmySadek/strategic-partner) providing agent skills, workflows, or MCP capabilities verified via GitHub (26 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `advisory`, `ai-skill`, `claude-code`, `claude-code-skill` and designed to work with claude-code.
 
 ## Best for
 
-- Extending claude-code with coding capabilities
-- Teams evaluating community-backed advisory tooling
+- **Primary goal:** Every other tool executes. This one decides what to execute. Chief of Staff skill for Claude Code.
+- **Works with:** claude-code
+- **Key topics:** advisory, ai-skill, claude-code, claude-code-skill, cross-agent
 
 ## Verdict
 
-PROMISING — verified active GitHub repository with 26 stars and MIT licensing.
+PROMISING — 26 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/JimmySadek/strategic-partner
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/JimmySadek/strategic-partner

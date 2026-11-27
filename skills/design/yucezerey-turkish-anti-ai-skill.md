@@ -39,29 +39,26 @@ Türkçe metinlerdeki yapay zeka izlerini (AI slop, translationese, çeviri koka
 
 ## What it does
 
-Open-source repository (yucezerey/turkish-anti-ai-skill) providing agent skills, workflows, or MCP capabilities verified via GitHub (333 stars).
+Provides UI/UX design rules, component patterns, typography, accessibility, or visual polish. Focused on `agent-skills`, `ai-skills`, `ai-writing`, `claude-code` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with design capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** Türkçe metinlerdeki yapay zeka izlerini (AI slop, translationese, çeviri kokan cümle mimarisi ve TDK hatalarını) temizleyen Agent Skill ve Humanizer paketi.
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** agent-skills, ai-skills, ai-writing, claude-code, codex
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 333 stars and MIT licensing.
+GOOD — 333 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/yucezerey/turkish-anti-ai-skill
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/yucezerey/turkish-anti-ai-skill

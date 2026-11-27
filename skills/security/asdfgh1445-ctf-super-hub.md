@@ -37,29 +37,26 @@ featured: false
 
 ## What it does
 
-Open-source repository (asdfgh1445/ctf-super-hub) providing agent skills, workflows, or MCP capabilities verified via GitHub (858 stars).
+Provides security auditing, static analysis, vulnerability checks, or defensive review workflows. Focused on `agent-skills`, `ai-agents`, `codex`, `cryptography` and designed to work with codex.
 
 ## Best for
 
-- Extending codex with research capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** 面向小白用户的 CTF / 逆向 Skills 整合包：自动分流、头脑风暴、教学模式、比赛模式、只提示模式
+- **Works with:** codex
+- **Key topics:** agent-skills, ai-agents, codex, cryptography, ctf
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 858 stars and Unknown licensing.
+GOOD — 858 GitHub stars (Unknown license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/asdfgh1445/ctf-super-hub
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/asdfgh1445/ctf-super-hub

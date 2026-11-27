@@ -38,29 +38,26 @@ Agent skills that give coding agents taste: art direction, reference images and 
 
 ## What it does
 
-Open-source repository (Leonxlnx/taste-skill) providing agent skills, workflows, or MCP capabilities verified via GitHub (121,974 stars).
+Provides UI/UX design rules, component patterns, typography, accessibility, or visual polish. Focused on `agent-skills`, `ai-agents`, `anti-slop`, `claude-code` and designed to work with claude-code, codex, cursor.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with design capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages
+- **Works with:** claude-code, codex, cursor
+- **Key topics:** agent-skills, ai-agents, anti-slop, claude-code, codex
 
 ## Verdict
 
-EXCELLENT — verified active GitHub repository with 121,974 stars and MIT licensing.
+EXCELLENT — 121,974 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/Leonxlnx/taste-skill
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/Leonxlnx/taste-skill

@@ -38,29 +38,26 @@ Motion design fundamentals, engines, and brand elements as installable Claude Co
 
 ## What it does
 
-Open-source repository (iart-ai/motion-design-skills) providing agent skills, workflows, or MCP capabilities verified via GitHub (278 stars).
+Provides programmatic video editing, motion graphics, storyboarding, or visual media generation. Focused on `after-effects`, `agent-skills`, `ai-animation`, `claude-code` and designed to work with claude-code, codex, cursor.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with image-video capabilities
-- Teams evaluating community-backed after-effects tooling
+- **Primary goal:** Motion design fundamentals, engines, and brand elements as installable Claude Code skills — timing, typography, color, composition, After Effects, Remotion, logos, and backgrounds.
+- **Works with:** claude-code, codex, cursor
+- **Key topics:** after-effects, agent-skills, ai-animation, claude-code, claude-skill
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 278 stars and MIT licensing.
+GOOD — 278 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/iart-ai/motion-design-skills
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/iart-ai/motion-design-skills

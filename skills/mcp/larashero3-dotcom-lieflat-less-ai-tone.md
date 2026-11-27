@@ -36,29 +36,26 @@ featured: false
 
 ## What it does
 
-Open-source repository (larashero3-dotcom/lieflat-less-ai-tone) providing agent skills, workflows, or MCP capabilities verified via GitHub (8,834 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agents`, `agent-skills` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with agents capabilities
-- Teams evaluating community-backed agents tooling
+- **Primary goal:** 一个基于 520 万字语料统计的去 AI 味 skill · An AI-tone removal skill grounded in a 5.2-million-character corpus study
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** agents, agent-skills
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 8,834 stars and Unknown licensing.
+GOOD — 8,834 GitHub stars (Unknown license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/larashero3-dotcom/lieflat-less-ai-tone
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/larashero3-dotcom/lieflat-less-ai-tone

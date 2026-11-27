@@ -37,29 +37,26 @@ docker mcp CLI plugin / MCP Gateway
 
 ## What it does
 
-Open-source repository (docker/mcp-gateway) providing agent skills, workflows, or MCP capabilities verified via GitHub (1,650 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `coding`, `agent-skills` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with coding capabilities
-- Teams evaluating community-backed coding tooling
+- **Primary goal:** docker mcp CLI plugin / MCP Gateway
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** coding, agent-skills
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 1,650 stars and MIT licensing.
+GOOD — 1,650 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/docker/mcp-gateway
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/docker/mcp-gateway

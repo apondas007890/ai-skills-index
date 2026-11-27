@@ -39,29 +39,26 @@ featured: false
 
 ## What it does
 
-Open-source repository (LeoKemp223/embed-ai-tool) providing agent skills, workflows, or MCP capabilities verified via GitHub (1,100 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `aicoding`, `debug`, `embedded`, `embeded-systems` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with coding capabilities
-- Teams evaluating community-backed aicoding tooling
+- **Primary goal:** 面向 AI 编程助手的嵌入式开发技能集，为大模型提供 MCU 固件开发全流程能力。涵盖多工具链构建（Keil / IAR / CMake / PlatformIO）、烧录、GDB 调试、串口监视、Modbus / CAN / VISA 协议调试、外设驱动适配及流水线编排，支持 Linux、macOS、Windows 三平台。
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** aicoding, debug, embedded, embeded-systems, gdb
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 1,100 stars and Unknown licensing.
+GOOD — 1,100 GitHub stars (Unknown license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/LeoKemp223/embed-ai-tool
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/LeoKemp223/embed-ai-tool

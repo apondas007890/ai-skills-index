@@ -37,29 +37,26 @@ AI Agent Orchestrator with Skills System - Give AI Agents superpowers: memory se
 
 ## What it does
 
-Open-source repository (23blocks-OS/ai-maestro) providing agent skills, workflows, or MCP capabilities verified via GitHub (858 stars).
+Provides planning, writing, note-taking, or personal knowledge management workflows. Focused on `agent-communication`, `agent-skills`, `agentic-ai`, `ai-agents` and designed to work with claude-code, codex.
 
 ## Best for
 
-- Extending claude-code, codex with productivity capabilities
-- Teams evaluating community-backed agent-communication tooling
+- **Primary goal:** AI Agent Orchestrator with Skills System - Give AI Agents superpowers: memory search, code graph queries, agent-to-agent messaging. Manage Claude Code, Codex, Grok Build or any AI Agent from one dashboard. Move Agents between computers and locations
+- **Works with:** claude-code, codex
+- **Key topics:** agent-communication, agent-skills, agentic-ai, ai-agents, ai-coding-assistant
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 858 stars and MIT licensing.
+GOOD — 858 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/23blocks-OS/ai-maestro
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/23blocks-OS/ai-maestro

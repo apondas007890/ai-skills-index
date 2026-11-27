@@ -110,6 +110,21 @@ export function SkillDetailPage() {
             <p className="max-w-3xl text-[15px] leading-relaxed text-zinc-600 dark:text-zinc-300">
               <RichText text={skill.description} />
             </p>
+
+            <div className="flex flex-wrap items-center gap-1.5 pt-1">
+              <span className="mr-1 text-[11px] font-semibold uppercase tracking-wider text-zinc-400 dark:text-zinc-500">
+                Works with:
+              </span>
+              {skill.compatible_agents.map((ag) => (
+                <Link
+                  key={ag}
+                  to={`/explore?agent=${encodeURIComponent(ag)}`}
+                  className="rounded-md border border-zinc-200 bg-zinc-50 px-2 py-0.5 font-mono text-[11px] font-medium text-zinc-700 transition-colors hover:border-blue-400 hover:text-blue-600 dark:border-zinc-700 dark:bg-zinc-800 dark:text-zinc-300"
+                >
+                  {ag}
+                </Link>
+              ))}
+            </div>
           </div>
 
           <div className="flex flex-wrap gap-2">
@@ -141,16 +156,18 @@ export function SkillDetailPage() {
               {copiedKey === 'name' ? 'Copied Name' : 'Copy Name'}
             </button>
 
-            {skill.install_command && (
-              <button
-                type="button"
-                onClick={() => copyText('install', skill.install_command)}
-                className="inline-flex items-center gap-1.5 rounded-lg border border-zinc-200 bg-white px-3 py-2 font-mono text-xs font-medium text-zinc-700 transition-colors hover:bg-zinc-100 dark:border-zinc-700 dark:bg-zinc-900 dark:text-zinc-200 dark:hover:bg-zinc-800"
-              >
-                {copiedKey === 'install' ? <Check className="h-3.5 w-3.5 text-emerald-500" /> : <Terminal className="h-3.5 w-3.5" />}
-                {copiedKey === 'install' ? 'Copied Command' : 'Copy Install'}
-              </button>
-            )}
+            <button
+              type="button"
+              onClick={() => copyText('install', skill.install_command || `git clone ${skill.source}`)}
+              className="inline-flex items-center gap-1.5 rounded-lg border border-zinc-200 bg-white px-3 py-2 font-mono text-xs font-medium text-zinc-700 transition-colors hover:bg-zinc-100 dark:border-zinc-700 dark:bg-zinc-900 dark:text-zinc-200 dark:hover:bg-zinc-800"
+            >
+              {copiedKey === 'install' ? <Check className="h-3.5 w-3.5 text-emerald-500" /> : <Terminal className="h-3.5 w-3.5" />}
+              {copiedKey === 'install'
+                ? 'Copied Command'
+                : skill.install_command
+                ? 'Copy Install'
+                : 'Copy git clone'}
+            </button>
           </div>
         </div>
       </section>

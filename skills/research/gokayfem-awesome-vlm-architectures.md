@@ -38,29 +38,26 @@ Curated visual catalog of 200+ vision-language model (VLM/MLLM) architectures: p
 
 ## What it does
 
-Open-source repository (gokayfem/awesome-vlm-architectures) providing agent skills, workflows, or MCP capabilities verified via GitHub (1,368 stars).
+Provides structured web research, academic/data analysis, or synthesis capabilities. Focused on `ai-agents`, `architecture-diagrams`, `arxiv`, `awesome` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with research capabilities
-- Teams evaluating community-backed ai-agents tooling
+- **Primary goal:** Curated visual catalog of 200+ vision-language model (VLM/MLLM) architectures: papers, diagrams, training recipes, datasets, and a release timeline for multimodal AI agents.
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** ai-agents, architecture-diagrams, arxiv, awesome, awesome-list
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 1,368 stars and CC0-1.0 licensing.
+GOOD — 1,368 GitHub stars (CC0-1.0 license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/gokayfem/awesome-vlm-architectures
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/gokayfem/awesome-vlm-architectures

@@ -36,29 +36,26 @@ Skills for coding agents: rebuild a motion design video as looping SVG + GSAP co
 
 ## What it does
 
-Open-source repository (lovisdotio/motion2code) providing agent skills, workflows, or MCP capabilities verified via GitHub (366 stars).
+Provides programmatic video editing, motion graphics, storyboarding, or visual media generation. Focused on `agent-skills`, `animation`, `claude-code`, `gsap` and designed to work with claude-code.
 
 ## Best for
 
-- Extending claude-code with image-video capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** Skills for coding agents: rebuild a motion design video as looping SVG + GSAP code, checked frame by frame against the source
+- **Works with:** claude-code
+- **Key topics:** agent-skills, animation, claude-code, gsap, motion-design
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 366 stars and MIT licensing.
+GOOD — 366 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/lovisdotio/motion2code
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/lovisdotio/motion2code

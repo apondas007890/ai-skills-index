@@ -38,29 +38,26 @@ Make Gemini code like Claude Models. Forces it to inspect files before editing, 
 
 ## What it does
 
-Open-source repository (udaysharmadev/Gravitas) providing agent skills, workflows, or MCP capabilities verified via GitHub (527 stars).
+Provides planning, writing, note-taking, or personal knowledge management workflows. Focused on `agent-skills`, `antigravity-skills`, `gemini`, `prompt-engineering` and designed to work with claude-code, gemini-cli, antigravity.
 
 ## Best for
 
-- Extending claude-code, gemini-cli with productivity capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** Make Gemini code like Claude Models. Forces it to inspect files before editing, plan changes, test its work, and back up every “done” with actual evidence.
+- **Works with:** claude-code, gemini-cli, antigravity
+- **Key topics:** agent-skills, antigravity-skills, gemini, prompt-engineering, skills
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 527 stars and MIT licensing.
+GOOD — 527 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/udaysharmadev/Gravitas
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/udaysharmadev/Gravitas

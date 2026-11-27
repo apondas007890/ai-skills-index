@@ -37,29 +37,26 @@ A Claude Code skill that turns PDFs, docs, and codebases into Obsidian study vau
 
 ## What it does
 
-Open-source repository (bevibing/tutor-skills) providing agent skills, workflows, or MCP capabilities verified via GitHub (1,425 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agent-skills`, `claude`, `claude-code`, `claude-skills` and designed to work with claude-code.
 
 ## Best for
 
-- Extending claude-code with coding capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** A Claude Code skill that turns PDFs, docs, and codebases into Obsidian study vaults
+- **Works with:** claude-code
+- **Key topics:** agent-skills, claude, claude-code, claude-skills, skill
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 1,425 stars and MIT licensing.
+GOOD — 1,425 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/bevibing/tutor-skills
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/bevibing/tutor-skills

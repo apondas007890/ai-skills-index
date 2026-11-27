@@ -36,29 +36,26 @@ featured: false
 
 ## What it does
 
-Open-source repository (shouldnotappearcalm/a-share-mcp) providing agent skills, workflows, or MCP capabilities verified via GitHub (29 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agents`, `agent-skills` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with agents capabilities
-- Teams evaluating community-backed agents tooling
+- **Primary goal:** 基于 MCP（Model Context Protocol）协议的 A 股股票数据服务，零配置开箱即用，完全免费无需注册。提供沪深市场实时行情与历史数据，包括分时、分钟线、日线 K 线及常用技术指标，内置新浪与腾讯双数据源并支持自动故障切换。统一以 DataFrame 格式输出，适用于量化研究、回测分析及自动化交易系统开发。
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** agents, agent-skills
 
 ## Verdict
 
-PROMISING — verified active GitHub repository with 29 stars and MIT licensing.
+PROMISING — 29 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/shouldnotappearcalm/a-share-mcp
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/shouldnotappearcalm/a-share-mcp

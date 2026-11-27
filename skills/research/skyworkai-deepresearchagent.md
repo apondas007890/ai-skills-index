@@ -38,29 +38,26 @@ DeepResearchAgent is a hierarchical multi-agent system designed not only for dee
 
 ## What it does
 
-Open-source repository (SkyworkAI/DeepResearchAgent) providing agent skills, workflows, or MCP capabilities verified via GitHub (3,574 stars).
+Provides structured web research, academic/data analysis, or synthesis capabilities. Focused on `gaia`, `general-purpose`, `multiagent-systems`, `multimodel` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with research capabilities
-- Teams evaluating community-backed gaia tooling
+- **Primary goal:** DeepResearchAgent is a hierarchical multi-agent system designed not only for deep research tasks but also for general-purpose task solving. The framework leverages a top-level planning agent to coordinate multiple specialized lower-level agents, enabling automated task decomposition and efficient execution across diverse and complex domains.
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** gaia, general-purpose, multiagent-systems, multimodel
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 3,574 stars and MIT licensing.
+GOOD — 3,574 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/SkyworkAI/DeepResearchAgent
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/SkyworkAI/DeepResearchAgent

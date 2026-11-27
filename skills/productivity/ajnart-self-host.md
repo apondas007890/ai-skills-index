@@ -36,29 +36,26 @@ Replace the SaaS you pay for. One binary installs and runs self-hosted apps at h
 
 ## What it does
 
-Open-source repository (ajnart/self-host) providing agent skills, workflows, or MCP capabilities verified via GitHub (1,604 stars).
+Provides planning, writing, note-taking, or personal knowledge management workflows. Focused on `agent-skills`, `ai-agents`, `claude-code`, `cli` and designed to work with claude-code.
 
 ## Best for
 
-- Extending claude-code with productivity capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** Replace the SaaS you pay for. One binary installs and runs self-hosted apps at home, no Docker knowledge needed. Terminal dashboard for you, plain commands for your agent.
+- **Works with:** claude-code
+- **Key topics:** agent-skills, ai-agents, claude-code, cli, docker-compose
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 1,604 stars and Apache-2.0 licensing.
+GOOD — 1,604 GitHub stars (Apache-2.0 license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/ajnart/self-host
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/ajnart/self-host

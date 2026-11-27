@@ -38,29 +38,26 @@ featured: true
 
 ## What it does
 
-Open-source repository (KKKKhazix/khazix-skills) providing agent skills, workflows, or MCP capabilities verified via GitHub (22,573 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agent-skills`, `ai-agents`, `claude`, `claude-code` and designed to work with claude-code, codex.
 
 ## Best for
 
-- Extending claude-code, codex with coding capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** 数字生命卡兹克开源的 AI Skills 合集 | Agent Skills: leader（帮你定义目标）, neat-freak 洁癖, hv-analysis, khazix-writer & more — Claude Code, Codex & 40+ agents
+- **Works with:** claude-code, codex
+- **Key topics:** agent-skills, ai-agents, claude, claude-code, codex
 
 ## Verdict
 
-EXCELLENT — verified active GitHub repository with 22,573 stars and MIT licensing.
+EXCELLENT — 22,573 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/KKKKhazix/khazix-skills
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/KKKKhazix/khazix-skills

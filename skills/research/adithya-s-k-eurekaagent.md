@@ -35,29 +35,26 @@ AI Agents to automate AI research end-to-end
 
 ## What it does
 
-Open-source repository (adithya-s-k/EurekaAgent) providing agent skills, workflows, or MCP capabilities verified via GitHub (11 stars).
+Provides structured web research, academic/data analysis, or synthesis capabilities. Focused on `research`, `agent-skills` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with research capabilities
-- Teams evaluating community-backed research tooling
+- **Primary goal:** AI Agents to automate AI research end-to-end
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** research, agent-skills
 
 ## Verdict
 
-PROMISING — verified active GitHub repository with 11 stars and Apache-2.0 licensing.
+PROMISING — 11 GitHub stars (Apache-2.0 license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/adithya-s-k/EurekaAgent
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/adithya-s-k/EurekaAgent

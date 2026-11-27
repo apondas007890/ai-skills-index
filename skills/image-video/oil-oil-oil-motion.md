@@ -38,29 +38,26 @@ Web animation skill for Claude Code & Codex. 帮你做跟着滚动和鼠标动�
 
 ## What it does
 
-Open-source repository (oil-oil/oil-motion) providing agent skills, workflows, or MCP capabilities verified via GitHub (2,998 stars).
+Provides programmatic video editing, motion graphics, storyboarding, or visual media generation. Focused on `agent-skill`, `agent-skills`, `ai-video`, `animation` and designed to work with claude-code, codex, cursor.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with image-video capabilities
-- Teams evaluating community-backed agent-skill tooling
+- **Primary goal:** Web animation skill for Claude Code & Codex. 帮你做跟着滚动和鼠标动的网页动画。
+- **Works with:** claude-code, codex, cursor
+- **Key topics:** agent-skill, agent-skills, ai-video, animation, claude-code
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 2,998 stars and MIT licensing.
+GOOD — 2,998 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/oil-oil/oil-motion
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/oil-oil/oil-motion

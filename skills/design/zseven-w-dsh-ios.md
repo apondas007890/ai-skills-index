@@ -39,29 +39,26 @@ DeepSeek Harness (DSH) plugin: a live iOS Simulator — and a USB-connected iPho
 
 ## What it does
 
-Open-source repository (ZSeven-W/dsh-ios) providing agent skills, workflows, or MCP capabilities verified via GitHub (485 stars).
+Provides UI/UX design rules, component patterns, typography, accessibility, or visual polish. Focused on `accessibility`, `ai-agents`, `coding-agent`, `deepseek-harness` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with design capabilities
-- Teams evaluating community-backed accessibility tooling
+- **Primary goal:** DeepSeek Harness (DSH) plugin: a live iOS Simulator — and a USB-connected iPhone — inside the conversation. 22 agent tools for booting, building, driving the UI by accessibility identity, OCR text or list rows, plus a streaming sidebar panel you can tap and drag on.
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** accessibility, ai-agents, coding-agent, deepseek-harness, dsh
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 485 stars and MIT licensing.
+GOOD — 485 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/ZSeven-W/dsh-ios
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/ZSeven-W/dsh-ios

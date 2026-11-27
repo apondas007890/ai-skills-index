@@ -40,29 +40,26 @@ SEO Landing: Give your AI coding agent the capabilities of a senior Technical SE
 
 ## What it does
 
-Open-source repository (aleksandr-alhoff/seo-landing) providing agent skills, workflows, or MCP capabilities verified via GitHub (213 stars).
+Provides SEO, marketing, product management, analytics, or business workflow templates. Focused on `agent-skills`, `claude-skills`, `codex`, `core-web-vitals` and designed to work with claude-code, codex, cursor, gemini-cli, opencode.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with business capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** SEO Landing: Give your AI coding agent the capabilities of a senior Technical SEO engineer.  An agent skill for building high-performance, technically optimized SEO landing pages. Turn an AI coding agent into a technical SEO specialist.  Build and improve landing pages with: • 🚀 100/100 Google PageSpeed target • ⚡ Core Web Vitals optimization
+- **Works with:** claude-code, codex, cursor, gemini-cli, opencode
+- **Key topics:** agent-skills, claude-skills, codex, core-web-vitals, cursor
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 213 stars and MIT licensing.
+GOOD — 213 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/aleksandr-alhoff/seo-landing
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/aleksandr-alhoff/seo-landing

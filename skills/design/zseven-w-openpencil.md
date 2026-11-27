@@ -38,29 +38,26 @@ The world's first open-source AI-native vector design tool and the first to feat
 
 ## What it does
 
-Open-source repository (ZSeven-W/openpencil) providing agent skills, workflows, or MCP capabilities verified via GitHub (7,381 stars).
+Provides UI/UX design rules, component patterns, typography, accessibility, or visual polish. Focused on `agent`, `agent-team`, `ai`, `claude` and designed to work with claude-code, codex, opencode.
 
 ## Best for
 
-- Extending claude-code, codex, opencode with design capabilities
-- Teams evaluating community-backed agent tooling
+- **Primary goal:** The world's first open-source AI-native vector design tool and the first to feature concurrent Agent Teams. Design-as-Code. Turn prompts into UI directly on the live canvas. A modern alternative to Pencil.
+- **Works with:** claude-code, codex, opencode
+- **Key topics:** agent, agent-team, ai, claude, claude-code
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 7,381 stars and MIT licensing.
+GOOD — 7,381 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/ZSeven-W/openpencil
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/ZSeven-W/openpencil

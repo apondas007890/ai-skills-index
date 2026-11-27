@@ -40,29 +40,26 @@ featured: false
 
 ## What it does
 
-Open-source repository (minhnv0807/ai-business-skills) providing agent skills, workflows, or MCP capabilities verified via GitHub (717 stars).
+Provides UI/UX design rules, component patterns, typography, accessibility, or visual polish. Focused on `agent-skills`, `ai-agents`, `ai-avatar`, `anthropic` and designed to work with claude-code, codex, cursor, gemini-cli, opencode.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with design capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** 138 bilingual AI marketing skills (69 VN + 69 Global) for Claude Code, OpenCode, Codex, VS Code. Four role SOP packs — content, design, performance, leader ops — plus strategy, personal brand, AI avatar, dropshipping, design master, knowledge library. 4 regions (US/EU/SEA/LATAM) + Vietnam 2025-2026. Companion: opa-kit.
+- **Works with:** claude-code, codex, cursor, gemini-cli, opencode
+- **Key topics:** agent-skills, ai-agents, ai-avatar, anthropic, chatgpt
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 717 stars and MIT licensing.
+GOOD — 717 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/minhnv0807/ai-business-skills
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/minhnv0807/ai-business-skills

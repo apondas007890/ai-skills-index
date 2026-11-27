@@ -38,29 +38,26 @@ featured: false
 
 ## What it does
 
-Open-source repository (pseudo-longinus/quant-buddy-skills) providing agent skills, workflows, or MCP capabilities verified via GitHub (206 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `a-share`, `agent-skills`, `backtesting`, `claude-code` and designed to work with claude-code, cursor.
 
 ## Best for
 
-- Extending claude-code, cursor with coding capabilities
-- Teams evaluating community-backed a-share tooling
+- **Primary goal:** 宽宝 QuantBuddy： 一整套面向Agent Invesment投资研究与决策的底层设施与能力的调用skill， 覆盖A股/港股/美股/期货/宏观/ETF的量化分析与计算。支持行情、估值、财务查询、选股筛选、因子计算、策略回测。A complete infrastructure for Agent based investment analysis and decision through skill calling. Including quant skill for A-share, HK & US stocks/futures/ETF/macro — market data, fundamentals, screening, factor & backtest.
+- **Works with:** claude-code, cursor
+- **Key topics:** a-share, agent-skills, backtesting, claude-code, cursor
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 206 stars and MIT licensing.
+GOOD — 206 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/pseudo-longinus/quant-buddy-skills
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/pseudo-longinus/quant-buddy-skills

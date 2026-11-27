@@ -37,29 +37,26 @@ AI agents can generate code, but still struggle to understand what they build. R
 
 ## What it does
 
-Open-source repository (reticlehq/reticle) providing agent skills, workflows, or MCP capabilities verified via GitHub (1,334 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agent-skill`, `agent-skills`, `agent-testing`, `agent-verification` and designed to work with claude-code.
 
 ## Best for
 
-- Extending claude-code with automation capabilities
-- Teams evaluating community-backed agent-skill tooling
+- **Primary goal:** AI agents can generate code, but still struggle to understand what they build. Reticle brings Jev-style machine-native runtime perception to web & desktop applications.
+- **Works with:** claude-code
+- **Key topics:** agent-skill, agent-skills, agent-testing, agent-verification, ai-testing-tool
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 1,334 stars and Unknown licensing.
+GOOD — 1,334 GitHub stars (Unknown license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/reticlehq/reticle
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/reticlehq/reticle

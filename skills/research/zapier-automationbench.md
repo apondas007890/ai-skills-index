@@ -37,29 +37,26 @@ A benchmark for evaluating AI agents on realistic business workflows
 
 ## What it does
 
-Open-source repository (zapier/AutomationBench) providing agent skills, workflows, or MCP capabilities verified via GitHub (416 stars).
+Provides structured web research, academic/data analysis, or synthesis capabilities. Focused on `benchmarks`, `evals`, `llm`, `primeintellect` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with research capabilities
-- Teams evaluating community-backed benchmarks tooling
+- **Primary goal:** A benchmark for evaluating AI agents on realistic business workflows
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** benchmarks, evals, llm, primeintellect
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 416 stars and Unknown licensing.
+GOOD — 416 GitHub stars (Unknown license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/zapier/AutomationBench
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/zapier/AutomationBench

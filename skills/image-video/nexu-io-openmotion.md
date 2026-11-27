@@ -37,29 +37,26 @@ The open-source Claude Motion & CapCut alternative. Turn a reference video into 
 
 ## What it does
 
-Open-source repository (nexu-io/openmotion) providing agent skills, workflows, or MCP capabilities verified via GitHub (16,712 stars).
+Provides programmatic video editing, motion graphics, storyboarding, or visual media generation. Focused on `agent-skills`, `ai`, `ai-agents`, `animation` and designed to work with claude-code, codex.
 
 ## Best for
 
-- Extending claude-code, codex with image-video capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** The open-source Claude Motion & CapCut alternative. Turn a reference video into editable motion graphics with your brand kit. Export MP4s for YouTube, YouTube Shorts, Instagram Reels, and TikTok. A full-stack agentic video studio with 300+ Motion.md guides and support for 22 agents, including Claude Code, Codex, DSH, and WorkBuddy.
+- **Works with:** claude-code, codex
+- **Key topics:** agent-skills, ai, ai-agents, animation, claude-code
 
 ## Verdict
 
-EXCELLENT — verified active GitHub repository with 16,712 stars and Apache-2.0 licensing.
+EXCELLENT — 16,712 GitHub stars (Apache-2.0 license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/nexu-io/openmotion
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/nexu-io/openmotion

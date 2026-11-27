@@ -36,29 +36,26 @@ Claude paints with code: a Claude Code skill for procedural illustration in 83 s
 
 ## What it does
 
-Open-source repository (cloveric/claude-drawing-skill) providing agent skills, workflows, or MCP capabilities verified via GitHub (427 stars).
+Provides programmatic video editing, motion graphics, storyboarding, or visual media generation. Focused on `agent-skills`, `anime`, `chinese-painting`, `claude` and designed to work with claude-code.
 
 ## Best for
 
-- Extending claude-code with image-video capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** Claude paints with code: a Claude Code skill for procedural illustration in 83 styles, from ink wash (水墨), watercolour and ukiyo-e to stained glass, Roman mosaic, Art Deco, shadow puppets, pastel UI, sketchbook doodles, spot illustrations, grainy picture books, dreamy hills, sunlit greenery. No image model: numpy + Pillow on a CPU, draw-on GIFs.
+- **Works with:** claude-code
+- **Key topics:** agent-skills, anime, chinese-painting, claude, claude-code
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 427 stars and MIT licensing.
+GOOD — 427 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/cloveric/claude-drawing-skill
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/cloveric/claude-drawing-skill

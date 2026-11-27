@@ -38,29 +38,26 @@ Huashu Design 3.4 · 在 agent 里打一句话，拿回能交付的设计：网�
 
 ## What it does
 
-Open-source repository (alchaincyf/huashu-design) providing agent skills, workflows, or MCP capabilities verified via GitHub (31,058 stars).
+Provides programmatic video editing, motion graphics, storyboarding, or visual media generation. Focused on `agent-skills`, `ai-design`, `animation`, `claude-code` and designed to work with claude-code, codex, cursor.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with image-video capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** Huashu Design 3.4 · 在 agent 里打一句话，拿回能交付的设计：网页 / App 原型 / App Store 宣传图 / 小红书图文 / 可编辑 PPTX / 动画 / 信息图 · 六个候选挑三个方向 · 92 种带样张的风格库 · 该是图的地方放真图 · HTML-native design skill for Claude Code, Codex, Cursor & any agent
+- **Works with:** claude-code, codex, cursor
+- **Key topics:** agent-skills, ai-design, animation, claude-code, claude-code-skills
 
 ## Verdict
 
-EXCELLENT — verified active GitHub repository with 31,058 stars and MIT licensing.
+EXCELLENT — 31,058 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/alchaincyf/huashu-design
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/alchaincyf/huashu-design

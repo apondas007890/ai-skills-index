@@ -37,29 +37,26 @@ Lightweight Doc-to-agent-ready knowledge pipeline. Three-stage Bronze→Silver�
 
 ## What it does
 
-Open-source repository (agentii-ai/DocMeld) providing agent skills, workflows, or MCP capabilities verified via GitHub (101 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agent-use-ready`, `ai-agents`, `claude-code`, `claude-skills` and designed to work with claude-code.
 
 ## Best for
 
-- Extending claude-code with automation capabilities
-- Teams evaluating community-backed agent-use-ready tooling
+- **Primary goal:** Lightweight Doc-to-agent-ready knowledge pipeline. Three-stage Bronze→Silver→Gold architecture extracts structured elements, page content, and   AI-enriched metadata from research papers and books. Generate PRDs, workflows, topic clusters, and Claude Code skills from PDFs. No OCR required.
+- **Works with:** claude-code
+- **Key topics:** agent-use-ready, ai-agents, claude-code, claude-skills, doc-converter
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 101 stars and Unknown licensing.
+GOOD — 101 GitHub stars (Unknown license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/agentii-ai/DocMeld
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/agentii-ai/DocMeld

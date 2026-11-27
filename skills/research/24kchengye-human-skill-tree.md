@@ -38,29 +38,26 @@ featured: false
 
 ## What it does
 
-Open-source repository (24kchengYe/human-skill-tree) providing agent skills, workflows, or MCP capabilities verified via GitHub (603 stars).
+Provides structured web research, academic/data analysis, or synthesis capabilities. Focused on `agent-skills`, `ai-education`, `ai-learning`, `ai-tutor` and designed to work with claude-code, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, cursor, gemini-cli with research capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** 🌳 AI-Powered Skill Tree for Lifelong Human Learning. 30+ skills from K-12 to career & social intelligence, built on cognitive science. | 人类养成记：AI 驱动的终身学习技能树
+- **Works with:** claude-code, cursor, gemini-cli
+- **Key topics:** agent-skills, ai-education, ai-learning, ai-tutor, chatgpt
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 603 stars and Unknown licensing.
+GOOD — 603 GitHub stars (Unknown license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/24kchengYe/human-skill-tree
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/24kchengYe/human-skill-tree

@@ -36,29 +36,26 @@ featured: false
 
 ## What it does
 
-Open-source repository (agentenatalie/get-job.skill) providing agent skills, workflows, or MCP capabilities verified via GitHub (778 stars).
+Provides planning, writing, note-taking, or personal knowledge management workflows. Focused on `agent-skills`, `ai-agent`, `claude-skill`, `interview-preparation` and designed to work with claude-code.
 
 ## Best for
 
-- Extending claude-code with productivity capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** 实习.skill — 双非也能拿大厂 offer。帮你改简历、抠面经、准备面试，把真实背景翻译成面试官想要的样子。
+- **Works with:** claude-code
+- **Key topics:** agent-skills, ai-agent, claude-skill, interview-preparation, job-search
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 778 stars and Unknown licensing.
+GOOD — 778 GitHub stars (Unknown license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/agentenatalie/get-job.skill
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/agentenatalie/get-job.skill

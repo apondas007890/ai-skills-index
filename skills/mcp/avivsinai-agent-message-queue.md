@@ -38,29 +38,26 @@ File-based message queue for local agent-to-agent communication (Maildir-style)
 
 ## What it does
 
-Open-source repository (avivsinai/agent-message-queue) providing agent skills, workflows, or MCP capabilities verified via GitHub (93 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agent-skills`, `agents`, `ai-agents`, `autonomous-agents` and designed to work with claude-code, codex.
 
 ## Best for
 
-- Extending claude-code, codex with coding capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** File-based message queue for local agent-to-agent communication (Maildir-style)
+- **Works with:** claude-code, codex
+- **Key topics:** agent-skills, agents, ai-agents, autonomous-agents, claude-code
 
 ## Verdict
 
-PROMISING — verified active GitHub repository with 93 stars and MIT licensing.
+PROMISING — 93 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/avivsinai/agent-message-queue
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/avivsinai/agent-message-queue

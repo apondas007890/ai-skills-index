@@ -35,29 +35,26 @@ Skywork Agent Skills for AI office suites, including AI PPT, AI Document, AI Exc
 
 ## What it does
 
-Open-source repository (SkyworkAI/Skywork-Skills) providing agent skills, workflows, or MCP capabilities verified via GitHub (209 stars).
+Provides programmatic video editing, motion graphics, storyboarding, or visual media generation. Focused on `agent`, `agent-skills`, `skills` and designed to work with claude-code, codex.
 
 ## Best for
 
-- Extending claude-code, codex with image-video capabilities
-- Teams evaluating community-backed agent tooling
+- **Primary goal:** Skywork Agent Skills for AI office suites, including AI PPT, AI Document, AI Excel, AI Image, AI Search/DeepResearch and AI Music.  These skills can be used by any skills-compatible agent, including Claude Code, Codex CLI and OpenClaw.
+- **Works with:** claude-code, codex
+- **Key topics:** agent, agent-skills, skills
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 209 stars and MIT licensing.
+GOOD — 209 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/SkyworkAI/Skywork-Skills
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/SkyworkAI/Skywork-Skills

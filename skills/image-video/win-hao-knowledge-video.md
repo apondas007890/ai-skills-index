@@ -36,29 +36,26 @@ Agent skill: turn one topic into a 1–3 minute knowledge explainer video — fa
 
 ## What it does
 
-Open-source repository (Win-Hao/knowledge-video) providing agent skills, workflows, or MCP capabilities verified via GitHub (66 stars).
+Provides programmatic video editing, motion graphics, storyboarding, or visual media generation. Focused on `agent-skills`, `beat-sync`, `claude-code`, `explainer` and designed to work with claude-code.
 
 ## Best for
 
-- Extending claude-code with image-video capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** Agent skill: turn one topic into a 1–3 minute knowledge explainer video — fact-checked article, scene-by-scene copy, freely licensed images, three looks to pick from, a beat-synced storyboard, the opening first. Rendered with HyperFrames.
+- **Works with:** claude-code
+- **Key topics:** agent-skills, beat-sync, claude-code, explainer, hyperframes
 
 ## Verdict
 
-PROMISING — verified active GitHub repository with 66 stars and MIT licensing.
+PROMISING — 66 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/Win-Hao/knowledge-video
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/Win-Hao/knowledge-video

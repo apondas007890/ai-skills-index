@@ -38,29 +38,26 @@ featured: false
 
 ## What it does
 
-Open-source repository (sepehr071/iran-mcp) providing agent skills, workflows, or MCP capabilities verified via GitHub (303 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agent-skills`, `ai-agents`, `claude`, `claude-code-plugin` and designed to work with claude-code, cursor.
 
 ## Best for
 
-- Extending claude-code, cursor with coding capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** 96 MCP servers (1150 tools) that give AI agents the Iranian web: Digikala, Torob, Divar, Snappfood, Alibaba, Raja, SnappTrip, Neshan, Paziresh24, Jobinja, Aparat, Telewebion, Cinematicket, Kilid, Persian Wikipedia, weather, roads, laws, tax, crypto, stocks, news and more. Prices in Toman.
+- **Works with:** claude-code, cursor
+- **Key topics:** agent-skills, ai-agents, claude, claude-code-plugin, cursor
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 303 stars and Unknown licensing.
+GOOD — 303 GitHub stars (Unknown license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/sepehr071/iran-mcp
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/sepehr071/iran-mcp

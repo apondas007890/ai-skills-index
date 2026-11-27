@@ -135,8 +135,8 @@ export function SubmitSkillPage() {
 
   const isFormValid =
     Boolean(parseValidUrl(url)) &&
-    name.trim().length >= 2 &&
-    description.trim().length >= 5;
+    name.trim().length >= 1 &&
+    description.trim().length >= 1;
 
   const issueTitle = `[Skill Submission] ${name.trim() || 'New Skill'}`;
   const issueBody = [
@@ -282,27 +282,19 @@ export function SubmitSkillPage() {
 
           {/* Submit Actions */}
           <div className="flex flex-wrap items-center gap-2.5 border-t border-zinc-200 pt-5 dark:border-zinc-800">
-            <a
-              href={isFormValid ? githubIssueUrl : undefined}
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-disabled={!isFormValid}
-              onClick={(e) => {
-                if (!isFormValid) {
-                  e.preventDefault();
-                  return;
-                }
+            <button
+              type="button"
+              onClick={() => {
+                if (!isFormValid) return;
                 handleSaveLocally();
+                window.open(githubIssueUrl, '_blank', 'noopener,noreferrer');
               }}
-              className={`inline-flex items-center gap-1.5 rounded-xl px-5 py-2.5 text-xs font-semibold transition-colors ${
-                isFormValid
-                  ? 'bg-blue-600 text-white hover:bg-blue-700'
-                  : 'cursor-not-allowed bg-zinc-200 text-zinc-500 dark:bg-zinc-800 dark:text-zinc-500'
-              }`}
+              disabled={!isFormValid}
+              className="inline-flex items-center gap-1.5 rounded-xl bg-blue-600 px-5 py-2.5 text-xs font-semibold text-white transition-colors hover:bg-blue-700 disabled:cursor-not-allowed disabled:bg-zinc-200 disabled:text-zinc-500 dark:disabled:bg-zinc-800 dark:disabled:text-zinc-500"
             >
-              Submit via GitHub Issue
+              Submit Skill
               <ArrowUpRight className="h-3.5 w-3.5" />
-            </a>
+            </button>
 
             <button
               type="button"
@@ -323,6 +315,12 @@ export function SubmitSkillPage() {
               {copied ? <Check className="h-3.5 w-3.5 text-emerald-500" /> : <Copy className="h-3.5 w-3.5" />}
               {copied ? 'Copied' : 'Copy'}
             </button>
+
+            {!isFormValid && (
+              <span className="text-xs text-zinc-500 dark:text-zinc-400">
+                Enter a valid URL, name, and short description to submit.
+              </span>
+            )}
           </div>
         </div>
       </section>

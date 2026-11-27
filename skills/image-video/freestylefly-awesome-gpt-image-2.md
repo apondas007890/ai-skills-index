@@ -38,29 +38,26 @@ Prompt as Code | GPT Image 2 / 2.5 提示词与案例库，530+ 个案例、20+ 
 
 ## What it does
 
-Open-source repository (freestylefly/awesome-gpt-image-2) providing agent skills, workflows, or MCP capabilities verified via GitHub (36,163 stars).
+Provides programmatic video editing, motion graphics, storyboarding, or visual media generation. Focused on `agents`, `ai-image-generation`, `chatgpt`, `dsh-plugin` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with image-video capabilities
-- Teams evaluating community-backed agents tooling
+- **Primary goal:** Prompt as Code | GPT Image 2 / 2.5 提示词与案例库，530+ 个案例、20+ 套工业级模板与可复用 Skills，新增 2.5 同提示词对比专区，附完整提示词与生成记录，持续更新。
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** agents, ai-image-generation, chatgpt, dsh-plugin, gpt-image-2
 
 ## Verdict
 
-EXCELLENT — verified active GitHub repository with 36,163 stars and MIT licensing.
+EXCELLENT — 36,163 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/freestylefly/awesome-gpt-image-2
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/freestylefly/awesome-gpt-image-2

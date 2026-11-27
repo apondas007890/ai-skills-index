@@ -36,29 +36,26 @@ featured: false
 
 ## What it does
 
-Open-source repository (agenmod/immortal-skill) providing agent skills, workflows, or MCP capabilities verified via GitHub (1,161 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agent-skills`, `ai-agent`, `chatbot`, `cursor` and designed to work with cursor.
 
 ## Best for
 
-- Extending cursor with agents capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** ♾️ 开源数字永生框架 — 从聊天记录蒸馏任何人的七维数字分身。支持微信/飞书/iMessage/Telegram等12+平台，7种角色模板，对齐 OpenClaw Soul Spec 标准。一行指令让你的AI学会蒸馏。
+- **Works with:** cursor
+- **Key topics:** agent-skills, ai-agent, chatbot, cursor, digital-immortality
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 1,161 stars and MIT licensing.
+GOOD — 1,161 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/agenmod/immortal-skill
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/agenmod/immortal-skill

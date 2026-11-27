@@ -39,29 +39,26 @@ Ghost Security's collection of AppSec skills for AI coding agents
 
 ## What it does
 
-Open-source repository (ghostsecurity/skills) providing agent skills, workflows, or MCP capabilities verified via GitHub (447 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agent-skills`, `agents`, `ai`, `security` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with coding capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** Ghost Security's collection of AppSec skills for AI coding agents
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** agent-skills, agents, ai, security
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 447 stars and Apache-2.0 licensing.
+GOOD — 447 GitHub stars (Apache-2.0 license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/ghostsecurity/skills
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/ghostsecurity/skills

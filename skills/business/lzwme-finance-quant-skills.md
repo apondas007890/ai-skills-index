@@ -36,29 +36,26 @@ featured: false
 
 ## What it does
 
-Open-source repository (lzwme/finance-quant-skills) providing agent skills, workflows, or MCP capabilities verified via GitHub (500 stars).
+Provides SEO, marketing, product management, analytics, or business workflow templates. Focused on `agent-skills`, `skills` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with business capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** 一个面向金融量化交易领域的 Agent Skills 技能维护仓库，主要聚焦A股量化交易。
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** agent-skills, skills
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 500 stars and Unknown licensing.
+GOOD — 500 GitHub stars (Unknown license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/lzwme/finance-quant-skills
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/lzwme/finance-quant-skills

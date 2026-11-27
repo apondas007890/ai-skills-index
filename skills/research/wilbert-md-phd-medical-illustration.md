@@ -37,29 +37,26 @@ featured: false
 
 ## What it does
 
-Open-source repository (wilbert-MD-PhD/medical-illustration) providing agent skills, workflows, or MCP capabilities verified via GitHub (177 stars).
+Provides structured web research, academic/data analysis, or synthesis capabilities. Focused on `agent-skills`, `claude-code`, `codex`, `medical-illustration` and designed to work with claude-code, codex.
 
 ## Best for
 
-- Extending claude-code, codex with research capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** 面向 Codex、Claude Code 等 AI Agent 的医学绘图 Skill，基于可信证据制作医学插画、科普漫画与科研示意图，提供可编辑成果与审核记录。 · Evidence-backed medical illustration, comics and research figures for Codex, Claude Code and other AI agents, with editable output and review records.
+- **Works with:** claude-code, codex
+- **Key topics:** agent-skills, claude-code, codex, medical-illustration, science-communication
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 177 stars and Unknown licensing.
+GOOD — 177 GitHub stars (Unknown license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/wilbert-MD-PhD/medical-illustration
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/wilbert-MD-PhD/medical-illustration

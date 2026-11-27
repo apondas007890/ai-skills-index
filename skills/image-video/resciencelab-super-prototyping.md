@@ -37,29 +37,26 @@ A product-validation system for AI agents: idea → logo → product → brand �
 
 ## What it does
 
-Open-source repository (ReScienceLab/super-prototyping) providing agent skills, workflows, or MCP capabilities verified via GitHub (95 stars).
+Provides programmatic video editing, motion graphics, storyboarding, or visual media generation. Focused on `agent-skills`, `claude-code`, `design-system`, `prototyping` and designed to work with claude-code, codex.
 
 ## Best for
 
-- Extending claude-code, codex with image-video capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** A product-validation system for AI agents: idea → logo → product → brand → launch video in two hours. Desktop app + skills for Claude Code and Codex.
+- **Works with:** claude-code, codex
+- **Key topics:** agent-skills, claude-code, design-system, prototyping, tldraw
 
 ## Verdict
 
-PROMISING — verified active GitHub repository with 95 stars and Apache-2.0 licensing.
+PROMISING — 95 GitHub stars (Apache-2.0 license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/ReScienceLab/super-prototyping
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/ReScienceLab/super-prototyping

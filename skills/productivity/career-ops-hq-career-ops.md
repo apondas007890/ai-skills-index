@@ -39,29 +39,26 @@ Open-source AI job search agent and job finder: scan job boards, score each job 
 
 ## What it does
 
-Open-source repository (career-ops-hq/career-ops) providing agent skills, workflows, or MCP capabilities verified via GitHub (85,067 stars).
+Provides planning, writing, note-taking, or personal knowledge management workflows. Focused on `agent-skills`, `ai-agent`, `ai-job-search`, `ats` and designed to work with claude-code, codex, gemini-cli, opencode.
 
 ## Best for
 
-- Extending claude-code, codex, gemini-cli with productivity capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** Open-source AI job search agent and job finder: scan job boards, score each job 1-5 against your CV before you apply, tailor an ATS-friendly resume and cover letter, get interview prep and an application tracker. It helps you fill in each application; you press Submit. Runs locally in Codex, OpenCode and other AI CLIs, or as a Claude Code plugin.
+- **Works with:** claude-code, codex, gemini-cli, opencode
+- **Key topics:** agent-skills, ai-agent, ai-job-search, ats, career
 
 ## Verdict
 
-EXCELLENT — verified active GitHub repository with 85,067 stars and MIT licensing.
+EXCELLENT — 85,067 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/career-ops-hq/career-ops
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/career-ops-hq/career-ops

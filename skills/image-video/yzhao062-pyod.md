@@ -38,29 +38,26 @@ A Python library for anomaly detection across tabular, time series, graph, text,
 
 ## What it does
 
-Open-source repository (yzhao062/pyod) providing agent skills, workflows, or MCP capabilities verified via GitHub (10,104 stars).
+Provides programmatic video editing, motion graphics, storyboarding, or visual media generation. Focused on `agentic-ai`, `anomaly-detection`, `data-mining`, `data-science` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with image-video capabilities
-- Teams evaluating community-backed agentic-ai tooling
+- **Primary goal:** A Python library for anomaly detection across tabular, time series, graph, text, image, and audio data. 60+ detectors, benchmark-backed ADEngine orchestration, and an agentic workflow for AI agents.
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** agentic-ai, anomaly-detection, data-mining, data-science, deep-learning
 
 ## Verdict
 
-EXCELLENT — verified active GitHub repository with 10,104 stars and BSD-2-Clause licensing.
+EXCELLENT — 10,104 GitHub stars (BSD-2-Clause license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/yzhao062/pyod
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/yzhao062/pyod

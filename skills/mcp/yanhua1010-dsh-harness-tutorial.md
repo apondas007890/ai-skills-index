@@ -40,29 +40,26 @@ DeepSeek Harness Agent 的原理与实现：从零到一实现一个 AI Agent �
 
 ## What it does
 
-Open-source repository (yanhua1010/dsh-harness-tutorial) providing agent skills, workflows, or MCP capabilities verified via GitHub (93 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `ai-agent`, `deepseek`, `dsh`, `tutorial` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with coding capabilities
-- Teams evaluating community-backed ai-agent tooling
+- **Primary goal:** DeepSeek Harness Agent 的原理与实现：从零到一实现一个 AI Agent —— 一切皆插件的中文教程（VitePress 站点 + 8 个 Demo + mini-harness 教学项目）
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** ai-agent, deepseek, dsh, tutorial, typescript
 
 ## Verdict
 
-PROMISING — verified active GitHub repository with 93 stars and MIT licensing.
+PROMISING — 93 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/yanhua1010/dsh-harness-tutorial
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/yanhua1010/dsh-harness-tutorial

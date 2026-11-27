@@ -37,29 +37,26 @@ An agent skill that draws animated icons in one consistent style, for Claude Cod
 
 ## What it does
 
-Open-source repository (kubai087/kubai-icons) providing agent skills, workflows, or MCP capabilities verified via GitHub (1,272 stars).
+Provides programmatic video editing, motion graphics, storyboarding, or visual media generation. Focused on `agent-skills`, `ai-agents`, `animated-icons`, `animation` and designed to work with claude-code, codex.
 
 ## Best for
 
-- Extending claude-code, codex with image-video capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** An agent skill that draws animated icons in one consistent style, for Claude Code, Codex and other coding agents. Comes with 2,600+ open-source icons for React, Vue and SVG, and a website to browse them.
+- **Works with:** claude-code, codex
+- **Key topics:** agent-skills, ai-agents, animated-icons, animation, claude
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 1,272 stars and Unknown licensing.
+GOOD — 1,272 GitHub stars (Unknown license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/kubai087/kubai-icons
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/kubai087/kubai-icons

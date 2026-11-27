@@ -36,29 +36,26 @@ Agent-native marketing CLI: 76 skills, 6 research/review agents, brand memory th
 
 ## What it does
 
-Open-source repository (MoizIbnYousaf/marketing-cli) providing agent skills, workflows, or MCP capabilities verified via GitHub (35 stars).
+Provides voice synthesis, transcription, audio editing, or music generation workflows. Focused on `agent-skills`, `ai-agents`, `ai-marketing`, `brand-memory` and designed to work with claude-code.
 
 ## Best for
 
-- Extending claude-code with audio-music capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** Agent-native marketing CLI: 76 skills, 6 research/review agents, brand memory that compounds across sessions, and a local Studio dashboard. One npm install, then /cmo in your coding agent.
+- **Works with:** claude-code
+- **Key topics:** agent-skills, ai-agents, ai-marketing, brand-memory, brand-voice
 
 ## Verdict
 
-PROMISING — verified active GitHub repository with 35 stars and MIT licensing.
+PROMISING — 35 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/MoizIbnYousaf/marketing-cli
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/MoizIbnYousaf/marketing-cli

@@ -36,29 +36,26 @@ Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering tech
 
 ## What it does
 
-Open-source repository (AgriciDaniel/claude-seo) providing agent skills, workflows, or MCP capabilities verified via GitHub (32,650 stars).
+Provides SEO, marketing, product management, analytics, or business workflow templates. Focused on `ai`, `ai-seo`, `claude-code`, `claude-code-skill` and designed to work with claude-code.
 
 ## Best for
 
-- Extending claude-code with business capabilities
-- Teams evaluating community-backed ai tooling
+- **Primary goal:** Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.
+- **Works with:** claude-code
+- **Key topics:** ai, ai-seo, claude-code, claude-code-skill, marketing-automation
 
 ## Verdict
 
-EXCELLENT — verified active GitHub repository with 32,650 stars and MIT licensing.
+EXCELLENT — 32,650 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/AgriciDaniel/claude-seo
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/AgriciDaniel/claude-seo

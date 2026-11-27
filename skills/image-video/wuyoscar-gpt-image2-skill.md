@@ -37,29 +37,26 @@ GPT Image 2/2.5/2.6 prompt gallery, image prompt library, agentic skill, and CLI
 
 ## What it does
 
-Open-source repository (wuyoscar/GPT-Image2-Skill) providing agent skills, workflows, or MCP capabilities verified via GitHub (6,206 stars).
+Provides programmatic video editing, motion graphics, storyboarding, or visual media generation. Focused on `agent-skills`, `ai-image-prompts`, `claude-code-skill`, `cli` and designed to work with claude-code, codex.
 
 ## Best for
 
-- Extending claude-code, codex with image-video capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** GPT Image 2/2.5/2.6 prompt gallery, image prompt library, agentic skill, and CLI for OpenAI image generation/editing
+- **Works with:** claude-code, codex
+- **Key topics:** agent-skills, ai-image-prompts, claude-code-skill, cli, codex-skill
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 6,206 stars and MIT licensing.
+GOOD — 6,206 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/wuyoscar/GPT-Image2-Skill
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/wuyoscar/GPT-Image2-Skill

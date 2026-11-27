@@ -39,29 +39,26 @@ featured: false
 
 ## What it does
 
-Open-source repository (aaron-he-zhu/aaron-marketing-skills) providing agent skills, workflows, or MCP capabilities verified via GitHub (3,204 stars).
+Provides programmatic video editing, motion graphics, storyboarding, or visual media generation. Focused on `aaron-marketing`, `agent-skills`, `ai-staff`, `brand-messaging` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with image-video capabilities
-- Teams evaluating community-backed aaron-marketing tooling
+- **Primary goal:** 120 marketing skills as an AI marketing staff — plugin, portable skills, or an 8-bot team across 7 disciplines (narrative, SEO/GEO, social, email, paid, influencer, launch) on one contract, with 8 auditor gates: TALE · CORE-EEAT · CITE · ECHO · SEND · ROAS · STAR · RAMP.
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** aaron-marketing, agent-skills, ai-staff, brand-messaging, brand-narrative
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 3,204 stars and Apache-2.0 licensing.
+GOOD — 3,204 GitHub stars (Apache-2.0 license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/aaron-he-zhu/aaron-marketing-skills
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/aaron-he-zhu/aaron-marketing-skills

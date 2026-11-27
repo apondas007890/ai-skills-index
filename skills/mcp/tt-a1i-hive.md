@@ -40,29 +40,26 @@ Browser-native hive-mind for CLI coding agents — Claude Code, Codex, Gemini, a
 
 ## What it does
 
-Open-source repository (tt-a1i/hive) providing agent skills, workflows, or MCP capabilities verified via GitHub (610 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agent-orchestration`, `ai-agents`, `claude-code`, `cli` and designed to work with claude-code, codex, gemini-cli, opencode.
 
 ## Best for
 
-- Extending claude-code, codex, gemini-cli with automation capabilities
-- Teams evaluating community-backed agent-orchestration tooling
+- **Primary goal:** Browser-native hive-mind for CLI coding agents — Claude Code, Codex, Gemini, and OpenCode collaborate as real PTY processes via a team protocol.
+- **Works with:** claude-code, codex, gemini-cli, opencode
+- **Key topics:** agent-orchestration, ai-agents, claude-code, cli, codex
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 610 stars and Unknown licensing.
+GOOD — 610 GitHub stars (Unknown license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/tt-a1i/hive
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/tt-a1i/hive

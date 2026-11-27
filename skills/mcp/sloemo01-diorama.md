@@ -40,29 +40,26 @@ Playbook and Three.js code kit for detailed dioramas: classic pixel art, stroked
 
 ## What it does
 
-Open-source repository (sloemo01/diorama) providing agent skills, workflows, or MCP capabilities verified via GitHub (735 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agent-skill`, `agent-skill-repository`, `agent-skills`, `ai-agents` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with coding capabilities
-- Teams evaluating community-backed agent-skill tooling
+- **Primary goal:** Playbook and Three.js code kit for detailed dioramas: classic pixel art, stroked toon or pixel + stroke; two intake gates for look and model sourcing; free orbit, palette snap and ink; animated toy-scale cast; per-entity frame QA.
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** agent-skill, agent-skill-repository, agent-skills, ai-agents, creative-coding
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 735 stars and MIT licensing.
+GOOD — 735 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/sloemo01/diorama
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/sloemo01/diorama

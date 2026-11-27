@@ -36,29 +36,26 @@ featured: false
 
 ## What it does
 
-Open-source repository (moskoo/xxg-portrait-rebuild-light) providing agent skills, workflows, or MCP capabilities verified via GitHub (227 stars).
+Provides programmatic video editing, motion graphics, storyboarding, or visual media generation. Focused on `agent-skills`, `ai-agents`, `codex`, `image-editing` and designed to work with codex.
 
 ## Best for
 
-- Extending codex with image-video capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** `xxg-portrait-rebuild-light` is an image-edit skill for existing portrait photos. It reconstructs the key light, fill, shadows, and background atmosphere with a director-led lighting workflow while restoring clean, healthy, low-contrast photographic skin microtexture.
+- **Works with:** codex
+- **Key topics:** agent-skills, ai-agents, codex, image-editing, openai
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 227 stars and MIT licensing.
+GOOD — 227 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/moskoo/xxg-portrait-rebuild-light
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/moskoo/xxg-portrait-rebuild-light

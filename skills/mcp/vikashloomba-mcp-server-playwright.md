@@ -37,29 +37,26 @@ MCP server for browser automation using Playwright
 
 ## What it does
 
-Open-source repository (VikashLoomba/MCP-Server-Playwright) providing agent skills, workflows, or MCP capabilities verified via GitHub (298 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `automation`, `agent-skills` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with automation capabilities
-- Teams evaluating community-backed automation tooling
+- **Primary goal:** MCP server for browser automation using Playwright
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** automation, agent-skills
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 298 stars and MIT licensing.
+GOOD — 298 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/VikashLoomba/MCP-Server-Playwright
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/VikashLoomba/MCP-Server-Playwright

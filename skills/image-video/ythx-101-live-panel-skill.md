@@ -37,29 +37,26 @@ Agent skill + renderer: turn one JSON config (or an Excalidraw file) into an ani
 
 ## What it does
 
-Open-source repository (ythx-101/live-panel-skill) providing agent skills, workflows, or MCP capabilities verified via GitHub (883 stars).
+Provides programmatic video editing, motion graphics, storyboarding, or visual media generation. Focused on `agent-skill`, `ai-agents`, `animated-diagram`, `architecture-diagram` and designed to work with claude-code, codex.
 
 ## Best for
 
-- Extending claude-code, codex with image-video capabilities
-- Teams evaluating community-backed agent-skill tooling
+- **Primary goal:** Agent skill + renderer: turn one JSON config (or an Excalidraw file) into an animated architecture diagram — terminal-style live panel or pastel infographic — as mp4 or a looping web page. 动态架构图 / agent 架构动图，适配 X 与小红书。
+- **Works with:** claude-code, codex
+- **Key topics:** agent-skill, ai-agents, animated-diagram, architecture-diagram, chinese
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 883 stars and MIT licensing.
+GOOD — 883 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/ythx-101/live-panel-skill
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/ythx-101/live-panel-skill

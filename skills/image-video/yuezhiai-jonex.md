@@ -39,29 +39,26 @@ All-in-One Multimodal Parsing Engine + Ontology-Powered, LLM Wiki-Driven AI-Read
 
 ## What it does
 
-Open-source repository (yuezhiai/jonex) providing agent skills, workflows, or MCP capabilities verified via GitHub (1,765 stars).
+Provides programmatic video editing, motion graphics, storyboarding, or visual media generation. Focused on `agent`, `agent-context`, `agent-skills`, `ai-context` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with image-video capabilities
-- Teams evaluating community-backed agent tooling
+- **Primary goal:** All-in-One Multimodal Parsing Engine + Ontology-Powered, LLM Wiki-Driven AI-Ready Knowledge Engine
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** agent, agent-context, agent-skills, ai-context, asr
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 1,765 stars and Unknown licensing.
+GOOD — 1,765 GitHub stars (Unknown license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/yuezhiai/jonex
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/yuezhiai/jonex

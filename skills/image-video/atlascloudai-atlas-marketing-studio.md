@@ -39,29 +39,26 @@ Marketing Studio is a self-hostable AI video ad studio for e-commerce: UGC produ
 
 ## What it does
 
-Open-source repository (AtlasCloudAI/atlas-marketing-studio) providing agent skills, workflows, or MCP capabilities verified via GitHub (57 stars).
+Provides programmatic video editing, motion graphics, storyboarding, or visual media generation. Focused on `agent`, `ai`, `ai-agents`, `ai-tools` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with image-video capabilities
-- Teams evaluating community-backed agent tooling
+- **Primary goal:** Marketing Studio is a self-hostable AI video ad studio for e-commerce: UGC product ads, reference-ad remakes, AI drama ads, and ad skits, powered by Atlas Cloud.
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** agent, ai, ai-agents, ai-tools, ai-video
 
 ## Verdict
 
-PROMISING — verified active GitHub repository with 57 stars and Unknown licensing.
+PROMISING — 57 GitHub stars (Unknown license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/AtlasCloudAI/atlas-marketing-studio
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/AtlasCloudAI/atlas-marketing-studio

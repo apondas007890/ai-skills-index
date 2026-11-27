@@ -37,29 +37,26 @@ Describe any machine in one line. Claude builds a photoreal, physics based, inte
 
 ## What it does
 
-Open-source repository (AirsupHQ/machine-skill) providing agent skills, workflows, or MCP capabilities verified via GitHub (755 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agent-skills`, `claude`, `claude-code`, `claude-skill` and designed to work with claude-code.
 
 ## Best for
 
-- Extending claude-code with coding capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** Describe any machine in one line. Claude builds a photoreal, physics based, interactive simulation of it in one HTML file, plus the film to post it. An open source Claude Code skill.
+- **Works with:** claude-code
+- **Key topics:** agent-skills, claude, claude-code, claude-skill, cutaway
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 755 stars and MIT licensing.
+GOOD — 755 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/AirsupHQ/machine-skill
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/AirsupHQ/machine-skill

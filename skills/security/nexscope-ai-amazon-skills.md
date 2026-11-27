@@ -40,29 +40,26 @@ Free AI agent skills for Amazon sellers—  keyword research, competitor analysi
 
 ## What it does
 
-Open-source repository (nexscope-ai/Amazon-Skills) providing agent skills, workflows, or MCP capabilities verified via GitHub (907 stars).
+Provides security auditing, static analysis, vulnerability checks, or defensive review workflows. Focused on `ai-agents`, `amazon`, `amazon-seller-automation`, `amazon-seller-tools` and designed to work with claude-code, codex, cursor, windsurf.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with research capabilities
-- Teams evaluating community-backed ai-agents tooling
+- **Primary goal:** Free AI agent skills for Amazon sellers—  keyword research, competitor analysis, listing audit & more. Works with OpenClaw, Claude Code, Cursor, Windsurf, Codex and any agent that supports the Skills format.
+- **Works with:** claude-code, codex, cursor, windsurf
+- **Key topics:** ai-agents, amazon, amazon-seller-automation, amazon-seller-tools, claude-code
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 907 stars and MIT licensing.
+GOOD — 907 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/nexscope-ai/Amazon-Skills
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/nexscope-ai/Amazon-Skills

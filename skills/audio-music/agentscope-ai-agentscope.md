@@ -39,29 +39,26 @@ Build and run agents you can see, understand and trust.
 
 ## What it does
 
-Open-source repository (agentscope-ai/agentscope) providing agent skills, workflows, or MCP capabilities verified via GitHub (36,768 stars).
+Provides voice synthesis, transcription, audio editing, or music generation workflows. Focused on `agent`, `chatbot`, `large-language-models`, `llm` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with audio-music capabilities
-- Teams evaluating community-backed agent tooling
+- **Primary goal:** Build and run agents you can see, understand and trust.
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** agent, chatbot, large-language-models, llm, llm-agent
 
 ## Verdict
 
-EXCELLENT — verified active GitHub repository with 36,768 stars and Apache-2.0 licensing.
+EXCELLENT — 36,768 GitHub stars (Apache-2.0 license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/agentscope-ai/agentscope
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/agentscope-ai/agentscope

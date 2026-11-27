@@ -37,29 +37,26 @@ Open-source skills and toolkits that let Claude Code, Codex and other coding age
 
 ## What it does
 
-Open-source repository (zhuyansen/awesome-claude-video-skills) providing agent skills, workflows, or MCP capabilities verified via GitHub (2,820 stars).
+Provides programmatic video editing, motion graphics, storyboarding, or visual media generation. Focused on `agent-skills`, `awesome-list`, `claude-code`, `claude-skills` and designed to work with claude-code, codex.
 
 ## Best for
 
-- Extending claude-code, codex with image-video capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** Open-source skills and toolkits that let Claude Code, Codex and other coding agents make video. 180 repos by type, each security-graded. English / 中文.
+- **Works with:** claude-code, codex
+- **Key topics:** agent-skills, awesome-list, claude-code, claude-skills, codex
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 2,820 stars and Unknown licensing.
+GOOD — 2,820 GitHub stars (Unknown license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/zhuyansen/awesome-claude-video-skills
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/zhuyansen/awesome-claude-video-skills

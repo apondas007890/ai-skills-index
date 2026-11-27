@@ -39,29 +39,26 @@ Qlib is an AI-oriented Quant investment platform that aims to use AI tech to emp
 
 ## What it does
 
-Open-source repository (microsoft/qlib) providing agent skills, workflows, or MCP capabilities verified via GitHub (50,614 stars).
+Provides structured web research, academic/data analysis, or synthesis capabilities. Focused on `algorithmic-trading`, `auto-quant`, `deep-learning`, `finance` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with research capabilities
-- Teams evaluating community-backed algorithmic-trading tooling
+- **Primary goal:** Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** algorithmic-trading, auto-quant, deep-learning, finance, fintech
 
 ## Verdict
 
-EXCELLENT — verified active GitHub repository with 50,614 stars and MIT licensing.
+EXCELLENT — 50,614 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/microsoft/qlib
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/microsoft/qlib

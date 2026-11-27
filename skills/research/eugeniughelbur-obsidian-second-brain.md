@@ -38,29 +38,26 @@ Persistent memory for Claude Code, Codex and 6 other AI agents, stored as plain 
 
 ## What it does
 
-Open-source repository (eugeniughelbur/obsidian-second-brain) providing agent skills, workflows, or MCP capabilities verified via GitHub (5,478 stars).
+Provides structured web research, academic/data analysis, or synthesis capabilities. Focused on `agent-memory`, `agent-skills`, `ai-note-taking`, `ai-second-brain` and designed to work with claude-code, codex, cursor.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with research capabilities
-- Teams evaluating community-backed agent-memory tooling
+- **Primary goal:** Persistent memory for Claude Code, Codex and 6 other AI agents, stored as plain markdown in your Obsidian vault. New: Crew, one shared logbook so Claude Code, Codex, Cursor and Grok Bot know what each other did. 48 commands: semantic search, self-rewriting notes, key-less research, scheduled agents.
+- **Works with:** claude-code, codex, cursor
+- **Key topics:** agent-memory, agent-skills, ai-note-taking, ai-second-brain, claude
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 5,478 stars and MIT licensing.
+GOOD — 5,478 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/eugeniughelbur/obsidian-second-brain
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/eugeniughelbur/obsidian-second-brain

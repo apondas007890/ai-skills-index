@@ -36,29 +36,26 @@ featured: false
 
 ## What it does
 
-Open-source repository (swaylq/sunge-skill) providing agent skills, workflows, or MCP capabilities verified via GitHub (21 stars).
+Provides planning, writing, note-taking, or personal knowledge management workflows. Focused on `agent-skill`, `ai-writing`, `chinese-writing`, `claude-code` and designed to work with claude-code.
 
 ## Best for
 
-- Extending claude-code with productivity capabilities
-- Teams evaluating community-backed agent-skill tooling
+- **Primary goal:** 孙割.skill · 孙学 —— 蒸馏孙宇晨的大脑、写作风格、决策能力，三者合一。Distills Justin Sun's mind, writing style & decision-making into one Claude skill.
+- **Works with:** claude-code
+- **Key topics:** agent-skill, ai-writing, chinese-writing, claude-code, claude-skill
 
 ## Verdict
 
-PROMISING — verified active GitHub repository with 21 stars and Unknown licensing.
+PROMISING — 21 GitHub stars (Unknown license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/swaylq/sunge-skill
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/swaylq/sunge-skill

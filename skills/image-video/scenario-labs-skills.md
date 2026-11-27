@@ -37,29 +37,26 @@ Get production-ready images, video, audio, and 3D from any AI agent: skills that
 
 ## What it does
 
-Open-source repository (scenario-labs/skills) providing agent skills, workflows, or MCP capabilities verified via GitHub (4,044 stars).
+Provides programmatic video editing, motion graphics, storyboarding, or visual media generation. Focused on `3d-models`, `agent-skills`, `ai-agents`, `ai-art` and designed to work with claude-code, codex.
 
 ## Best for
 
-- Extending claude-code, codex with image-video capabilities
-- Teams evaluating community-backed 3d-models tooling
+- **Primary goal:** Get production-ready images, video, audio, and 3D from any AI agent: skills that pick the right model, price before spending, and keep characters and brands consistent through the Scenario MCP, plus expert teams that drive Blender, Maya, ZBrush, Unreal, and Unity.
+- **Works with:** claude-code, codex
+- **Key topics:** 3d-models, agent-skills, ai-agents, ai-art, blender
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 4,044 stars and MIT licensing.
+GOOD — 4,044 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/scenario-labs/skills
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/scenario-labs/skills

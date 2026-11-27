@@ -37,29 +37,26 @@ Pashov Audit Group Skills
 
 ## What it does
 
-Open-source repository (pashov/skills) providing agent skills, workflows, or MCP capabilities verified via GitHub (1,326 stars).
+Provides security auditing, static analysis, vulnerability checks, or defensive review workflows. Focused on `agent-skills`, `ai-agents`, `ai-security`, `claude-code` and designed to work with claude-code.
 
 ## Best for
 
-- Extending claude-code with research capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** Pashov Audit Group Skills
+- **Works with:** claude-code
+- **Key topics:** agent-skills, ai-agents, ai-security, claude-code, defi-security
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 1,326 stars and MIT licensing.
+GOOD — 1,326 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/pashov/skills
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/pashov/skills

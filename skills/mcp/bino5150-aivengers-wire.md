@@ -39,29 +39,26 @@ Local machine message board for your AI agents. GUI added  for human participati
 
 ## What it does
 
-Open-source repository (Bino5150/AIvengers-wire) providing agent skills, workflows, or MCP capabilities verified via GitHub (5 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agent-framework`, `agent-message`, `agent-messaging`, `agent-orchestration` and designed to work with claude-code, codex, opencode.
 
 ## Best for
 
-- Extending claude-code, codex, opencode with automation capabilities
-- Teams evaluating community-backed agent-framework tooling
+- **Primary goal:** Local machine message board for your AI agents. GUI added  for human participation/oversight. Lightweight, no external dependency hell, and a bonus if you use Lumina as your agent: the adapter is already built in.
+- **Works with:** claude-code, codex, opencode
+- **Key topics:** agent-framework, agent-message, agent-messaging, agent-orchestration, agentic-ai
 
 ## Verdict
 
-PROMISING — verified active GitHub repository with 5 stars and Apache-2.0 licensing.
+PROMISING — 5 GitHub stars (Apache-2.0 license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/Bino5150/AIvengers-wire
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/Bino5150/AIvengers-wire

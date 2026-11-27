@@ -37,29 +37,26 @@ Local-first AI efficiency layer for coding agents and LLM apps. Budget and recov
 
 ## What it does
 
-Open-source repository (juyterman1000/entroly) providing agent skills, workflows, or MCP capabilities verified via GitHub (489 stars).
+Provides planning, writing, note-taking, or personal knowledge management workflows. Focused on `agent-memory`, `agent-skills`, `ai-agents`, `ai-coding-agents` and designed to work with claude-code, codex.
 
 ## Best for
 
-- Extending claude-code, codex with productivity capabilities
-- Teams evaluating community-backed agent-memory tooling
+- **Primary goal:** Local-first AI efficiency layer for coding agents and LLM apps. Budget and recover context, verify outputs against source, and resume work across agents.
+- **Works with:** claude-code, codex
+- **Key topics:** agent-memory, agent-skills, ai-agents, ai-coding-agents, claude-code
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 489 stars and Apache-2.0 licensing.
+GOOD — 489 GitHub stars (Apache-2.0 license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/juyterman1000/entroly
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/juyterman1000/entroly

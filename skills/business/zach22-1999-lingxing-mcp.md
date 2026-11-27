@@ -37,29 +37,26 @@ Open-source Lingxing ERP MCP for Amazon sellers: read-only access to sales, ads,
 
 ## What it does
 
-Open-source repository (zach22-1999/lingxing-mcp) providing agent skills, workflows, or MCP capabilities verified via GitHub (46 stars).
+Provides SEO, marketing, product management, analytics, or business workflow templates. Focused on `amazon-ppc`, `amazon-seller`, `claude-code`, `codex` and designed to work with claude-code, codex.
 
 ## Best for
 
-- Extending claude-code, codex with business capabilities
-- Teams evaluating community-backed amazon-ppc tooling
+- **Primary goal:** Open-source Lingxing ERP MCP for Amazon sellers: read-only access to sales, ads, profit, inventory, replenishment, and reports. 领星 MCP。
+- **Works with:** claude-code, codex
+- **Key topics:** amazon-ppc, amazon-seller, claude-code, codex, cross-border-ecommerce
 
 ## Verdict
 
-PROMISING — verified active GitHub repository with 46 stars and MIT licensing.
+PROMISING — 46 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/zach22-1999/lingxing-mcp
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/zach22-1999/lingxing-mcp

@@ -37,29 +37,26 @@ featured: false
 
 ## What it does
 
-Open-source repository (liangdabiao/Seedance2-Storyboard-Generator) providing agent skills, workflows, or MCP capabilities verified via GitHub (2,967 stars).
+Provides programmatic video editing, motion graphics, storyboarding, or visual media generation. Focused on `agent`, `skill`, `skills` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with image-video capabilities
-- Teams evaluating community-backed agent tooling
+- **Primary goal:** 一句话：试错成本越来越高，提示词的重要性从来没有像今天这样大。Seedance 2.0 Storyboard Generator 开源剧情剧本Skill工具，帮佬友一键写好剧本 - 将小说/故事转化为多集视频。 为什么做这个？ 因为 seedance2 已经改变了一切，需要新的剧本剧情制作工具，更好的利用新AI的能力和更方便的制作短剧
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** agent, skill, skills
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 2,967 stars and Unknown licensing.
+GOOD — 2,967 GitHub stars (Unknown license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/liangdabiao/Seedance2-Storyboard-Generator
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/liangdabiao/Seedance2-Storyboard-Generator

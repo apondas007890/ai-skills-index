@@ -37,29 +37,26 @@ featured: false
 
 ## What it does
 
-Open-source repository (kingcharleslzy-ai/claude-code-deepseek-3p-parity-skill) providing agent skills, workflows, or MCP capabilities verified via GitHub (9 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `anthropic-compatible`, `claude-code`, `claude-desktop`, `claude-skill` and designed to work with claude-code.
 
 ## Best for
 
-- Extending claude-code with coding capabilities
-- Teams evaluating community-backed anthropic-compatible tooling
+- **Primary goal:** 修复 Claude Code Desktop 接入 DeepSeek/第三方模型后能力缺失、联网失败、频繁权限弹窗的 Claude Skill
+- **Works with:** claude-code
+- **Key topics:** anthropic-compatible, claude-code, claude-desktop, claude-skill, deepseek
 
 ## Verdict
 
-PROMISING — verified active GitHub repository with 9 stars and MIT licensing.
+PROMISING — 9 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/kingcharleslzy-ai/claude-code-deepseek-3p-parity-skill
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/kingcharleslzy-ai/claude-code-deepseek-3p-parity-skill

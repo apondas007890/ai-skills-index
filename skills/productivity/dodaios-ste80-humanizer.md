@@ -38,29 +38,26 @@ STE80 Humanizer: agent skill that removes AI tells and rewrites text 80% of the 
 
 ## What it does
 
-Open-source repository (Dodaios/ste80-humanizer) providing agent skills, workflows, or MCP capabilities verified via GitHub (1,156 stars).
+Provides planning, writing, note-taking, or personal knowledge management workflows. Focused on `agent-skills`, `ai-writing`, `asd-ste100`, `claude-code` and designed to work with claude-code, codex, cursor.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with productivity capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** STE80 Humanizer: agent skill that removes AI tells and rewrites text 80% of the way to ASD-STE100 (Simplified Technical English), the method Andrej Karpathy shared.
+- **Works with:** claude-code, codex, cursor
+- **Key topics:** agent-skills, ai-writing, asd-ste100, claude-code, claude-skills
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 1,156 stars and MIT licensing.
+GOOD — 1,156 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/Dodaios/ste80-humanizer
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/Dodaios/ste80-humanizer

@@ -40,29 +40,26 @@ A local-first, encrypted Slack/Discord alternative built for the agentic era. AI
 
 ## What it does
 
-Open-source repository (kwalus/Canopy) providing agent skills, workflows, or MCP capabilities verified via GitHub (307 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agent-skills`, `agentic-ai`, `agentic-framework`, `agentic-systems` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with automation capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** A local-first, encrypted Slack/Discord alternative built for the agentic era. AI agents, such as openclaw, join channels, receive tasks, and coordinate on equal footing with humans — over a serverless P2P mesh.
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** agent-skills, agentic-ai, agentic-framework, agentic-systems, agentic-workflow
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 307 stars and Apache-2.0 licensing.
+GOOD — 307 GitHub stars (Apache-2.0 license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/kwalus/Canopy
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/kwalus/Canopy

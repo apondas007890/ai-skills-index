@@ -36,29 +36,26 @@ Reusable Agent Skills for Amazon product research, listings, advertising, invent
 
 ## What it does
 
-Open-source repository (xjli360/sealeap-amazon-skills) providing agent skills, workflows, or MCP capabilities verified via GitHub (454 stars).
+Provides structured web research, academic/data analysis, or synthesis capabilities. Focused on `advertising`, `agent-skills`, `ai-agents`, `amazon-ads` and designed to work with codex.
 
 ## Best for
 
-- Extending codex with research capabilities
-- Teams evaluating community-backed advertising tooling
+- **Primary goal:** Reusable Agent Skills for Amazon product research, listings, advertising, inventory, and operations.
+- **Works with:** codex
+- **Key topics:** advertising, agent-skills, ai-agents, amazon-ads, amazon-seller
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 454 stars and MIT licensing.
+GOOD — 454 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/xjli360/sealeap-amazon-skills
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/xjli360/sealeap-amazon-skills

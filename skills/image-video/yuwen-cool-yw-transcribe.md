@@ -36,29 +36,26 @@ Local-first, capability-aware, traceable audio and video transcription Skill for
 
 ## What it does
 
-Open-source repository (yuwen-cool/yw-transcribe) providing agent skills, workflows, or MCP capabilities verified via GitHub (23 stars).
+Provides programmatic video editing, motion graphics, storyboarding, or visual media generation. Focused on `asr`, `codex-skill`, `speech-to-text`, `stepfun` and designed to work with codex.
 
 ## Best for
 
-- Extending codex with image-video capabilities
-- Teams evaluating community-backed asr tooling
+- **Primary goal:** Local-first, capability-aware, traceable audio and video transcription Skill for Codex
+- **Works with:** codex
+- **Key topics:** asr, codex-skill, speech-to-text, stepfun, transcription
 
 ## Verdict
 
-PROMISING — verified active GitHub repository with 23 stars and MIT licensing.
+PROMISING — 23 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/yuwen-cool/yw-transcribe
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/yuwen-cool/yw-transcribe

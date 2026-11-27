@@ -37,29 +37,26 @@ featured: false
 
 ## What it does
 
-Open-source repository (ayi-ai/nie-grassroots-logic) providing agent skills, workflows, or MCP capabilities verified via GitHub (581 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agent-skills`, `china`, `cursor-skills`, `governance` and designed to work with cursor, roo-code.
 
 ## Best for
 
-- Extending cursor with agents capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** 聂·基层运行逻辑 · Agent Skill：基于聂辉华《基层中国的运行逻辑》的方法论工具箱（不含原书全文）
+- **Works with:** cursor, roo-code
+- **Key topics:** agent-skills, china, cursor-skills, governance, methodology
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 581 stars and MIT licensing.
+GOOD — 581 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/ayi-ai/nie-grassroots-logic
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/ayi-ai/nie-grassroots-logic

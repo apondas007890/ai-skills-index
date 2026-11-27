@@ -40,29 +40,26 @@ Fetch X/Twitter tweets, replies, timelines, search, Lists and X Articles without
 
 ## What it does
 
-Open-source repository (ythx-101/x-tweet-fetcher) providing agent skills, workflows, or MCP capabilities verified via GitHub (1,017 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agent-skills`, `agent-tools`, `ai-agent`, `automation` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with automation capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** Fetch X/Twitter tweets, replies, timelines, search, Lists and X Articles without login or API keys. Python CLI + library for AI agents: FxTwitter / Nitter / browser backends with auto fallback, unified JSON, optional SQLite archive. 免登录免 API 抓取推特推文。
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** agent-skills, agent-tools, ai-agent, automation, cli
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 1,017 stars and MIT licensing.
+GOOD — 1,017 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/ythx-101/x-tweet-fetcher
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/ythx-101/x-tweet-fetcher

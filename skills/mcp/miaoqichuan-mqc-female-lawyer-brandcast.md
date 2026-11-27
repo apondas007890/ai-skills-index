@@ -33,29 +33,26 @@ featured: false
 
 ## What it does
 
-Open-source repository (MiaoQichuan/mqc-female-lawyer-brandcast) providing agent skills, workflows, or MCP capabilities verified via GitHub (11 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agents`, `agent-skills` and designed to work with claude-code.
 
 ## Best for
 
-- Extending claude-code with agents capabilities
-- Teams evaluating community-backed agents tooling
+- **Primary goal:** 女律师 IP 形象内容工作台 · Claude Skill。内置 53 张形象素材，输入一段法律内容，输出朋友圈九宫格 / 小红书 3:4 / 公众号封面与插图 / 长图。版面位置写死不溢出，配图按语义匹配，法条走可插拔 MCP 核实。
+- **Works with:** claude-code
+- **Key topics:** agents, agent-skills
 
 ## Verdict
 
-PROMISING — verified active GitHub repository with 11 stars and Unknown licensing.
+PROMISING — 11 GitHub stars (Unknown license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/MiaoQichuan/mqc-female-lawyer-brandcast
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/MiaoQichuan/mqc-female-lawyer-brandcast

@@ -37,29 +37,26 @@ featured: false
 
 ## What it does
 
-Open-source repository (rollingSirius/TradeGit) providing agent skills, workflows, or MCP capabilities verified via GitHub (12 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agent-skills`, `ai`, `claude`, `codex` and designed to work with claude-code, codex.
 
 ## Best for
 
-- Extending claude-code, codex with agents capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** 交易日志 Skill：在 Claude / Codex / Workbuddy 里一句话记下交易和当时的理由，导入券商流水，FIFO 算清盈亏 —— 数据全程在你自己的 GitHub 私有仓库或本地，零依赖
+- **Works with:** claude-code, codex
+- **Key topics:** agent-skills, ai, claude, codex, ibkr
 
 ## Verdict
 
-PROMISING — verified active GitHub repository with 12 stars and MIT licensing.
+PROMISING — 12 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/rollingSirius/TradeGit
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/rollingSirius/TradeGit

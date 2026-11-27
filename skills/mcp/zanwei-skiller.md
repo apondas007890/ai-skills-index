@@ -37,29 +37,26 @@ A menubar app for browsing and installing Claude Code plugins and Agent Skills
 
 ## What it does
 
-Open-source repository (zanwei/skiller) providing agent skills, workflows, or MCP capabilities verified via GitHub (8 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `ai`, `claude`, `desktop-app`, `menubar` and designed to work with claude-code.
 
 ## Best for
 
-- Extending claude-code with coding capabilities
-- Teams evaluating community-backed ai tooling
+- **Primary goal:** A menubar app for browsing and installing Claude Code plugins and Agent Skills
+- **Works with:** claude-code
+- **Key topics:** ai, claude, desktop-app, menubar, plugins
 
 ## Verdict
 
-PROMISING — verified active GitHub repository with 8 stars and MIT licensing.
+PROMISING — 8 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/zanwei/skiller
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/zanwei/skiller

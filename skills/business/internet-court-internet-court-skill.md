@@ -38,29 +38,26 @@ The trust layer for agent-to-agent commerce — natural-language mandates, ERC-7
 
 ## What it does
 
-Open-source repository (internet-court/internet-court-skill) providing agent skills, workflows, or MCP capabilities verified via GitHub (7,212 stars).
+Provides SEO, marketing, product management, analytics, or business workflow templates. Focused on `a2a`, `adjudication`, `agent-payments`, `agent-skills` and designed to work with claude-code, codex, opencode.
 
 ## Best for
 
-- Extending claude-code, codex, opencode with business capabilities
-- Teams evaluating community-backed a2a tooling
+- **Primary goal:** The trust layer for agent-to-agent commerce — natural-language mandates, ERC-7710 delegated permissions, x402 payments, escrow, and dispute resolution as one open, catch-all Agent Skill / Claude Code plugin.
+- **Works with:** claude-code, codex, opencode
+- **Key topics:** a2a, adjudication, agent-payments, agent-skills, agentic-commerce
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 7,212 stars and Unknown licensing.
+GOOD — 7,212 GitHub stars (Unknown license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/internet-court/internet-court-skill
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/internet-court/internet-court-skill

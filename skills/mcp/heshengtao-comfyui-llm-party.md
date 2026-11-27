@@ -37,29 +37,26 @@ LLM Agent Framework in ComfyUI includes MCP sever, Omost,GPT-sovits, ChatTTS,GOT
 
 ## What it does
 
-Open-source repository (heshengtao/comfyui_LLM_party) providing agent skills, workflows, or MCP capabilities verified via GitHub (2,396 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agent`, `comfyui`, `dify`, `flux` and designed to work with gemini-cli.
 
 ## Best for
 
-- Extending gemini-cli with automation capabilities
-- Teams evaluating community-backed agent tooling
+- **Primary goal:** LLM Agent Framework in ComfyUI includes MCP sever, Omost,GPT-sovits, ChatTTS,GOT-OCR2.0, and FLUX prompt nodes,access to Feishu,discord,and adapts to all llms with similar openai / aisuite interfaces, such as o1,ollama, gemini, grok, qwen, GLM, deepseek, kimi,doubao. Adapted to local llms, vlm, gguf such as llama-3.3 Janus-Pro, Linkage graphRAG
+- **Works with:** gemini-cli
+- **Key topics:** agent, comfyui, dify, flux, gemini
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 2,396 stars and AGPL-3.0 licensing.
+GOOD — 2,396 GitHub stars (AGPL-3.0 license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/heshengtao/comfyui_LLM_party
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/heshengtao/comfyui_LLM_party

@@ -37,29 +37,26 @@ CocoCV (cococv.cn) - Full-stack AI Resume Platform & LaTeX Editor. 一句话生�
 
 ## What it does
 
-Open-source repository (wycocoyu/cococv) providing agent skills, workflows, or MCP capabilities verified via GitHub (187 stars).
+Provides planning, writing, note-taking, or personal knowledge management workflows. Focused on `agent-skills`, `ai-agent`, `ats-checker`, `claude-code` and designed to work with claude-code, codex.
 
 ## Best for
 
-- Extending claude-code, codex with productivity capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** CocoCV (cococv.cn) - Full-stack AI Resume Platform & LaTeX Editor. 一句话生成在线可修改的高清 LaTeX PDF 简历：支持 AI 对话生成、可解释诊断与 ATS 检查、PDF/图片解析及 CLI / Agent Skill。
+- **Works with:** claude-code, codex
+- **Key topics:** agent-skills, ai-agent, ats-checker, claude-code, cli
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 187 stars and MIT licensing.
+GOOD — 187 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/wycocoyu/cococv
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/wycocoyu/cococv

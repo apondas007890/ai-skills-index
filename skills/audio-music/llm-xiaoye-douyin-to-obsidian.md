@@ -39,29 +39,26 @@ featured: false
 
 ## What it does
 
-Open-source repository (llm-xiaoye/douyin-to-obsidian) providing agent skills, workflows, or MCP capabilities verified via GitHub (210 stars).
+Provides voice synthesis, transcription, audio editing, or music generation workflows. Focused on `agent-skills`, `douyin`, `knowledge-management`, `obsidian` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with audio-music capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** 抖音视频与图文知识入库：本地语音转写与文字识别，按主题生成 Obsidian 笔记，维护索引与日志；由 Agent 驱动，CC Connect 为可选接入。
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** agent-skills, douyin, knowledge-management, obsidian, ocr
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 210 stars and MIT licensing.
+GOOD — 210 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/llm-xiaoye/douyin-to-obsidian
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/llm-xiaoye/douyin-to-obsidian

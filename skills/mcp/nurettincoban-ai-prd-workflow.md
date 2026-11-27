@@ -42,29 +42,26 @@ RFC-driven development for AI coding agents: idea or existing codebase → verif
 
 ## What it does
 
-Open-source repository (nurettincoban/ai-prd-workflow) providing agent skills, workflows, or MCP capabilities verified via GitHub (317 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agent-skills`, `agentic-coding`, `ai-tools`, `ai-workflow` and designed to work with claude-code, codex, cursor, gemini-cli, opencode, github-copilot.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with automation capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** RFC-driven development for AI coding agents: idea or existing codebase → verified PRD → features → rules → sequenced RFCs → reviewed code. Agent Skills for Claude Code, Codex, Copilot, Cursor, Gemini CLI, OpenCode, Devin.
+- **Works with:** claude-code, codex, cursor, gemini-cli, opencode, github-copilot
+- **Key topics:** agent-skills, agentic-coding, ai-tools, ai-workflow, claude
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 317 stars and MIT licensing.
+GOOD — 317 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/nurettincoban/ai-prd-workflow
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/nurettincoban/ai-prd-workflow

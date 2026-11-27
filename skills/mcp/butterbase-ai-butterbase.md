@@ -40,29 +40,26 @@ Open-source backend-as-a-service. Postgres, auth, storage, functions, AI gateway
 
 ## What it does
 
-Open-source repository (butterbase-ai/butterbase) providing agent skills, workflows, or MCP capabilities verified via GitHub (3,034 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `baas`, `backend-as-a-service`, `mcp`, `open-source` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with coding capabilities
-- Teams evaluating community-backed baas tooling
+- **Primary goal:** Open-source backend-as-a-service. Postgres, auth, storage, functions, AI gateway, MCP.
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** baas, backend-as-a-service, mcp, open-source, postgres
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 3,034 stars and Apache-2.0 licensing.
+GOOD — 3,034 GitHub stars (Apache-2.0 license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/butterbase-ai/butterbase
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/butterbase-ai/butterbase

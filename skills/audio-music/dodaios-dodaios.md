@@ -37,29 +37,26 @@ One workspace for everything you do with AI: Claude Code, Codex and seven more c
 
 ## What it does
 
-Open-source repository (Dodaios/Dodaios) providing agent skills, workflows, or MCP capabilities verified via GitHub (460 stars).
+Provides voice synthesis, transcription, audio editing, or music generation workflows. Focused on `agent-orchestration`, `ai-agent`, `ai-coding-assistant`, `claude-code` and designed to work with claude-code, codex.
 
 ## Best for
 
-- Extending claude-code, codex with audio-music capabilities
-- Teams evaluating community-backed agent-orchestration tooling
+- **Primary goal:** One workspace for everything you do with AI: Claude Code, Codex and seven more coding agents side by side, one assistant that runs them, voice, and docs. Open source, on your computer, on your own plans and keys. Formerly Personal Jarvis.
+- **Works with:** claude-code, codex
+- **Key topics:** agent-orchestration, ai-agent, ai-coding-assistant, claude-code, coding-agent
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 460 stars and MIT licensing.
+GOOD — 460 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/Dodaios/Dodaios
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/Dodaios/Dodaios

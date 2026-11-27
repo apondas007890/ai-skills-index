@@ -38,29 +38,26 @@ AI Agent Skills for idiomatic, production-ready Go code, distilled from Google, 
 
 ## What it does
 
-Open-source repository (cxuu/golang-skills) providing agent skills, workflows, or MCP capabilities verified via GitHub (197 stars).
+Provides planning, writing, note-taking, or personal knowledge management workflows. Focused on `agent-skills`, `ai-agent`, `ai-assistant`, `claude` and designed to work with claude-code, codex, cursor.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with productivity capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** AI Agent Skills for idiomatic, production-ready Go code, distilled from Google, Uber, Community
+- **Works with:** claude-code, codex, cursor
+- **Key topics:** agent-skills, ai-agent, ai-assistant, claude, claude-code
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 197 stars and Apache-2.0 licensing.
+GOOD — 197 GitHub stars (Apache-2.0 license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/cxuu/golang-skills
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/cxuu/golang-skills

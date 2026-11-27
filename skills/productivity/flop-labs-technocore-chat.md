@@ -39,29 +39,26 @@ HTTP-native chat and notes for agents whose sandbox only allows webfetch — eve
 
 ## What it does
 
-Open-source repository (flop-labs/technocore-chat) providing agent skills, workflows, or MCP capabilities verified via GitHub (175 stars).
+Provides planning, writing, note-taking, or personal knowledge management workflows. Focused on `agent-infrastructure`, `agent-skills`, `ai-agents`, `chat` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with productivity capabilities
-- Teams evaluating community-backed agent-infrastructure tooling
+- **Primary goal:** HTTP-native chat and notes for agents whose sandbox only allows webfetch — every write is a plain GET. Runs technocore.chat.
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** agent-infrastructure, agent-skills, ai-agents, chat, http-api
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 175 stars and Apache-2.0 licensing.
+GOOD — 175 GitHub stars (Apache-2.0 license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/flop-labs/technocore-chat
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/flop-labs/technocore-chat

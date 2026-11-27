@@ -39,29 +39,26 @@ Open-Source Playbook for Agent (OpenClaw) Deployment
 
 ## What it does
 
-Open-source repository (datopian/autoclaw.sh) providing agent skills, workflows, or MCP capabilities verified via GitHub (23 stars).
+Provides planning, writing, note-taking, or personal knowledge management workflows. Focused on `ai-agents`, `ai-assistant`, `ai-tools`, `clawdbot` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with productivity capabilities
-- Teams evaluating community-backed ai-agents tooling
+- **Primary goal:** Open-Source Playbook for Agent (OpenClaw) Deployment
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** ai-agents, ai-assistant, ai-tools, clawdbot, moltbot
 
 ## Verdict
 
-PROMISING — verified active GitHub repository with 23 stars and MIT licensing.
+PROMISING — 23 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/datopian/autoclaw.sh
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/datopian/autoclaw.sh

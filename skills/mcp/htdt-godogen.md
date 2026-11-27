@@ -39,29 +39,26 @@ Skills for Claude Code, Codex and Antigravity to build games, and anything else 
 
 ## What it does
 
-Open-source repository (htdt/godogen) providing agent skills, workflows, or MCP capabilities verified via GitHub (7,427 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agent-skills`, `antigravity`, `babylonjs`, `bevy` and designed to work with claude-code, codex, antigravity.
 
 ## Best for
 
-- Extending claude-code, codex with coding capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** Skills for Claude Code, Codex and Antigravity to build games, and anything else a game engine renders well
+- **Works with:** claude-code, codex, antigravity
+- **Key topics:** agent-skills, antigravity, babylonjs, bevy, claude
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 7,427 stars and MIT licensing.
+GOOD — 7,427 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/htdt/godogen
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/htdt/godogen

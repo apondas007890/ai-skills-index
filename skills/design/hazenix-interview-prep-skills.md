@@ -39,29 +39,26 @@ Agent Skills for mock interviews, adaptive follow-ups, and resume-based intervie
 
 ## What it does
 
-Open-source repository (Hazenix/interview-prep-skills) providing agent skills, workflows, or MCP capabilities verified via GitHub (254 stars).
+Provides UI/UX design rules, component patterns, typography, accessibility, or visual polish. Focused on `agent`, `agent-skills`, `ai`, `backend` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with design capabilities
-- Teams evaluating community-backed agent tooling
+- **Primary goal:** Agent Skills for mock interviews, adaptive follow-ups, and resume-based interview questions.AI 技术面试陪练与简历出题，覆盖前端、Java/Go/C++ 后端和 AI 应用开发。
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** agent, agent-skills, ai, backend, backend-development
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 254 stars and MIT licensing.
+GOOD — 254 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/Hazenix/interview-prep-skills
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/Hazenix/interview-prep-skills

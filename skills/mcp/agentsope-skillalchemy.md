@@ -39,29 +39,26 @@ From thought to skill. From signal to structure.
 
 ## What it does
 
-Open-source repository (agentsope/SkillAlchemy) providing agent skills, workflows, or MCP capabilities verified via GitHub (509 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agent-skill`, `agent-skills`, `ai-agent`, `llm-agent` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with agents capabilities
-- Teams evaluating community-backed agent-skill tooling
+- **Primary goal:** From thought to skill. From signal to structure.
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** agent-skill, agent-skills, ai-agent, llm-agent, skill-acquisition
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 509 stars and MIT licensing.
+GOOD — 509 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/agentsope/SkillAlchemy
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/agentsope/SkillAlchemy

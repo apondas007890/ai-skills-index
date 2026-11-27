@@ -38,29 +38,26 @@ Bubble's Brain — 个人 AI 知识库：Agent 教程、一手资料与实践笔
 
 ## What it does
 
-Open-source repository (BubbleBrainBB/bubbles-brain) providing agent skills, workflows, or MCP capabilities verified via GitHub (25 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `ai-knowledge-base`, `astro`, `cloudflare-pages`, `vibe-coding` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with agents capabilities
-- Teams evaluating community-backed ai-knowledge-base tooling
+- **Primary goal:** Bubble's Brain — 个人 AI 知识库：Agent 教程、一手资料与实践笔记
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** ai-knowledge-base, astro, cloudflare-pages, vibe-coding
 
 ## Verdict
 
-PROMISING — verified active GitHub repository with 25 stars and MIT licensing.
+PROMISING — 25 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/BubbleBrainBB/bubbles-brain
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/BubbleBrainBB/bubbles-brain

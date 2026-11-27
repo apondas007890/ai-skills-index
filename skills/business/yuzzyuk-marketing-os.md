@@ -38,29 +38,26 @@ An entire marketing department as one Claude skill. 14 modules: audits scored 0-
 
 ## What it does
 
-Open-source repository (Yuzzyuk/marketing-os) providing agent skills, workflows, or MCP capabilities verified via GitHub (582 stars).
+Provides SEO, marketing, product management, analytics, or business workflow templates. Focused on `agent-skills`, `ai-marketing`, `claude-code`, `claude-skills` and designed to work with claude-code, codex, cursor.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with business capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** An entire marketing department as one Claude skill. 14 modules: audits scored 0-100, an 18-tactic hook engine, copy graded before you see it, ad diagnosis, GEO, email, launches, pricing. Works in Claude, Codex and Cursor.
+- **Works with:** claude-code, codex, cursor
+- **Key topics:** agent-skills, ai-marketing, claude-code, claude-skills, codex
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 582 stars and MIT licensing.
+GOOD — 582 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/Yuzzyuk/marketing-os
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/Yuzzyuk/marketing-os

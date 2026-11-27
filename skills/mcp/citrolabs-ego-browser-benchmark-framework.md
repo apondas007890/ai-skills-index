@@ -40,29 +40,26 @@ Open-source benchmark harness for comparing model browser-use performance under 
 
 ## What it does
 
-Open-source repository (citrolabs/ego-browser-benchmark-framework) providing agent skills, workflows, or MCP capabilities verified via GitHub (9 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `benchmark`, `browser-automation`, `eval`, `evaluation-framework` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with automation capabilities
-- Teams evaluating community-backed benchmark tooling
+- **Primary goal:** Open-source benchmark harness for comparing model browser-use performance under controlled agent and browser-tool settings. Public beta.
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** benchmark, browser-automation, eval, evaluation-framework, pi
 
 ## Verdict
 
-PROMISING — verified active GitHub repository with 9 stars and MIT licensing.
+PROMISING — 9 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/citrolabs/ego-browser-benchmark-framework
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/citrolabs/ego-browser-benchmark-framework

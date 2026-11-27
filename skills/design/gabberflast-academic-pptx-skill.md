@@ -36,29 +36,26 @@ A Claude Skill for creating academic presentations (conference talks, seminar sl
 
 ## What it does
 
-Open-source repository (Gabberflast/academic-pptx-skill) providing agent skills, workflows, or MCP capabilities verified via GitHub (1,708 stars).
+Provides UI/UX design rules, component patterns, typography, accessibility, or visual polish. Focused on `academic`, `academic-presentations`, `agent-skills`, `anthropic` and designed to work with claude-code.
 
 ## Best for
 
-- Extending claude-code with design capabilities
-- Teams evaluating community-backed academic tooling
+- **Primary goal:** A Claude Skill for creating academic presentations (conference talks, seminar slides, thesis defenses, grant briefings). Enforces action titles, structured argument, exhibit discipline, citation standards, and communication-first design. Works alongside Anthropic's built-in PPTX skill.
+- **Works with:** claude-code
+- **Key topics:** academic, academic-presentations, agent-skills, anthropic, claude
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 1,708 stars and MIT licensing.
+GOOD — 1,708 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/Gabberflast/academic-pptx-skill
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/Gabberflast/academic-pptx-skill

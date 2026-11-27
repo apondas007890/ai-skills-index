@@ -39,29 +39,26 @@ featured: false
 
 ## What it does
 
-Open-source repository (LeoYeAI/agent-master-skills) providing agent skills, workflows, or MCP capabilities verified via GitHub (2,228 stars).
+Provides UI/UX design rules, component patterns, typography, accessibility, or visual polish. Focused on `agent-skills`, `agentskills`, `ai-agent`, `ai-agents` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with design capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** 🧠 Curated collection of 2700+ best agent skills — AI, coding, marketing, design, finance and more. Harness-agnostic: works with Claude Code, Codex, Cursor, Gemini CLI, OpenClaw, Hermes and any Agent Skills runtime. Refreshed daily by MyClaw.ai — Powered by MyClaw.ai
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** agent-skills, agentskills, ai-agent, ai-agents, anthropic-skills
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 2,228 stars and MIT licensing.
+GOOD — 2,228 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/LeoYeAI/agent-master-skills
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/LeoYeAI/agent-master-skills

@@ -38,29 +38,26 @@ AI Agentic Trader
 
 ## What it does
 
-Open-source repository (marketcalls/Agentic-Trader) providing agent skills, workflows, or MCP capabilities verified via GitHub (32 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agentic`, `ai-trading`, `llm-api`, `openai-agents` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with agents capabilities
-- Teams evaluating community-backed agentic tooling
+- **Primary goal:** AI Agentic Trader
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** agentic, ai-trading, llm-api, openai-agents
 
 ## Verdict
 
-PROMISING — verified active GitHub repository with 32 stars and Unknown licensing.
+PROMISING — 32 GitHub stars (Unknown license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/marketcalls/Agentic-Trader
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/marketcalls/Agentic-Trader

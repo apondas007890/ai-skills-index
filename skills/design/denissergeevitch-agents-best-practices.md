@@ -37,29 +37,26 @@ Provider-neutral Agent Skill for Codex, Claude Code, and agentic harness design.
 
 ## What it does
 
-Open-source repository (DenisSergeevitch/agents-best-practices) providing agent skills, workflows, or MCP capabilities verified via GitHub (2,446 stars).
+Provides UI/UX design rules, component patterns, typography, accessibility, or visual polish. Focused on `agent-skill`, `agent-skills`, `agentic-workflows`, `agents` and designed to work with claude-code, codex.
 
 ## Best for
 
-- Extending claude-code, codex with design capabilities
-- Teams evaluating community-backed agent-skill tooling
+- **Primary goal:** Provider-neutral Agent Skill for Codex, Claude Code, and agentic harness design.
+- **Works with:** claude-code, codex
+- **Key topics:** agent-skill, agent-skills, agentic-workflows, agents, ai-agents
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 2,446 stars and MIT licensing.
+GOOD — 2,446 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/DenisSergeevitch/agents-best-practices
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/DenisSergeevitch/agents-best-practices

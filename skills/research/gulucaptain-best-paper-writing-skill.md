@@ -37,29 +37,26 @@ featured: false
 
 ## What it does
 
-Open-source repository (gulucaptain/Best-Paper-Writing-Skill) providing agent skills, workflows, or MCP capabilities verified via GitHub (1,039 stars).
+Provides structured web research, academic/data analysis, or synthesis capabilities. Focused on `academic-writing`, `agent-skills`, `claude-skills`, `codex` and designed to work with claude-code, codex.
 
 ## Best for
 
-- Extending claude-code, codex with research capabilities
-- Teams evaluating community-backed academic-writing tooling
+- **Primary goal:** [Writing] Claude / Codex skill for drafting abstracts, introductions, methods and experiments in the style of CVPR/ICCV/NeurIPS best papers, distilled from 60 award-winning papers.
+- **Works with:** claude-code, codex
+- **Key topics:** academic-writing, agent-skills, claude-skills, codex, cvpr
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 1,039 stars and Unknown licensing.
+GOOD — 1,039 GitHub stars (Unknown license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/gulucaptain/Best-Paper-Writing-Skill
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/gulucaptain/Best-Paper-Writing-Skill

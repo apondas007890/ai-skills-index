@@ -39,29 +39,26 @@ featured: false
 
 ## What it does
 
-Open-source repository (AtlasCloudAI/awesome-seedance-2.5-prompts-skills) providing agent skills, workflows, or MCP capabilities verified via GitHub (276 stars).
+Provides programmatic video editing, motion graphics, storyboarding, or visual media generation. Focused on `agent-skills`, `ai`, `ai-agents`, `ai-video` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with image-video capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** 100+ curated Seedance 2.5 prompts with real video previews, plus an installable Agent Skill that optimizes prompts, creates storyboards, and generates videos via Seedance models.
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** agent-skills, ai, ai-agents, ai-video, artificial-intelligence
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 276 stars and Unknown licensing.
+GOOD — 276 GitHub stars (Unknown license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/AtlasCloudAI/awesome-seedance-2.5-prompts-skills
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/AtlasCloudAI/awesome-seedance-2.5-prompts-skills

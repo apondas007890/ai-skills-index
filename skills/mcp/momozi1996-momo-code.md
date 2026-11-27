@@ -39,29 +39,26 @@ MOMO CODE — RSI *JEV*Pi --AI coding agent that evolves with you
 
 ## What it does
 
-Open-source repository (momozi1996/momo-code) providing agent skills, workflows, or MCP capabilities verified via GitHub (1,114 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agent`, `agents`, `ai`, `claude-code` and designed to work with claude-code, codex, opencode.
 
 ## Best for
 
-- Extending claude-code, codex, opencode with coding capabilities
-- Teams evaluating community-backed agent tooling
+- **Primary goal:** MOMO CODE — RSI *JEV*Pi --AI coding agent that evolves with you
+- **Works with:** claude-code, codex, opencode
+- **Key topics:** agent, agents, ai, claude-code, cli
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 1,114 stars and Unknown licensing.
+GOOD — 1,114 GitHub stars (Unknown license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/momozi1996/momo-code
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/momozi1996/momo-code

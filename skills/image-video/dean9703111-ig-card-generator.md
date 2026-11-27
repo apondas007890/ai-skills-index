@@ -39,29 +39,26 @@ Agent Skill：把文章／筆記／逐字稿提煉成 IG 輪播知識圖卡。Ma
 
 ## What it does
 
-Open-source repository (dean9703111/ig-card-generator) providing agent skills, workflows, or MCP capabilities verified via GitHub (16 stars).
+Provides programmatic video editing, motion graphics, storyboarding, or visual media generation. Focused on `agent-skill`, `carousel`, `content-creation`, `dsl` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with image-video capabilities
-- Teams evaluating community-backed agent-skill tooling
+- **Primary goal:** Agent Skill：把文章／筆記／逐字稿提煉成 IG 輪播知識圖卡。Markdown DSL → lint 把關 → Puppeteer 產出 1080×1350 PNG，深淺主題一次搞定
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** agent-skill, carousel, content-creation, dsl, infographic
 
 ## Verdict
 
-PROMISING — verified active GitHub repository with 16 stars and MIT licensing.
+PROMISING — 16 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/dean9703111/ig-card-generator
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/dean9703111/ig-card-generator

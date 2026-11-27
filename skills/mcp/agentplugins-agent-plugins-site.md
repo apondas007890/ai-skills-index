@@ -36,29 +36,26 @@ The official website for the Agent Plugins specification
 
 ## What it does
 
-Open-source repository (agentplugins/agent-plugins-site) providing agent skills, workflows, or MCP capabilities verified via GitHub (206 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agent-plugins`, `documentation` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with agents capabilities
-- Teams evaluating community-backed agent-plugins tooling
+- **Primary goal:** The official website for the Agent Plugins specification
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** agent-plugins, documentation
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 206 stars and Unknown licensing.
+GOOD — 206 GitHub stars (Unknown license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/agentplugins/agent-plugins-site
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/agentplugins/agent-plugins-site

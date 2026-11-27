@@ -38,29 +38,26 @@ AI Agent Skill to generate and render beautiful Mermaid diagrams as SVG or termi
 
 ## What it does
 
-Open-source repository (imxv/Pretty-mermaid-skills) providing agent skills, workflows, or MCP capabilities verified via GitHub (1,601 stars).
+Provides programmatic video editing, motion graphics, storyboarding, or visual media generation. Focused on `agent-skills`, `ai-agents`, `ascii-art`, `claude-code` and designed to work with claude-code, codex, cursor.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with image-video capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** AI Agent Skill to generate and render beautiful Mermaid diagrams as SVG or terminal ASCII — 15 themes, 6 diagram types, batch CLI, no browser.
+- **Works with:** claude-code, codex, cursor
+- **Key topics:** agent-skills, ai-agents, ascii-art, claude-code, codex
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 1,601 stars and MIT licensing.
+GOOD — 1,601 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/imxv/Pretty-mermaid-skills
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/imxv/Pretty-mermaid-skills

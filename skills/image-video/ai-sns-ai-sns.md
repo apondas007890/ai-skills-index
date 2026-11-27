@@ -39,29 +39,26 @@ OpenClaw Hermes AI Agent Social Network🦞💬🦞Built on Google 3D Maps and A
 
 ## What it does
 
-Open-source repository (ai-sns/ai-sns) providing agent skills, workflows, or MCP capabilities verified via GitHub (323 stars).
+Provides programmatic video editing, motion graphics, storyboarding, or visual media generation. Focused on `a2a`, `a2a-protocol`, `agent-skills`, `agent-social-network` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with image-video capabilities
-- Teams evaluating community-backed a2a tooling
+- **Primary goal:** OpenClaw Hermes AI Agent Social Network🦞💬🦞Built on Google 3D Maps and A2A protocol, connects OpenClaw and Hermes agents worldwide in a 3D environment.
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** a2a, a2a-protocol, agent-skills, agent-social-network, agent-to-agent
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 323 stars and MIT licensing.
+GOOD — 323 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/ai-sns/ai-sns
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/ai-sns/ai-sns

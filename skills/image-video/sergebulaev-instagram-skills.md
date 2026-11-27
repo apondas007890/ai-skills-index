@@ -37,29 +37,26 @@ Instagram marketing skills for Claude Code and Codex: captions, carousels, hooks
 
 ## What it does
 
-Open-source repository (sergebulaev/instagram-skills) providing agent skills, workflows, or MCP capabilities verified via GitHub (948 stars).
+Provides programmatic video editing, motion graphics, storyboarding, or visual media generation. Focused on `agent-skill`, `ai-agents`, `ai-marketing`, `captions` and designed to work with claude-code, codex.
 
 ## Best for
 
-- Extending claude-code, codex with image-video capabilities
-- Teams evaluating community-backed agent-skill tooling
+- **Primary goal:** Instagram marketing skills for Claude Code and Codex: captions, carousels, hooks, hashtag strategy, and a weekly plan. Draft, humanize, and publish via Publora. MIT. Content engineering by Creative Content Crafts.
+- **Works with:** claude-code, codex
+- **Key topics:** agent-skill, ai-agents, ai-marketing, captions, claude-code
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 948 stars and MIT licensing.
+GOOD — 948 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/sergebulaev/instagram-skills
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/sergebulaev/instagram-skills

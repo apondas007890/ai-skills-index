@@ -38,29 +38,26 @@ EveryInfra MCP server & agent plugin: scraper API for TikTok, Instagram, Amazon,
 
 ## What it does
 
-Open-source repository (everyinfra/everyinfra-agent-plugins) providing agent skills, workflows, or MCP capabilities verified via GitHub (873 stars).
+Provides creator workflows for scripting, hooks, thumbnails, titles, and channel growth. Focused on `ai-agents`, `amazon-scraper`, `captcha-solver`, `claude-code` and designed to work with claude-code, codex, cursor.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with youtube capabilities
-- Teams evaluating community-backed ai-agents tooling
+- **Primary goal:** EveryInfra MCP server & agent plugin: scraper API for TikTok, Instagram, Amazon, YouTube, Xiaohongshu & Douyin. 718 data APIs across 110 platforms, from $0.56/1K calls. For Claude Code, Cursor, Codex.
+- **Works with:** claude-code, codex, cursor
+- **Key topics:** ai-agents, amazon-scraper, captcha-solver, claude-code, cursor
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 873 stars and Apache-2.0 licensing.
+GOOD — 873 GitHub stars (Apache-2.0 license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/everyinfra/everyinfra-agent-plugins
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/everyinfra/everyinfra-agent-plugins

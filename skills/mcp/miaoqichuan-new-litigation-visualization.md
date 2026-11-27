@@ -38,29 +38,26 @@ featured: false
 
 ## What it does
 
-Open-source repository (MiaoQichuan/new-litigation-visualization) providing agent skills, workflows, or MCP capabilities verified via GitHub (179 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agent-skills`, `chronicle`, `chronology`, `claude-code` and designed to work with claude-code, codex.
 
 ## Best for
 
-- Extending claude-code, codex with coding capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** 把法律画出来 · Make the Law Visible —— 给法律人的诉讼可视化工具集，八个模块：重画、时间轴、关系图、大事记、对抗图、图表、课件、案件看板。照录原文、每项可追溯、脚本算图、不联网。Litigation visualization skills for lawyers · Claude Code / DeepSeek Harness
+- **Works with:** claude-code, codex
+- **Key topics:** agent-skills, chronicle, chronology, claude-code, claude-skills
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 179 stars and AGPL-3.0 licensing.
+GOOD — 179 GitHub stars (AGPL-3.0 license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/MiaoQichuan/new-litigation-visualization
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/MiaoQichuan/new-litigation-visualization

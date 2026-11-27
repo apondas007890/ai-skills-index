@@ -40,29 +40,26 @@ featured: false
 
 ## What it does
 
-Open-source repository (Marvae/douban-cli) providing agent skills, workflows, or MCP capabilities verified via GitHub (246 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agent-skills`, `ai-agent`, `ai-tools`, `backup` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with coding capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** 豆瓣命令行工具 + AI Agent Skill：查电影、剧集、图书和 Top250，导出备份豆瓣观影/读书记录，让 AI 放心地标记评分 | Douban CLI for movies, books & your ratings
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** agent-skills, ai-agent, ai-tools, backup, books
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 246 stars and MIT licensing.
+GOOD — 246 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/Marvae/douban-cli
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/Marvae/douban-cli

@@ -38,29 +38,26 @@ Deterministic finish-line gates for AI coding agents. A model-independent evalua
 
 ## What it does
 
-Open-source repository (renezander030/skillgate) providing agent skills, workflows, or MCP capabilities verified via GitHub (10 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agent-guardrails`, `ai-agents`, `bbs-signatures`, `ci` and designed to work with claude-code, opencode.
 
 ## Best for
 
-- Extending claude-code, opencode with coding capabilities
-- Teams evaluating community-backed agent-guardrails tooling
+- **Primary goal:** Deterministic finish-line gates for AI coding agents. A model-independent evaluator that blocks commit/publish until your definition-of-done passes. Works in opencode (any model), Claude Code, pre-commit and CI.
+- **Works with:** claude-code, opencode
+- **Key topics:** agent-guardrails, ai-agents, bbs-signatures, ci, claude-code
 
 ## Verdict
 
-PROMISING — verified active GitHub repository with 10 stars and MIT licensing.
+PROMISING — 10 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/renezander030/skillgate
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/renezander030/skillgate

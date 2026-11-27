@@ -37,29 +37,26 @@ Claude Code skill that teaches you anything in one screen: visual lessons with m
 
 ## What it does
 
-Open-source repository (eugeniughelbur/doceo) providing agent skills, workflows, or MCP capabilities verified via GitHub (17 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `ai`, `ai-tutor`, `claude-code`, `claude-skills` and designed to work with claude-code.
 
 ## Best for
 
-- Extending claude-code with coding capabilities
-- Teams evaluating community-backed ai tooling
+- **Primary goal:** Claude Code skill that teaches you anything in one screen: visual lessons with memory and a feedback loop
+- **Works with:** claude-code
+- **Key topics:** ai, ai-tutor, claude-code, claude-skills, developer-onboarding
 
 ## Verdict
 
-PROMISING — verified active GitHub repository with 17 stars and MIT licensing.
+PROMISING — 17 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/eugeniughelbur/doceo
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/eugeniughelbur/doceo

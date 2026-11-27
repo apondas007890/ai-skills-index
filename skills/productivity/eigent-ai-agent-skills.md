@@ -36,29 +36,26 @@ Open-Source Cowork Agent Skills Collection | High Quality for Exceptional Produc
 
 ## What it does
 
-Open-source repository (eigent-ai/agent-skills) providing agent skills, workflows, or MCP capabilities verified via GitHub (28 stars).
+Provides planning, writing, note-taking, or personal knowledge management workflows. Focused on `productivity`, `agent-skills` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with productivity capabilities
-- Teams evaluating community-backed productivity tooling
+- **Primary goal:** Open-Source Cowork Agent Skills Collection | High Quality for Exceptional Productivity
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** productivity, agent-skills
 
 ## Verdict
 
-PROMISING — verified active GitHub repository with 28 stars and Apache-2.0 licensing.
+PROMISING — 28 GitHub stars (Apache-2.0 license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/eigent-ai/agent-skills
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/eigent-ai/agent-skills

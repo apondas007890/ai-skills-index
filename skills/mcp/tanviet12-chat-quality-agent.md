@@ -37,29 +37,26 @@ Chat Quality Agent - Agent phân tích chất lượng CSKH bằng AI
 
 ## What it does
 
-Open-source repository (tanviet12/chat-quality-agent) providing agent skills, workflows, or MCP capabilities verified via GitHub (313 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `ai-agent`, `facebook-messenger`, `zalo` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with agents capabilities
-- Teams evaluating community-backed ai-agent tooling
+- **Primary goal:** Chat Quality Agent - Agent phân tích chất lượng CSKH bằng AI
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** ai-agent, facebook-messenger, zalo
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 313 stars and MIT licensing.
+GOOD — 313 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/tanviet12/chat-quality-agent
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/tanviet12/chat-quality-agent

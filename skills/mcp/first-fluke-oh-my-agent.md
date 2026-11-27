@@ -41,29 +41,26 @@ Agent skills and specialist teams for Claude Code, Codex, Cursor and other codin
 
 ## What it does
 
-Open-source repository (first-fluke/oh-my-agent) providing agent skills, workflows, or MCP capabilities verified via GitHub (1,480 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agent-harness`, `agent-orchestration`, `agent-skills`, `ai-agents` and designed to work with claude-code, codex, cursor, opencode, antigravity.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with coding capabilities
-- Teams evaluating community-backed agent-harness tooling
+- **Primary goal:** Agent skills and specialist teams for Claude Code, Codex, Cursor and other coding agents. Load one skill or install domain presets, project hooks and parallel workflows with test gates.
+- **Works with:** claude-code, codex, cursor, opencode, antigravity
+- **Key topics:** agent-harness, agent-orchestration, agent-skills, ai-agents, antigravity
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 1,480 stars and MIT licensing.
+GOOD — 1,480 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/first-fluke/oh-my-agent
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/first-fluke/oh-my-agent

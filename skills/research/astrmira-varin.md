@@ -37,29 +37,26 @@ The open-source agent harness, ready out of the box and customizable in depth. T
 
 ## What it does
 
-Open-source repository (Astrmira/Varin) providing agent skills, workflows, or MCP capabilities verified via GitHub (193 stars).
+Provides structured web research, academic/data analysis, or synthesis capabilities. Focused on `acp`, `agent-client-protocol`, `agent-harness`, `agent-skills` and designed to work with claude-code, codex.
 
 ## Best for
 
-- Extending claude-code, codex with research capabilities
-- Teams evaluating community-backed acp tooling
+- **Primary goal:** The open-source agent harness, ready out of the box and customizable in depth. Tools, context, durable execution, permissions and recovery for code, research and office work, with a long-running super-agent Bot that leads a team of agents.
+- **Works with:** claude-code, codex
+- **Key topics:** acp, agent-client-protocol, agent-harness, agent-skills, ai-agents
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 193 stars and AGPL-3.0 licensing.
+GOOD — 193 GitHub stars (AGPL-3.0 license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/Astrmira/Varin
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/Astrmira/Varin

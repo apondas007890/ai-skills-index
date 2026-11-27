@@ -36,29 +36,26 @@ Video as code: canvas scenes rendered with WebCodecs in headless Chrome, a revie
 
 ## What it does
 
-Open-source repository (staryone/motlab) providing agent skills, workflows, or MCP capabilities verified via GitHub (512 stars).
+Provides programmatic video editing, motion graphics, storyboarding, or visual media generation. Focused on `agent-skills`, `canvas`, `claude-code`, `headless-chrome` and designed to work with claude-code.
 
 ## Best for
 
-- Extending claude-code with image-video capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** Video as code: canvas scenes rendered with WebCodecs in headless Chrome, a review viewer, and agent skills that build the video from your references.
+- **Works with:** claude-code
+- **Key topics:** agent-skills, canvas, claude-code, headless-chrome, motion-graphics
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 512 stars and Apache-2.0 licensing.
+GOOD — 512 GitHub stars (Apache-2.0 license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/staryone/motlab
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/staryone/motlab

@@ -40,29 +40,26 @@ featured: false
 
 ## What it does
 
-Open-source repository (dean9703111/ai-agent-skill-for-video-workflow) providing agent skills, workflows, or MCP capabilities verified via GitHub (228 stars).
+Provides programmatic video editing, motion graphics, storyboarding, or visual media generation. Focused on `agent-skills`, `ai`, `ai-agent`, `ai-agent-skills` and designed to work with claude-code, codex, cursor, gemini-cli, antigravity.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with image-video capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** 這是一個專為影片字幕處理設計的 AI Agent Skills 集合，提供從音訊轉字幕、優化字幕、設計字卡到生成社群媒體摘要的完整工作流程。
+- **Works with:** claude-code, codex, cursor, gemini-cli, antigravity
+- **Key topics:** agent-skills, ai, ai-agent, ai-agent-skills, antigravity
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 228 stars and Unknown licensing.
+GOOD — 228 GitHub stars (Unknown license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/dean9703111/ai-agent-skill-for-video-workflow
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/dean9703111/ai-agent-skill-for-video-workflow

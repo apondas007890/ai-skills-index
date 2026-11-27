@@ -43,29 +43,26 @@ Add CometChat chat & messaging and voice & video calls to any React, Next.js, Re
 
 ## What it does
 
-Open-source repository (cometchat/cometchat-skills) providing agent skills, workflows, or MCP capabilities verified via GitHub (182 stars).
+Provides programmatic video editing, motion graphics, storyboarding, or visual media generation. Focused on `agent-skills`, `ai-agent`, `android`, `angular` and designed to work with claude-code, codex, cursor, gemini-cli, cline, kiro, windsurf, github-copilot.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with image-video capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** Add CometChat chat & messaging and voice & video calls to any React, Next.js, React Native, Angular, Android, iOS, or Flutter project through your AI coding agent. Works with Claude Code, Cursor, Codex, VS Code Copilot, Windsurf, Cline, Kiro, and 50+ more agents.
+- **Works with:** claude-code, codex, cursor, gemini-cli, cline, kiro, windsurf, github-copilot
+- **Key topics:** agent-skills, ai-agent, android, angular, chat
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 182 stars and MIT licensing.
+GOOD — 182 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/cometchat/cometchat-skills
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/cometchat/cometchat-skills

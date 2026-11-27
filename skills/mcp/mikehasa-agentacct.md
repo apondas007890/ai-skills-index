@@ -39,29 +39,26 @@ See what your coding agents did and what it cost. Breaks each task down into wor
 
 ## What it does
 
-Open-source repository (mikehasa/agentacct) providing agent skills, workflows, or MCP capabilities verified via GitHub (758 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agent-observability`, `ai-agents`, `analytics`, `claude-code` and designed to work with claude-code, codex, opencode.
 
 ## Best for
 
-- Extending claude-code, codex, opencode with coding capabilities
-- Teams evaluating community-backed agent-observability tooling
+- **Primary goal:** See what your coding agents did and what it cost. Breaks each task down into work steps — tools used, files changed, tests run, time and tokens spent. Local-first dashboard for Claude Code, Codex, OpenCode, and more. No login, no telemetry.
+- **Works with:** claude-code, codex, opencode
+- **Key topics:** agent-observability, ai-agents, analytics, claude-code, cli
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 758 stars and MIT licensing.
+GOOD — 758 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/mikehasa/agentacct
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/mikehasa/agentacct

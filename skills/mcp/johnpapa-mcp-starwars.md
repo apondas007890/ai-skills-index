@@ -40,29 +40,26 @@ MCP Server for the SWAPI Star Wars API. The main goal of the project is to show 
 
 ## What it does
 
-Open-source repository (johnpapa/mcp-starwars) providing agent skills, workflows, or MCP capabilities verified via GitHub (10 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `ai`, `javascript`, `mcp`, `mcp-server` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with coding capabilities
-- Teams evaluating community-backed ai tooling
+- **Primary goal:** MCP Server for the SWAPI Star Wars API. The main goal of the project is to show how an MCP server can be used to interact with APIs.
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** ai, javascript, mcp, mcp-server, starwars
 
 ## Verdict
 
-PROMISING — verified active GitHub repository with 10 stars and MIT licensing.
+PROMISING — 10 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/johnpapa/mcp-starwars
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/johnpapa/mcp-starwars

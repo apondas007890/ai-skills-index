@@ -36,29 +36,26 @@ KiCAD MCP is a Model Context Protocol (MCP) implementation that enables Large La
 
 ## What it does
 
-Open-source repository (mixelpixx/KiCAD-MCP-Server) providing agent skills, workflows, or MCP capabilities verified via GitHub (3,577 stars).
+Provides UI/UX design rules, component patterns, typography, accessibility, or visual polish. Focused on `ai`, `claude`, `eda`, `electronics` and designed to work with claude-code.
 
 ## Best for
 
-- Extending claude-code with design capabilities
-- Teams evaluating community-backed ai tooling
+- **Primary goal:** KiCAD MCP is a Model Context Protocol (MCP) implementation that enables Large Language Models (LLMs) like Claude to directly interact with KiCAD for printed circuit board design.
+- **Works with:** claude-code
+- **Key topics:** ai, claude, eda, electronics, hardware
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 3,577 stars and MIT licensing.
+GOOD — 3,577 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/mixelpixx/KiCAD-MCP-Server
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/mixelpixx/KiCAD-MCP-Server

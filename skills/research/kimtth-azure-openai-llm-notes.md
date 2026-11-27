@@ -39,29 +39,26 @@ A curated collection of resources for 🌌 Azure OpenAI, 🦙 LLMs (+RAG, Agents
 
 ## What it does
 
-Open-source repository (kimtth/azure-openai-llm-notes) providing agent skills, workflows, or MCP capabilities verified via GitHub (423 stars).
+Provides structured web research, academic/data analysis, or synthesis capabilities. Focused on `agent`, `agent-framework`, `agent-skills`, `agentic-ai` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with research capabilities
-- Teams evaluating community-backed agent tooling
+- **Primary goal:** A curated collection of resources for 🌌 Azure OpenAI, 🦙 LLMs (+RAG, Agents). Monthly Updates.
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** agent, agent-framework, agent-skills, agentic-ai, ai-agents
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 423 stars and Unknown licensing.
+GOOD — 423 GitHub stars (Unknown license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/kimtth/azure-openai-llm-notes
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/kimtth/azure-openai-llm-notes

@@ -39,29 +39,26 @@ InternAgent-1.5: A Unified Agentic Framework for Long-Horizon Autonomous Scienti
 
 ## What it does
 
-Open-source repository (InternScience/InternAgent) providing agent skills, workflows, or MCP capabilities verified via GitHub (1,472 stars).
+Provides structured web research, academic/data analysis, or synthesis capabilities. Focused on `agentic-framework`, `ai-scientists`, `automatic-paper-survey`, `automatic-scientific-discovery` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with research capabilities
-- Teams evaluating community-backed agentic-framework tooling
+- **Primary goal:** InternAgent-1.5: A Unified Agentic Framework for Long-Horizon Autonomous Scientific Discovery
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** agentic-framework, ai-scientists, automatic-paper-survey, automatic-scientific-discovery, coding-agents
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 1,472 stars and Unknown licensing.
+GOOD — 1,472 GitHub stars (Unknown license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/InternScience/InternAgent
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/InternScience/InternAgent

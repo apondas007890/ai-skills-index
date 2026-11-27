@@ -37,29 +37,26 @@ Give your AI agent a brain that remembers. Local memory system for Claude Code �
 
 ## What it does
 
-Open-source repository (24kchengYe/MemoMind) providing agent skills, workflows, or MCP capabilities verified via GitHub (605 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agent-memory`, `ai`, `claude-code`, `llm` and designed to work with claude-code.
 
 ## Best for
 
-- Extending claude-code with coding capabilities
-- Teams evaluating community-backed agent-memory tooling
+- **Primary goal:** Give your AI agent a brain that remembers. Local memory system for Claude Code — 100% private, GPU-accelerated, zero cloud dependency.
+- **Works with:** claude-code
+- **Key topics:** agent-memory, ai, claude-code, llm, local-first
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 605 stars and Unknown licensing.
+GOOD — 605 GitHub stars (Unknown license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/24kchengYe/MemoMind
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/24kchengYe/MemoMind

@@ -39,29 +39,26 @@ featured: false
 
 ## What it does
 
-Open-source repository (fy-agent/humanize-chinese-writing) providing agent skills, workflows, or MCP capabilities verified via GitHub (6 stars).
+Provides planning, writing, note-taking, or personal knowledge management workflows. Focused on `agent-skill`, `chinese`, `fyagent`, `llm` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with productivity capabilities
-- Teams evaluating community-backed agent-skill tooling
+- **Primary goal:** 中文去 AI 味、人性化写作与 HTML 内容密度检查 Skill
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** agent-skill, chinese, fyagent, llm, writing
 
 ## Verdict
 
-PROMISING — verified active GitHub repository with 6 stars and Unknown licensing.
+PROMISING — 6 GitHub stars (Unknown license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/fy-agent/humanize-chinese-writing
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/fy-agent/humanize-chinese-writing

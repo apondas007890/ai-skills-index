@@ -38,29 +38,26 @@ Find the cheapest API for any model and connect it from your AI agent: Grandet S
 
 ## What it does
 
-Open-source repository (hanzohanzhe/Grandet) providing agent skills, workflows, or MCP capabilities verified via GitHub (1,553 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agent-skills`, `ai`, `ai-agents`, `api-credits` and designed to work with claude-code, codex.
 
 ## Best for
 
-- Extending claude-code, codex with coding capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** Find the cheapest API for any model and connect it from your AI agent: Grandet Skill and an anonymous MCP server, backed by listed prices from 1,800+ official, inference and relay providers on grandet.ai.
+- **Works with:** claude-code, codex
+- **Key topics:** agent-skills, ai, ai-agents, api-credits, api-pricing
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 1,553 stars and Unknown licensing.
+GOOD — 1,553 GitHub stars (Unknown license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/hanzohanzhe/Grandet
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/hanzohanzhe/Grandet

@@ -39,29 +39,26 @@ Find the holes before someone else does. A fast, 100% Rust vulnerability scanner
 
 ## What it does
 
-Open-source repository (erkamyaman/safe-anything) providing agent skills, workflows, or MCP capabilities verified via GitHub (786 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `ai-agents`, `claude-code`, `claude-code-plugin`, `cli` and designed to work with claude-code, codex, cursor.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with coding capabilities
-- Teams evaluating community-backed ai-agents tooling
+- **Primary goal:** Find the holes before someone else does. A fast, 100% Rust vulnerability scanner: XSS, SQL injection, leaked secrets, dependency CVEs and AI agent setups.
+- **Works with:** claude-code, codex, cursor
+- **Key topics:** ai-agents, claude-code, claude-code-plugin, cli, codex
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 786 stars and MIT licensing.
+GOOD — 786 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/erkamyaman/safe-anything
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/erkamyaman/safe-anything

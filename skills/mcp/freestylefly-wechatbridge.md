@@ -40,29 +40,26 @@ featured: false
 
 ## What it does
 
-Open-source repository (freestylefly/WeChatBridge) providing agent skills, workflows, or MCP capabilities verified via GitHub (2,493 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `ai-agent`, `chat-history`, `macos`, `obsidian` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with coding capabilities
-- Teams evaluating community-backed ai-agent tooling
+- **Primary goal:** 微信聊天记录一键转发到 AI Agent 与 Obsidian 的原生 macOS 工具
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** ai-agent, chat-history, macos, obsidian, share-extension
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 2,493 stars and MIT licensing.
+GOOD — 2,493 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/freestylefly/WeChatBridge
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/freestylefly/WeChatBridge

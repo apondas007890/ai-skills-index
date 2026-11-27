@@ -40,29 +40,26 @@ Self-evolving second brain with 35 AI skills, 10 agents, and people CRM. Closed-
 
 ## What it does
 
-Open-source repository (huytieu/COG-second-brain) providing agent skills, workflows, or MCP capabilities verified via GitHub (1,527 stars).
+Provides UI/UX design rules, component patterns, typography, accessibility, or visual polish. Focused on `agent-loop`, `agent-plugins`, `agent-skills`, `agentic` and designed to work with claude-code, codex, cursor, gemini-cli, kiro.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with design capabilities
-- Teams evaluating community-backed agent-loop tooling
+- **Primary goal:** Self-evolving second brain with 35 AI skills, 10 agents, and people CRM. Closed-loop harness: a V-model verification lifecycle where the worker never grades its own homework. Plus paired anti-slop design skills for marketing and product UI. Works with Claude Code, Cursor, Kiro, Gemini CLI, Codex.
+- **Works with:** claude-code, codex, cursor, gemini-cli, kiro
+- **Key topics:** agent-loop, agent-plugins, agent-skills, agentic, ai-agents
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 1,527 stars and MIT licensing.
+GOOD — 1,527 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/huytieu/COG-second-brain
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/huytieu/COG-second-brain

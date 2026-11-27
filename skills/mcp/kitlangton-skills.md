@@ -36,29 +36,26 @@ Here are some skills I use. Maybe you'll find them useful. Maybe not. Goodbye.
 
 ## What it does
 
-Open-source repository (kitlangton/skills) providing agent skills, workflows, or MCP capabilities verified via GitHub (359 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `effect`, `skills` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with agents capabilities
-- Teams evaluating community-backed effect tooling
+- **Primary goal:** Here are some skills I use. Maybe you'll find them useful. Maybe not. Goodbye.
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** effect, skills
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 359 stars and MIT licensing.
+GOOD — 359 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/kitlangton/skills
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/kitlangton/skills

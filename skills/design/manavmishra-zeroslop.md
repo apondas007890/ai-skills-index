@@ -39,29 +39,26 @@ Open-source Agent Skill that finds and removes AI slop from your writing
 
 ## What it does
 
-Open-source repository (manavmishra/ZeroSlop) providing agent skills, workflows, or MCP capabilities verified via GitHub (181 stars).
+Provides UI/UX design rules, component patterns, typography, accessibility, or visual polish. Focused on `agent-skills`, `ai-editor`, `ai-slop`, `ai-slop-detector` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with design capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** Open-source Agent Skill that finds and removes AI slop from your writing
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** agent-skills, ai-editor, ai-slop, ai-slop-detector, ai-writing
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 181 stars and MIT licensing.
+GOOD — 181 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/manavmishra/ZeroSlop
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/manavmishra/ZeroSlop

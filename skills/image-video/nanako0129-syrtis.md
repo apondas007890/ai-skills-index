@@ -39,29 +39,26 @@ AI token usage & quota monitor for the macOS menu bar — native Swift, Liquid G
 
 ## What it does
 
-Open-source repository (Nanako0129/syrtis) providing agent skills, workflows, or MCP capabilities verified via GitHub (524 stars).
+Provides programmatic video editing, motion graphics, storyboarding, or visual media generation. Focused on `ai-usage`, `claude-code`, `codex`, `liquid-glass` and designed to work with claude-code, codex, cursor, opencode.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with image-video capabilities
-- Teams evaluating community-backed ai-usage tooling
+- **Primary goal:** AI token usage & quota monitor for the macOS menu bar — native Swift, Liquid Glass, 3D contribution graph. Tracks Claude Code, Codex, Cursor, OpenCode & 25+ agents locally.
+- **Works with:** claude-code, codex, cursor, opencode
+- **Key topics:** ai-usage, claude-code, codex, liquid-glass, macos
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 524 stars and MIT licensing.
+GOOD — 524 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/Nanako0129/syrtis
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/Nanako0129/syrtis

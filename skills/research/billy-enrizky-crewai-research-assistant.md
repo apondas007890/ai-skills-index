@@ -39,29 +39,26 @@ The CrewAI Research Assistant is a powerful tool designed to help users explore 
 
 ## What it does
 
-Open-source repository (billy-enrizky/crewai-research-assistant) providing agent skills, workflows, or MCP capabilities verified via GitHub (9 stars).
+Provides structured web research, academic/data analysis, or synthesis capabilities. Focused on `ai`, `ai-agent`, `ai-agents`, `crewai` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with research capabilities
-- Teams evaluating community-backed ai tooling
+- **Primary goal:** The CrewAI Research Assistant is a powerful tool designed to help users explore any topic using AI Agents. Built with CrewAI, Exa, and Streamlit, this assistant supports multiple large language models (LLMs) and offers advanced answering capabilities through Exa. It visualizes the research process in real-time, generates structured research reports
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** ai, ai-agent, ai-agents, crewai, crewai-tools
 
 ## Verdict
 
-PROMISING — verified active GitHub repository with 9 stars and MIT licensing.
+PROMISING — 9 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/billy-enrizky/crewai-research-assistant
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/billy-enrizky/crewai-research-assistant

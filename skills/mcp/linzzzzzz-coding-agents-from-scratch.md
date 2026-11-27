@@ -38,29 +38,26 @@ create a production-like coding agent from 0 to 1
 
 ## What it does
 
-Open-source repository (linzzzzzz/coding-agents-from-scratch) providing agent skills, workflows, or MCP capabilities verified via GitHub (21 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agent`, `claude`, `codex`, `opencode` and designed to work with claude-code, codex, opencode.
 
 ## Best for
 
-- Extending claude-code, codex, opencode with agents capabilities
-- Teams evaluating community-backed agent tooling
+- **Primary goal:** create a production-like coding agent from 0 to 1
+- **Works with:** claude-code, codex, opencode
+- **Key topics:** agent, claude, codex, opencode, tutorial
 
 ## Verdict
 
-PROMISING — verified active GitHub repository with 21 stars and Unknown licensing.
+PROMISING — 21 GitHub stars (Unknown license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/linzzzzzz/coding-agents-from-scratch
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/linzzzzzz/coding-agents-from-scratch

@@ -40,29 +40,26 @@ Local-first RAG server for developers. Semantic + keyword search for code and te
 
 ## What it does
 
-Open-source repository (shinpr/mcp-local-rag) providing agent skills, workflows, or MCP capabilities verified via GitHub (439 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agent-skills`, `cli-tool`, `developer-tools`, `hybrid-search` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with coding capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** Local-first RAG server for developers. Semantic + keyword search for code and technical docs. Works with MCP or CLI. Fully private, zero setup.
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** agent-skills, cli-tool, developer-tools, hybrid-search, local-first
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 439 stars and MIT licensing.
+GOOD — 439 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/shinpr/mcp-local-rag
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/shinpr/mcp-local-rag

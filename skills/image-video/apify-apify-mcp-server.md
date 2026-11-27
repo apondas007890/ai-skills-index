@@ -38,29 +38,26 @@ The Apify MCP server enables your AI agents to extract data from social media, s
 
 ## What it does
 
-Open-source repository (apify/apify-mcp-server) providing agent skills, workflows, or MCP capabilities verified via GitHub (18,060 stars).
+Provides programmatic video editing, motion graphics, storyboarding, or visual media generation. Focused on `agents`, `ai`, `mcp`, `mcp-server` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with image-video capabilities
-- Teams evaluating community-backed agents tooling
+- **Primary goal:** The Apify MCP server enables your AI agents to extract data from social media, search engines, maps, e-commerce sites, or any other website using thousands of ready-made scrapers, crawlers, and automation tools available on the Apify Store.
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** agents, ai, mcp, mcp-server
 
 ## Verdict
 
-EXCELLENT — verified active GitHub repository with 18,060 stars and MIT licensing.
+EXCELLENT — 18,060 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/apify/apify-mcp-server
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/apify/apify-mcp-server

@@ -33,29 +33,26 @@ Signpost → the 16 SEO/GEO agent skills live in aaron-marketing-skills; this re
 
 ## What it does
 
-Open-source repository (aaron-he-zhu/seo-geo-claude-skills) providing agent skills, workflows, or MCP capabilities verified via GitHub (256 stars).
+Provides SEO, marketing, product management, analytics, or business workflow templates. Focused on `business`, `agent-skills` and designed to work with claude-code.
 
 ## Best for
 
-- Extending claude-code with business capabilities
-- Teams evaluating community-backed business tooling
+- **Primary goal:** Signpost → the 16 SEO/GEO agent skills live in aaron-marketing-skills; this repo's standalone 20-skill line is preserved at tag v9.9.12. Install: npx skills add aaron-he-zhu/aaron-marketing-skills
+- **Works with:** claude-code
+- **Key topics:** business, agent-skills
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 256 stars and Apache-2.0 licensing.
+GOOD — 256 GitHub stars (Apache-2.0 license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/aaron-he-zhu/seo-geo-claude-skills
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/aaron-he-zhu/seo-geo-claude-skills

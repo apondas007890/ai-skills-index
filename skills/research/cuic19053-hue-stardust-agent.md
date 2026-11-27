@@ -38,29 +38,26 @@ featured: false
 
 ## What it does
 
-Open-source repository (cuic19053-hue/stardust-agent) providing agent skills, workflows, or MCP capabilities verified via GitHub (176 stars).
+Provides structured web research, academic/data analysis, or synthesis capabilities. Focused on `agent-skills`, `ai-agent`, `business-plan`, `claude-code` and designed to work with claude-code, codex, cursor.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with research capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** 大学生申报材料（申报书、申请书、商业计划书、实践报告、个人陈述）一站式工作台。Stardust Agent 基于 Python 和 FastAPI，支持工具调用、RAG、Ollama 与 OpenAI 兼容模型，提供逐章编辑和 Word 导出。
+- **Works with:** claude-code, codex, cursor
+- **Key topics:** agent-skills, ai-agent, business-plan, claude-code, codex
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 176 stars and MIT licensing.
+GOOD — 176 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/cuic19053-hue/stardust-agent
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/cuic19053-hue/stardust-agent

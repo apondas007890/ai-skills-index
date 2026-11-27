@@ -40,29 +40,26 @@ featured: false
 
 ## What it does
 
-Open-source repository (guangshu100/BidMaster-Pro) providing agent skills, workflows, or MCP capabilities verified via GitHub (482 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agent-skills`, `agentic-workflow`, `ai-agent`, `bid-management` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with automation capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** 全流程 智能招投标 Agent：标书生成 · 招投标解读 · 标书检查 · 标书文档ai排版 · 商机发现 一键完成。 21 项合规检查 · 多模型切换 · RAG 知识库 · OCR 抽取。 从招标公告到可交付 docx 文档，全流程 AI 自动化。
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** agent-skills, agentic-workflow, ai-agent, bid-management, bidding
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 482 stars and AGPL-3.0 licensing.
+GOOD — 482 GitHub stars (AGPL-3.0 license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/guangshu100/BidMaster-Pro
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/guangshu100/BidMaster-Pro

@@ -40,29 +40,26 @@ One zero-dependency MCP gateway CLI for every server and agent skill. Token opti
 
 ## What it does
 
-Open-source repository (activeing123/mcptoon) providing agent skills, workflows, or MCP capabilities verified via GitHub (444 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agent-skills`, `claude`, `claude-code`, `codex` and designed to work with claude-code, codex, cursor, windsurf.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with coding capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** One zero-dependency MCP gateway CLI for every server and agent skill. Token optimization, tool discovery and context compression: 71,929 -> 581 tokens (-99.2%, measured), schemas stay out of context. One config for Claude Code, Codex, Cursor, every agent. 561KB, pure Python. | 零依赖 CLI：管所有 MCP 工具与技能，工具发现省 99.2% token。
+- **Works with:** claude-code, codex, cursor, windsurf
+- **Key topics:** agent-skills, claude, claude-code, codex, context-compression
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 444 stars and Apache-2.0 licensing.
+GOOD — 444 GitHub stars (Apache-2.0 license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/activeing123/mcptoon
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/activeing123/mcptoon

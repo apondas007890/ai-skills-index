@@ -40,29 +40,26 @@ Claude Artifacts CLI and UI workflows for coding agents, part of QualityLayer. C
 
 ## What it does
 
-Open-source repository (maxritter/open-claude-artifacts) providing agent skills, workflows, or MCP capabilities verified via GitHub (44 stars).
+Provides programmatic video editing, motion graphics, storyboarding, or visual media generation. Focused on `agent-skills`, `ai-coding`, `artifacts`, `claude` and designed to work with claude-code, codex, cursor, gemini-cli, opencode.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with image-video capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** Claude Artifacts CLI and UI workflows for coding agents, part of QualityLayer. Create, render locally, and sync Design canvases, Slides decks, Design Systems, Data dashboards, Whiteboards, and pages.
+- **Works with:** claude-code, codex, cursor, gemini-cli, opencode
+- **Key topics:** agent-skills, ai-coding, artifacts, claude, claude-artifacts
 
 ## Verdict
 
-PROMISING — verified active GitHub repository with 44 stars and Unknown licensing.
+PROMISING — 44 GitHub stars (Unknown license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/maxritter/open-claude-artifacts
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/maxritter/open-claude-artifacts

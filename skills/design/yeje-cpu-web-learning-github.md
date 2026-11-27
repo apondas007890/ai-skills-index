@@ -37,29 +37,26 @@ A skill that turns github codebase into a beautiful, interactive HTML for non-te
 
 ## What it does
 
-Open-source repository (YeJe-cpu/web-learning-github) providing agent skills, workflows, or MCP capabilities verified via GitHub (17 stars).
+Provides UI/UX design rules, component patterns, typography, accessibility, or visual polish. Focused on `uiux`, `userjourneymapping`, `vibecoding`, `visualization` and designed to work with claude-code, cursor, windsurf.
 
 ## Best for
 
-- Extending claude-code, cursor, windsurf with design capabilities
-- Teams evaluating community-backed uiux tooling
+- **Primary goal:** A skill that turns github codebase into a beautiful, interactive HTML for non-technical vibe coders. Quickly got to know the UI/UX journey in codebase. 面向和非专业/少读代码的朋友：把 GitHub 上的仓库说明变成单文件 HTML，用可滚动的路径看清「用户怎么操作、背后在干什么」。支持 Cursor / Claude Code / Windsurf / OpenClaw。
+- **Works with:** claude-code, cursor, windsurf
+- **Key topics:** uiux, userjourneymapping, vibecoding, visualization
 
 ## Verdict
 
-PROMISING — verified active GitHub repository with 17 stars and MIT licensing.
+PROMISING — 17 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/YeJe-cpu/web-learning-github
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/YeJe-cpu/web-learning-github

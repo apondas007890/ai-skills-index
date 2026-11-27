@@ -36,29 +36,26 @@ Curated list of LLM-driven trading agents, MCP servers, and agent skills for mar
 
 ## What it does
 
-Open-source repository (LLMQuant/awesome-trading-agents) providing agent skills, workflows, or MCP capabilities verified via GitHub (1,034 stars).
+Provides structured web research, academic/data analysis, or synthesis capabilities. Focused on `agent-skills`, `agentic-ai`, `ai-trading`, `awesome` and designed to work with claude-code.
 
 ## Best for
 
-- Extending claude-code with research capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** Curated list of LLM-driven trading agents, MCP servers, and agent skills for market research, strategy, and execution.
+- **Works with:** claude-code
+- **Key topics:** agent-skills, agentic-ai, ai-trading, awesome, awesome-list
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 1,034 stars and CC0-1.0 licensing.
+GOOD — 1,034 GitHub stars (CC0-1.0 license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/LLMQuant/awesome-trading-agents
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/LLMQuant/awesome-trading-agents

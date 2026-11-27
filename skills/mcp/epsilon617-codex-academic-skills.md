@@ -37,29 +37,26 @@ A curated list of research-oriented skills usable in OpenAI Codex, covering writ
 
 ## What it does
 
-Open-source repository (Epsilon617/Codex-Academic-Skills) providing agent skills, workflows, or MCP capabilities verified via GitHub (204 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `academic-research`, `academic-writing`, `agent-skills`, `literature-review` and designed to work with codex.
 
 ## Best for
 
-- Extending codex with automation capabilities
-- Teams evaluating community-backed academic-research tooling
+- **Primary goal:** A curated list of research-oriented skills usable in OpenAI Codex, covering writing, literature review, evaluation, and research workflows.
+- **Works with:** codex
+- **Key topics:** academic-research, academic-writing, agent-skills, literature-review, openai-codex
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 204 stars and MIT licensing.
+GOOD — 204 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/Epsilon617/Codex-Academic-Skills
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/Epsilon617/Codex-Academic-Skills

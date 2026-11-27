@@ -37,29 +37,26 @@ Jev DSH 决策引擎｜面向 Agent Harness 的结构化决策插件。原生支
 
 ## What it does
 
-Open-source repository (Devin-AXIS/jev-dsh-decision) providing agent skills, workflows, or MCP capabilities verified via GitHub (277 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agent-harness`, `ai-agents`, `apollo-plugin`, `codex` and designed to work with codex, opencode.
 
 ## Best for
 
-- Extending codex, opencode with agents capabilities
-- Teams evaluating community-backed agent-harness tooling
+- **Primary goal:** Jev DSH 决策引擎｜面向 Agent Harness 的结构化决策插件。原生支持 DeepSeek Harness，通过 iPolloWork 支持 OpenCode、Codex Harness。
+- **Works with:** codex, opencode
+- **Key topics:** agent-harness, ai-agents, apollo-plugin, codex, codex-harness-plugin
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 277 stars and Unknown licensing.
+GOOD — 277 GitHub stars (Unknown license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/Devin-AXIS/jev-dsh-decision
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/Devin-AXIS/jev-dsh-decision

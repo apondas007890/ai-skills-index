@@ -40,29 +40,26 @@ featured: true
 
 ## What it does
 
-Open-source repository (KKKKhazix/AIHOT) providing agent skills, workflows, or MCP capabilities verified via GitHub (11,464 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `ai`, `chinese`, `content-curation`, `daily-digest` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with coding capabilities
-- Teams evaluating community-backed ai tooling
+- **Primary goal:** 一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** ai, chinese, content-curation, daily-digest, docker-compose
 
 ## Verdict
 
-EXCELLENT — verified active GitHub repository with 11,464 stars and MIT licensing.
+EXCELLENT — 11,464 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/KKKKhazix/AIHOT
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/KKKKhazix/AIHOT

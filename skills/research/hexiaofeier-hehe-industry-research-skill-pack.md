@@ -39,29 +39,26 @@ featured: false
 
 ## What it does
 
-Open-source repository (hexiaofeier/hehe-industry-research-skill-pack) providing agent skills, workflows, or MCP capabilities verified via GitHub (332 stars).
+Provides structured web research, academic/data analysis, or synthesis capabilities. Focused on `agent-skills`, `company-research`, `financial-analysis`, `industry-analysis` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with research capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** 盒盒原创中文行业与企业研究技能包：1 个总入口协同 13 个专项 Skill，支持完整行业研究或企业研究、以及市场格局、市场规模、企业画像等独立专项模块。
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** agent-skills, company-research, financial-analysis, industry-analysis, industry-chain-map
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 332 stars and MIT licensing.
+GOOD — 332 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/hexiaofeier/hehe-industry-research-skill-pack
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/hexiaofeier/hehe-industry-research-skill-pack

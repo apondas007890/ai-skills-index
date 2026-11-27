@@ -37,29 +37,26 @@ Art and animation, written as code. Illustrations, loops, interactive web art, l
 
 ## What it does
 
-Open-source repository (alexgreensh/anidoodle) providing agent skills, workflows, or MCP capabilities verified via GitHub (2,081 stars).
+Provides programmatic video editing, motion graphics, storyboarding, or visual media generation. Focused on `agent-skills`, `animation`, `canvas`, `claude-code` and designed to work with claude-code, codex.
 
 ## Best for
 
-- Extending claude-code, codex with image-video capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** Art and animation, written as code. Illustrations, loops, interactive web art, launch-videos and scored films in dozens of styles, identical on every render.
+- **Works with:** claude-code, codex
+- **Key topics:** agent-skills, animation, canvas, claude-code, claude-plugin
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 2,081 stars and Apache-2.0 licensing.
+GOOD — 2,081 GitHub stars (Apache-2.0 license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/alexgreensh/anidoodle
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/alexgreensh/anidoodle

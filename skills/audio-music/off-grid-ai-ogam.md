@@ -39,29 +39,26 @@ The Swiss Army Knife of Offline AI. Chat, see, speak, and generate images on you
 
 ## What it does
 
-Open-source repository (off-grid-ai/OGAM) providing agent skills, workflows, or MCP capabilities verified via GitHub (3,622 stars).
+Provides voice synthesis, transcription, audio editing, or music generation workflows. Focused on `android`, `edge-ai`, `gguf`, `ios` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with audio-music capabilities
-- Teams evaluating community-backed android tooling
+- **Primary goal:** The Swiss Army Knife of Offline AI. Chat, see, speak, and generate images on your phone or Mac — GGUF LLMs, vision, Whisper speech-to-text, Stable Diffusion, tool calling, and local-network servers. Runs on your CPU, GPU, or NPU. No account, no API key, zero data leaves your device.
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** android, edge-ai, gguf, ios, llama-cpp
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 3,622 stars and MIT licensing.
+GOOD — 3,622 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/off-grid-ai/OGAM
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/off-grid-ai/OGAM

@@ -39,29 +39,26 @@ Neuro-symbolic agents with verified memory. MCP math tools, an algebra repair Sk
 
 ## What it does
 
-Open-source repository (1105216375-alt/resimind) providing agent skills, workflows, or MCP capabilities verified via GitHub (293 stars).
+Provides SEO, marketing, product management, analytics, or business workflow templates. Focused on `agent-memory`, `agent-skills`, `ai-agents`, `customer-support` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with business capabilities
-- Teams evaluating community-backed agent-memory tooling
+- **Primary goal:** Neuro-symbolic agents with verified memory. MCP math tools, an algebra repair Skill, and an open challenge. Verify solutions, learn checked rules, and reuse.
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** agent-memory, agent-skills, ai-agents, customer-support, knowledge-growth
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 293 stars and MIT licensing.
+GOOD — 293 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/1105216375-alt/resimind
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/1105216375-alt/resimind

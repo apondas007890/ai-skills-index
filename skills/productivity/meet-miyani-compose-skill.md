@@ -42,29 +42,26 @@ Compose Skill (Compose Kit): agent skills for Jetpack Compose & Compose Multipla
 
 ## What it does
 
-Open-source repository (Meet-Miyani/compose-skill) providing agent skills, workflows, or MCP capabilities verified via GitHub (305 stars).
+Provides planning, writing, note-taking, or personal knowledge management workflows. Focused on `agent-skills`, `ai-coding-assistant`, `android`, `claude-code` and designed to work with claude-code, codex, cursor, gemini-cli, opencode, github-copilot, roo-code.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with productivity capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** Compose Skill (Compose Kit): agent skills for Jetpack Compose & Compose Multiplatform. Makes Claude Code, Codex, Cursor, Copilot, Gemini CLI and OpenCode write better Compose: MVI, Koin, Navigation 3, Ktor, Room. Tested blind on 5 models in 120 agentic runs.
+- **Works with:** claude-code, codex, cursor, gemini-cli, opencode, github-copilot, roo-code
+- **Key topics:** agent-skills, ai-coding-assistant, android, claude-code, claude-skills
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 305 stars and MIT licensing.
+GOOD — 305 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/Meet-Miyani/compose-skill
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/Meet-Miyani/compose-skill

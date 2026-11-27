@@ -39,29 +39,26 @@ Turn one dense paper into an Obsidian note worth keeping: read the way its field
 
 ## What it does
 
-Open-source repository (917Dhj/DeepPaperNote) providing agent skills, workflows, or MCP capabilities verified via GitHub (1,454 stars).
+Provides structured web research, academic/data analysis, or synthesis capabilities. Focused on `academic`, `agent-skills`, `ai-agents`, `arxiv` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with research capabilities
-- Teams evaluating community-backed academic tooling
+- **Primary goal:** Turn one dense paper into an Obsidian note worth keeping: read the way its field reads it, linked to the papers already in your vault, and aimed at your own research. Agent skills for Claude Code, Codex, Cursor, and any agent that supports skills.
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** academic, agent-skills, ai-agents, arxiv, claude-code
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 1,454 stars and MIT licensing.
+GOOD — 1,454 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/917Dhj/DeepPaperNote
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/917Dhj/DeepPaperNote

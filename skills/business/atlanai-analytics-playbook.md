@@ -36,29 +36,26 @@ How to build an analytics agent that gets your business numbers right: metrics f
 
 ## What it does
 
-Open-source repository (atlanai/analytics-playbook) providing agent skills, workflows, or MCP capabilities verified via GitHub (166 stars).
+Provides SEO, marketing, product management, analytics, or business workflow templates. Focused on `business`, `agent-skills` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with business capabilities
-- Teams evaluating community-backed business tooling
+- **Primary goal:** How to build an analytics agent that gets your business numbers right: metrics from your analysts' SQL, a golden set of real questions, improvement loops
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** business, agent-skills
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 166 stars and Unknown licensing.
+GOOD — 166 GitHub stars (Unknown license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/atlanai/analytics-playbook
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/atlanai/analytics-playbook

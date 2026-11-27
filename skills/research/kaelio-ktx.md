@@ -37,29 +37,26 @@ ktx is an executable context layer for data and analytics agents 🐙 Allow Clau
 
 ## What it does
 
-Open-source repository (Kaelio/ktx) providing agent skills, workflows, or MCP capabilities verified via GitHub (1,639 stars).
+Provides structured web research, academic/data analysis, or synthesis capabilities. Focused on `agent`, `agent-skills`, `agents`, `ai-agent` and designed to work with claude-code, codex.
 
 ## Best for
 
-- Extending claude-code, codex with research capabilities
-- Teams evaluating community-backed agent tooling
+- **Primary goal:** ktx is an executable context layer for data and analytics agents 🐙 Allow Claude Code, Codex, or other AI agents to query analytical databases accurately and with full context of your company
+- **Works with:** claude-code, codex
+- **Key topics:** agent, agent-skills, agents, ai-agent, ai-agents
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 1,639 stars and Apache-2.0 licensing.
+GOOD — 1,639 GitHub stars (Apache-2.0 license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/Kaelio/ktx
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/Kaelio/ktx

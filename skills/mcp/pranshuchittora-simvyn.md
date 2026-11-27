@@ -40,29 +40,26 @@ Universal mobile devtool for Agents & Humans - control iOS Simulators, Android E
 
 ## What it does
 
-Open-source repository (pranshuchittora/simvyn) providing agent skills, workflows, or MCP capabilities verified via GitHub (452 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `adb`, `agent-skills`, `ai-agents`, `android` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with coding capabilities
-- Teams evaluating community-backed adb tooling
+- **Primary goal:** Universal mobile devtool for Agents & Humans - control iOS Simulators, Android Emulators, and real devices from a single dashboard and CLI
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** adb, agent-skills, ai-agents, android, android-emulator
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 452 stars and MIT licensing.
+GOOD — 452 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/pranshuchittora/simvyn
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/pranshuchittora/simvyn

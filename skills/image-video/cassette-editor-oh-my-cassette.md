@@ -38,29 +38,26 @@ featured: false
 
 ## What it does
 
-Open-source repository (Cassette-Editor/oh-my-cassette) providing agent skills, workflows, or MCP capabilities verified via GitHub (218 stars).
+Provides programmatic video editing, motion graphics, storyboarding, or visual media generation. Focused on `agent`, `agent-skills`, `ai-agent`, `ai-video-editing` and designed to work with claude-code, codex, opencode.
 
 ## Best for
 
-- Extending claude-code, codex, opencode with image-video capabilities
-- Teams evaluating community-backed agent tooling
+- **Primary goal:** 你的随身 AI 剪辑搭档 | Pocket AI co-editor for video montage — AI video editing plugin & MCP server for Claude Code, Codex, Hermes & OpenCode
+- **Works with:** claude-code, codex, opencode
+- **Key topics:** agent, agent-skills, ai-agent, ai-video-editing, chat-to-edit
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 218 stars and MIT licensing.
+GOOD — 218 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/Cassette-Editor/oh-my-cassette
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/Cassette-Editor/oh-my-cassette

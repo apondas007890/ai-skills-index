@@ -36,29 +36,26 @@ featured: false
 
 ## What it does
 
-Open-source repository (geekjourneyx/md2wechat-skill) providing agent skills, workflows, or MCP capabilities verified via GitHub (3,829 stars).
+Provides planning, writing, note-taking, or personal knowledge management workflows. Focused on `agent-cli`, `ai-agent`, `ai-writing`, `claude-code` and designed to work with claude-code.
 
 ## Best for
 
-- Extending claude-code with productivity capabilities
-- Teams evaluating community-backed agent-cli tooling
+- **Primary goal:** 面向 AI Agent 的微信公众号创作与发布 CLI：Markdown 排版、AI 配图、预览与草稿创建；支持由浏览器 Agent 保存知乎、CSDN、头条未发布草稿。
+- **Works with:** claude-code
+- **Key topics:** agent-cli, ai-agent, ai-writing, claude-code, claude-skills
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 3,829 stars and Unknown licensing.
+GOOD — 3,829 GitHub stars (Unknown license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/geekjourneyx/md2wechat-skill
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/geekjourneyx/md2wechat-skill

@@ -37,29 +37,26 @@ featured: false
 
 ## What it does
 
-Open-source repository (kimlawtech/korean-contracts) providing agent skills, workflows, or MCP capabilities verified via GitHub (62 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agent-skills`, `claude-code`, `claude-skill`, `contract` and designed to work with claude-code.
 
 ## Best for
 
-- Extending claude-code with coding capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** 한국 사업자용 계약서 자동 생성 Claude Code 스킬. 9종 계약서(근로·알바·유연·일용·프리랜서·외주·변경·연봉) + MCP 개인정보 보호 서버. 2026 최저임금·최신 대법원 판례 반영.
+- **Works with:** claude-code
+- **Key topics:** agent-skills, claude-code, claude-skill, contract, korean-law
 
 ## Verdict
 
-PROMISING — verified active GitHub repository with 62 stars and Unknown licensing.
+PROMISING — 62 GitHub stars (Unknown license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/kimlawtech/korean-contracts
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/kimlawtech/korean-contracts

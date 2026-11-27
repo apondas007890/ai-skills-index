@@ -38,29 +38,26 @@ Planner's Desk 一键安装器（DSH 插件）：在设置页一键勾选安装�
 
 ## What it does
 
-Open-source repository (thePlannerIvan/planners-form) providing agent skills, workflows, or MCP capabilities verified via GitHub (28 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agent-skills`, `dsh-plugin`, `installer`, `planners-desk` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with agents capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** Planner's Desk 一键安装器（DSH 插件）：在设置页一键勾选安装整套 Skill、自动准备依赖与检查更新
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** agent-skills, dsh-plugin, installer, planners-desk
 
 ## Verdict
 
-PROMISING — verified active GitHub repository with 28 stars and AGPL-3.0 licensing.
+PROMISING — 28 GitHub stars (AGPL-3.0 license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/thePlannerIvan/planners-form
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/thePlannerIvan/planners-form

@@ -38,29 +38,26 @@ MCP-сервер для кабинетов Wildberries, Ozon, Яндекс Ма�
 
 ## What it does
 
-Open-source repository (ilyautov/marketplaces-mcp-ru) providing agent skills, workflows, or MCP capabilities verified via GitHub (65 stars).
+Provides SEO, marketing, product management, analytics, or business workflow templates. Focused on `ai-agents`, `avito`, `avito-api`, `claude` and designed to work with claude-code, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, cursor, gemini-cli with business capabilities
-- Teams evaluating community-backed ai-agents tooling
+- **Primary goal:** MCP-сервер для кабинетов Wildberries, Ozon, Яндекс Маркета и Авито: продажи, заказы, остатки, цены, финансы, отзывы через API напрямую, без браузера. 1022 метода schema-driven, safety-гейт на запись. | MCP server for Wildberries, Ozon, Yandex Market and Avito seller APIs. Open-source MIT.
+- **Works with:** claude-code, cursor, gemini-cli
+- **Key topics:** ai-agents, avito, avito-api, claude, claude-code
 
 ## Verdict
 
-PROMISING — verified active GitHub repository with 65 stars and MIT licensing.
+PROMISING — 65 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/ilyautov/marketplaces-mcp-ru
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/ilyautov/marketplaces-mcp-ru

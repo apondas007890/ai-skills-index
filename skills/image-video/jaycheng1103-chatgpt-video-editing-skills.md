@@ -36,29 +36,26 @@ featured: false
 
 ## What it does
 
-Open-source repository (Jaycheng1103/chatgpt-video-editing-skills) providing agent skills, workflows, or MCP capabilities verified via GitHub (640 stars).
+Provides programmatic video editing, motion graphics, storyboarding, or visual media generation. Focused on `agent-skills`, `elevenlabs`, `ffmpeg`, `hyperframes` and designed to work with codex.
 
 ## Best for
 
-- Extending codex with image-video capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** 用 ChatGPT／Codex 安裝 AI 剪輯環境，並依八大步驟完成可驗證的短影音剪輯。
+- **Works with:** codex
+- **Key topics:** agent-skills, elevenlabs, ffmpeg, hyperframes, traditional-chinese
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 640 stars and MIT licensing.
+GOOD — 640 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/Jaycheng1103/chatgpt-video-editing-skills
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/Jaycheng1103/chatgpt-video-editing-skills

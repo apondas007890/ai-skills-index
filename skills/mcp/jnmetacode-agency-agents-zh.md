@@ -39,29 +39,26 @@ featured: true
 
 ## What it does
 
-Open-source repository (jnMetaCode/agency-agents-zh) providing agent skills, workflows, or MCP capabilities verified via GitHub (22,342 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agency-orchestrator`, `agent-definitions`, `ai-agents`, `ai-roles` and designed to work with claude-code, cursor, github-copilot.
 
 ## Best for
 
-- Extending claude-code, cursor with automation capabilities
-- Teams evaluating community-backed agency-orchestrator tooling
+- **Primary goal:** 🎭 277 个即插即用的 AI 专家角色 — 支持 Claude Code/Cursor/Copilot 等 20 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 64 个中国市场原创智能体（小红书/抖音/微信/飞书/钉钉/Qt 上位机/机械设计）。搭配编排器 agency-orchestrator，一句话即可让多位专家按 DAG 自动协作。
+- **Works with:** claude-code, cursor, github-copilot
+- **Key topics:** agency-orchestrator, agent-definitions, ai-agents, ai-roles, chinese
 
 ## Verdict
 
-EXCELLENT — verified active GitHub repository with 22,342 stars and MIT licensing.
+EXCELLENT — 22,342 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/jnMetaCode/agency-agents-zh
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/jnMetaCode/agency-agents-zh

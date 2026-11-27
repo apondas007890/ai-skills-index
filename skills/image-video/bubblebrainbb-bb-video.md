@@ -36,29 +36,26 @@ An agent skill that makes videos in pure code — narrated explainers and produc
 
 ## What it does
 
-Open-source repository (BubbleBrainBB/BB-Video) providing agent skills, workflows, or MCP capabilities verified via GitHub (220 stars).
+Provides programmatic video editing, motion graphics, storyboarding, or visual media generation. Focused on `agent-skills`, `claude-code`, `claude-skills`, `explainer-video` and designed to work with claude-code.
 
 ## Best for
 
-- Extending claude-code with image-video capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** An agent skill that makes videos in pure code — narrated explainers and product promos in 37 visual styles (whiteboard, ink-wash, shadow puppets, pixel art, isometric worlds, movie trailers, manga, animated maps, Swiss kinetic type, blueprints, paper collage, Bayeux tapestry, pencil tests, rubber-hose cartoons, footage supercuts…), 16:9 and 9:16.
+- **Works with:** claude-code
+- **Key topics:** agent-skills, claude-code, claude-skills, explainer-video, ffmpeg
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 220 stars and MIT licensing.
+GOOD — 220 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/BubbleBrainBB/BB-Video
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/BubbleBrainBB/BB-Video

@@ -35,29 +35,26 @@ An agent skill for alignment passes: draw guide lines down an interface, find ev
 
 ## What it does
 
-Open-source repository (pritamux/gridlines) providing agent skills, workflows, or MCP capabilities verified via GitHub (249 stars).
+Provides UI/UX design rules, component patterns, typography, accessibility, or visual polish. Focused on `agent-skills`, `claude-code`, `design-engineering`, `ui` and designed to work with claude-code.
 
 ## Best for
 
-- Extending claude-code with design capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** An agent skill for alignment passes: draw guide lines down an interface, find every item that misses its line, fix the padding.
+- **Works with:** claude-code
+- **Key topics:** agent-skills, claude-code, design-engineering, ui
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 249 stars and MIT licensing.
+GOOD — 249 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/pritamux/gridlines
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/pritamux/gridlines

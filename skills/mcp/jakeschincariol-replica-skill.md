@@ -37,29 +37,26 @@ Eleven free Claude skills that clone any app: reverse-engineer it, rebuild it, t
 
 ## What it does
 
-Open-source repository (Jakeschincariol/replica-skill) providing agent skills, workflows, or MCP capabilities verified via GitHub (10,745 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agent`, `agent-skills`, `app-clone`, `claude` and designed to work with claude-code.
 
 ## Best for
 
-- Extending claude-code with coding capabilities
-- Teams evaluating community-backed agent tooling
+- **Primary goal:** Eleven free Claude skills that clone any app: reverse-engineer it, rebuild it, test it for bugs, then fix what its users hate. Free, MIT.
+- **Works with:** claude-code
+- **Key topics:** agent, agent-skills, app-clone, claude, claude-code
 
 ## Verdict
 
-EXCELLENT — verified active GitHub repository with 10,745 stars and MIT licensing.
+EXCELLENT — 10,745 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/Jakeschincariol/replica-skill
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/Jakeschincariol/replica-skill

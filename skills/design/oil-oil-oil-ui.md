@@ -38,29 +38,26 @@ UI design skill for Claude Code, Codex and other AI agents: explore distinct dir
 
 ## What it does
 
-Open-source repository (oil-oil/oil-ui) providing agent skills, workflows, or MCP capabilities verified via GitHub (4,016 stars).
+Provides UI/UX design rules, component patterns, typography, accessibility, or visual polish. Focused on `agent-skills`, `ai-design`, `claude-code`, `claude-code-skill` and designed to work with claude-code, codex, cursor.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with design capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** UI design skill for Claude Code, Codex and other AI agents: explore distinct directions, compare them side by side, refine against real screenshots. 给 AI Agent 用的 UI 设计 Skill。
+- **Works with:** claude-code, codex, cursor
+- **Key topics:** agent-skills, ai-design, claude-code, claude-code-skill, claude-skills
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 4,016 stars and MIT licensing.
+GOOD — 4,016 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/oil-oil/oil-ui
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/oil-oil/oil-ui

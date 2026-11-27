@@ -39,29 +39,26 @@ Open-source AI skill for hand-drawn video prompts. Turn Chinese scripts into con
 
 ## What it does
 
-Open-source repository (kaomei/hand-drawn-video-prompts) providing agent skills, workflows, or MCP capabilities verified via GitHub (334 stars).
+Provides programmatic video editing, motion graphics, storyboarding, or visual media generation. Focused on `ai-video`, `b-roll`, `flow`, `nano-banana` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with image-video capabilities
-- Teams evaluating community-backed ai-video tooling
+- **Primary goal:** Open-source AI skill for hand-drawn video prompts. Turn Chinese scripts into consistent 9:16 chibi storyboards, image prompts, and animation prompts for Flow and Nano Banana—ideal for YouTube Shorts, TikTok, and Reels.
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** ai-video, b-roll, flow, nano-banana, prompt-engineering
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 334 stars and MIT licensing.
+GOOD — 334 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/kaomei/hand-drawn-video-prompts
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/kaomei/hand-drawn-video-prompts

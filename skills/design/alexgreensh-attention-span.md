@@ -37,29 +37,26 @@ Make your agents talk human. ADHD-friendly output styles for Claude Code, Codex,
 
 ## What it does
 
-Open-source repository (alexgreensh/attention-span) providing agent skills, workflows, or MCP capabilities verified via GitHub (1,618 stars).
+Provides UI/UX design rules, component patterns, typography, accessibility, or visual polish. Focused on `adhd-friendly`, `ai-slop-reduction`, `anti-slop`, `claude-code` and designed to work with claude-code, codex.
 
 ## Best for
 
-- Extending claude-code, codex with design capabilities
-- Teams evaluating community-backed adhd-friendly tooling
+- **Primary goal:** Make your agents talk human. ADHD-friendly output styles for Claude Code, Codex, and others. So you can pay attention, not tokens.
+- **Works with:** claude-code, codex
+- **Key topics:** adhd-friendly, ai-slop-reduction, anti-slop, claude-code, claude-plugin
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 1,618 stars and AGPL-3.0 licensing.
+GOOD — 1,618 GitHub stars (AGPL-3.0 license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/alexgreensh/attention-span
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/alexgreensh/attention-span

@@ -38,29 +38,26 @@ Postiz Agents CLI - connect it to Claude / OpenClaw / etc, to schedule social me
 
 ## What it does
 
-Open-source repository (gitroomhq/postiz-agent) providing agent skills, workflows, or MCP capabilities verified via GitHub (593 stars).
+Provides programmatic video editing, motion graphics, storyboarding, or visual media generation. Focused on `agent-skills`, `agentic-ai`, `agents`, `claude` and designed to work with claude-code, gemini-cli, roo-code.
 
 ## Best for
 
-- Extending claude-code, gemini-cli with image-video capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** Postiz Agents CLI - connect it to Claude / OpenClaw / etc, to schedule social media posts 🤖
+- **Works with:** claude-code, gemini-cli, roo-code
+- **Key topics:** agent-skills, agentic-ai, agents, claude, claude-code
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 593 stars and Unknown licensing.
+GOOD — 593 GitHub stars (Unknown license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/gitroomhq/postiz-agent
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/gitroomhq/postiz-agent

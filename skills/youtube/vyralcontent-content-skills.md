@@ -39,29 +39,26 @@ A free Agent Skill for writing short-form hooks, scripts, and carousels for TikT
 
 ## What it does
 
-Open-source repository (vyralcontent/content-skills) providing agent skills, workflows, or MCP capabilities verified via GitHub (298 stars).
+Provides creator workflows for scripting, hooks, thumbnails, titles, and channel growth. Focused on `agent-skills`, `ai-agents`, `content-creation`, `copywriting` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with youtube capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** A free Agent Skill for writing short-form hooks, scripts, and carousels for TikTok, Reels, and YouTube Shorts.
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** agent-skills, ai-agents, content-creation, copywriting, hooks
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 298 stars and MIT licensing.
+GOOD — 298 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/vyralcontent/content-skills
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/vyralcontent/content-skills

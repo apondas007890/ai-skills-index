@@ -37,29 +37,26 @@ Author, generate, validate and govern AI agent rules, skills, plugins and MCP co
 
 ## What it does
 
-Open-source repository (Goldziher/ai-rulez) providing agent skills, workflows, or MCP capabilities verified via GitHub (180 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agent-plugins`, `agent-skills`, `agents-md`, `ai-agents` and designed to work with claude-code.
 
 ## Best for
 
-- Extending claude-code with coding capabilities
-- Teams evaluating community-backed agent-plugins tooling
+- **Primary goal:** Author, generate, validate and govern AI agent rules, skills, plugins and MCP configuration across 52 coding assistants. Review with verified model evidence, evaluate skills, lock and sign dependencies, and publish bundles. CLI, MCP server and Go API.
+- **Works with:** claude-code
+- **Key topics:** agent-plugins, agent-skills, agents-md, ai-agents, ai-governance
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 180 stars and MIT licensing.
+GOOD — 180 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/Goldziher/ai-rulez
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/Goldziher/ai-rulez

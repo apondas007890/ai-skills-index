@@ -40,29 +40,26 @@ More is Different. A multi-agent world engine where AI agents live, talk, compet
 
 ## What it does
 
-Open-source repository (AIScientists-Dev/WorldSeed) providing agent skills, workflows, or MCP capabilities verified via GitHub (827 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agent-based-simulation`, `agentic-ai`, `agents`, `ai` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with coding capabilities
-- Teams evaluating community-backed agent-based-simulation tooling
+- **Primary goal:** More is Different. A multi-agent world engine where AI agents live, talk, compete, ally.
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** agent-based-simulation, agentic-ai, agents, ai, ai-agents
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 827 stars and MIT licensing.
+GOOD — 827 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/AIScientists-Dev/WorldSeed
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/AIScientists-Dev/WorldSeed

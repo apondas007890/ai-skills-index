@@ -39,29 +39,26 @@ AI design skill for freelancers, content creators and digital marketers. Think l
 
 ## What it does
 
-Open-source repository (beyondtahir/beyondartist) providing agent skills, workflows, or MCP capabilities verified via GitHub (70 stars).
+Provides UI/UX design rules, component patterns, typography, accessibility, or visual polish. Focused on `agent-skills`, `art-direction`, `carousels`, `creative-ai` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with design capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** AI design skill for freelancers, content creators and digital marketers. Think like a designer. Execute like an artist.
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** agent-skills, art-direction, carousels, creative-ai, design
 
 ## Verdict
 
-PROMISING — verified active GitHub repository with 70 stars and MIT licensing.
+PROMISING — 70 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/beyondtahir/beyondartist
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/beyondtahir/beyondartist

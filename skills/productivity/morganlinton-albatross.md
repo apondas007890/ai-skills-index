@@ -39,29 +39,26 @@ Open source, terminal-first AI coding agent with fully transparent multi-model r
 
 ## What it does
 
-Open-source repository (morganlinton/Albatross) providing agent skills, workflows, or MCP capabilities verified via GitHub (246 stars).
+Provides planning, writing, note-taking, or personal knowledge management workflows. Focused on `ai-coding-agent`, `ai-coding-assistant`, `cli`, `coding-agent` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with productivity capabilities
-- Teams evaluating community-backed ai-coding-agent tooling
+- **Primary goal:** Open source, terminal-first AI coding agent with fully transparent multi-model routing. Local (Ollama, LM Studio, MLX, llama.cpp) or cloud, your keys, one TUI. No black box.
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** ai-coding-agent, ai-coding-assistant, cli, coding-agent, developer-tools
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 246 stars and MIT licensing.
+GOOD — 246 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/morganlinton/Albatross
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/morganlinton/Albatross

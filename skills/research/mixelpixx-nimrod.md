@@ -33,29 +33,26 @@ Web research for Claude over MCP: quality-scored Google search, clean extraction
 
 ## What it does
 
-Open-source repository (mixelpixx/Nimrod) providing agent skills, workflows, or MCP capabilities verified via GitHub (263 stars).
+Provides structured web research, academic/data analysis, or synthesis capabilities. Focused on `research`, `agent-skills` and designed to work with claude-code.
 
 ## Best for
 
-- Extending claude-code with research capabilities
-- Teams evaluating community-backed research tooling
+- **Primary goal:** Web research for Claude over MCP: quality-scored Google search, clean extraction, deep research. Hosted connector for claude.ai/Desktop/Code + Nimrod Desktop toolkit (skills, agent, hooks).
+- **Works with:** claude-code
+- **Key topics:** research, agent-skills
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 263 stars and Unknown licensing.
+GOOD — 263 GitHub stars (Unknown license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/mixelpixx/Nimrod
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/mixelpixx/Nimrod

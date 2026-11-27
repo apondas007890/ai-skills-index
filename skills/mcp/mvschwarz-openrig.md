@@ -38,29 +38,26 @@ Build your own network of agents from Claude Code, Codex and Pi: persistent team
 
 ## What it does
 
-Open-source repository (mvschwarz/openrig) providing agent skills, workflows, or MCP capabilities verified via GitHub (8,994 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agent-harness`, `agent-orchestration`, `agent-skills`, `ai-coding` and designed to work with claude-code, codex.
 
 ## Best for
 
-- Extending claude-code, codex with coding capabilities
-- Teams evaluating community-backed agent-harness tooling
+- **Primary goal:** Build your own network of agents from Claude Code, Codex and Pi: persistent teams with roles, shared context and owned work.
+- **Works with:** claude-code, codex
+- **Key topics:** agent-harness, agent-orchestration, agent-skills, ai-coding, claude-code
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 8,994 stars and Apache-2.0 licensing.
+GOOD — 8,994 GitHub stars (Apache-2.0 license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/mvschwarz/openrig
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/mvschwarz/openrig

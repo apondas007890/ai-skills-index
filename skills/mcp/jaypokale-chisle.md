@@ -40,29 +40,26 @@ Cut your AI coding agent's token bill on three axes: terse prose, YAGNI-first co
 
 ## What it does
 
-Open-source repository (JayPokale/Chisle) providing agent skills, workflows, or MCP capabilities verified via GitHub (1,276 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agent-skills`, `anthropic`, `caveman`, `caveman-alternative` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with coding capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** Cut your AI coding agent's token bill on three axes: terse prose, YAGNI-first code, and tool-output compression. Claude Code, Pi, Cursor, Codex, Gemini + 8 more. Zero deps, published benchmarks including the runs it loses.
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** agent-skills, anthropic, caveman, caveman-alternative, claude
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 1,276 stars and MIT licensing.
+GOOD — 1,276 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/JayPokale/Chisle
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/JayPokale/Chisle

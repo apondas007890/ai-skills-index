@@ -38,29 +38,26 @@ A股/港股/美股 卡脖子选股 Skill，基于 Serenity 供应链瓶颈理论
 
 ## What it does
 
-Open-source repository (fadewalk/serenity-stock-choke) providing agent skills, workflows, or MCP capabilities verified via GitHub (538 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `a-stock`, `agent-skills`, `claude-skills`, `hk-stock` and designed to work with claude-code, codex.
 
 ## Best for
 
-- Extending claude-code, codex with coding capabilities
-- Teams evaluating community-backed a-stock tooling
+- **Primary goal:** A股/港股/美股 卡脖子选股 Skill，基于 Serenity 供应链瓶颈理论 | Claude Code / Codex 通用智能体可用，零依赖
+- **Works with:** claude-code, codex
+- **Key topics:** a-stock, agent-skills, claude-skills, hk-stock, serenity
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 538 stars and MIT licensing.
+GOOD — 538 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/fadewalk/serenity-stock-choke
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/fadewalk/serenity-stock-choke

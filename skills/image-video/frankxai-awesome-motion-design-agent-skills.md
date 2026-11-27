@@ -38,29 +38,26 @@ Curated motion design agent skills: GSAP, Motion, Remotion, Lottie and Rive for 
 
 ## What it does
 
-Open-source repository (frankxai/awesome-motion-design-agent-skills) providing agent skills, workflows, or MCP capabilities verified via GitHub (177 stars).
+Provides programmatic video editing, motion graphics, storyboarding, or visual media generation. Focused on `agent-skills`, `ai-agents`, `animation`, `awesome` and designed to work with claude-code, codex, github-copilot.
 
 ## Best for
 
-- Extending claude-code, codex with image-video capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** Curated motion design agent skills: GSAP, Motion, Remotion, Lottie and Rive for web animation, programmatic video and motion QA. Installable in Claude Code, Codex, Copilot.
+- **Works with:** claude-code, codex, github-copilot
+- **Key topics:** agent-skills, ai-agents, animation, awesome, awesome-list
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 177 stars and CC0-1.0 licensing.
+GOOD — 177 GitHub stars (CC0-1.0 license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/frankxai/awesome-motion-design-agent-skills
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/frankxai/awesome-motion-design-agent-skills

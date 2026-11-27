@@ -36,29 +36,26 @@ Claude Code Skill Factory — A powerful open-source toolkit for building and de
 
 ## What it does
 
-Open-source repository (alirezarezvani/claude-code-skill-factory) providing agent skills, workflows, or MCP capabilities verified via GitHub (914 stars).
+Provides creator workflows for scripting, hooks, thumbnails, titles, and channel growth. Focused on `ai-agents`, `ai-tools`, `claude-ai`, `claude-code` and designed to work with claude-code.
 
 ## Best for
 
-- Extending claude-code with youtube capabilities
-- Teams evaluating community-backed ai-agents tooling
+- **Primary goal:** Claude Code Skill Factory — A powerful open-source toolkit for building and deploying production-ready Claude Skills, Code Agents, custom Slash Commands, and LLM Prompts at scale. Easily generate structured skill templates, automate workflow integration, and accelerate AI agent development with a clean, developer-friendly setup.
+- **Works with:** claude-code
+- **Key topics:** ai-agents, ai-tools, claude-ai, claude-code, claude-skills
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 914 stars and MIT licensing.
+GOOD — 914 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/alirezarezvani/claude-code-skill-factory
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/alirezarezvani/claude-code-skill-factory

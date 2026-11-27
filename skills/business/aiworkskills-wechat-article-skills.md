@@ -38,29 +38,26 @@ featured: false
 
 ## What it does
 
-Open-source repository (aiworkskills/wechat-article-skills) providing agent skills, workflows, or MCP capabilities verified via GitHub (772 stars).
+Provides SEO, marketing, product management, analytics, or business workflow templates. Focused on `agent-skills`, `ai-agent`, `ai-skills`, `ai-writing` and designed to work with claude-code, codex, cursor.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with business capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** 微信公众号 AI 运营助手 | 选题、写稿、审稿、排版、配图、发布全流程 Skill，支持 OpenClaw / Claude Code / Cursor / Codex
+- **Works with:** claude-code, codex, cursor
+- **Key topics:** agent-skills, ai-agent, ai-skills, ai-writing, anthropic
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 772 stars and Apache-2.0 licensing.
+GOOD — 772 GitHub stars (Apache-2.0 license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/aiworkskills/wechat-article-skills
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/aiworkskills/wechat-article-skills

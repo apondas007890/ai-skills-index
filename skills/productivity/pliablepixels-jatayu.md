@@ -36,29 +36,26 @@ Jatayu is a personal agent based off of Claude Code CLI. No platform API license
 
 ## What it does
 
-Open-source repository (pliablepixels/jatayu) providing agent skills, workflows, or MCP capabilities verified via GitHub (7 stars).
+Provides planning, writing, note-taking, or personal knowledge management workflows. Focused on `agentic-ai`, `ai`, `assistant`, `claude` and designed to work with claude-code.
 
 ## Best for
 
-- Extending claude-code with productivity capabilities
-- Teams evaluating community-backed agentic-ai tooling
+- **Primary goal:** Jatayu is a personal agent based off of Claude Code CLI. No platform API license needed as it maps to first party tool usage conditions
+- **Works with:** claude-code
+- **Key topics:** agentic-ai, ai, assistant, claude, personal
 
 ## Verdict
 
-PROMISING — verified active GitHub repository with 7 stars and MIT licensing.
+PROMISING — 7 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/pliablepixels/jatayu
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/pliablepixels/jatayu

@@ -40,29 +40,26 @@ Secure MCP runtime for AI agents to operate local machines, servers, and contain
 
 ## What it does
 
-Open-source repository (uvwt/agentdock) providing agent skills, workflows, or MCP capabilities verified via GitHub (1,304 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agent-skills`, `ai-agents`, `automation`, `devops` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with coding capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** Secure MCP runtime for AI agents to operate local machines, servers, and containers with multi-device orchestration.
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** agent-skills, ai-agents, automation, devops, docker
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 1,304 stars and Apache-2.0 licensing.
+GOOD — 1,304 GitHub stars (Apache-2.0 license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/uvwt/agentdock
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/uvwt/agentdock

@@ -38,29 +38,26 @@ Framework-aware Starwind UI v3 tools for Astro and React setup, components, docs
 
 ## What it does
 
-Open-source repository (starwind-ui/starwind-ui-mcp) providing agent skills, workflows, or MCP capabilities verified via GitHub (35 stars).
+Provides UI/UX design rules, component patterns, typography, accessibility, or visual polish. Focused on `ai-agents`, `astro`, `claude`, `codex` and designed to work with claude-code, codex, cursor.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with design capabilities
-- Teams evaluating community-backed ai-agents tooling
+- **Primary goal:** Framework-aware Starwind UI v3 tools for Astro and React setup, components, docs, and migration.
+- **Works with:** claude-code, codex, cursor
+- **Key topics:** ai-agents, astro, claude, codex, coding-agents
 
 ## Verdict
 
-PROMISING — verified active GitHub repository with 35 stars and MIT licensing.
+PROMISING — 35 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/starwind-ui/starwind-ui-mcp
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/starwind-ui/starwind-ui-mcp

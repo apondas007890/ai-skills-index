@@ -37,29 +37,26 @@ Building the self-learning layer next-gen agents will ship with, learning skills
 
 ## What it does
 
-Open-source repository (tigerless-labs/autoharness) providing agent skills, workflows, or MCP capabilities verified via GitHub (10,220 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agent-skills`, `claude-code`, `claude-code-plugin`, `llm-agents` and designed to work with claude-code.
 
 ## Best for
 
-- Extending claude-code with coding capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** Building the self-learning layer next-gen agents will ship with, learning skills from real work.
+- **Works with:** claude-code
+- **Key topics:** agent-skills, claude-code, claude-code-plugin, llm-agents, python
 
 ## Verdict
 
-EXCELLENT — verified active GitHub repository with 10,220 stars and MIT licensing.
+EXCELLENT — 10,220 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/tigerless-labs/autoharness
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/tigerless-labs/autoharness

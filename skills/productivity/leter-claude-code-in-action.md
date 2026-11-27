@@ -36,29 +36,26 @@ Claude Code in Action 官方课程中文版 / Chinese-localized Claude Code cour
 
 ## What it does
 
-Open-source repository (leter/claude-code-in-action) providing agent skills, workflows, or MCP capabilities verified via GitHub (9 stars).
+Provides planning, writing, note-taking, or personal knowledge management workflows. Focused on `ai-coding-assistant`, `chinese-localization`, `claude-code`, `course` and designed to work with claude-code.
 
 ## Best for
 
-- Extending claude-code with productivity capabilities
-- Teams evaluating community-backed ai-coding-assistant tooling
+- **Primary goal:** Claude Code in Action 官方课程中文版 / Chinese-localized Claude Code course
+- **Works with:** claude-code
+- **Key topics:** ai-coding-assistant, chinese-localization, claude-code, course, hooks
 
 ## Verdict
 
-PROMISING — verified active GitHub repository with 9 stars and Unknown licensing.
+PROMISING — 9 GitHub stars (Unknown license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/leter/claude-code-in-action
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/leter/claude-code-in-action

@@ -36,29 +36,26 @@ Codex Skill for drafting auditable /goal prompts
 
 ## What it does
 
-Open-source repository (muxuuu/goal-writer) providing agent skills, workflows, or MCP capabilities verified via GitHub (5 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `codex`, `codex-skill`, `goals`, `openai-codex` and designed to work with codex.
 
 ## Best for
 
-- Extending codex with agents capabilities
-- Teams evaluating community-backed codex tooling
+- **Primary goal:** Codex Skill for drafting auditable /goal prompts
+- **Works with:** codex
+- **Key topics:** codex, codex-skill, goals, openai-codex, prompt-engineering
 
 ## Verdict
 
-PROMISING — verified active GitHub repository with 5 stars and MIT licensing.
+PROMISING — 5 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/muxuuu/goal-writer
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/muxuuu/goal-writer

@@ -37,29 +37,26 @@ A full featured, powerful, and efficient AI Agentic Harness/Desktop Agent app de
 
 ## What it does
 
-Open-source repository (Bino5150/lumina) providing agent skills, workflows, or MCP capabilities verified via GitHub (195 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agent`, `agent-memory`, `agent-skills`, `agentic-ai` and designed to work with opencode.
 
 ## Best for
 
-- Extending opencode with automation capabilities
-- Teams evaluating community-backed agent tooling
+- **Primary goal:** A full featured, powerful, and efficient AI Agentic Harness/Desktop Agent app designed from the ground up with local inference on consumer hardware in mind. It evolves, grows, and gets smarter as you go. And it REMEMBERS...
+- **Works with:** opencode
+- **Key topics:** agent, agent-memory, agent-skills, agentic-ai, agentic-harness
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 195 stars and Apache-2.0 licensing.
+GOOD — 195 GitHub stars (Apache-2.0 license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/Bino5150/lumina
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/Bino5150/lumina

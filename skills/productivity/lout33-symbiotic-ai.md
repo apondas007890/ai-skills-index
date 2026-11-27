@@ -36,29 +36,26 @@ A symbiotic AI agent that remembers everything, challenges you, and extends your
 
 ## What it does
 
-Open-source repository (lout33/symbiotic-ai) providing agent skills, workflows, or MCP capabilities verified via GitHub (737 stars).
+Provides planning, writing, note-taking, or personal knowledge management workflows. Focused on `agent`, `agent-skills`, `ai`, `ai-agents` and designed to work with claude-code.
 
 ## Best for
 
-- Extending claude-code with productivity capabilities
-- Teams evaluating community-backed agent tooling
+- **Primary goal:** A symbiotic AI agent that remembers everything, challenges you, and extends your cognition.
+- **Works with:** claude-code
+- **Key topics:** agent, agent-skills, ai, ai-agents, assistant
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 737 stars and Unknown licensing.
+GOOD — 737 GitHub stars (Unknown license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/lout33/symbiotic-ai
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/lout33/symbiotic-ai

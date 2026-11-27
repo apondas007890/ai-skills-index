@@ -39,29 +39,26 @@ Bambu Lab AI (Bambu Studio AI): agent skill for 3D printing on Bambu Lab. Finds 
 
 ## What it does
 
-Open-source repository (heyixuan2/bambu-studio-ai) providing agent skills, workflows, or MCP capabilities verified via GitHub (288 stars).
+Provides programmatic video editing, motion graphics, storyboarding, or visual media generation. Focused on `3d-models`, `3d-printing`, `3mf`, `agent-skills` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with image-video capabilities
-- Teams evaluating community-backed 3d-models tooling
+- **Primary goal:** Bambu Lab AI (Bambu Studio AI): agent skill for 3D printing on Bambu Lab. Finds models on MakerWorld & Printables, generates or designs them in CAD, checks printability, hands them to Bambu Studio and reads printer/AMS status. For Claude Code, Codex, Cursor, Gemini CLI and any SKILL.md agent. Featured in 我的拓竹 Skill 大赏.
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** 3d-models, 3d-printing, 3mf, agent-skills, ai-agents
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 288 stars and MIT licensing.
+GOOD — 288 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/heyixuan2/bambu-studio-ai
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/heyixuan2/bambu-studio-ai

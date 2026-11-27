@@ -40,29 +40,26 @@ Peekaboo is a macOS CLI & optional MCP server that enables AI agents to capture 
 
 ## What it does
 
-Open-source repository (openclaw/Peekaboo) providing agent skills, workflows, or MCP capabilities verified via GitHub (5,541 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `ai`, `macos`, `mcp`, `screenshots` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with coding capabilities
-- Teams evaluating community-backed ai tooling
+- **Primary goal:** Peekaboo is a macOS CLI & optional MCP server that enables AI agents to capture screenshots of applications, or the entire system, with optional visual question answering through local or remote AI models.
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** ai, macos, mcp, screenshots, swift
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 5,541 stars and MIT licensing.
+GOOD — 5,541 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/openclaw/Peekaboo
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/openclaw/Peekaboo

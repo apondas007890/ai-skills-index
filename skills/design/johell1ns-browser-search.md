@@ -38,29 +38,26 @@ A skill for AI agents: search the web with SearXNG, browse with Camofox, bypass 
 
 ## What it does
 
-Open-source repository (Johell1NS/browser-search) providing agent skills, workflows, or MCP capabilities verified via GitHub (552 stars).
+Provides UI/UX design rules, component patterns, typography, accessibility, or visual polish. Focused on `agent-skills`, `ai`, `ai-agent`, `ai-tools` and designed to work with claude-code, cursor, opencode.
 
 ## Best for
 
-- Extending claude-code, cursor, opencode with design capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** A skill for AI agents: search the web with SearXNG, browse with Camofox, bypass protections with CloakBrowser. Anti-hallucination by design. Self-hosted, free, unlimited.
+- **Works with:** claude-code, cursor, opencode
+- **Key topics:** agent-skills, ai, ai-agent, ai-tools, anti-bot
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 552 stars and MIT licensing.
+GOOD — 552 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/Johell1NS/browser-search
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/Johell1NS/browser-search

@@ -41,29 +41,26 @@ An agent skill that finds where a photo was taken — OpenStreetMap geometry, el
 
 ## What it does
 
-Open-source repository (Oldcircle/geo-sleuth) providing agent skills, workflows, or MCP capabilities verified via GitHub (7,605 stars).
+Provides programmatic video editing, motion graphics, storyboarding, or visual media generation. Focused on `agent-skills`, `ai-agents`, `claude-code`, `codex` and designed to work with claude-code, codex, cursor, gemini-cli, opencode, github-copilot.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with image-video capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** An agent skill that finds where a photo was taken — OpenStreetMap geometry, elevation skylines, satellite imagery and street view — and shows its work. Works with Claude Code, Codex, Cursor, Gemini CLI, OpenCode and GitHub Copilot.
+- **Works with:** claude-code, codex, cursor, gemini-cli, opencode, github-copilot
+- **Key topics:** agent-skills, ai-agents, claude-code, codex, computer-vision
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 7,605 stars and MIT licensing.
+GOOD — 7,605 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/Oldcircle/geo-sleuth
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/Oldcircle/geo-sleuth

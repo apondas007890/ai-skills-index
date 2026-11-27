@@ -36,29 +36,26 @@ AI 幾級了 — What level is your AI usage? Reads local agent logs and writes 
 
 ## What it does
 
-Open-source repository (Raymondhou0917/ai-level-check) providing agent skills, workflows, or MCP capabilities verified via GitHub (51 stars).
+Provides planning, writing, note-taking, or personal knowledge management workflows. Focused on `ai`, `claude-code`, `productivity`, `skill` and designed to work with claude-code.
 
 ## Best for
 
-- Extending claude-code with productivity capabilities
-- Teams evaluating community-backed ai tooling
+- **Primary goal:** AI 幾級了 — What level is your AI usage? Reads local agent logs and writes an LV0–LV5 report. No ranking.
+- **Works with:** claude-code
+- **Key topics:** ai, claude-code, productivity, skill, traditional-chinese
 
 ## Verdict
 
-PROMISING — verified active GitHub repository with 51 stars and MIT licensing.
+PROMISING — 51 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/Raymondhou0917/ai-level-check
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/Raymondhou0917/ai-level-check

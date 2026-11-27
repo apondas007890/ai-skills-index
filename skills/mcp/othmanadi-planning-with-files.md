@@ -41,29 +41,26 @@ Persistent file-based planning for AI coding agents and long-running tasks. Cras
 
 ## What it does
 
-Open-source repository (OthmanAdi/planning-with-files) providing agent skills, workflows, or MCP capabilities verified via GitHub (28,250 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agent-skills`, `autonomous-agents`, `claude`, `claude-code` and designed to work with claude-code, codex, cursor, opencode, roo-code.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with coding capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** Persistent file-based planning for AI coding agents and long-running tasks. Crash-proof markdown plans, session recovery after /clear and compaction, per-turn re-injection against context rot, deterministic completion gate. Manus-style. Install from npm, the Claude Code plugin marketplace, or npx skills. Codex, Cursor, OpenCode, 60+ agents.
+- **Works with:** claude-code, codex, cursor, opencode, roo-code
+- **Key topics:** agent-skills, autonomous-agents, claude, claude-code, claude-code-skills
 
 ## Verdict
 
-EXCELLENT — verified active GitHub repository with 28,250 stars and MIT licensing.
+EXCELLENT — 28,250 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/OthmanAdi/planning-with-files
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/OthmanAdi/planning-with-files

@@ -36,29 +36,26 @@ Turn scattered notes, docs and transcripts into a queryable Markdown wiki — an
 
 ## What it does
 
-Open-source repository (bybit-exchange/kaas) providing agent skills, workflows, or MCP capabilities verified via GitHub (153 stars).
+Provides planning, writing, note-taking, or personal knowledge management workflows. Focused on `ai-agents`, `claude-code`, `golang`, `knowledge-base` and designed to work with claude-code.
 
 ## Best for
 
-- Extending claude-code with productivity capabilities
-- Teams evaluating community-backed ai-agents tooling
+- **Primary goal:** Turn scattered notes, docs and transcripts into a queryable Markdown wiki — an LLM knowledge-base compiler with MCP access, no embeddings, self-hosted.
+- **Works with:** claude-code
+- **Key topics:** ai-agents, claude-code, golang, knowledge-base, knowledge-management
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 153 stars and MIT licensing.
+GOOD — 153 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/bybit-exchange/kaas
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/bybit-exchange/kaas

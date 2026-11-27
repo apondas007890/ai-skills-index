@@ -37,29 +37,26 @@ AI 短剧 · 漫剧 Skill（技能包）精选：剧本、改编、分镜、Seed
 
 ## What it does
 
-Open-source repository (UnderleveledBuilder/awesome-short-drama-skills) providing agent skills, workflows, or MCP capabilities verified via GitHub (2,895 stars).
+Provides programmatic video editing, motion graphics, storyboarding, or visual media generation. Focused on `agent-skills`, `ai-drama`, `ai-short-drama`, `awesome` and designed to work with claude-code, codex.
 
 ## Best for
 
-- Extending claude-code, codex with image-video capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** AI 短剧 · 漫剧 Skill（技能包）精选：剧本、改编、分镜、Seedance / 可灵 / MiniMax 视频提示词，千问、豆包、龙虾 OpenClaw、WorkBuddy、Claude Code、Codex 等智能体可用 | Curated agent skills for AI short drama, micro drama / microdrama, vertical drama and manju (AI comic drama): screenwriting, storyboards, Seedance / Kling / MiniMax video prompts
+- **Works with:** claude-code, codex
+- **Key topics:** agent-skills, ai-drama, ai-short-drama, awesome, awesome-list
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 2,895 stars and CC0-1.0 licensing.
+GOOD — 2,895 GitHub stars (CC0-1.0 license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/UnderleveledBuilder/awesome-short-drama-skills
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/UnderleveledBuilder/awesome-short-drama-skills

@@ -38,29 +38,26 @@ Community use cases for book-to-skill — one line here, the full account in the
 
 ## What it does
 
-Open-source repository (virgiliojr94/book-to-skill-use-cases) providing agent skills, workflows, or MCP capabilities verified via GitHub (25 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agent-skills`, `book-to-skill`, `showcase`, `use-cases` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with agents capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** Community use cases for book-to-skill — one line here, the full account in the author's own Gist. No generated skills, no book content.
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** agent-skills, book-to-skill, showcase, use-cases
 
 ## Verdict
 
-PROMISING — verified active GitHub repository with 25 stars and Unknown licensing.
+PROMISING — 25 GitHub stars (Unknown license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/virgiliojr94/book-to-skill-use-cases
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/virgiliojr94/book-to-skill-use-cases

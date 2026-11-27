@@ -39,29 +39,26 @@ featured: true
 
 ## What it does
 
-Open-source repository (gitroomhq/postiz-app) providing agent skills, workflows, or MCP capabilities verified via GitHub (42,482 stars).
+Provides programmatic video editing, motion graphics, storyboarding, or visual media generation. Focused on `nextjs`, `open-source`, `open-source-social-media-scheduling-tool`, `oss` and designed to work with claude-code, codex, cursor, gemini-cli, roo-code.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with image-video capabilities
-- Teams evaluating community-backed nextjs tooling
+- **Primary goal:** 📨 The ultimate agentic social media scheduling tool 🤖
+- **Works with:** claude-code, codex, cursor, gemini-cli, roo-code
+- **Key topics:** nextjs, open-source, open-source-social-media-scheduling-tool, oss, postiz-cloud
 
 ## Verdict
 
-EXCELLENT — verified active GitHub repository with 42,482 stars and AGPL-3.0 licensing.
+EXCELLENT — 42,482 GitHub stars (AGPL-3.0 license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/gitroomhq/postiz-app
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/gitroomhq/postiz-app

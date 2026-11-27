@@ -36,29 +36,26 @@ Agent skill for the Peec AI MCP, based on real-world use, exploration and stress
 
 ## What it does
 
-Open-source repository (rebelytics/peec-ai-mcp) providing agent skills, workflows, or MCP capabilities verified via GitHub (6 stars).
+Provides SEO, marketing, product management, analytics, or business workflow templates. Focused on `agent-skills`, `ai-visibility`, `claude-skills`, `mcp` and designed to work with claude-code.
 
 ## Best for
 
-- Extending claude-code with business capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** Agent skill for the Peec AI MCP, based on real-world use, exploration and stress-testing. Gives your agents a head start when working with the Peec AI MCP, so you can focus on building.
+- **Works with:** claude-code
+- **Key topics:** agent-skills, ai-visibility, claude-skills, mcp, peec-ai
 
 ## Verdict
 
-PROMISING — verified active GitHub repository with 6 stars and CC-BY-4.0 licensing.
+PROMISING — 6 GitHub stars (CC-BY-4.0 license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/rebelytics/peec-ai-mcp
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/rebelytics/peec-ai-mcp

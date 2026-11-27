@@ -34,29 +34,26 @@ A skill to expose localhost and dev-server ports to Codex and Claude mobile apps
 
 ## What it does
 
-Open-source repository (earthtojake/remotehost-skill) providing agent skills, workflows, or MCP capabilities verified via GitHub (15 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agents`, `agent-skills` and designed to work with claude-code, codex.
 
 ## Best for
 
-- Extending claude-code, codex with agents capabilities
-- Teams evaluating community-backed agents tooling
+- **Primary goal:** A skill to expose localhost and dev-server ports to Codex and Claude mobile apps using Tailscale
+- **Works with:** claude-code, codex
+- **Key topics:** agents, agent-skills
 
 ## Verdict
 
-PROMISING — verified active GitHub repository with 15 stars and Unknown licensing.
+PROMISING — 15 GitHub stars (Unknown license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/earthtojake/remotehost-skill
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/earthtojake/remotehost-skill

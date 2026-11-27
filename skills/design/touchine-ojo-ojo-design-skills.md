@@ -37,29 +37,26 @@ Reusable UI/UX design skills for AI coding agents — Codex, Claude Code, ZCode,
 
 ## What it does
 
-Open-source repository (touchine-ojo/OJO-Design-Skills) providing agent skills, workflows, or MCP capabilities verified via GitHub (198 stars).
+Provides UI/UX design rules, component patterns, typography, accessibility, or visual polish. Focused on `agent-skills`, `ai-agent`, `claude-code`, `codex` and designed to work with claude-code, codex.
 
 ## Best for
 
-- Extending claude-code, codex with design capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** Reusable UI/UX design skills for AI coding agents — Codex, Claude Code, ZCode, and more.
+- **Works with:** claude-code, codex
+- **Key topics:** agent-skills, ai-agent, claude-code, codex, design-methodology
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 198 stars and MIT licensing.
+GOOD — 198 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/touchine-ojo/OJO-Design-Skills
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/touchine-ojo/OJO-Design-Skills

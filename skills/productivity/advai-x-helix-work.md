@@ -39,29 +39,26 @@ Model-neutral AI workspace for macOS with multi-provider models, extensible tool
 
 ## What it does
 
-Open-source repository (advai-x/helix-work) providing agent skills, workflows, or MCP capabilities verified via GitHub (180 stars).
+Provides planning, writing, note-taking, or personal knowledge management workflows. Focused on `ai-agent`, `ai-assistant`, `ai-workspace`, `apple-silicon` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with productivity capabilities
-- Teams evaluating community-backed ai-agent tooling
+- **Primary goal:** Model-neutral AI workspace for macOS with multi-provider models, extensible tools, and inspectable deliverables.
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** ai-agent, ai-assistant, ai-workspace, apple-silicon, desktop-app
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 180 stars and Unknown licensing.
+GOOD — 180 GitHub stars (Unknown license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/advai-x/helix-work
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/advai-x/helix-work

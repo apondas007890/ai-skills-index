@@ -39,29 +39,26 @@ A reusable Agent Skill for designing, reviewing, and implementing UI/UX with Goo
 
 ## What it does
 
-Open-source repository (skydashnet/material-design-3-ui-skill) providing agent skills, workflows, or MCP capabilities verified via GitHub (439 stars).
+Provides UI/UX design rules, component patterns, typography, accessibility, or visual polish. Focused on `accessibility`, `adaptive-design`, `agent-skills`, `ai-agent` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with design capabilities
-- Teams evaluating community-backed accessibility tooling
+- **Primary goal:** A reusable Agent Skill for designing, reviewing, and implementing UI/UX with Google Material Design 3, Material You, M3 Expressive, accessibility, adaptive layouts, and semantic design tokens.
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** accessibility, adaptive-design, agent-skills, ai-agent, android-design
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 439 stars and MIT licensing.
+GOOD — 439 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/skydashnet/material-design-3-ui-skill
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/skydashnet/material-design-3-ui-skill

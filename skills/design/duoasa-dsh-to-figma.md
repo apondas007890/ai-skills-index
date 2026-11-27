@@ -37,29 +37,26 @@ featured: false
 
 ## What it does
 
-Open-source repository (Duoasa/DSH-to-Figma) providing agent skills, workflows, or MCP capabilities verified via GitHub (115 stars).
+Provides UI/UX design rules, component patterns, typography, accessibility, or visual polish. Focused on `deepseek-harness`, `design-to-code`, `dsh-plugin`, `figma` and designed to work with claude-code, codex.
 
 ## Best for
 
-- Extending claude-code, codex with design capabilities
-- Teams evaluating community-backed deepseek-harness tooling
+- **Primary goal:** 让 DSH 等 Agent 用自然语言读取、创建和编辑 Figma 设计，支持组件与变量、原生动效、截图与素材导出，并提供能力检测、文件重连和内置指南。本地模式不消耗官方 Figma MCP 调用额度。 原生支持 DSH ， 也可搭配 Codex / ClaudeCode 等其他 Agent 使用。
+- **Works with:** claude-code, codex
+- **Key topics:** deepseek-harness, design-to-code, dsh-plugin, figma, mcp
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 115 stars and MIT licensing.
+GOOD — 115 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/Duoasa/DSH-to-Figma
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/Duoasa/DSH-to-Figma

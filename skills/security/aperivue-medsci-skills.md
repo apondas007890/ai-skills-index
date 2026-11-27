@@ -40,29 +40,26 @@ Agent Skills for medical research: look references up in PubMed, CrossRef and Op
 
 ## What it does
 
-Open-source repository (Aperivue/medsci-skills) providing agent skills, workflows, or MCP capabilities verified via GitHub (403 stars).
+Provides security auditing, static analysis, vulnerability checks, or defensive review workflows. Focused on `academic-writing`, `agent-skills`, `biostatistics`, `claude-code` and designed to work with claude-code, codex, cursor, github-copilot.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with research capabilities
-- Teams evaluating community-backed academic-writing tooling
+- **Primary goal:** Agent Skills for medical research: look references up in PubMed, CrossRef and OpenAlex, audit a manuscript against any of 49 reporting guidelines and risk-of-bias tools, plus statistics, figures and submission. For Claude Code, Codex, Cursor and GitHub Copilot. Built by a physician-researcher. MIT.
+- **Works with:** claude-code, codex, cursor, github-copilot
+- **Key topics:** academic-writing, agent-skills, biostatistics, claude-code, claude-skills
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 403 stars and MIT licensing.
+GOOD — 403 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/Aperivue/medsci-skills
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/Aperivue/medsci-skills

@@ -39,29 +39,26 @@ One-stop handbook for building, deploying, and understanding LLM agents with 60+
 
 ## What it does
 
-Open-source repository (oxbshw/LLM-Agents-Ecosystem-Handbook) providing agent skills, workflows, or MCP capabilities verified via GitHub (563 stars).
+Provides voice synthesis, transcription, audio editing, or music generation workflows. Focused on `ai`, `ai-agent`, `ai-agents`, `fine-tuning` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with audio-music capabilities
-- Teams evaluating community-backed ai tooling
+- **Primary goal:** One-stop handbook for building, deploying, and understanding LLM agents with 60+ skeletons, tutorials, ecosystem guides, and evaluation tools.
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** ai, ai-agent, ai-agents, fine-tuning, finetuning-llms
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 563 stars and MIT licensing.
+GOOD — 563 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/oxbshw/LLM-Agents-Ecosystem-Handbook
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/oxbshw/LLM-Agents-Ecosystem-Handbook

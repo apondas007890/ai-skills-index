@@ -38,29 +38,26 @@ Intelligent Skill routing and workflow orchestration for AI agents — +21.12 pp
 
 ## What it does
 
-Open-source repository (foryourhealth111-pixel/Vibe-Skills) providing agent skills, workflows, or MCP capabilities verified via GitHub (3,853 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agent-framework`, `agent-skills`, `agentic-coding`, `ai-agents` and designed to work with claude-code, codex.
 
 ## Best for
 
-- Extending claude-code, codex with automation capabilities
-- Teams evaluating community-backed agent-framework tooling
+- **Primary goal:** Intelligent Skill routing and workflow orchestration for AI agents — +21.12 pp reward, −29.6% tokens on SkillsBench with DeepSeekV4Flash-VE.
+- **Works with:** claude-code, codex
+- **Key topics:** agent-framework, agent-skills, agentic-coding, ai-agents, ai-scientist
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 3,853 stars and Apache-2.0 licensing.
+GOOD — 3,853 GitHub stars (Apache-2.0 license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/foryourhealth111-pixel/Vibe-Skills
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/foryourhealth111-pixel/Vibe-Skills

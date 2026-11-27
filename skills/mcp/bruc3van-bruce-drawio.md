@@ -37,29 +37,26 @@ featured: false
 
 ## What it does
 
-Open-source repository (bruc3van/bruce-drawio) providing agent skills, workflows, or MCP capabilities verified via GitHub (115 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `diagram`, `drawio`, `openclaw`, `skill` and designed to work with claude-code, codex.
 
 ## Best for
 
-- Extending claude-code, codex with coding capabilities
-- Teams evaluating community-backed diagram tooling
+- **Primary goal:** 跨平台的 draw.io (diagrams.net) 图表生成技能，适用于 Claude Code、codex、zcode、workbuddy、OpenClaw 等各类 AI 编程 Agent。Agent 直接生成 drawio XML，校验后通过 CLI 导出图片；没有桌面版时自动降级为 draw.io 官网打开链接。
+- **Works with:** claude-code, codex
+- **Key topics:** diagram, drawio, openclaw, skill
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 115 stars and MIT licensing.
+GOOD — 115 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/bruc3van/bruce-drawio
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/bruc3van/bruce-drawio

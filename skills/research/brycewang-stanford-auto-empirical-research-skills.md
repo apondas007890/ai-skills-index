@@ -39,29 +39,26 @@ featured: false
 
 ## What it does
 
-Open-source repository (brycewang-stanford/Auto-Empirical-Research-Skills) providing agent skills, workflows, or MCP capabilities verified via GitHub (5,168 stars).
+Provides structured web research, academic/data analysis, or synthesis capabilities. Focused on `academic-research`, `agent-skills`, `ai-agent`, `awesome-list` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with research capabilities
-- Teams evaluating community-backed academic-research tooling
+- **Primary goal:** 🔬 A curated collection of 23,000+ agent skills for empirical research across 8 social science disciplines. | 精选 23,000+ AI Agent 技能库，覆盖8大社会科学学科的实证研究。CoPaper.AI 20分钟完成一篇可复现的规范实证论文，并支持用户上传 Skills。-- Maintained by CoPaper.AI from Stanford REAP.
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** academic-research, agent-skills, ai-agent, awesome-list, communication
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 5,168 stars and Unknown licensing.
+GOOD — 5,168 GitHub stars (Unknown license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/brycewang-stanford/Auto-Empirical-Research-Skills
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/brycewang-stanford/Auto-Empirical-Research-Skills

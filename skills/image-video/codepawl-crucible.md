@@ -36,29 +36,26 @@ featured: false
 
 ## What it does
 
-Open-source repository (codepawl/crucible) providing agent skills, workflows, or MCP capabilities verified via GitHub (1,035 stars).
+Provides programmatic video editing, motion graphics, storyboarding, or visual media generation. Focused on `3d`, `3d-engine`, `agentic-ai`, `ai-agents` and designed to work with claude-code.
 
 ## Best for
 
-- Extending claude-code with image-video capabilities
-- Teams evaluating community-backed 3d tooling
+- **Primary goal:** 3D engine that AI agents drive
+- **Works with:** claude-code
+- **Key topics:** 3d, 3d-engine, agentic-ai, ai-agents, blender
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 1,035 stars and MIT licensing.
+GOOD — 1,035 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/codepawl/crucible
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/codepawl/crucible

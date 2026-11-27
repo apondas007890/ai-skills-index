@@ -38,29 +38,26 @@ The fastest browser for AI agents to run browser automation, built for sharing y
 
 ## What it does
 
-Open-source repository (citrolabs/ego-lite) providing agent skills, workflows, or MCP capabilities verified via GitHub (24,667 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agent-skills`, `ai-agent`, `automation`, `browser` and designed to work with claude-code, codex.
 
 ## Best for
 
-- Extending claude-code, codex with automation capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** The fastest browser for AI agents to run browser automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.
+- **Works with:** claude-code, codex
+- **Key topics:** agent-skills, ai-agent, automation, browser, browser-automation
 
 ## Verdict
 
-EXCELLENT — verified active GitHub repository with 24,667 stars and MIT licensing.
+EXCELLENT — 24,667 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/citrolabs/ego-lite
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/citrolabs/ego-lite

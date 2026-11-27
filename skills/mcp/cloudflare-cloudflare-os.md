@@ -36,29 +36,26 @@ Agent workspace built on Cloudflare Workers for creating documents, building app
 
 ## What it does
 
-Open-source repository (cloudflare/cloudflare-os) providing agent skills, workflows, or MCP capabilities verified via GitHub (11,877 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agents`, `agent-skills` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with agents capabilities
-- Teams evaluating community-backed agents tooling
+- **Primary goal:** Agent workspace built on Cloudflare Workers for creating documents, building apps, and running agents with your company’s context and systems.
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** agents, agent-skills
 
 ## Verdict
 
-EXCELLENT — verified active GitHub repository with 11,877 stars and Apache-2.0 licensing.
+EXCELLENT — 11,877 GitHub stars (Apache-2.0 license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/cloudflare/cloudflare-os
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/cloudflare/cloudflare-os

@@ -37,29 +37,26 @@ This repo collects awesome AI tools. Welcome everyone to recommend more awesome 
 
 ## What it does
 
-Open-source repository (ikaijua/Awesome-AITools) providing agent skills, workflows, or MCP capabilities verified via GitHub (6,388 stars).
+Provides programmatic video editing, motion graphics, storyboarding, or visual media generation. Focused on `agent-skills`, `agents`, `ai`, `ai-tools` and designed to work with claude-code, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, gemini-cli with image-video capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** This repo collects awesome AI tools. Welcome everyone to recommend more awesome AI tools together!
+- **Works with:** claude-code, gemini-cli
+- **Key topics:** agent-skills, agents, ai, ai-tools, artificial-intelligence
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 6,388 stars and CC-BY-4.0 licensing.
+GOOD — 6,388 GitHub stars (CC-BY-4.0 license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/ikaijua/Awesome-AITools
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/ikaijua/Awesome-AITools

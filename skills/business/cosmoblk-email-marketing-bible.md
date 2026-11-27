@@ -38,29 +38,26 @@ Email marketing skill for AI agents, by George Hartley (founded SmartrMail). Pla
 
 ## What it does
 
-Open-source repository (CosmoBlk/email-marketing-bible) providing agent skills, workflows, or MCP capabilities verified via GitHub (388 stars).
+Provides SEO, marketing, product management, analytics, or business workflow templates. Focused on `agent-skills`, `ai-skill`, `chatgpt`, `claude-code` and designed to work with claude-code, codex, cursor.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with business capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** Email marketing skill for AI agents, by George Hartley (founded SmartrMail). Plans, writes, audits and sends email with hard send-safety gates. Works in Claude, ChatGPT, Codex and Cursor. Free, MIT, vendor-neutral.
+- **Works with:** claude-code, codex, cursor
+- **Key topics:** agent-skills, ai-skill, chatgpt, claude-code, claude-skills
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 388 stars and MIT licensing.
+GOOD — 388 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/CosmoBlk/email-marketing-bible
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/CosmoBlk/email-marketing-bible

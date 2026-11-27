@@ -38,29 +38,26 @@ featured: false
 
 ## What it does
 
-Open-source repository (Shy2593666979/mcp-server-email) providing agent skills, workflows, or MCP capabilities verified via GitHub (81 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `email`, `mcp`, `mcp-client`, `mcp-server` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with agents capabilities
-- Teams evaluating community-backed email tooling
+- **Primary goal:** 一个基于 MCP (Model Context Protocol) 的邮件服务，支持 LLM 发送带附件的电子邮件及在指定目录中搜索文件。提供安全的 SMTP 传输、多收件人支持和附件模式匹配搜索功能，适用于 Gmail、Outlook、Yahoo、QQ 邮箱和网易 126 邮箱等主流邮箱服务。
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** email, mcp, mcp-client, mcp-server
 
 ## Verdict
 
-PROMISING — verified active GitHub repository with 81 stars and MIT licensing.
+PROMISING — 81 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/Shy2593666979/mcp-server-email
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/Shy2593666979/mcp-server-email

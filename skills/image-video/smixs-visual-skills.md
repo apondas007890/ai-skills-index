@@ -40,29 +40,26 @@ AI film director skills for agents: cinematic dramaturgy (Murch, blocking, monta
 
 ## What it does
 
-Open-source repository (smixs/visual-skills) providing agent skills, workflows, or MCP capabilities verified via GitHub (771 stars).
+Provides programmatic video editing, motion graphics, storyboarding, or visual media generation. Focused on `ai-image-generation`, `ai-prompts`, `ai-video-generation`, `claude` and designed to work with claude-code, cursor, cline, opencode, windsurf.
 
 ## Best for
 
-- Extending claude-code, cursor, cline with image-video capabilities
-- Teams evaluating community-backed ai-image-generation tooling
+- **Primary goal:** AI film director skills for agents: cinematic dramaturgy (Murch, blocking, montage) + exact prompt syntax for Seedance 2.5, Kling 3.0 Turbo/Omni, Veo 3.1, Nano Banana 2, GPT Image 2.5.
+- **Works with:** claude-code, cursor, cline, opencode, windsurf
+- **Key topics:** ai-image-generation, ai-prompts, ai-video-generation, claude, claude-agent-sdk
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 771 stars and CC-BY-4.0 licensing.
+GOOD — 771 GitHub stars (CC-BY-4.0 license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/smixs/visual-skills
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/smixs/visual-skills

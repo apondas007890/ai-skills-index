@@ -40,29 +40,26 @@ Eclipse Theia is an open-source platform for building custom IDEs and tools for 
 
 ## What it does
 
-Open-source repository (eclipse-theia/theia) providing agent skills, workflows, or MCP capabilities verified via GitHub (21,795 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agent-skills`, `agentic-ai`, `ai`, `ai-agents` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with automation capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** Eclipse Theia is an open-source platform for building custom IDEs and tools for browser and desktop. It includes Theia AI, the vendor-neutral AI harness platform, and powers the AI-native Theia IDE.
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** agent-skills, agentic-ai, ai, ai-agents, ai-harness
 
 ## Verdict
 
-EXCELLENT — verified active GitHub repository with 21,795 stars and EPL-2.0 licensing.
+EXCELLENT — 21,795 GitHub stars (EPL-2.0 license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/eclipse-theia/theia
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/eclipse-theia/theia

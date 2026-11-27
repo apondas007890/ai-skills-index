@@ -36,29 +36,26 @@ Codex 官方插件中文市场：自动同步 openai/plugins · 无损汉化(机
 
 ## What it does
 
-Open-source repository (kael-odin/codex-plugins-zh) providing agent skills, workflows, or MCP capabilities verified via GitHub (49 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `chatgpt`, `chinese`, `codex`, `codex-cli` and designed to work with codex.
 
 ## Best for
 
-- Extending codex with agents capabilities
-- Teams evaluating community-backed chatgpt tooling
+- **Primary goal:** Codex 官方插件中文市场：自动同步 openai/plugins · 无损汉化(机器可证) · 每日更新 · 可视化中文导航站
+- **Works with:** codex
+- **Key topics:** chatgpt, chinese, codex, codex-cli, i18n
 
 ## Verdict
 
-PROMISING — verified active GitHub repository with 49 stars and Unknown licensing.
+PROMISING — 49 GitHub stars (Unknown license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/kael-odin/codex-plugins-zh
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/kael-odin/codex-plugins-zh

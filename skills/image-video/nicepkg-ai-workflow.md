@@ -39,29 +39,26 @@ featured: false
 
 ## What it does
 
-Open-source repository (nicepkg/ai-workflow) providing agent skills, workflows, or MCP capabilities verified via GitHub (296 stars).
+Provides programmatic video editing, motion graphics, storyboarding, or visual media generation. Focused on `agent`, `agent-skills`, `ai`, `anthropic` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with image-video capabilities
-- Teams evaluating community-backed agent tooling
+- **Primary goal:** 🚀 170+ pre-built skills for Claude Code, Cursor, Codex & 14+ AI tools. Stop re-teaching your AI the same things. One command → instant domain expertise. Marketing, SEO,   Trading, Video, PM workflows included.
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** agent, agent-skills, ai, anthropic, claude
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 296 stars and MIT licensing.
+GOOD — 296 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/nicepkg/ai-workflow
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/nicepkg/ai-workflow

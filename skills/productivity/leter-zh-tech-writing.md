@@ -36,29 +36,26 @@ featured: false
 
 ## What it does
 
-Open-source repository (leter/zh-tech-writing) providing agent skills, workflows, or MCP capabilities verified via GitHub (436 stars).
+Provides planning, writing, note-taking, or personal knowledge management workflows. Focused on `agent-skills`, `chinese`, `claude-code`, `documentation` and designed to work with claude-code.
 
 ## Best for
 
-- Extending claude-code with productivity capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** 写中文技术文档的 Agent Skill，基于阮一峰《中文技术文档的写作规范》：短句、平实、没有 AI 腔
+- **Works with:** claude-code
+- **Key topics:** agent-skills, chinese, claude-code, documentation, style-guide
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 436 stars and MIT licensing.
+GOOD — 436 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/leter/zh-tech-writing
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/leter/zh-tech-writing

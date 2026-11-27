@@ -39,29 +39,26 @@ A fine-tuned model from Qwen2-1.5B-Instruct, capable of handling sensitive topic
 
 ## What it does
 
-Open-source repository (ystemsrx/Qwen2-Boundless) providing agent skills, workflows, or MCP capabilities verified via GitHub (291 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agent`, `ai`, `fine-tuning`, `qwen2` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with agents capabilities
-- Teams evaluating community-backed agent tooling
+- **Primary goal:** A fine-tuned model from Qwen2-1.5B-Instruct, capable of handling sensitive topics. / 从 Qwen2-1.5B-Instruct 微调，能处理各类敏感话题
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** agent, ai, fine-tuning, qwen2, sensitive
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 291 stars and Apache-2.0 licensing.
+GOOD — 291 GitHub stars (Apache-2.0 license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/ystemsrx/Qwen2-Boundless
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/ystemsrx/Qwen2-Boundless

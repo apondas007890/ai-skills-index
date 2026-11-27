@@ -37,29 +37,26 @@ Agent skills built from Algorithms for Decision Making (Kochenderfer, Wheeler & 
 
 ## What it does
 
-Open-source repository (romainsimon/skills-for-decision-making) providing agent skills, workflows, or MCP capabilities verified via GitHub (18 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agent-skills`, `ai-agents`, `bayesian`, `claude-code` and designed to work with claude-code.
 
 ## Best for
 
-- Extending claude-code with coding capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** Agent skills built from Algorithms for Decision Making (Kochenderfer, Wheeler & Wray). Expected utility, value of information, bandits, robustness, belief filtering and game theory, as SKILL.md files with a zero-dependency calculator.
+- **Works with:** claude-code
+- **Key topics:** agent-skills, ai-agents, bayesian, claude-code, decision-making
 
 ## Verdict
 
-PROMISING — verified active GitHub repository with 18 stars and MIT licensing.
+PROMISING — 18 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/romainsimon/skills-for-decision-making
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/romainsimon/skills-for-decision-making

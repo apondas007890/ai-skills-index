@@ -38,29 +38,26 @@ A collection of DESIGN.md files analysis by popular brand design systems. Drop o
 
 ## What it does
 
-Open-source repository (VoltAgent/awesome-design-md) providing agent skills, workflows, or MCP capabilities verified via GitHub (129,227 stars).
+Provides UI/UX design rules, component patterns, typography, accessibility, or visual polish. Focused on `awesome-list`, `design-md`, `design-system`, `design-tokens` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with design capabilities
-- Teams evaluating community-backed awesome-list tooling
+- **Primary goal:** A collection of DESIGN.md files analysis by popular brand design systems. Drop one into your project and let coding agents generate a matching UI.
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** awesome-list, design-md, design-system, design-tokens, figma
 
 ## Verdict
 
-EXCELLENT — verified active GitHub repository with 129,227 stars and MIT licensing.
+EXCELLENT — 129,227 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/VoltAgent/awesome-design-md
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/VoltAgent/awesome-design-md

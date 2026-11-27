@@ -36,29 +36,26 @@ illo skill — an AI agent skill that turns ideas and articles into original pri
 
 ## What it does
 
-Open-source repository (tmchow/illo-skill) providing agent skills, workflows, or MCP capabilities verified via GitHub (445 stars).
+Provides programmatic video editing, motion graphics, storyboarding, or visual media generation. Focused on `agent-skills`, `claude-code`, `illustration`, `image-generation` and designed to work with claude-code.
 
 ## Best for
 
-- Extending claude-code with image-video capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** illo skill — an AI agent skill that turns ideas and articles into original print-style editorial illustrations, starring a recurring mascot. 30+ characters packs, with ability to create your own.
+- **Works with:** claude-code
+- **Key topics:** agent-skills, claude-code, illustration, image-generation, skill
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 445 stars and MIT licensing.
+GOOD — 445 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/tmchow/illo-skill
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/tmchow/illo-skill

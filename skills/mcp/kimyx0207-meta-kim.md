@@ -39,29 +39,26 @@ featured: false
 
 ## What it does
 
-Open-source repository (KimYx0207/Meta_Kim) providing agent skills, workflows, or MCP capabilities verified via GitHub (290 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agent-governance`, `agent-orchestration`, `ai-agents`, `ai-coding` and designed to work with claude-code, codex, cursor.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with automation capabilities
-- Teams evaluating community-backed agent-governance tooling
+- **Primary goal:** 把一句需求推进为可审阅、可接续的交付。两级 PRD、动态 Agent 编排与 Live 工作台，组织研究、执行、验收和反馈改进。Cross-runtime AI workflow and agent orchestration.
+- **Works with:** claude-code, codex, cursor
+- **Key topics:** agent-governance, agent-orchestration, ai-agents, ai-coding, business-workflows
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 290 stars and Apache-2.0 licensing.
+GOOD — 290 GitHub stars (Apache-2.0 license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/KimYx0207/Meta_Kim
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/KimYx0207/Meta_Kim

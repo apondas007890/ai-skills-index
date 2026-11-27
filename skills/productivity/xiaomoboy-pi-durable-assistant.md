@@ -39,29 +39,26 @@ featured: false
 
 ## What it does
 
-Open-source repository (xiaomoBoy/pi-durable-assistant) providing agent skills, workflows, or MCP capabilities verified via GitHub (55 stars).
+Provides planning, writing, note-taking, or personal knowledge management workflows. Focused on `ai-agent`, `durable-execution`, `pi-agent`, `pi-durable` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with productivity capabilities
-- Teams evaluating community-backed ai-agent tooling
+- **Primary goal:** 可自托管的持久化个人 Agent：进程重启后恢复任务，支持子 Agent、定时计划、长期记忆、网页界面与微信通道
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** ai-agent, durable-execution, pi-agent, pi-durable, self-hosted
 
 ## Verdict
 
-PROMISING — verified active GitHub repository with 55 stars and MIT licensing.
+PROMISING — 55 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/xiaomoBoy/pi-durable-assistant
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/xiaomoBoy/pi-durable-assistant

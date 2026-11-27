@@ -40,29 +40,26 @@ Static reverse engineering of untrusted files with verifiable, byte-anchored evi
 
 ## What it does
 
-Open-source repository (dagoSte/reverseai) providing agent skills, workflows, or MCP capabilities verified via GitHub (19 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `ai-agents`, `android`, `apk`, `binary-analysis` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with coding capabilities
-- Teams evaluating community-backed ai-agents tooling
+- **Primary goal:** Static reverse engineering of untrusted files with verifiable, byte-anchored evidence. Open tools (Ghidra, JADX, LIEF, YARA-X, Babel) in locked offline containers, from the command line or from AI agents over MCP.
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** ai-agents, android, apk, binary-analysis, decompiler
 
 ## Verdict
 
-PROMISING — verified active GitHub repository with 19 stars and MIT licensing.
+PROMISING — 19 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/dagoSte/reverseai
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/dagoSte/reverseai

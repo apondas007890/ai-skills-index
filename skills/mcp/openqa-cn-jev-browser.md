@@ -37,29 +37,26 @@ Jev Browser — indexed browser automation. Jev chooses the control, Playwright 
 
 ## What it does
 
-Open-source repository (openqa-cn/jev-browser) providing agent skills, workflows, or MCP capabilities verified via GitHub (9 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agent-skills`, `browser-automation`, `codexqa`, `jev` and designed to work with codex.
 
 ## Best for
 
-- Extending codex with automation capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** Jev Browser — indexed browser automation. Jev chooses the control, Playwright acts. A CodexQA skill.
+- **Works with:** codex
+- **Key topics:** agent-skills, browser-automation, codexqa, jev, jev-browser
 
 ## Verdict
 
-PROMISING — verified active GitHub repository with 9 stars and MIT licensing.
+PROMISING — 9 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/openqa-cn/jev-browser
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/openqa-cn/jev-browser

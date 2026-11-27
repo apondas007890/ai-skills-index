@@ -39,29 +39,26 @@ The first open-source agent skills builder. Define skills by vibe workflow, run 
 
 ## What it does
 
-Open-source repository (refly-ai/refly) providing agent skills, workflows, or MCP capabilities verified via GitHub (7,566 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agent`, `agent-skills`, `automation`, `claude` and designed to work with claude-code, codex, cursor.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with automation capabilities
-- Teams evaluating community-backed agent tooling
+- **Primary goal:** The first open-source agent skills builder. Define skills by vibe workflow, run on Claude Code, Cursor, Codex & more. Build Clawdbot 🦞· APIs for Lovable · Bots for Slack & Lark/Feishu · Skills are infrastructure, not prompts.
+- **Works with:** claude-code, codex, cursor
+- **Key topics:** agent, agent-skills, automation, claude, clawdbot
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 7,566 stars and Unknown licensing.
+GOOD — 7,566 GitHub stars (Unknown license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/refly-ai/refly
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/refly-ai/refly

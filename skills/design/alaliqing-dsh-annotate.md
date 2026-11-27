@@ -39,29 +39,26 @@ Visual annotation plugin for DeepSeek Harness: select elements in local app prev
 
 ## What it does
 
-Open-source repository (alaliqing/dsh-annotate) providing agent skills, workflows, or MCP capabilities verified via GitHub (7 stars).
+Provides UI/UX design rules, component patterns, typography, accessibility, or visual polish. Focused on `deepseek-harness`, `developer-tools`, `dsh-plugin`, `ui-annotation` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with design capabilities
-- Teams evaluating community-backed deepseek-harness tooling
+- **Primary goal:** Visual annotation plugin for DeepSeek Harness: select elements in local app previews and send structured UI feedback to your agent.
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** deepseek-harness, developer-tools, dsh-plugin, ui-annotation, visual-feedback
 
 ## Verdict
 
-PROMISING — verified active GitHub repository with 7 stars and MIT licensing.
+PROMISING — 7 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/alaliqing/dsh-annotate
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/alaliqing/dsh-annotate

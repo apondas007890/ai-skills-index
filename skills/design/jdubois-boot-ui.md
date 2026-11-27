@@ -39,29 +39,26 @@ The missing developer UI for Spring Boot and Quarkus!
 
 ## What it does
 
-Open-source repository (jdubois/boot-ui) providing agent skills, workflows, or MCP capabilities verified via GitHub (343 stars).
+Provides UI/UX design rules, component patterns, typography, accessibility, or visual polish. Focused on `agent-skills`, `developer-tools`, `java`, `mcp` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with design capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** The missing developer UI for Spring Boot and Quarkus!
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** agent-skills, developer-tools, java, mcp, mcp-server
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 343 stars and Apache-2.0 licensing.
+GOOD — 343 GitHub stars (Apache-2.0 license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/jdubois/boot-ui
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/jdubois/boot-ui

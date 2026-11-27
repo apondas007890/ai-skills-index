@@ -39,29 +39,26 @@ featured: false
 
 ## What it does
 
-Open-source repository (uucz/moyu) providing agent skills, workflows, or MCP capabilities verified via GitHub (310 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agent-skills`, `agents-md`, `ai`, `ai-coding` and designed to work with claude-code, codex, cursor.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with coding capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** 🐟 狠狠 PUA 你的 AI，然后自己准时下班。Anti-over-engineering rules, Agent Hooks & PR Linter for AI coding assistants.
+- **Works with:** claude-code, codex, cursor
+- **Key topics:** agent-skills, agents-md, ai, ai-coding, anti-over-engineering
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 310 stars and MIT licensing.
+GOOD — 310 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/uucz/moyu
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/uucz/moyu

@@ -39,29 +39,26 @@ Open-source skills that empower any AI agent (Claude, Cursor, Hermes, etc.) to g
 
 ## What it does
 
-Open-source repository (SupercmoHQ/superCMO-skills) providing agent skills, workflows, or MCP capabilities verified via GitHub (338 stars).
+Provides programmatic video editing, motion graphics, storyboarding, or visual media generation. Focused on `ad-creative`, `adcreative-alternative`, `agent-skills`, `ai-agents` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with image-video capabilities
-- Teams evaluating community-backed ad-creative tooling
+- **Primary goal:** Open-source skills that empower any AI agent (Claude, Cursor, Hermes, etc.) to generate end-to-end marketing campaigns - UGC videos, ad videos, product photography and more.
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** ad-creative, adcreative-alternative, agent-skills, ai-agents, ai-marketing
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 338 stars and Apache-2.0 licensing.
+GOOD — 338 GitHub stars (Apache-2.0 license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/SupercmoHQ/superCMO-skills
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/SupercmoHQ/superCMO-skills

@@ -39,29 +39,26 @@ WikiSkill (arXiv:2608.27454) for Hermes Agent — self-evolving agent skills via
 
 ## What it does
 
-Open-source repository (ashutoshsinghpr7/wikiskill) providing agent skills, workflows, or MCP capabilities verified via GitHub (293 stars).
+Provides structured web research, academic/data analysis, or synthesis capabilities. Focused on `agent-skills`, `agents`, `ai-agents`, `arxiv` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with research capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** WikiSkill (arXiv:2608.27454) for Hermes Agent — self-evolving agent skills via a persistent knowledge wiki. Faithful Algorithm 1 implementation with real agent runs, isolated skill gating, and a documented live run log.
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** agent-skills, agents, ai-agents, arxiv, hermes-agent
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 293 stars and MIT licensing.
+GOOD — 293 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/ashutoshsinghpr7/wikiskill
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/ashutoshsinghpr7/wikiskill

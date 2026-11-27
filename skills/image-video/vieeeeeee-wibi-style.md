@@ -36,29 +36,26 @@ featured: false
 
 ## What it does
 
-Open-source repository (Vieeeeeee/wibi-style) providing agent skills, workflows, or MCP capabilities verified via GitHub (188 stars).
+Provides programmatic video editing, motion graphics, storyboarding, or visual media generation. Focused on `agent-skills`, `ai`, `ai-art`, `codex` and designed to work with codex.
 
 ## Best for
 
-- Extending codex with image-video capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** 50+ installable visual-design skills for agent, with reusable Python tooling and versioned packages. Turn photos into artwork. Try online: style.abdc.online
+- **Works with:** codex
+- **Key topics:** agent-skills, ai, ai-art, codex, image-generation
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 188 stars and Unknown licensing.
+GOOD — 188 GitHub stars (Unknown license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/Vieeeeeee/wibi-style
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/Vieeeeeee/wibi-style

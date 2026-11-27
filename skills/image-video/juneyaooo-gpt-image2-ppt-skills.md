@@ -36,29 +36,26 @@ Clone any .pptx into your own deck — OpenAI gpt-image-2 mimics the layout, you
 
 ## What it does
 
-Open-source repository (JuneYaooo/gpt-image2-ppt-skills) providing agent skills, workflows, or MCP capabilities verified via GitHub (1,491 stars).
+Provides programmatic video editing, motion graphics, storyboarding, or visual media generation. Focused on `ai-ppt`, `ai-ppt-skills`, `ai-presentation`, `claude-code-skills` and designed to work with claude-code.
 
 ## Best for
 
-- Extending claude-code with image-video capabilities
-- Teams evaluating community-backed ai-ppt tooling
+- **Primary goal:** Clone any .pptx into your own deck — OpenAI gpt-image-2 mimics the layout, you supply the content. 10 bundled styles. | 把任何 .pptx 模板"抄"成你的 PPT：gpt-image-2 仿版式、你换内容，另含 10 套精选风格。Claude Code / OpenClaw skill.
+- **Works with:** claude-code
+- **Key topics:** ai-ppt, ai-ppt-skills, ai-presentation, claude-code-skills, claude-skill
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 1,491 stars and Apache-2.0 licensing.
+GOOD — 1,491 GitHub stars (Apache-2.0 license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/JuneYaooo/gpt-image2-ppt-skills
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/JuneYaooo/gpt-image2-ppt-skills

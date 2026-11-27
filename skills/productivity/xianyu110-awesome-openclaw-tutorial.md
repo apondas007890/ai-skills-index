@@ -37,29 +37,26 @@ OpenClaw 中文教程（4500+ Star · 已出版纸质书）：安装、配置、
 
 ## What it does
 
-Open-source repository (xianyu110/awesome-openclaw-tutorial) providing agent skills, workflows, or MCP capabilities verified via GitHub (4,594 stars).
+Provides planning, writing, note-taking, or personal knowledge management workflows. Focused on `agent-skills`, `ai-agent`, `ai-assistant`, `ai-tools` and designed to work with claude-code, codex.
 
 ## Best for
 
-- Extending claude-code, codex with productivity capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** OpenClaw 中文教程（4500+ Star · 已出版纸质书）：安装、配置、Skills、飞书接入与避坑｜作者的 GPT-6 / Codex / Claude Code 新项目见 README 顶部
+- **Works with:** claude-code, codex
+- **Key topics:** agent-skills, ai-agent, ai-assistant, ai-tools, automation
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 4,594 stars and Unknown licensing.
+GOOD — 4,594 GitHub stars (Unknown license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/xianyu110/awesome-openclaw-tutorial
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/xianyu110/awesome-openclaw-tutorial

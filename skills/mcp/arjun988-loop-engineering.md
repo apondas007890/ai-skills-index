@@ -38,29 +38,26 @@ MCP server for self-verifying AI agent loops: schedules, independent checker gat
 
 ## What it does
 
-Open-source repository (arjun988/Loop-Engineering) providing agent skills, workflows, or MCP capabilities verified via GitHub (5 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agentic-ai`, `agents`, `ai`, `ai-tools` and designed to work with claude-code, cursor, kiro.
 
 ## Best for
 
-- Extending claude-code, cursor, kiro with agents capabilities
-- Teams evaluating community-backed agentic-ai tooling
+- **Primary goal:** MCP server for self-verifying AI agent loops: schedules, independent checker gates, stop rules, worktree isolation & durable state. Built for Cursor/Kiro/Claude via MCP. Inspired by the loop-engineering work of @addyosmani, @anthropics, and Codez (@0xCodez).
+- **Works with:** claude-code, cursor, kiro
+- **Key topics:** agentic-ai, agents, ai, ai-tools, cursor-ide
 
 ## Verdict
 
-PROMISING — verified active GitHub repository with 5 stars and MIT licensing.
+PROMISING — 5 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/arjun988/Loop-Engineering
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/arjun988/Loop-Engineering

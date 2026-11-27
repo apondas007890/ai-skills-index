@@ -40,29 +40,26 @@ Professional Blender 5.3 workflows as Agent Skills for Claude Code, Codex, Gemin
 
 ## What it does
 
-Open-source repository (EL4CTEO/blender-skills) providing agent skills, workflows, or MCP capabilities verified via GitHub (2,959 stars).
+Provides programmatic video editing, motion graphics, storyboarding, or visual media generation. Focused on `3d`, `agent-skills`, `ai-agents`, `blender` and designed to work with claude-code, codex, cursor, gemini-cli, github-copilot.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with image-video capabilities
-- Teams evaluating community-backed 3d tooling
+- **Primary goal:** Professional Blender 5.3 workflows as Agent Skills for Claude Code, Codex, Gemini CLI, Copilot and Cursor: modeling, UVs, PBR, baking, rigging, animation, export and QA.
+- **Works with:** claude-code, codex, cursor, gemini-cli, github-copilot
+- **Key topics:** 3d, agent-skills, ai-agents, blender, blender-python
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 2,959 stars and MIT licensing.
+GOOD — 2,959 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/EL4CTEO/blender-skills
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/EL4CTEO/blender-skills

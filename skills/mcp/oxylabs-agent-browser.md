@@ -40,29 +40,26 @@ Execute complex automation scripts via remote cloud sessions , featuring integra
 
 ## What it does
 
-Open-source repository (oxylabs/Agent-browser) providing agent skills, workflows, or MCP capabilities verified via GitHub (662 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agent`, `agent-browser`, `ai-grounding`, `ai-search` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with automation capabilities
-- Teams evaluating community-backed agent tooling
+- **Primary goal:** Execute complex automation scripts via remote cloud sessions , featuring integrated residential proxies , automated CAPTCHA solving , and native JavaScript rendering for the toughest dynamic websites.
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** agent, agent-browser, ai-grounding, ai-search, ai-training
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 662 stars and Unknown licensing.
+GOOD — 662 GitHub stars (Unknown license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/oxylabs/Agent-browser
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/oxylabs/Agent-browser

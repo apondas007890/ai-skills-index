@@ -40,29 +40,26 @@ featured: false
 
 ## What it does
 
-Open-source repository (88lin/agentrouter-auto-signin) providing agent skills, workflows, or MCP capabilities verified via GitHub (70 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agent-router`, `agentrouter`, `auto-checkin`, `auto-signin` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with coding capabilities
-- Teams evaluating community-backed agent-router tooling
+- **Primary goal:** 自动领取 AgentRouter 每日签到额度，支持多账号、余额自动换算。纯 Python 本地静默运行，Win / macOS / Linux 定时任务，错过后自动补签，一句话交给 AI 自动配好。
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** agent-router, agentrouter, auto-checkin, auto-signin, automation
 
 ## Verdict
 
-PROMISING — verified active GitHub repository with 70 stars and MIT licensing.
+PROMISING — 70 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/88lin/agentrouter-auto-signin
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/88lin/agentrouter-auto-signin

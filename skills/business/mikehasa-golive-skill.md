@@ -37,29 +37,26 @@ Take your agent-built product live: hosting, database, domain, email, payments �
 
 ## What it does
 
-Open-source repository (mikehasa/golive-skill) providing agent skills, workflows, or MCP capabilities verified via GitHub (1,626 stars).
+Provides SEO, marketing, product management, analytics, or business workflow templates. Focused on `agent-skill`, `agent-skills`, `ai-agents`, `claude-code` and designed to work with claude-code, codex.
 
 ## Best for
 
-- Extending claude-code, codex with business capabilities
-- Teams evaluating community-backed agent-skill tooling
+- **Primary goal:** Take your agent-built product live: hosting, database, domain, email, payments — on your own accounts. Open-source Agent Skill + zero-dependency Node CLI: detect → plan → approve → apply → verify. No GoLive account, backend or telemetry.
+- **Works with:** claude-code, codex
+- **Key topics:** agent-skill, agent-skills, ai-agents, claude-code, cloudflare
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 1,626 stars and MIT licensing.
+GOOD — 1,626 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/mikehasa/golive-skill
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/mikehasa/golive-skill

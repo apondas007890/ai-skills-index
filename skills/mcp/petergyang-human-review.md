@@ -38,29 +38,26 @@ A visual tool to edit HTML and Markdown files, leave comments like a Google Doc,
 
 ## What it does
 
-Open-source repository (petergyang/human-review) providing agent skills, workflows, or MCP capabilities verified via GitHub (1,466 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `ai-agents`, `claude-code`, `cli`, `codex` and designed to work with claude-code, codex.
 
 ## Best for
 
-- Extending claude-code, codex with coding capabilities
-- Teams evaluating community-backed ai-agents tooling
+- **Primary goal:** A visual tool to edit HTML and Markdown files, leave comments like a Google Doc, and send feedback to your AI agent. Works inside your favorite AI harness.
+- **Works with:** claude-code, codex
+- **Key topics:** ai-agents, claude-code, cli, codex, feedback
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 1,466 stars and MIT licensing.
+GOOD — 1,466 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/petergyang/human-review
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/petergyang/human-review

@@ -37,29 +37,26 @@ A Claude Skill for revising draft prose — essays, papers, memos, reports — o
 
 ## What it does
 
-Open-source repository (Gabberflast/prose-revision-skill-ht-anthony-lee-zhang) providing agent skills, workflows, or MCP capabilities verified via GitHub (18 stars).
+Provides voice synthesis, transcription, audio editing, or music generation workflows. Focused on `academic-writing`, `agent-skills`, `anthropic`, `claude` and designed to work with claude-code, roo-code.
 
 ## Best for
 
-- Extending claude-code with audio-music capabilities
-- Teams evaluating community-backed academic-writing tooling
+- **Primary goal:** A Claude Skill for revising draft prose — essays, papers, memos, reports — on the principle of idea flow before linguistic flow. Diagnoses structure before wording, leads with the main claim, preserves the author's voice and claim strength, and knows when to leave a good draft alone. Distinct from proofreading.
+- **Works with:** claude-code, roo-code
+- **Key topics:** academic-writing, agent-skills, anthropic, claude, claude-ai
 
 ## Verdict
 
-PROMISING — verified active GitHub repository with 18 stars and MIT licensing.
+PROMISING — 18 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/Gabberflast/prose-revision-skill-ht-anthony-lee-zhang
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/Gabberflast/prose-revision-skill-ht-anthony-lee-zhang

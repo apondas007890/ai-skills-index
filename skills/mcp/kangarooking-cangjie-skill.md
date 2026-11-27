@@ -40,29 +40,26 @@ featured: true
 
 ## What it does
 
-Open-source repository (kangarooking/cangjie-skill) providing agent skills, workflows, or MCP capabilities verified via GitHub (13,358 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agent-workflows`, `ai-skills`, `automation`, `book-to-skill` and designed to work with claude-code, codex, cursor, gemini-cli, roo-code.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with agents capabilities
-- Teams evaluating community-backed agent-workflows tooling
+- **Primary goal:** 把书、长视频、播客等高价值内容蒸馏成可执行的 Agent Skills（Distill high-value content from books, long-form videos, podcasts, and more into executable Agent Skills）
+- **Works with:** claude-code, codex, cursor, gemini-cli, roo-code
+- **Key topics:** agent-workflows, ai-skills, automation, book-to-skill, knowledge-distillation
 
 ## Verdict
 
-EXCELLENT — verified active GitHub repository with 13,358 stars and MIT licensing.
+EXCELLENT — 13,358 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/kangarooking/cangjie-skill
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/kangarooking/cangjie-skill

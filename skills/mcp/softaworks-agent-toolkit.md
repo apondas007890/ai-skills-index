@@ -37,29 +37,26 @@ A curated collection of skills for AI coding agents. Skills are packaged instruc
 
 ## What it does
 
-Open-source repository (softaworks/agent-toolkit) providing agent skills, workflows, or MCP capabilities verified via GitHub (2,720 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agent-skills`, `ai`, `automation`, `claude` and designed to work with claude-code.
 
 ## Best for
 
-- Extending claude-code with coding capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** A curated collection of skills for AI coding agents. Skills are packaged instructions and scripts that extend agent capabilities across development, documentation, planning, and professional workflows.
+- **Works with:** claude-code
+- **Key topics:** agent-skills, ai, automation, claude, claude-code
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 2,720 stars and MIT licensing.
+GOOD — 2,720 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/softaworks/agent-toolkit
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/softaworks/agent-toolkit

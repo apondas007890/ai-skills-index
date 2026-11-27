@@ -40,29 +40,26 @@ My Ralph Wiggum setup, an autonomous bash script that runs Claude Code, Codex, O
 
 ## What it does
 
-Open-source repository (michaelshimeles/ralphy) providing agent skills, workflows, or MCP capabilities verified via GitHub (2,984 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `claude-code`, `opencode`, `ralph-loop`, `ralph-wiggum` and designed to work with claude-code, codex, cursor, opencode.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with coding capabilities
-- Teams evaluating community-backed claude-code tooling
+- **Primary goal:** My Ralph Wiggum setup, an autonomous bash script that runs Claude Code, Codex, OpenCode, Cursor agent, Qwen & Droid in a loop until your PRD is complete.
+- **Works with:** claude-code, codex, cursor, opencode
+- **Key topics:** claude-code, opencode, ralph-loop, ralph-wiggum, ralphy
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 2,984 stars and Unknown licensing.
+GOOD — 2,984 GitHub stars (Unknown license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/michaelshimeles/ralphy
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/michaelshimeles/ralphy

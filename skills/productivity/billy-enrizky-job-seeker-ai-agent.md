@@ -39,29 +39,26 @@ This project leverages a multi-agent AI system to assist users in tailoring thei
 
 ## What it does
 
-Open-source repository (billy-enrizky/Job-seeker-ai-agent) providing agent skills, workflows, or MCP capabilities verified via GitHub (7 stars).
+Provides planning, writing, note-taking, or personal knowledge management workflows. Focused on `agent-based-modeling`, `ai-agents`, `crewai-tools`, `llm` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with productivity capabilities
-- Teams evaluating community-backed agent-based-modeling tooling
+- **Primary goal:** This project leverages a multi-agent AI system to assist users in tailoring their resumes and preparing for job interviews. By using advanced tools and AI agents, it ensures your resume highlights your most relevant skills and experiences, perfectly aligning with the job posting requirements.
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** agent-based-modeling, ai-agents, crewai-tools, llm, multi-ai-agents
 
 ## Verdict
 
-PROMISING — verified active GitHub repository with 7 stars and MIT licensing.
+PROMISING — 7 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/billy-enrizky/Job-seeker-ai-agent
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/billy-enrizky/Job-seeker-ai-agent

@@ -37,29 +37,26 @@ Model-agnostic agent-skills platform with a harness-free canonical layer, verifi
 
 ## What it does
 
-Open-source repository (jeremylongshore/tons-of-skills-marketplace) providing agent skills, workflows, or MCP capabilities verified via GitHub (2,952 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agent-skills`, `ai`, `ai-agents`, `anthropic` and designed to work with claude-code.
 
 ## Best for
 
-- Extending claude-code with coding capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** Model-agnostic agent-skills platform with a harness-free canonical layer, verified adapters, and the ccpi package manager. Explore at tonsofskills.com.
+- **Works with:** claude-code
+- **Key topics:** agent-skills, ai, ai-agents, anthropic, automation
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 2,952 stars and MIT licensing.
+GOOD — 2,952 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/jeremylongshore/tons-of-skills-marketplace
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/jeremylongshore/tons-of-skills-marketplace

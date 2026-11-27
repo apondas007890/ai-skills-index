@@ -39,29 +39,26 @@ For You Agent——AI 时代的个人随身数字人格。把你的模型、AI �
 
 ## What it does
 
-Open-source repository (fy-agent/fyagent) providing agent skills, workflows, or MCP capabilities verified via GitHub (218 stars).
+Provides planning, writing, note-taking, or personal knowledge management workflows. Focused on `agent-management`, `agent-skills`, `ai-agent`, `ai-assistant` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with productivity capabilities
-- Teams evaluating community-backed agent-management tooling
+- **Primary goal:** For You Agent——AI 时代的个人随身数字人格。把你的模型、AI 账号、技能、提示词和工作方式，带到每一个 AI 工具里。
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** agent-management, agent-skills, ai-agent, ai-assistant, ai-worker
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 218 stars and Unknown licensing.
+GOOD — 218 GitHub stars (Unknown license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/fy-agent/fyagent
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/fy-agent/fyagent

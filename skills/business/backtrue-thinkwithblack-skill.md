@@ -38,29 +38,26 @@ featured: false
 
 ## What it does
 
-Open-source repository (backtrue/thinkwithblack-skill) providing agent skills, workflows, or MCP capabilities verified via GitHub (282 stars).
+Provides SEO, marketing, product management, analytics, or business workflow templates. Focused on `agent-skills`, `ai-marketing`, `chatgpt`, `claude` and designed to work with claude-code, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, cursor, gemini-cli with business capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** 365 free AI marketing skills (zh-TW/en) for ChatGPT, Claude, Gemini, Claude Code & Cursor — copywriting, ads budget, margin, CRM, email. 365 個免費 AI 行銷 Skills
+- **Works with:** claude-code, cursor, gemini-cli
+- **Key topics:** agent-skills, ai-marketing, chatgpt, claude, claude-code
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 282 stars and MIT licensing.
+GOOD — 282 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/backtrue/thinkwithblack-skill
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/backtrue/thinkwithblack-skill

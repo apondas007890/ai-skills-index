@@ -38,29 +38,26 @@ Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ru
 
 ## What it does
 
-Open-source repository (EL4CTEO/fast-anything) providing agent skills, workflows, or MCP capabilities verified via GitHub (4,228 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agent-skills`, `ai-agents`, `claude-code`, `claude-code-plugin` and designed to work with claude-code, codex.
 
 ## Best for
 
-- Extending claude-code, codex with coding capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.
+- **Works with:** claude-code, codex
+- **Key topics:** agent-skills, ai-agents, claude-code, claude-code-plugin, codex
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 4,228 stars and MIT licensing.
+GOOD — 4,228 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/EL4CTEO/fast-anything
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/EL4CTEO/fast-anything

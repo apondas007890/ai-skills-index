@@ -38,29 +38,26 @@ A local video studio for your coding agent. Describe a video in one sentence: yo
 
 ## What it does
 
-Open-source repository (FavioVazquez/showtime) providing agent skills, workflows, or MCP capabilities verified via GitHub (347 stars).
+Provides programmatic video editing, motion graphics, storyboarding, or visual media generation. Focused on `agent-skills`, `ai-agents`, `captions`, `claude-code` and designed to work with claude-code, codex, cursor.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with image-video capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** A local video studio for your coding agent. Describe a video in one sentence: your agent directs, your machine renders. Claude Code, Codex, Cursor, Devin and more. No API keys, no uploads.
+- **Works with:** claude-code, codex, cursor
+- **Key topics:** agent-skills, ai-agents, captions, claude-code, claude-code-plugin
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 347 stars and MIT licensing.
+GOOD — 347 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/FavioVazquez/showtime
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/FavioVazquez/showtime

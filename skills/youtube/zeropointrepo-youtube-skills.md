@@ -39,29 +39,26 @@ YouTube Transcript API skills for AI agents. Get transcripts, search videos, bro
 
 ## What it does
 
-Open-source repository (ZeroPointRepo/youtube-skills) providing agent skills, workflows, or MCP capabilities verified via GitHub (1,234 stars).
+Provides creator workflows for scripting, hooks, thumbnails, titles, and channel growth. Focused on `agent-skills`, `clawdbot`, `hermes-agent`, `openclaw` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with youtube capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** YouTube Transcript API skills for AI agents. Get transcripts, search videos, browse channels. Works with OpenClaw, Hermes Agent, and other agent runtimes.
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** agent-skills, clawdbot, hermes-agent, openclaw, youtube-search
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 1,234 stars and MIT licensing.
+GOOD — 1,234 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/ZeroPointRepo/youtube-skills
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/ZeroPointRepo/youtube-skills

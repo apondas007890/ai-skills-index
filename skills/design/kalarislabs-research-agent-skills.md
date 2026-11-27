@@ -39,29 +39,26 @@ Turn any AI agent into a research co-scientist: 280+ open-source agent skills fo
 
 ## What it does
 
-Open-source repository (KalarisLabs/research-agent-skills) providing agent skills, workflows, or MCP capabilities verified via GitHub (194 stars).
+Provides UI/UX design rules, component patterns, typography, accessibility, or visual polish. Focused on `academic-research`, `academic-writing`, `agent-skills`, `ai-agents` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with design capabilities
-- Teams evaluating community-backed academic-research tooling
+- **Primary goal:** Turn any AI agent into a research co-scientist: 280+ open-source agent skills for literature reviews, hypotheses, experimental design, data analysis, paper writing, citation verification and peer review. Claude Code, Codex, Cursor, Gemini CLI and any Agent Skills harness. npx skills add KalarisLabs/research-agent-skills
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** academic-research, academic-writing, agent-skills, ai-agents, bioinformatics
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 194 stars and Unknown licensing.
+GOOD — 194 GitHub stars (Unknown license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/KalarisLabs/research-agent-skills
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/KalarisLabs/research-agent-skills

@@ -40,29 +40,26 @@ Local streaming reverse proxy between AI coding agents (Claude Code, Cursor, Cod
 
 ## What it does
 
-Open-source repository (agiwhitelist/tokdiet) providing agent skills, workflows, or MCP capabilities verified via GitHub (30 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `ai-gateway`, `anthropic`, `ccusage`, `claude-code` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with coding capabilities
-- Teams evaluating community-backed ai-gateway tooling
+- **Primary goal:** Local streaming reverse proxy between AI coding agents (Claude Code, Cursor, Codex) and model APIs (Anthropic, OpenAI, Gemini, MiniMax). Meters every token + USD cost, compacts bloated context to cut pay-per-token API spend, and runs shadow-eval to prove quality held. ccusage-style metering + live local dashboard.
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** ai-gateway, anthropic, ccusage, claude-code, cli
 
 ## Verdict
 
-PROMISING — verified active GitHub repository with 30 stars and MIT licensing.
+PROMISING — 30 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/agiwhitelist/tokdiet
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/agiwhitelist/tokdiet

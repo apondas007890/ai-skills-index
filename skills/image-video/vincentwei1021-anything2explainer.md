@@ -37,29 +37,26 @@ Topic in, narrated explainer video out. A Claude Code / Codex skill that turns a
 
 ## What it does
 
-Open-source repository (Vincentwei1021/anything2explainer) providing agent skills, workflows, or MCP capabilities verified via GitHub (3,672 stars).
+Provides programmatic video editing, motion graphics, storyboarding, or visual media generation. Focused on `agent-skills`, `ai-agents`, `ai-video`, `claude-code` and designed to work with claude-code, codex.
 
 ## Best for
 
-- Extending claude-code, codex with image-video capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** Topic in, narrated explainer video out. A Claude Code / Codex skill that turns any topic into a black-canvas motion-graphics explainer video with TTS voiceover, subtitles and a chapter progress bar. Chinese or English; every frame drawn in code with Remotion.
+- **Works with:** claude-code, codex
+- **Key topics:** agent-skills, ai-agents, ai-video, claude-code, claude-code-skill
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 3,672 stars and Unknown licensing.
+GOOD — 3,672 GitHub stars (Unknown license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/Vincentwei1021/anything2explainer
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/Vincentwei1021/anything2explainer

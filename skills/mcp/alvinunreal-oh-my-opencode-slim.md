@@ -32,29 +32,26 @@ Lean, fine tuned Opencode multi agent suite · Mix any models · Auto delegate t
 
 ## What it does
 
-Open-source repository (alvinunreal/oh-my-opencode-slim) providing agent skills, workflows, or MCP capabilities verified via GitHub (10,376 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `opencode` and designed to work with opencode.
 
 ## Best for
 
-- Extending opencode with agents capabilities
-- Teams evaluating community-backed opencode tooling
+- **Primary goal:** Lean, fine tuned Opencode multi agent suite · Mix any models · Auto delegate tasks
+- **Works with:** opencode
+- **Key topics:** opencode
 
 ## Verdict
 
-EXCELLENT — verified active GitHub repository with 10,376 stars and MIT licensing.
+EXCELLENT — 10,376 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/alvinunreal/oh-my-opencode-slim
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/alvinunreal/oh-my-opencode-slim

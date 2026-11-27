@@ -39,29 +39,26 @@ A cross-platform desktop app to manage Agent Skills in one place and sync them t
 
 ## What it does
 
-Open-source repository (qufei1993/skills-hub) providing agent skills, workflows, or MCP capabilities verified via GitHub (1,892 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agent-skills`, `ai-agent`, `claude-code`, `codex` and designed to work with claude-code, codex, cursor.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with coding capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** A cross-platform desktop app to manage Agent Skills in one place and sync them to multiple AI coding tools’ global skills directories — “Install once, sync everywhere”.
+- **Works with:** claude-code, codex, cursor
+- **Key topics:** agent-skills, ai-agent, claude-code, codex, cursor
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 1,892 stars and MIT licensing.
+GOOD — 1,892 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/qufei1993/skills-hub
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/qufei1993/skills-hub

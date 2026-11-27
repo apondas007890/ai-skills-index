@@ -38,29 +38,26 @@ Sno: Smart agents. Senior habits. Better every day. Open-source skills that make
 
 ## What it does
 
-Open-source repository (sno-ai/sno-station-skills) providing agent skills, workflows, or MCP capabilities verified via GitHub (874 stars).
+Provides planning, writing, note-taking, or personal knowledge management workflows. Focused on `agent-skills`, `agentic-coding`, `ai-code-review`, `ai-coding-agent` and designed to work with claude-code, codex, cursor.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with productivity capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** Sno: Smart agents. Senior habits. Better every day. Open-source skills that make Claude Code, Codex, Cursor and Hermes Agent work like a team that has shipped before: review by a different agent, a handover before a usage limit stops the work, "done" proven by a real run, and a nightly loop that learns from your own sessions.
+- **Works with:** claude-code, codex, cursor
+- **Key topics:** agent-skills, agentic-coding, ai-code-review, ai-coding-agent, ai-coding-assistant
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 874 stars and Apache-2.0 licensing.
+GOOD — 874 GitHub stars (Apache-2.0 license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/sno-ai/sno-station-skills
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/sno-ai/sno-station-skills

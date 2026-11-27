@@ -38,29 +38,26 @@ featured: false
 
 ## What it does
 
-Open-source repository (Azhi-ss/academic-figure-skills) providing agent skills, workflows, or MCP capabilities verified via GitHub (203 stars).
+Provides structured web research, academic/data analysis, or synthesis capabilities. Focused on `academic-writing`, `agent-skills`, `claude-code`, `codex` and designed to work with claude-code, codex, cursor.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with research capabilities
-- Teams evaluating community-backed academic-writing tooling
+- **Primary goal:** 三个 skill 画论文图：fig-analyze 看材料，fig-draw 先看 6 种风格再出图。交付后询问要不要做成可编辑 PPT，同意后 fig-pptx 才做。npx skills add Azhi-ss/academic-figure-skills
+- **Works with:** claude-code, codex, cursor
+- **Key topics:** academic-writing, agent-skills, claude-code, codex, colorblind-palette
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 203 stars and MIT licensing.
+GOOD — 203 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/Azhi-ss/academic-figure-skills
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/Azhi-ss/academic-figure-skills

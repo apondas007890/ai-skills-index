@@ -38,29 +38,26 @@ Curated DESIGN.md files for inspiring websites — design systems decoded for AI
 
 ## What it does
 
-Open-source repository (educlopez/design-bites) providing agent skills, workflows, or MCP capabilities verified via GitHub (97 stars).
+Provides UI/UX design rules, component patterns, typography, accessibility, or visual polish. Focused on `agents`, `awesome-list`, `design-md`, `design-system` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with design capabilities
-- Teams evaluating community-backed agents tooling
+- **Primary goal:** Curated DESIGN.md files for inspiring websites — design systems decoded for AI agents. By Sparkbites.
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** agents, awesome-list, design-md, design-system, design-tokens
 
 ## Verdict
 
-PROMISING — verified active GitHub repository with 97 stars and MIT licensing.
+PROMISING — 97 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/educlopez/design-bites
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/educlopez/design-bites

@@ -40,29 +40,26 @@ featured: false
 
 ## What it does
 
-Open-source repository (7WaySecurity/ai_osint) providing agent skills, workflows, or MCP capabilities verified via GitHub (184 stars).
+Provides security auditing, static analysis, vulnerability checks, or defensive review workflows. Focused on `agent-skills`, `ai-osint`, `ai-security`, `bug-bounty` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with research capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** 🤖 Curated AI OSINT resources — Google dorks, Shodan queries, GitHub dorks, and techniques to discover exposed LLM endpoints, leaked AI API keys, misconfigured vector databases, and unprotected AI agents
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** agent-skills, ai-osint, ai-security, bug-bounty, clawhavoc
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 184 stars and Unknown licensing.
+GOOD — 184 GitHub stars (Unknown license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/7WaySecurity/ai_osint
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/7WaySecurity/ai_osint

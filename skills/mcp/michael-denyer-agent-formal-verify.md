@@ -41,29 +41,26 @@ TLA+ model checking and Lean proofs for coding agents, with explicit tool setup.
 
 ## What it does
 
-Open-source repository (michael-denyer/agent-formal-verify) providing agent skills, workflows, or MCP capabilities verified via GitHub (57 stars).
+Provides Model Context Protocol (MCP) server integrations or external tool connectors for AI agents. Focused on `agent`, `agent-plugin`, `agent-skills`, `antigravity-plugin` and designed to work with claude-code, codex, opencode, antigravity, roo-code.
 
 ## Best for
 
-- Extending claude-code, codex, opencode with coding capabilities
-- Teams evaluating community-backed agent tooling
+- **Primary goal:** TLA+ model checking and Lean proofs for coding agents, with explicit tool setup.
+- **Works with:** claude-code, codex, opencode, antigravity, roo-code
+- **Key topics:** agent, agent-plugin, agent-skills, antigravity-plugin, boris-cherny
 
 ## Verdict
 
-PROMISING — verified active GitHub repository with 57 stars and GPL-3.0 licensing.
+PROMISING — 57 GitHub stars (GPL-3.0 license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/michael-denyer/agent-formal-verify
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/michael-denyer/agent-formal-verify

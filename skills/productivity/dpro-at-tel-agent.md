@@ -39,29 +39,26 @@ AI phone assistant | open-source
 
 ## What it does
 
-Open-source repository (Dpro-at/Tel-Agent) providing agent skills, workflows, or MCP capabilities verified via GitHub (1,094 stars).
+Provides planning, writing, note-taking, or personal knowledge management workflows. Focused on `agent`, `agent-skills`, `agentic-ai`, `ai` and designed to work with claude-code, codex, cursor, gemini-cli.
 
 ## Best for
 
-- Extending claude-code, codex, cursor with productivity capabilities
-- Teams evaluating community-backed agent tooling
+- **Primary goal:** AI phone assistant | open-source
+- **Works with:** claude-code, codex, cursor, gemini-cli
+- **Key topics:** agent, agent-skills, agentic-ai, ai, good-first-issue
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 1,094 stars and AGPL-3.0 licensing.
+GOOD — 1,094 GitHub stars (AGPL-3.0 license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/Dpro-at/Tel-Agent
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/Dpro-at/Tel-Agent

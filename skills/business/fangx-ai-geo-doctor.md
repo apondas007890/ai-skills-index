@@ -36,29 +36,26 @@ GEO 医生：一句话装进 AI 助手，查清豆包、DeepSeek、ChatGPT、Cla
 
 ## What it does
 
-Open-source repository (Fangx-AI/geo-doctor) providing agent skills, workflows, or MCP capabilities verified via GitHub (273 stars).
+Provides SEO, marketing, product management, analytics, or business workflow templates. Focused on `agent-skills`, `ai-overviews`, `ai-search`, `chatgpt` and designed to work with claude-code.
 
 ## Best for
 
-- Extending claude-code with business capabilities
-- Teams evaluating community-backed agent-skills tooling
+- **Primary goal:** GEO 医生：一句话装进 AI 助手，查清豆包、DeepSeek、ChatGPT、Claude 为什么不推荐你，改资料、写内容、再复查。开源中英双语 GEO（生成式引擎优化）skill。
+- **Works with:** claude-code
+- **Key topics:** agent-skills, ai-overviews, ai-search, chatgpt, chinese
 
 ## Verdict
 
-GOOD — verified active GitHub repository with 273 stars and MIT licensing.
+GOOD — 273 GitHub stars (MIT license). Review the repository README and `SKILL.md` before adding to your workspace.
 
 ## Limitations
 
-- Not yet personally tested end-to-end; automated metadata verification only.
+- Automated index entry; verify exact install flags and required API keys in the upstream repository.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before installing or executing in sensitive workspaces.
+Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
 
 ## Installation
 
-See the upstream GitHub repository: https://github.com/Fangx-AI/geo-doctor
-
-## Notes
-
-Imported and verified from batch GitHub discovery (2026-11-27).
+See the upstream repository for setup instructions: https://github.com/Fangx-AI/geo-doctor
