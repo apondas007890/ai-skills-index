@@ -9,10 +9,10 @@ categories:
   - agents
 tags:
   - agent-skills
-  - ai
+  - frontend-design
   - anti-slop
-  - design
-  - slop
+  - accessibility
+  - typography
 compatible_agents:
   - claude-code
   - codex
@@ -27,7 +27,7 @@ source_type: github
 license: Apache-2.0
 stars: 117527
 last_pushed: '2026-11-26'
-install_command: ''
+install_command: 'npx impeccable install'
 tested: false
 featured: true
 ---
@@ -35,30 +35,32 @@ featured: true
 
 ## Description
 
-The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.
+Gives AI coding agents a structured frontend design workflow to critique interfaces, audit accessibility and responsiveness, steer visual polish (`bolder`, `quieter`, `polish`), and catch generic AI UI patterns before shipping.
 
 ## What it does
 
-Provides UI/UX design rules, component patterns, typography, accessibility, or visual polish. Focused on `agent-skills`, `ai`, `anti-slop`, `design` and designed to work with claude-code, codex, cursor, gemini-cli.
+Equips coding agents with targeted UI/UX commands (`critique`, `audit`, `polish`, `bolder`, `quieter`, `harden`), project design-context setup (`PRODUCT.md` and `DESIGN.md`), and deterministic anti-slop checks that flag cramped spacing, skipped headings, and layout flaws without needing an external LLM API key.
 
 ## Best for
 
-- **Primary goal:** The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.
-- **Works with:** claude-code, codex, cursor, gemini-cli
-- **Key topics:** agent-skills, ai, anti-slop, design, slop
+- Refining existing UI components, landing pages, and dashboards with coding agents
+- Running structured usability critiques and accessibility/responsive audits before release
+- Capturing a consistent `DESIGN.md` style guide for your project
+- Not meant for backend services, database pipelines, or non-UI engineering tasks
 
 ## Verdict
 
-EXCELLENT — 117,527 GitHub stars (Apache-2.0 license). Review the repository README and `SKILL.md` before adding to your workspace.
+EXCELLENT — comprehensive frontend design vocabulary and deterministic quality checks backed by active maintenance (Apache-2.0).
 
 ## Limitations
 
-- Automated index entry; verify exact install flags and required API keys in the upstream repository.
+- Focused strictly on frontend UI/UX and design systems; not useful for backend-only projects.
+- Metadata and public documentation reviewed; inspect `SKILL.md` and any CLI/browser hooks before running locally.
 
 ## Risk
 
-Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.
+Apache-2.0 repository; review `SKILL.md`, scripts, and local browser-hook permissions (for example with `NVIDIA/SkillSpector`) before installing globally.
 
 ## Installation
 
-See the upstream repository for setup instructions: https://github.com/pbakaus/impeccable
+Run `npx impeccable install` or inspect the `SKILL.md` modules directly in https://github.com/pbakaus/impeccable.

@@ -25,7 +25,7 @@
   },
   {
     "tag": "ai",
-    "count": 95
+    "count": 94
   },
   {
     "tag": "claude",
@@ -120,12 +120,12 @@
     "count": 18
   },
   {
-    "tag": "ai-skills",
+    "tag": "accessibility",
     "count": 18
   },
   {
-    "tag": "accessibility",
-    "count": 17
+    "tag": "ai-skills",
+    "count": 18
   },
   {
     "tag": "ai-writing",
@@ -180,11 +180,11 @@
     "count": 13
   },
   {
-    "tag": "design",
-    "count": 13
+    "tag": "codex-skill",
+    "count": 12
   },
   {
-    "tag": "codex-skill",
+    "tag": "design",
     "count": 12
   },
   {
@@ -704,6 +704,10 @@
     "count": 3
   },
   {
+    "tag": "typography",
+    "count": 3
+  },
+  {
     "tag": "video-editing",
     "count": 3
   },
@@ -1060,6 +1064,10 @@
     "count": 2
   },
   {
+    "tag": "frontend-design",
+    "count": 2
+  },
+  {
     "tag": "game-design",
     "count": 2
   },
@@ -1177,10 +1185,6 @@
   },
   {
     "tag": "traditional-chinese",
-    "count": 2
-  },
-  {
-    "tag": "typography",
     "count": 2
   },
   {
@@ -3404,10 +3408,6 @@
     "count": 1
   },
   {
-    "tag": "frontend-design",
-    "count": 1
-  },
-  {
     "tag": "fundraising",
     "count": 1
   },
@@ -4341,10 +4341,6 @@
   },
   {
     "tag": "skills-sh",
-    "count": 1
-  },
-  {
-    "tag": "slop",
     "count": 1
   },
   {

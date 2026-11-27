@@ -196,9 +196,16 @@ export function SkillDetailPage() {
             <h2 className="mt-6 text-sm font-semibold text-zinc-900 dark:text-zinc-100">
               Evaluation verdict
             </h2>
-            <p className="mt-2 border-l-2 border-blue-600 pl-4 text-sm font-medium text-zinc-900 dark:border-blue-500 dark:text-zinc-100">
-              <RichText text={skill.verdict} />
-            </p>
+            <div className="mt-2 border-l-2 border-blue-600 pl-4 dark:border-blue-500">
+              <p className="text-sm font-medium text-zinc-900 dark:text-zinc-100">
+                <RichText text={skill.verdict} />
+              </p>
+              <p className="mt-1 text-xs text-zinc-500 dark:text-zinc-400">
+                {skill.tested
+                  ? 'Score reflects hands-on testing, instruction clarity, and repository health.'
+                  : 'Score reflects repository signals (stars, recent maintenance, license, and documentation) rather than hands-on execution.'}
+              </p>
+            </div>
           </div>
 
           <div className="grid gap-5 sm:grid-cols-2">
@@ -373,7 +380,14 @@ export function SkillDetailPage() {
 
       {fallbackRelated.length > 0 && (
         <section className="space-y-4">
-          <h2 className="text-lg font-semibold text-zinc-900 dark:text-zinc-100">Related Skills</h2>
+          <div className="flex flex-wrap items-baseline justify-between gap-2">
+            <h2 className="text-lg font-semibold text-zinc-900 dark:text-zinc-100">Related skills</h2>
+            {primaryCat && (
+              <span className="text-xs text-zinc-500 dark:text-zinc-400">
+                Similar skills in {primaryCat.name}
+              </span>
+            )}
+          </div>
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {fallbackRelated.map((rel) => (
               <SkillCard key={rel.id} skill={rel} />

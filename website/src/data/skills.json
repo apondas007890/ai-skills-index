@@ -52,9 +52,9 @@
     "notes": "Essential reference whenever authoring new skills for this library.",
     "related_skills": [
       "nvidia-skills",
+      "pbakaus-impeccable",
       "wshobson-agents",
-      "alirezarezvani-claude-skills",
-      "superpowers"
+      "alirezarezvani-claude-skills"
     ]
   },
   {
@@ -4146,8 +4146,8 @@
     "related_skills": [
       "hazenix-interview-prep-skills",
       "kalarislabs-research-agent-skills",
-      "pbakaus-impeccable",
-      "bergside-awesome-design-skills"
+      "bergside-awesome-design-skills",
+      "bergside-design-md-chrome"
     ]
   },
   {
@@ -4759,7 +4759,7 @@
       "vixues-leagent",
       "hazenix-interview-prep-skills",
       "leokemp223-nextboard",
-      "pbakaus-impeccable"
+      "techygarg-lattice"
     ]
   },
   {
@@ -4872,7 +4872,7 @@
       "danielwh2-compact-landing-skill",
       "duoasa-duoasa-skill",
       "figma-mcp-server-guide",
-      "pbakaus-impeccable"
+      "superdesigndev-superdesign"
     ]
   },
   {
@@ -5313,7 +5313,7 @@
       "beyondtahir-beyondartist",
       "duoasa-duoasa-skill",
       "figma-mcp-server-guide",
-      "pbakaus-impeccable"
+      "superdesigndev-superdesign"
     ]
   },
   {
@@ -5808,7 +5808,7 @@
       "beyondtahir-beyondartist",
       "danielwh2-compact-landing-skill",
       "figma-mcp-server-guide",
-      "pbakaus-impeccable"
+      "superdesigndev-superdesign"
     ]
   },
   {
@@ -6254,7 +6254,7 @@
       "beyondtahir-beyondartist",
       "danielwh2-compact-landing-skill",
       "duoasa-duoasa-skill",
-      "pbakaus-impeccable"
+      "superdesigndev-superdesign"
     ]
   },
   {
@@ -6531,9 +6531,9 @@
     "notes": "Used alongside `AntiSlopUI` to guide SkillAtlas's visual redesign (editorial typography, crisp surfaces, and semantic highlighters).",
     "related_skills": [
       "anti-slop-ui",
+      "pbakaus-impeccable",
       "bitjaru-styleseed",
-      "educlopez-ui-craft",
-      "leonxlnx-taste-skill"
+      "educlopez-ui-craft"
     ]
   },
   {
@@ -6588,9 +6588,9 @@
     "notes": "",
     "related_skills": [
       "thinkinaixyz-deepchat",
-      "pbakaus-impeccable",
       "referodesign-refero-skill",
-      "shy2593666979-agentchat"
+      "shy2593666979-agentchat",
+      "vixues-leagent"
     ]
   },
   {
@@ -8717,10 +8717,10 @@
     ],
     "tags": [
       "agent-skills",
-      "ai",
+      "frontend-design",
       "anti-slop",
-      "design",
-      "slop"
+      "accessibility",
+      "typography"
     ],
     "compatible_agents": [
       "claude-code",
@@ -8737,29 +8737,31 @@
     "license": "Apache-2.0",
     "stars": 117527,
     "last_pushed": "2026-11-26",
-    "install_command": "",
+    "install_command": "npx impeccable install",
     "tested": false,
     "featured": true,
     "file_path": "skills/design/pbakaus-impeccable.md",
-    "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
-    "what_it_does": "Provides UI/UX design rules, component patterns, typography, accessibility, or visual polish. Focused on `agent-skills`, `ai`, `anti-slop`, `design` and designed to work with claude-code, codex, cursor, gemini-cli.",
+    "description": "Gives AI coding agents a structured frontend design workflow to critique interfaces, audit accessibility and responsiveness, steer visual polish (`bolder`, `quieter`, `polish`), and catch generic AI UI patterns before shipping.",
+    "what_it_does": "Equips coding agents with targeted UI/UX commands (`critique`, `audit`, `polish`, `bolder`, `quieter`, `harden`), project design-context setup (`PRODUCT.md` and `DESIGN.md`), and deterministic anti-slop checks that flag cramped spacing, skipped headings, and layout flaws without needing an external LLM API key.",
     "best_for": [
-      "**Primary goal:** The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
-      "**Works with:** claude-code, codex, cursor, gemini-cli",
-      "**Key topics:** agent-skills, ai, anti-slop, design, slop"
+      "Refining existing UI components, landing pages, and dashboards with coding agents",
+      "Running structured usability critiques and accessibility/responsive audits before release",
+      "Capturing a consistent `DESIGN.md` style guide for your project",
+      "Not meant for backend services, database pipelines, or non-UI engineering tasks"
     ],
-    "verdict": "EXCELLENT — 117,527 GitHub stars (Apache-2.0 license). Review the repository README and `SKILL.md` before adding to your workspace.",
+    "verdict": "EXCELLENT — comprehensive frontend design vocabulary and deterministic quality checks backed by active maintenance (Apache-2.0).",
     "limitations": [
-      "Automated index entry; verify exact install flags and required API keys in the upstream repository."
+      "Focused strictly on frontend UI/UX and design systems; not useful for backend-only projects.",
+      "Metadata and public documentation reviewed; inspect `SKILL.md` and any CLI/browser hooks before running locally."
     ],
-    "risk": "Inspect `SKILL.md`, scripts, and permissions (for example with `NVIDIA/SkillSpector`) before running in production or sensitive workspaces.",
-    "installation": "See the upstream repository for setup instructions: https://github.com/pbakaus/impeccable",
+    "risk": "Apache-2.0 repository; review `SKILL.md`, scripts, and local browser-hook permissions (for example with `NVIDIA/SkillSpector`) before installing globally.",
+    "installation": "Run `npx impeccable install` or inspect the `SKILL.md` modules directly in https://github.com/pbakaus/impeccable.",
     "notes": "",
     "related_skills": [
-      "beyondtahir-beyondartist",
-      "danielwh2-compact-landing-skill",
-      "duoasa-duoasa-skill",
-      "figma-mcp-server-guide"
+      "smokeeaasd-flawless-ui-ux",
+      "agnosticui-agnosticui",
+      "skydashnet-material-design-3-ui-skill",
+      "starwind-ui-starwind-ui"
     ]
   },
   {
@@ -9482,8 +9484,8 @@
     "related_skills": [
       "agnosticui-agnosticui",
       "leoyeai-agent-master-skills",
-      "starwind-ui-starwind-ui",
-      "dembrandt-dembrandt-skills"
+      "pbakaus-impeccable",
+      "starwind-ui-starwind-ui"
     ]
   },
   {
@@ -9811,9 +9813,9 @@
     "notes": "",
     "related_skills": [
       "agnosticui-agnosticui",
+      "pbakaus-impeccable",
       "skydashnet-material-design-3-ui-skill",
-      "dembrandt-dembrandt-skills",
-      "dpearson2699-swift-ios-skills"
+      "dembrandt-dembrandt-skills"
     ]
   },
   {
@@ -10142,9 +10144,9 @@
     "notes": "",
     "related_skills": [
       "hazenix-interview-prep-skills",
-      "pbakaus-impeccable",
       "referodesign-refero-skill",
-      "shy2593666979-agentchat"
+      "shy2593666979-agentchat",
+      "vixues-leagent"
     ]
   },
   {

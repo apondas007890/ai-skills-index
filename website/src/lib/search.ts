@@ -37,6 +37,21 @@ function fuzzySubsequenceScore(text: string, query: string): number {
   return qi === query.length ? score : 0;
 }
 
+const INTENT_SYNONYMS: Record<string, string[]> = {
+  sql: ['database', 'query', 'postgres', 'sqlite', 'analytics'],
+  database: ['sql', 'postgres', 'sqlite', 'data'],
+  frontend: ['ui', 'ux', 'design', 'react', 'css', 'tailwind', 'layout'],
+  ui: ['frontend', 'ux', 'design', 'component', 'accessibility'],
+  website: ['frontend', 'web', 'landing', 'ui', 'html'],
+  bug: ['debug', 'debugging', 'fix', 'error', 'test'],
+  bugs: ['debug', 'debugging', 'fix', 'error', 'test'],
+  review: ['audit', 'critique', 'lint', 'code-review', 'quality'],
+  scrape: ['scraping', 'crawler', 'crawl', 'browser', 'playwright'],
+  scraping: ['scrape', 'crawler', 'crawl', 'browser'],
+  video: ['remotion', 'animation', 'motion', 'ffmpeg', 'youtube'],
+  test: ['tdd', 'testing', 'eval', 'qa'],
+};
+
 export function scoreSkillMatch(skill: Skill, rawQuery: string): number {
   const query = rawQuery.trim().toLowerCase();
   if (!query) return 1;
@@ -79,6 +94,18 @@ export function scoreSkillMatch(skill: Skill, rawQuery: string): number {
     if (verdict.includes(token)) tokenScore += 6;
     if (notes.includes(token)) tokenScore += 5;
     if (author.includes(token)) tokenScore += 5;
+
+    if (tokenScore === 0) {
+      const synonyms = INTENT_SYNONYMS[token];
+      if (synonyms) {
+        for (const syn of synonyms) {
+          if (name.includes(syn) || tags.includes(syn) || desc.includes(syn) || what.includes(syn)) {
+            tokenScore += 11;
+            break;
+          }
+        }
+      }
+    }
 
     if (tokenScore === 0) {
       // Fallback to fuzzy subsequence match on name and tags
